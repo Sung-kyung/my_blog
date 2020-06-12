@@ -271,6 +271,10 @@ label[for] {
     align-items: center;
 }
 
+*>.flex-as-c {
+    display: flex;
+    align-self: center;
+}
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -296,8 +300,10 @@ label[for] {
 .con {
     width: 1356px;
 }
-
-.top-bar>.menu-box-1>ul>li>a {
+.top-bar .menu-box-1>ul>li {
+    position: relative;
+}
+.top-bar .menu-box-1>ul>li>a {
     padding: 20px 50px;
     font-size: 1.5rem;
     font-weight: 700;
@@ -305,12 +311,40 @@ label[for] {
     white-space: nowrap;
 }
 
-.top-bar>.menu-box-1>ul>li:hover>a {
-    background-color: mediumslateblue;
+.top-bar .menu-box-1 ul>li:hover>a {
+    color:lightgoldenrodyellow;
 }
 
 .top-bar {
     background-color: lavender;
     color: white;
 }
+.top-bar .menu-box-1 ul ul {
+    display: none;
 
+}
+.top-bar .menu-box-1 ul > li:hover > ul {
+    display: block;
+    width:100%;
+    top:100%;
+    left:0;
+    position: absolute;
+}
+.top-bar .menu-box-1 ul ul>li:hover {
+    background-color: lightgoldenrodyellow;
+
+}
+.top-bar .menu-box-1 ul ul>li:hover > a {
+    color:black;
+}
+.top-bar .menu-box-1 ul ul > li {
+    background-color: lavender;
+    color:white;
+    display:block;
+    padding:30px;
+    text-align: center;
+}
+.top-bar .logo {
+    font-size: 1.5rem;
+
+}
