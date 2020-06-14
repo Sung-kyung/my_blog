@@ -275,6 +275,7 @@ label[for] {
     display: flex;
     align-self: center;
 }
+
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -292,6 +293,19 @@ label[for] {
     flex: 1 0 0;
 }
 
+/* 공통 css */
+@media (max-width:799px) {
+    .visible-md-up {
+        display: none;
+    }
+}
+
+@media (min-width:800px) {
+    .visible-sm-down {
+        display: none;
+    }
+}
+
 /* 커스텀 */
 .con-min-width {
     min-width: 1356px;
@@ -300,9 +314,11 @@ label[for] {
 .con {
     width: 1356px;
 }
+
 .top-bar .menu-box-1>ul>li {
     position: relative;
 }
+
 .top-bar .menu-box-1>ul>li>a {
     padding: 20px 50px;
     font-size: 1.5rem;
@@ -312,39 +328,99 @@ label[for] {
 }
 
 .top-bar .menu-box-1 ul>li:hover>a {
-    color:lightgoldenrodyellow;
+    color: #f73859;
 }
 
 .top-bar {
-    background-color: lavender;
+    background-color: #252a34;
     color: white;
 }
+
 .top-bar .menu-box-1 ul ul {
     display: none;
 
 }
-.top-bar .menu-box-1 ul > li:hover > ul {
+
+.top-bar .menu-box-1 ul>li:hover>ul {
     display: block;
-    width:100%;
-    top:100%;
-    left:0;
+    width: 100%;
+    top: 100%;
+    left: 0;
     position: absolute;
 }
+
 .top-bar .menu-box-1 ul ul>li:hover {
-    background-color: lightgoldenrodyellow;
+    background-color: #f73859;
 
 }
-.top-bar .menu-box-1 ul ul>li:hover > a {
-    color:black;
+
+.top-bar .menu-box-1 ul ul>li:hover>a {
+    color: white;
 }
-.top-bar .menu-box-1 ul ul > li {
-    background-color: lavender;
-    color:white;
-    display:block;
-    padding:30px;
+
+.top-bar .menu-box-1 ul ul>li {
+    background-color: #384259;
+    color: white;
+    display: block;
+    padding: 30px;
     text-align: center;
 }
+
 .top-bar .logo {
     font-size: 1.5rem;
-
 }
+.top-bar .logo:hover {
+    color:#f73859;
+}
+/* 모바일 탑바 시작 */
+.mobile-top-bar {
+    height: 50px;
+    background-color: #384259;
+}
+
+.mobile-top-bar .btn-toggle-mobile-side-bar {
+    margin: 0 10px;
+}
+
+.btn-toggle-mobile-side-bar {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.btn-toggle-mobile-side-bar>div {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: top .3s .3s, transform .3s, opacity .2s .3s;
+}
+
+.btn-toggle-mobile-side-bar>div:nth-child(2) {
+    top: 40%;
+}
+
+.btn-toggle-mobile-side-bar>div:nth-child(3) {
+    top: 80%;
+}
+
+.btn-toggle-mobile-side-bar.active>div {
+    top: 40%;
+    transition: top .3s, transform .3s .3s, opacity .2s 0s;
+}
+
+.btn-toggle-mobile-side-bar.active>div:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.btn-toggle-mobile-side-bar.active>div:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.btn-toggle-mobile-side-bar.active>div:nth-child(2) {
+    opacity: 0;
+}
+
+/* 모바일 탑바 끝 */

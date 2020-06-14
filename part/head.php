@@ -6,10 +6,18 @@
     <title>블로그</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
 <body>
-<div class="top-bar flex  flex-jc-c">
+    <div class="mobile-top-bar visible-sm-down flex ">
+        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>    
+    </div>
+<div class="top-bar flex  flex-jc-c visible-md-up">
     <div class="con flex height-100p">
         <a href="/" class="logo flex flex-ai-c"><i class="fas fa-home"></i></a>
     <nav class="menu-box-1 flex con flex-jc-c ">
