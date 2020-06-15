@@ -10,18 +10,41 @@
     <script src="/resource/common.js"></script>
 </head>
 <body>
-    <div class="mobile-top-bar visible-sm-down flex ">
-        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+    <div class="mobile-top-bar visible-sm-down flex flex-1-0-0">
+       <div class="flex flex-1-0-0"> <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
             <div></div>
             <div></div>
-        </a>    
+        </a>
+        </div>
+        
+        <div class="mobile-side-logo flex flex-as-c"><a href="#" class="flex">BIBLOG</a></div>
+       
+        <div class="flex flex-1-0-0"></div>
     </div>
+    <div class="mobile-side-bar-bg"></div>
+    
+    <div class="mobile-side-bar">
+            <nav class="menu-box-2">
+                <ul>
+                    <li><a href="#" class="block">Home</a></li>
+                    <li><a href="#" class="block">Article</a></li>
+                    <li><a href="#" class="block">About Me</a></li>
+                    <li><a href="#" class="block">SNS</a>
+                    <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Github</a></li>
+            </ul></li>
+                </ul>
+            </nav>
+        </div>    
+
 <div class="top-bar flex  flex-jc-c visible-md-up">
     <div class="con flex height-100p">
         <a href="/" class="logo flex flex-ai-c"><i class="fas fa-home"></i></a>
-    <nav class="menu-box-1 flex con flex-jc-c ">
-    <ul class="flex flex-jc-c ">
+
+    <nav class="menu-box-1 flex con flex-1-0-0">
+    <ul class="flex  flex-1-0-0">
         <li class="flex-1-0-0 flex-jc-c"><a href="/" class="flex flex-ai-c">Home</a></li>
         <li class="flex-1-0-0 flex-jc-c"><a href="/list.php" class="flex flex-ai-c">Articles</a></li>
         <li class=" flex-1-0-0 flex flex-jc-c"><a href="/aboutMe.php" class="flex flex-ai-c">About Me</a></li>
