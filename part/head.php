@@ -22,17 +22,27 @@
        
         <div class="flex flex-1-0-0"></div>
     </div>
-    <div class="mobile-side-bar-bg"></div>
+    <div class="mobile-side-bar-bg visible-sm-down"></div>
     
-    <div class="mobile-side-bar">
+    <div class="mobile-side-bar visible-sm-down">
             <nav class="menu-box-2">
                 <ul>
                     <li><a href="#" class="block">Home</a></li>
-                    <li><a href="#" class="block">Article</a></li>
+                    <li><a href="#" class="block">Article</a>
+                <ul>
+                    <li><a href="#">Notice</a></li>
+                    <li><a href="#">Free</a></li>
+                </ul>
+                </li>
                     <li><a href="#" class="block">About Me</a></li>
                     <li><a href="#" class="block">SNS</a>
                     <ul>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Instagram</a>
+            <ul>
+                <li><a href="#">Private</a></li>
+                <li><a href="#">Public</a></li>
+            </ul>
+        </li>
                 <li><a href="#">Github</a></li>
             </ul></li>
                 </ul>

@@ -8,24 +8,42 @@ function MobileSideBar__toggle() {
         $btn.removeClass('active');
         $MobileSideBar.removeClass('active');
         $MobileSideBarBg.removeClass('active');
-        $html.removeClass('active');
+        $html.removeClass('mobile-side-bar-actived');
+        
     }
     else {
         $btn.addClass('active');
-        $('.mobile-side-bar').addClass('active');
-        $('.mobile-side-bar-bg').addClass('active');
-        $html.addClass('active');
+        $MobileSideBar.addClass('active');
+        $MobileSideBarBg.addClass('active');
+        $html.addClass('mobile-side-bar-actived');
+        
     }
 }
 
 function MobileSideBar__init() {
     $('.btn-toggle-mobile-side-bar,.mobile-side-bar-bg').click
     (MobileSideBar__toggle);
+
+    $('.mobile-side-bar .menu-box-2 ul > li ').click(function(e) {
+       if( $(this).hasClass('active')) {
+        $(this).removeClass('active');
+       }
+       else {
+        $(this).addClass('active');
+        $(this).siblings('.active').find('li.active').removeClass('active');
+        $(this).siblings('.active').removeClass('active');
+       }
+       e.stopPropagation();
+    });
 }
 
 $(function() {
     MobileSideBar__init();
+    $('.btn-toggle-mobile-side-bar').click();
+    $('.mobile-side-bar .menu-box-2>ul > li:last-child ').click();
+
 });
+
 
 
 

@@ -2,7 +2,7 @@
     include "../part/head.php";
 ?>
     <h1 class="con">메인페이지입니다.</h1>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellat mollitia temporibus rem cumque et in reprehenderit delectus facere explicabo! Modi accusantium voluptate est dignissimos inventore tempore quibusdam dolores culpa.
+    <div class="con">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellat mollitia temporibus rem cumque et in reprehenderit delectus facere explicabo! Modi accusantium voluptate est dignissimos inventore tempore quibusdam dolores culpa.
     Ducimus, totam voluptatum? Atque asperiores, dolorum aut ratione corporis quas? Error tempora, quis cum consequuntur similique praesentium, aliquid iste placeat harum nobis assumenda, dolor quasi tenetur molestias unde. Dolorum, magni.
     Quia dolore et deleniti fugiat officia ratione nesciunt eaque quo mollitia ut maxime perferendis nihil, nulla repellat veritatis ipsum dignissimos, veniam reprehenderit optio quidem tempore cupiditate molestiae amet? Perspiciatis, nam.
     Totam incidunt, quaerat aliquid explicabo, officiis similique impedit cumque excepturi nostrum, fuga facilis atque. Iste non temporibus et aperiam architecto iure, consequatur incidunt. Veniam quibusdam nostrum labore libero a facere.

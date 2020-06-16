@@ -307,6 +307,7 @@ label[for] {
     .visible-sm-down {
         display: none;
     }
+    
 }
 
 /* 커스텀 */
@@ -405,7 +406,7 @@ label[for] {
 }
 
 .btn-toggle-mobile-side-bar>div {
-    background-color: white;
+    background-color: #D7C4A8;
     width: 100%;
     height: 20%;
     top: 0;
@@ -472,29 +473,33 @@ label[for] {
 .mobile-side-bar .menu-box-2  ul > li > a {
     padding:20px;
 }
-.mobile-side-bar .menu-box-2  ul > li:hover > a {
+.mobile-side-bar .menu-box-2  ul > li.active > a   {
     color:#B4643C;
-
 }
 .mobile-side-bar .menu-box-2  ul ul {
     display:none;
     
 }
-.mobile-side-bar .menu-box-2  ul > li:hover > ul {
+.mobile-side-bar .menu-box-2  ul > li.active > ul {
     display:block;
 }
 .mobile-side-bar .menu-box-2  ul ul > li  {
     padding:13px;
 }
 .mobile-side-bar .menu-box-2  ul > li > a:not(:only-child)::after {
-    content:" [+]";
+    content:"[+]";
+    float:right;
 }
-.mobile-side-bar .menu-box-2  ul > li:hover > a:not(:only-child)::after {
-    content:" [-]";
+.mobile-side-bar .menu-box-2  ul > li.active > a:not(:only-child)::after {
+    content:"[-]";
+    
 }
-html.active {
-    overflow-y: hidden;
+@media (max-width:799px) {
+    html.mobile-side-bar-actived {
+        overflow-y: hidden;
+    }
 }
+
 .mobile-side-bar.active  {
     left:0;
 }
@@ -503,6 +508,7 @@ html.active {
     color:black;
     text-align: center;
     font-weight: bold;
+    font-size:500;
 }
 /* 모바일 사이드바 끝 */
 
