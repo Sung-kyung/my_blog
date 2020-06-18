@@ -42,6 +42,19 @@ $(function() {
     $('.btn-toggle-mobile-side-bar').click();
     $('.mobile-side-bar .menu-box-2>ul > li:last-child ').click();
 
+    $('.slider > .side-bars > div').click(function() {
+        var $clickedBtn = $(this);
+        var $slider = $clickedBtn.parent().parent();
+        var $current = $slider.find('>.slides > div.active');
+        var $post = $current.next();
+        
+        if($post.length == 0) {
+            $post = $slider.find('>.slides > div:first-child');
+          }
+
+        $current.removeClass('active');
+        $post.addClass('active');
+    });
 });
 
 
