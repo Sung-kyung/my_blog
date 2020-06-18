@@ -1,8 +1,8 @@
 /* 폰트적용 */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
 
 html {
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /* 노말라이즈 */
@@ -270,6 +270,10 @@ label[for] {
     display: flex;
     align-items: center;
 }
+*>.flex-ai-end {
+    display: flex;
+    align-items: flex-end;
+}
 
 *>.flex-as-c {
     display: flex;
@@ -331,7 +335,7 @@ label[for] {
 
 .top-bar .menu-box-1 ul>li:hover>a {
     color:#DF6B52;
-
+    text-decoration: underline;
 }
 
 .top-bar {
@@ -344,10 +348,9 @@ label[for] {
     display: none;
     width: 100%;
     top: 100%;
-    left: -2px;
+    left:0;
     position: absolute;
     text-align: center;
-    border:2px solid #857464;
     border-top:0;
     font-size:1.3rem;
     z-index: 100;
@@ -355,26 +358,24 @@ label[for] {
 
 .top-bar .menu-box-1 ul>li:hover>ul {
     display: block;
-   
 }
 
-.top-bar .menu-box-1 ul ul>li:hover {
-    background-color: #857464;
-
-}
 
 .top-bar .menu-box-1 ul ul>li:hover>a {
     color: #DF6B52;
 }
 
 .top-bar .menu-box-1 ul ul>li {
-    background-color: #E5E4D3;
-    color: #DF6B52;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
     display: block;
     padding: 30px;
     text-align: center;
 }
+.top-bar .menu-box-1 ul ul>li:hover {
+    background-color: rgba(0,0,0,0.5);
 
+}
 .top-bar .logo {
     font-size: 1.5rem;
 
@@ -537,6 +538,7 @@ label[for] {
     width:calc(50% - 100px);
     height:100%;
     cursor:pointer;
+    color:#857464;
 }
 .slider > .side-bars > div:last-child {
     left:auto;
@@ -564,9 +566,11 @@ label[for] {
     height:100%;
     opacity:0;
     transition:opacity 0.5s;
+    
 }
 .slider > .slides > div.active {
     opacity:1;
 }
+
 /* 탑배너 끝 */
 

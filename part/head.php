@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/resource/common.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
+    <link rel="stylesheet" href="/resource/index.css">
 </head>
 
 <body>
@@ -37,7 +38,9 @@
                         <li><a href="#">Free</a></li>
                     </ul>
                 </li>
+                <li><a href="#" class="block">Artwork</a>
                 <li><a href="#" class="block">About Me</a></li>
+                <li><a href="#" class="block">Daliy</a>
                 <li><a href="#" class="block">SNS</a>
                     <ul>
                         <li><a href="#">Instagram</a>
@@ -57,12 +60,14 @@
         <div class="con height-100p">
             <nav class="menu-box-1 height-100p">
                 <ul class="height-100p flex">
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-c">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-c">Articles</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-c"><img src="/resource/img/logo_1.png" alt=""></a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-c">About Me</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Home</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">Articles</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img src="/resource/img/logo_1.png" alt=""></a></li>
+                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">About Me</a></li>
+                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a></li>
                     <li class="flex-1-0-0 flex">
-                        <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-c">SNS</a>
+                        <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
                             <li><a href="#">Instagram</a></li>
                             <li><a href="#">Github</a></li>

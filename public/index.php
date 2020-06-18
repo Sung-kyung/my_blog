@@ -3,9 +3,10 @@
 ?>
 <div class="slider con">
     <div class="slides con">
-        <div style="background-image: url(https://images.unsplash.com/photo-1589369439406-1aad0c267d7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&auto=format&fit=crop&w=1350&q=80); "
-            class="banner-2 con"></div>
-        <div style="background-image: url(/resource/img-2/banner-1.jpg);" class=" banner-1 active con"></div>
+    <div style="background-image: url(/resource/img-2/banner-3.jpg);" class=" banner-1 active con"></div>
+    <div style="background-image: url(/resource/img-2/banner-7.jpg); " class="banner-2 con"></div>
+        <div style="background-image: url(/resource/img-2/Untitled-5.jpg); " class="banner-3 con imsg-box"></div>
+ 
 
     </div>
     <div class="side-bars con">
@@ -19,7 +20,10 @@
         </div>
     </div>
 </div>
-
+<h1 class="con">Introduction</h1>
+<div class="line con"></div>
+<div class="avatar con"><img src="/resource/img/avatar.png" alt="">
+<div class="avatar-text">Level.26 / Bible / Student </div></div>
 <?php
     include "../part/foot.php";
 ?>

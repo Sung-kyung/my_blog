@@ -46,15 +46,29 @@ $(function() {
         var $clickedBtn = $(this);
         var $slider = $clickedBtn.parent().parent();
         var $current = $slider.find('>.slides > div.active');
-        var $post = $current.next();
-        
-        if($post.length == 0) {
-            $post = $slider.find('>.slides > div:first-child');
-          }
+        var $post;
 
+        var isLeft = $clickedBtn.index() == 0;
+        if (isLeft) {
+            $post = $current.prev();
+            if($post.length == 0) {
+                $post = $slider.find('>.slides > div:last-child');
+              }
+        }
+        else {
+            $post = $current.next();
+            if($post.length == 0) {
+                $post = $slider.find('>.slides > div:first-child');
+              }
+        }
+    
         $current.removeClass('active');
         $post.addClass('active');
     });
+    function auto() {
+        $('.slider > .side-bars > div:last-child').click();
+    }
+    setInterval(auto,5000);
 });
 
 
