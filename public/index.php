@@ -5,7 +5,7 @@
     <div class="slides con">
         <div style="background-image: url(/resource/img-2/banner-3.jpg);" class="block banner-1 active con"></div>
         <div style="background-image: url(/resource/img-2/banner-7.jpg); " class="block banner-2 con"></div>
-        <div style="background-image: url(/resource/img-2/banner-8.jpg); " class="block banner-3 con"></div>
+        <div style="background-image: url(/resource/img-2/banner-11.jpg); " class="block banner-3 con"></div>
     </div>
     <div class="side-bars con">
         <div>

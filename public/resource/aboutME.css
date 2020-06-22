@@ -1,0 +1,22 @@
+.background-1, .background-2 {
+    height: 100vh;
+    background-color: white;
+    
+}
+.background-2 {
+    margin-top:300px;
+}
+.fixed-background {
+    position:fixed;
+    height: 100vh;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.fixed-background > img {
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}

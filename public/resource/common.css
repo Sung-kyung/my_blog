@@ -343,7 +343,10 @@ label[for] {
     color: #857464;
     position: relative;
 }
-
+.cover {
+    background-color: white;
+    width:100%;
+}
 .top-bar .menu-box-1 ul ul {
     display: none;
     width: 100%;

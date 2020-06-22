@@ -1,7 +1,11 @@
 <?php
     include "../part/head.php";
 ?>
-    <h1 class="con">aboutMe입니다.</h1>
+    <div class="background-1"></div>
+    <div class="fixed-background">
+        <img src="/resource/img-2/flower.jpg" alt="">
+    </div>
+    <div class="background-2"></div>
     
 <?php
     include "../part/foot.php";

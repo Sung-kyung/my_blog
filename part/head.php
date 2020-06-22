@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <link rel="stylesheet" href="/resource/index.css">
+    <link rel="stylesheet" href="/resource/aboutMe.css">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
             </ul>
         </nav>
     </div>
-
+<div class="cover">
     <div class="top-bar visible-md-up con">
         <div class="con height-100p">
             <nav class="menu-box-1 height-100p">
@@ -76,4 +77,5 @@
                 </ul>
             </nav>
         </div>
+    </div>
     </div>
