@@ -33,14 +33,14 @@
         <nav class="menu-box-2">
             <ul>
                 <li><a href="#" class="block">Home</a></li>
-                <li><a href="#" class="block">Article</a>
+                <li><a href="#" class="block">About Me</a>
                     <ul>
                         <li><a href="#">Notice</a></li>
                         <li><a href="#">Free</a></li>
                     </ul>
                 </li>
                 <li><a href="#" class="block">Artwork</a>
-                <li><a href="#" class="block">About Me</a></li>
+                <li><a href="#" class="block">Portfolio</a></li>
                 <li><a href="#" class="block">Daliy</a>
                 <li><a href="#" class="block">SNS</a>
                     <ul>
@@ -51,6 +51,7 @@
                             </ul>
                         </li>
                         <li><a href="#">Github</a></li>
+                        <li><a href="#">Tistory</a></li>
                     </ul>
                 </li>
             </ul>
@@ -62,16 +63,17 @@
             <nav class="menu-box-1 height-100p">
                 <ul class="height-100p flex">
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">Articles</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">About Me</a></li>
                     <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img src="/resource/img/logo_1.png" alt=""></a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">About Me</a></li>
+                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
                     <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a></li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
                             <li><a href="#">Instagram</a></li>
                             <li><a href="#">Github</a></li>
+                             <li><a href="#">Tistory</a></li>
                         </ul>
                     </li>
                 </ul>
