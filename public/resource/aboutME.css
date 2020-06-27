@@ -1,22 +1,63 @@
-.background-1, .background-2 {
-    height: 100vh;
-    background-color: white;
-    
-}
-.background-2 {
-    margin-top:300px;
-}
-.fixed-background {
-    position:fixed;
-    height: 100vh;
+.bg-aboutMe {
     width:100%;
-    top:0;
-    left:0;
-    z-index: -1;
+    height: 1000px;
+    background-color: #F9F5EA;
+    position: relative;
 }
-.fixed-background > img {
+.bg-aboutMe > .intro-me {
+    height:100%;
     width:100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+}
+.bg-aboutMe > .intro-me > img {
+    margin-top:10%;
+    margin-left:10%;
+}
+.bg-aboutMe > .intro-me-text {
+    position: absolute;
+    top:17%;
+    right:20%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bg-aboutMe > .intro-me-content {
+    position: absolute;
+    top:27%;
+    right:20%;
+    line-height: 2.5;
+    font-size:1.5rem;
+}
+.bg-aboutMe > .line-c {
+    position: absolute;
+    height: 950px;
+    width:1px;
+    background-color: black;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+.bg-aboutMe > .line-r {
+    position: absolute;
+    height: 600px;
+    width:1px;
+    background-color: black;
+    top:75%;
+    left:72%;
+    transform: translateX(-50%)translateY(-50%)rotate(90deg);
+}
+.avatar {
+    position: absolute;
+    height: 200px;
+    top:80%;
+    left:60%;
+}
+.avatar > img {
+    height:100px;
+    margin-top:50px;
+}
+.avatar-text {
+    position: absolute;
+    font-weight: bold;
+    font-size:1.2rem;
+    top:80%;
+    left:60%;
 }

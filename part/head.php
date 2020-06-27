@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <link rel="stylesheet" href="/resource/index.css">
-    <link rel="stylesheet" href="/resource/aboutMe.css">
+    <link rel="stylesheet" href="/resource/aboutME.css">
 </head>
 
 <body>
@@ -57,27 +57,37 @@
             </ul>
         </nav>
     </div>
-<div class="cover">
+
+    <div class="top-menu-bar con ">
+        <div class="flex"><a href="#" class="flex flex-jc-e "><i class="fas fa-search"></i></a></div>
+        <div class="flex"><a href="#" class="flex flex-jc-e ">LOGIN</a></div>
+        <div class="flex"><a href="#" class="flex flex-jc-e ">글쓰기</a></div>
+    </div>
     <div class="top-bar visible-md-up con">
         <div class="con height-100p">
             <nav class="menu-box-1 height-100p">
                 <ul class="height-100p flex">
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">About Me</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"  class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img src="/resource/img/logo_1.png" alt=""></a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end">Home</a>
+                    </li>
+                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php"
+                            class="flex flex-1-0-0 flex-jc-c flex-ai-end">About Me</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/list.php"
+                            class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
+                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img
+                                src="/resource/img/logo_1.png" alt=""></a></li>
+                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php"
+                            class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
+                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php"
+                            class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a></li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
                             <li><a href="#">Instagram</a></li>
                             <li><a href="#">Github</a></li>
-                             <li><a href="#">Tistory</a></li>
+                            <li><a href="#">Tistory</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </div>
-    </div>
     </div>

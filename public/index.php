@@ -33,11 +33,6 @@
 </div>
 
 
-<div class="avatar con">
-    <img src="/resource/img/avatar.png" alt="">
-</div>
-
-<div class="avatar-text">Level.26 / Bible / Student </div>
 
 
 <?php
