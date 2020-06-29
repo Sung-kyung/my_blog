@@ -58,10 +58,10 @@
         </nav>
     </div>
 
-    <div class="top-menu-bar con ">
-        <div class="flex"><a href="#" class="flex flex-jc-e "><i class="fas fa-search"></i></a></div>
-        <div class="flex"><a href="#" class="flex flex-jc-e ">LOGIN</a></div>
-        <div class="flex"><a href="#" class="flex flex-jc-e ">글쓰기</a></div>
+    <div class="top-menu-bar con flex flex-jc-end">
+        <div class="flex"><a href="#" class="flex  "><i class="fas fa-search"></i></a></div>
+        <div class="flex"><a href="#" class="flex  ">LOGIN</a></div>
+        <div class="flex"><a href="#" class="flex ">글쓰기</a></div>
     </div>
     <div class="top-bar visible-md-up con">
         <div class="con height-100p">
@@ -71,14 +71,20 @@
                     </li>
                     <li class="flex-1-0-0 flex"><a href="/aboutMe.php"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">About Me</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php"
+                    <li class="flex-1-0-0 flex"><a href="/detail.php"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img
                                 src="/resource/img/logo_1.png" alt=""></a></li>
                     <li class=" flex-1-0-0 flex"><a href="/aboutMe.php"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
                     <li class=" flex-1-0-0 flex"><a href="/aboutMe.php"
-                            class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a></li>
+                            class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a>
+                            <ul>
+                            <li><a href="#">Cafe</a></li>
+                            <li><a href="#">Daily rec</a></li>
+                            <li><a href="#">IT Study</a></li>
+                            <li><a href="#">Journey</a></li>
+                        </ul></li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
