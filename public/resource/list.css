@@ -1,0 +1,17 @@
+.list-title {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.detail-list-box > li {
+    display:flex;
+    height: 200px;
+}
+.detail-list-box > li > img {
+    flex:1 0 0;
+}
+.detail-list-box > li > a {
+    flex:1 0 0;
+}
+.detail-list-box > li:nth-child(2n) > img {
+    order:1;
+}

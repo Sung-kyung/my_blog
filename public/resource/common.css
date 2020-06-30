@@ -393,11 +393,19 @@ label[for] {
     z-index: 10;
 }
 
-.top-menu-bar > div > a {
+.top-menu-bar > div  a {
     padding:0px 20px;
     margin-top:10px;
     align-items: center;
     
+}
+.top-menu-bar > form > input{
+    width:0;
+    transition:width 1s;
+    border:0;
+}
+.top-menu-bar > form:hover > input {
+    width:200px;
 }
 /* 탑 메뉴바 끝 */
 
