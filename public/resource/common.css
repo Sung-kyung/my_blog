@@ -393,16 +393,21 @@ label[for] {
     z-index: 10;
 }
 
-.top-menu-bar > div  a {
+.top-menu-bar  div > a {
     padding:0px 20px;
     margin-top:10px;
     align-items: center;
     
 }
-.top-menu-bar > form > input{
+.top-menu-bar > form  {
+    margin-top:10px;
+}
+.top-menu-bar > form  > a {
+    margin-left:6px;
+}
+.top-menu-bar > form > input {
     width:0;
     transition:width 1s;
-    border:0;
 }
 .top-menu-bar > form:hover > input {
     width:200px;
@@ -600,39 +605,3 @@ label[for] {
 }
 
 /* 탑배너 끝 */
-.list-title {
-    margin-top:20px;
-    margin-bottom:20px;
-    
-}
-.detail-list-box {
-    position: relative;
-}
-.detail-list  > a {
-    right:30%;
-    left:auto;
-    font-size: 2rem;
-    font-weight: bold;
-    position: absolute;
-    top:0;
-    letter-spacing: .1rem;
-}
-.detail-list-2 {
-    right:0;
-    left:auto;
-
-}
-.detail-list-2  > a {
-    right:0;
-    left:auto;
-    font-size: 2rem;
-    font-weight: bold;
-    position: absolute;
-    top:50%;
-    letter-spacing: .1rem;
-}
-.detail-list-2 > img {
-    right:0;
-    position: absolute;
-    
-}

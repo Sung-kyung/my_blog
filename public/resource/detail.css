@@ -1,0 +1,29 @@
+.date-box {
+    border-bottom: 1px solid #dfdfdf;
+}
+.date-box > div  {
+    padding:20px 10px;
+    font-size: 12px;
+    color:#afafaf; 
+    margin-top:10px;
+
+}
+.date-box > div:first-child {
+    padding-left:0;
+}
+.date-box > h1 {
+    flex-grow: 1;
+}
+
+.btn > a {
+    padding:0 20px;
+    color:#857464;
+    font-size:1.2rem;
+   border:1px solid #857464;
+    margin-top: 30px;
+    margin-right:5px;
+}
+.btn > a:hover {
+    background-color: #857464;
+    color:white;
+}

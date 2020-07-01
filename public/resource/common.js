@@ -72,15 +72,16 @@ $(function() {
 });
 
 $(function(){
-    $('form').mouseenter(function() {
-        $(this).find('input').focus();
-    })
     
-    
-    $('form').mouseleave(function() {
-        $(this).find('input').blur();
-        $(this).find('input').val('');
-    })
+$('form').mouseenter(function() {
+    $(this).find('input').focus();
+})
+
+
+$('form').mouseleave(function() {
+    $(this).find('input').blur();
+    $(this).find('input').val('');
+})
 });
 
 

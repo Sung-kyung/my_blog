@@ -39,20 +39,24 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="con">
-    <a href="#" onclick="history.back();">[뒤로가기]</a>
-    <a href="/list.php">[리스트]</a>
+<div class="btn con flex">
+    <a href="#" onclick="history.back();" class="btn-back">Back</a>
+    <a href="/list.php" class="btn-go-to-list">List</a>
 </div>
 
-<h1 class="con"><?=$row['title']?></h1>
-<div class="regDate con">
+
+
+<div class="date-box flex con flex-jc-end flex-ai-c">
+    <h1 class="flex"><?=$row['title']?></h1>
+    <div class="regDate flex ">
     등록날짜 : <?=$row['regDate']?>
-</div>
-<div class="updateDate con">
+    </div>
+    <div class="updateDate flex">
     수정날짜 : <?=$row['updateDate']?>
-</div>
-<div class="writer con">
+    </div>
+    <div class="writer flex">
     작성자 : 유성경
+    </div>
 </div>
 <div class="con" style="display:none;" id="origin1">
 <?=$row['body']?>

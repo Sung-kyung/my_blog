@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +17,7 @@
     <link rel="stylesheet" href="/resource/index.css">
     <link rel="stylesheet" href="/resource/aboutME.css">
     <link rel="stylesheet" href="/resource/list.css">
+    <link rel="stylesheet" href="/resource/detail.css">
 </head>
 
 <body>
@@ -60,12 +65,10 @@
     </div>
 
     <div class="top-menu-bar con flex flex-jc-end">
-
         <form action="#" class="flex">
-            <input type="text" placeholder="검색어를 입력해주세요." class="flex flex-as-c">
-            <a href="#" class="flex flex-as-c"><i class="fas fa-search"></i></a>
+        <input type="text" placeholder="검색어를 입력해주세요.">
+        <a href="#" class="flex  flex-as-c"><i class="fas fa-search"></i></a>
         </form>
-
         <div class="flex"><a href="#" class="flex  ">LOGIN</a></div>
         <div class="flex"><a href="#" class="flex ">글쓰기</a></div>
     </div>
@@ -83,15 +86,14 @@
                                 src="/resource/img/logo_1.png" alt=""></a></li>
                     <li class=" flex-1-0-0 flex"><a href="/aboutMe.php"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/detail.php"
+                    <li class=" flex-1-0-0 flex"><a href="/list.php?cateItemId=1"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a>
-                        <ul>
-                            <li><a href="#">Cafe</a></li>
-                            <li><a href="#">Daily rec</a></li>
-                            <li><a href="#">IT Study</a></li>
-                            <li><a href="#">Journey</a></li>
-                        </ul>
-                    </li>
+                            <ul>
+                            <li><a href="/list.php?cateItemId=1">Cafe</a></li>
+                            <li><a href="/list.php?cateItemId=2">Daily rec</a></li>
+                            <li><a href="/list.php?cateItemId=3">IT Study</a></li>
+                            <li><a href="/list.php?cateItemId=4">Journey</a></li>
+                        </ul></li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
