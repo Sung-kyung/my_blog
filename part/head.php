@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/resource/aboutME.css">
     <link rel="stylesheet" href="/resource/list.css">
     <link rel="stylesheet" href="/resource/detail.css">
+    <link rel="stylesheet" href="/resource/portfolio.css">
 </head>
 
 <body>
@@ -48,6 +49,12 @@
                 <li><a href="#" class="block">Artwork</a>
                 <li><a href="#" class="block">Portfolio</a></li>
                 <li><a href="#" class="block">Daliy</a>
+                        <ul>
+                            <li><a href="/list.php?cateItemId=1">Cafe</a></li>
+                            <li><a href="/list.php?cateItemId=2">Daily rec</a></li>
+                            <li><a href="/list.php?cateItemId=3">IT Study</a></li>
+                            <li><a href="/list.php?cateItemId=4">Journey</a></li>
+                        </ul>
                 <li><a href="#" class="block">SNS</a>
                     <ul>
                         <li><a href="#">Instagram</a>
@@ -84,7 +91,7 @@
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img
                                 src="/resource/img/logo_1.png" alt=""></a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/aboutMe.php"
+                    <li class=" flex-1-0-0 flex"><a href="/portfolio.php"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
                     <li class=" flex-1-0-0 flex"><a href="/list.php?cateItemId=1"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a>

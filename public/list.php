@@ -39,8 +39,8 @@ $row = mysqli_fetch_assoc($rs2);
     }
     ?>
     <li class="list"> 
-        <div class="img-box flex-1-0-0" style= "background-image:url(<?=$article['thumbImgUrl']?>);">
-        </div>
+        <div class="img-box flex-1-0-0" OnClick="location.href='/detail.php?id=<?=$article['id']?>'" style= "background-image:url(<?=$article['thumbImgUrl']?>);"></div>
+        
         <div class="txt-box flex-1-0-0 ">
             <a href="/detail.php?id=<?=$article['id']?>" class="title flex-jc-c"><?=$article['title']?><br></a>
            

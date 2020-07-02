@@ -17,8 +17,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display:inline-block;
 }
-.list-box > li>.img-box::before {
+.list-box > li .img-box::before {
     content:"";
   display:block;
   background-color:rgba(0,0,0,.0);
@@ -31,10 +32,10 @@
   z-index:1;
   
 }
-.list-box > li:hover>.img-box::before {
+.list-box > li:hover .img-box::before {
     background-color:rgba(0,0,0,.5);
 } 
-.list-box > li > .img-box::after {
+.list-box > li  .img-box::after {
     content:"view";
   text-transform:uppercase;
   position:absolute;
@@ -51,11 +52,11 @@
   transition: opacity .4s;
   z-index:2;
 }
-.list-box > li:hover > .img-box::after {
+.list-box > li:hover  .img-box::after {
     opacity:1;
 }
 
-.list-box > li > a {
+.list-box > li > .go-detail {
     flex:1 0 0;
     font-size:2rem;
     font-weight: 500;

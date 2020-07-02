@@ -1,0 +1,27 @@
+.portfolio-box {
+    height: 60%;
+    margin-top:5%;
+    box-sizing: border-box;
+}
+.portfolio-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:25%;
+}
+
+.portfolio-text {
+    font-size:3.3rem;
+    display:block;
+    white-space: nowrap;
+    text-align:center;
+}
+ .porfolio-text-box > .portfolio-text-sub  {
+    font-size:1.2rem;
+    color:#afafaf;
+    display:block;
+    width:70%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:4%;
+}
