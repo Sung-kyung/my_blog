@@ -368,14 +368,14 @@ label[for] {
 }
 
 .top-bar .menu-box-1 ul ul>li {
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.7);
     color: white;
     display: block;
     padding: 30px;
     text-align: center;
 }
 .top-bar .menu-box-1 ul ul>li:hover {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
 
 }
 .top-bar .logo {
@@ -408,6 +408,7 @@ label[for] {
 .top-menu-bar > form > input {
     width:0;
     transition:width 1s;
+    border:0;
 }
 .top-menu-bar > form:hover > input {
     width:200px;

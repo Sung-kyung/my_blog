@@ -56,8 +56,8 @@
                                 <li><a href="#">Public</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Github</a></li>
-                        <li><a href="#">Tistory</a></li>
+                        <li><a href="https://github.com/Sung-kyung" target="_blank">Github</a></li>
+                        <li><a href="https://yoo960115.tistory.com/" target="_blank">Tistory</a></li>
                     </ul>
                 </li>
             </ul>
@@ -98,8 +98,8 @@
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
                             <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Github</a></li>
-                            <li><a href="#">Tistory</a></li>
+                            <li><a href="https://github.com/Sung-kyung" target="_blank">Github</a></li>
+                            <li><a href="https://yoo960115.tistory.com/" target="_blank">Tistory</a></li>
                         </ul>
                     </li>
                 </ul>

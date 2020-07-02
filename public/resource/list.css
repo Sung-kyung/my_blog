@@ -6,15 +6,19 @@
     overflow:hidden;
     position:relative;
 }
-.detail-list-box > li {
+.list-box > li {
     display:flex;
-    height:400px;
+    max-height:400px;
 }
-.detail-list-box > li .img-box{
+.list-box > li .img-box{
     flex:1 0 0;
     cursor: pointer;
+    padding-top:28%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.detail-list-box > li>.img-box::before {
+.list-box > li>.img-box::before {
     content:"";
   display:block;
   background-color:rgba(0,0,0,.0);
@@ -25,11 +29,12 @@
   bottom:0;
   transition:background-color .4s;
   z-index:1;
+  
 }
-.detail-list-box > li:hover>.img-box::before {
+.list-box > li:hover>.img-box::before {
     background-color:rgba(0,0,0,.5);
 } 
-.detail-list-box > li > .img-box::after {
+.list-box > li > .img-box::after {
     content:"view";
   text-transform:uppercase;
   position:absolute;
@@ -46,17 +51,45 @@
   transition: opacity .4s;
   z-index:2;
 }
-.detail-list-box > li:hover > .img-box::after {
+.list-box > li:hover > .img-box::after {
     opacity:1;
 }
 
-.detail-list-box > li > a {
+.list-box > li > a {
     flex:1 0 0;
     font-size:2rem;
     font-weight: 500;
     text-align: center;
      
 }
-.detail-list-box > li:nth-child(2n)  .img-box {
+.list-box > li:nth-child(2n)  .img-box {
     order:1;
+}
+.list > .txt-box {
+    line-height: 2.3;
+    
+}
+.list  .txt-box > .summary {
+    color:#afafaf;
+    font-size: 0.8rem;
+    left:10%;
+    display:block;
+    width:70%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+.list > .txt-box > .title {
+    font-size: 2rem;
+}
+@media (max-width:600px) {
+    .list-box {
+        flex-wrap: wrap;
+    }
+
+    .list-box > .list > * {
+        width:100%;
+        flex-basis:auto !important
+        ;
+    }
 }
