@@ -41,7 +41,7 @@ $row = mysqli_fetch_assoc($rs);
 
 <div class="btn con flex">
     <a href="#" onclick="history.back();" class="btn-back">Back</a>
-    <a href="/list.php" class="btn-go-to-list">List</a>
+    <a href="#" onclick="history.back();" class="btn-go-to-list">List</a>
 </div>
 
 

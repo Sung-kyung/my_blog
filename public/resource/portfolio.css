@@ -1,3 +1,5 @@
+/* 상단 intro 시작 */
+
 .portfolio-box {
     height: 60%;
     margin-top:5%;
@@ -7,11 +9,11 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top:25%;
+    padding-top:22%;
 }
 
 .portfolio-text {
-    font-size:3.3rem;
+    font-size:4rem;
     display:block;
     white-space: nowrap;
     text-align:center;
@@ -25,3 +27,55 @@
     margin-right:auto;
     margin-top:4%;
 }
+/* 상단 intro 끝 */
+
+/* 포트폴리오 리스트 시작 */
+
+.port-list-box {
+    margin-top:100px; 
+
+}
+.port-list-box > li  {
+    width:calc(100% / 3);
+    height: 500px;
+    padding:0 20px;
+
+}
+.port-list-box > li > a {
+    display:block;
+    padding-top:100%;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:transform .4s;
+    overflow: hidden;
+}
+.port-list-box > li:hover > a {
+    transform: scale(1.1);
+} 
+.port-list-box > li > a::before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0);
+    display: block;
+    transition:background-color .4s;
+    z-index: 1;
+}
+.port-list-box > li:hover > a::before {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.port-list-box > li > .port-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top:20px;
+    border-bottom:1px solid #afafaf;
+    padding-bottom:10px;
+}
+
+/* 포트폴리오 리스트 끝 */
