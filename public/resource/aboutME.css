@@ -1,6 +1,6 @@
 /* 어바웃미 타이틀 시작 */
 .bg-me {
-    height:600px;
+    height:500px;
     position: relative;
     margin-top:7%;
     margin-left:5%;
@@ -69,3 +69,26 @@
     letter-spacing: .5;
 }
 /* 어바웃미 서브 끝 */
+.contacts {
+    background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
+    font-size:2rem;
+    margin-left:15%;
+}
+.contact-box > .email-ico {
+    font-size:2.5rem;
+    margin-left:13%;
+    padding:20px;
+}
+.contact-box > .email-text {
+    font-size:1rem;
+    padding:0 20px;
+}
+.contact-box > .phone-ico {
+    font-size:2.5rem;
+    margin-left:23%;
+    padding:20px;
+}
+.contact-box > .phone-text {
+    font-size:1rem;
+    padding:0 20px;
+}

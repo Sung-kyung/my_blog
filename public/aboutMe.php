@@ -13,8 +13,19 @@
     </div>
     <div class="me-sub-box">
         <div class="about-me">About Me</div>
-        <div class="about-me-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis vitae odio, quod repudiandae sequi minus fugiat mollitia facilis nostrum sint aliquam tempore eligendi exercitationem eaque provident quam illo! Odit!Reprehenderit voluptatibus obcaecati inventore nulla possimus similique maiores modi non, exercitationem quos, consequuntur repellendus accusantium nesciunt laborum velit, nam eaque ratione porro quae praesentium tempora aspernatur? Delectus accusamus deserunt distinctio.</div>
+        <div class="about-me-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis vitae odio, quod
+            repudiandae sequi minus fugiat mollitia facilis nostrum sint aliquam tempore eligendi exercitationem eaque
+            provident quam illo! Odit!Reprehenderit voluptatibus obcaecati inventore nulla possimus similique maiores
+            modi non, exercitationem quos, consequuntur repellendus accusantium nesciunt laborum velit, nam eaque
+            ratione porro quae praesentium tempora aspernatur? Delectus accusamus deserunt distinctio.</div>
     </div>
+</div>
+<p><span class="contacts con">Contacts</span></p>
+<div class="contact-box con flex flex-ai-c">
+    <span class="email-ico flex"><i class="far fa-envelope"></i></span>
+    <span class="email-text flex">E-Mail : yoo960115@gmail.com</span>
+    <span class="phone-ico flex"><i class="fas fa-mobile-alt"></i></span>
+    <span class="phone-text flex">010-1234-5678</span>
 </div>
 
 

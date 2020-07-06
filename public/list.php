@@ -9,6 +9,7 @@ $sql = "
 SELECT *
 FROM article
 WHERE cateItemId = {$cateItemId}
+ORDER BY id DESC
 LIMIT 50
 ";
 
