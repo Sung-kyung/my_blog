@@ -1,62 +1,71 @@
-.bg-aboutMe {
-    width:100%;
-    height: 1000px;
-    background-color: #F9F5EA;
+/* 어바웃미 타이틀 시작 */
+.bg-me {
+    height:600px;
     position: relative;
+    margin-top:7%;
+    margin-left:5%;
 }
-.bg-aboutMe > .intro-me {
-    height:100%;
-    width:100%;
-}
-.bg-aboutMe > .intro-me > img {
-    margin-top:10%;
-    margin-left:10%;
-}
-.bg-aboutMe > .intro-me-text {
+
+.bg-me > .me-circle {
+    width:300px;
+    height:300px;
+    background-color: #F19581;
     position: absolute;
-    top:17%;
+    top:8%;
+    left:10%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.bg-me > .me {
+    width:22%;
+    z-index: 4;
+    position: absolute;
+    top:2%;
+    left:10%;
+}
+.bg-me > .dott {
+    width:22%;
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left:2%;
+}
+.bg-me > .me-title-box >.me-title {
+    position: absolute;
+    top:0;
     right:20%;
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 3.5rem;
 }
-.bg-aboutMe > .intro-me-content {
+.bg-me > .me-title-box > .me-title-2 {
     position: absolute;
-    top:27%;
+    top:10%;
+    right:35%;
+    font-size: 4rem;
+    color:#D7C4A8;
+}
+.bg-me > .me-title-box > .me-title-3 {
+    position: absolute;
+    top:10%;
+    right:10%;
+    font-size: 3.5rem;
+}
+/* 어바웃미 타이틀 끝 */
+
+/* 어바웃미 서브 시작*/
+
+.bg-me > .me-sub-box > .about-me {
+    position: absolute;
+    top:30%;
     right:20%;
-    line-height: 2.5;
-    font-size:1.5rem;
+    font-size: 2rem;
 }
-.bg-aboutMe > .line-c {
+.bg-me > .me-sub-box > .about-me-2 {
     position: absolute;
-    height: 950px;
-    width:1px;
-    background-color: black;
-    top:50%;
-    left:50%;
-    transform: translateX(-50%)translateY(-50%);
+    top:40%;
+    right:13%;
+    font-size: 1rem;
+    color:#afafaf;
+    width:400px;
+    letter-spacing: .5;
 }
-.bg-aboutMe > .line-r {
-    position: absolute;
-    height: 1px;
-    width:600px;
-    background-color: black;
-    top:75%;
-    left:50%;
-}
-.avatar {
-    position: absolute;
-    height: 200px;
-    top:80%;
-    left:60%;
-}
-.avatar > img {
-    height:100px;
-    margin-top:50px;
-}
-.avatar-text {
-    position: absolute;
-    font-weight: bold;
-    font-size:1.2rem;
-    top:80%;
-    left:60%;
-}
+/* 어바웃미 서브 끝 */
