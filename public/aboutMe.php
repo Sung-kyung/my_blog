@@ -15,8 +15,8 @@
             <div class="me-title-3">Web Publisher</div>
         </div>
         <div class="me-sub-box flex-row-wrap">
-            <div class="about-me">About Me</div>
-            <div class="about-me-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis vitae odio,
+                <div class="about-me">About Me</div>
+                <div class="about-me-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis vitae odio,
                 quod
                 repudiandae sequi minus fugiat mollitia facilis nostrum sint aliquam tempore eligendi exercitationem
                 eaque
@@ -27,7 +27,7 @@
         </div>
     </div>
 </div>
-<p><span class="contacts con">Contacts</span></p>
+<p class="con"><span class="contacts con">Contacts</span></p>
 <div class="contact-box con">
     <div class="flex">
         <div class="flex flex-1-0-0  flex-jc-c">
@@ -45,16 +45,16 @@
     </div>
 
 </div>
-<p><span class="software con">Software</span></p>
+<p class="con"><span class="software con">Software</span></p>
 <div class="software-box con flex flex-ai-c flex-jc-space-a">
-    <span class="ps-ico"><img src="/resource/img-2/ps.png" alt=""></span>
-    <span class="ai-ico"><img src="/resource/img-2/ai.png" alt=""></span>
-    <span class="pp-ico"><img src="/resource/img-2/pp.png" alt=""></span>
-    <span class="excel-ico"><img src="/resource/img-2/excel.png" alt=""></span>
-    <span class="word-ico"><img src="/resource/img-2/word.png" alt=""></span>
+    <span class="ps-ico ico" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/ps.png);"></span>
+    <span class="ai-ico ico" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/ai.png);"></span>
+    <span class="pp-ico ico" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/pp.png);"></span>
+    <span class="excel-ico ico" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/excel.png);"></span>
+    <span class="word-ico ico" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/word.png);"></span>
 </div>
 
-<p><span class="education con">Education</span></p>
+<p class="con"><span class="education con">Education</span></p>
 <?php
     include "../part/foot.php";
 ?>

@@ -39,6 +39,7 @@
     border:2px solid green;
     height: 30vw;
     width:100%;
+    position:relative;
 }
 .bg-me > .me-text-box > .me-title-box {
     border:2px solid blue;
@@ -71,6 +72,7 @@
     border:2px solid pink;
     height: 50%;
     width:100%;
+    position: relative;
 }
 .bg-me > .me-text-box > .me-sub-box > .about-me {
     position: absolute;
@@ -84,14 +86,13 @@
     right:13%;
     font-size: 1vw;
     color:#afafaf;
-    width:400px;
     letter-spacing: .5;
 }
 /* 어바웃미 서브 끝 */
 .contacts {
     background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
     font-size:2vw;
-    margin-left:15%;
+    left:0;
 }
 .contact-box {
     margin-left:auto;
@@ -130,17 +131,29 @@
 .software {
     background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
     font-size:2vw;
-    margin-left:15%;
+    left:0;
 }
 .software-box {
     margin-left:auto;
     margin-right:auto;
     height:15vw;
 }
+.software-box > .ico {
+    width: 100px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* 소프트웨어 끝  */
 
 .education {
     background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
     font-size:2vw;
-    margin-left:15%;
+    left:0;
+}
+@media (max-width:600px) {
+    .software-box > .ico {
+        flex-wrap: wrap;
+    }
 }
