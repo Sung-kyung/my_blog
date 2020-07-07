@@ -261,6 +261,14 @@ label[for] {
     display: flex;
     justify-content: flex-end;
 }
+*>.flex-jc-space-b {
+    display: flex;
+    justify-content: space-between;
+}
+*>.flex-jc-space-a {
+    display: flex;
+    justify-content: space-around;
+}
 
 *>.flex-jc-c {
     display: flex;
@@ -284,6 +292,10 @@ label[for] {
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
+}
+*>.flex-row-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 *>.flex-ch-basis-0 {

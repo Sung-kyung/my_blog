@@ -30,7 +30,7 @@
             </a>
         </div>
 
-        <div class="mobile-side-logo flex flex-as-c"><a href="#" class="flex">BIBLOG</a></div>
+        <div class="mobile-side-logo flex flex-as-c flex-jc-c"><a href="#" class="flex">BIBLOG</a></div>
 
         <div class="flex flex-1-0-0"></div>
     </div>

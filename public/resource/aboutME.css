@@ -1,69 +1,88 @@
 /* 어바웃미 타이틀 시작 */
 .bg-me {
-    height:500px;
+    height:30vw;
     position: relative;
-    margin-top:7%;
+    margin-top:3%;
     margin-left:5%;
+    margin-left: auto;
+    margin-right:auto;
 }
-
-.bg-me > .me-circle {
-    width:300px;
-    height:300px;
+.bg-me > .me-box {
+    border:2px solid red;
+    height: 30vw;
+}
+.bg-me > .me-box > .me-circle {
+    width:27%;
+    height:auto;
     background-color: #F19581;
     position: absolute;
-    top:8%;
+    top:4%;
     left:10%;
+    padding-top:27%;
     border-radius: 50%;
     z-index: 1;
 }
-.bg-me > .me {
-    width:22%;
+.bg-me > .me-box > .me {
+    width:25%;
     z-index: 4;
     position: absolute;
-    top:2%;
-    left:10%;
+    left:11%;
 }
-.bg-me > .dott {
+.bg-me > .me-box > .dott {
     width:22%;
     z-index: 2;
     position: absolute;
     top:0;
     left:2%;
 }
-.bg-me > .me-title-box >.me-title {
+.bg-me > .me-text-box {
+    border:2px solid green;
+    height: 30vw;
+    width:100%;
+}
+.bg-me > .me-text-box > .me-title-box {
+    border:2px solid blue;
+    height: 50%;
+    width:100%;
+}
+.bg-me > .me-text-box > .me-title-box >.me-title {
     position: absolute;
     top:0;
     right:20%;
-    font-size: 3.5rem;
+    font-size: 3.5vw;
 }
-.bg-me > .me-title-box > .me-title-2 {
+.bg-me > .me-text-box > .me-title-box > .me-title-2 {
     position: absolute;
     top:10%;
     right:35%;
-    font-size: 4rem;
+    font-size: 4vw;
     color:#D7C4A8;
 }
-.bg-me > .me-title-box > .me-title-3 {
+.bg-me > .me-text-box > .me-title-box > .me-title-3 {
     position: absolute;
     top:10%;
     right:10%;
-    font-size: 3.5rem;
+    font-size: 3.5vw;
 }
 /* 어바웃미 타이틀 끝 */
 
 /* 어바웃미 서브 시작*/
-
-.bg-me > .me-sub-box > .about-me {
+.bg-me > .me-text-box > .me-sub-box {
+    border:2px solid pink;
+    height: 50%;
+    width:100%;
+}
+.bg-me > .me-text-box > .me-sub-box > .about-me {
     position: absolute;
     top:30%;
     right:20%;
-    font-size: 2rem;
+    font-size: 2vw;
 }
-.bg-me > .me-sub-box > .about-me-2 {
+.bg-me > .me-text-box > .me-sub-box > .about-me-2 {
     position: absolute;
     top:40%;
     right:13%;
-    font-size: 1rem;
+    font-size: 1vw;
     color:#afafaf;
     width:400px;
     letter-spacing: .5;
@@ -71,24 +90,57 @@
 /* 어바웃미 서브 끝 */
 .contacts {
     background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
-    font-size:2rem;
+    font-size:2vw;
     margin-left:15%;
 }
-.contact-box > .email-ico {
-    font-size:2.5rem;
-    margin-left:13%;
+.contact-box {
+    margin-left:auto;
+    margin-right:auto;
+    height:8vw;
+}
+.contact-box > div > div {
+    margin-top:20px;
+}
+.contact-box > div > div > .email-ico {
+    font-size:2.5vw;
     padding:20px;
 }
-.contact-box > .email-text {
-    font-size:1rem;
-    padding:0 20px;
-}
-.contact-box > .phone-ico {
-    font-size:2.5rem;
-    margin-left:23%;
+.contact-box > div > div > .email-text {
+    font-size:1vw;
     padding:20px;
 }
-.contact-box > .phone-text {
-    font-size:1rem;
-    padding:0 20px;
+.contact-box > div > div >.phone-ico {
+    font-size:2.5vw;
+    padding:20px;
+}
+.contact-box > div >  div > .phone-text {
+    font-size:1vw;
+    padding:20px;
+}
+.contact-box > div .insta-ico {
+    font-size:2.5vw;
+    padding:20px;
+}
+.contact-box > div .insta-text {
+    font-size:1vw;
+    padding:20px;
+}
+/* 소프트웨어 시작 */
+
+.software {
+    background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
+    font-size:2vw;
+    margin-left:15%;
+}
+.software-box {
+    margin-left:auto;
+    margin-right:auto;
+    height:15vw;
+}
+/* 소프트웨어 끝  */
+
+.education {
+    background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
+    font-size:2vw;
+    margin-left:15%;
 }
