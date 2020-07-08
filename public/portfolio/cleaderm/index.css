@@ -341,125 +341,154 @@ label[for] {
     width: 100%;
     height: 118px;
     z-index: 10;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-.top-menu-bar>.logo-box>a>img {
+.top-menu-bar>.logo-box>.logo>img {
     margin-left: 90px;
+    transform: translateX(-300px);
+    transition:transform 1s;
 }
-.top-menu-bar ul > li > a {
-    border-top:2px solid transparent;
-    transition:border-top .3s;
-    padding-top:5px;
+
+.top-menu-bar>.logo-box>.logo>img.active {
+    transform: translatex(0px);
+}
+
+.top-menu-bar ul>li>a {
+    border-top: 2px solid transparent;
+    transition: border-top .3s;
+    padding-top: 5px;
     padding-bottom: 33px;
 }
-.top-menu-bar ul > li:hover > a {
-    border-top:2px solid #222;
-}
-.top-menu-bar>.menu-box-1>ul>li>a {
-    margin: 0 15px;
-    font-size: 15px;  
+
+.top-menu-bar ul>li:hover>a {
+    border-top: 2px solid #222;
 }
 
-.top-menu-bar>.menu-box-1>ul>li:nth-child(4)::after {
-    content: "";
-    background-color: #ddd;
-    width: 1px;
+.top-menu-bar>.menu-box-1>ul>li>a {
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.top-menu-bar>.menu-box-1>ul>.bar {
+    border-right: 1px solid #ddd;
     height: 16px;
-    top: 50%;
-    left: 50%;
-    transform: translatex(-50%)translatey(-10%);
-    margin: 0 10px;
-    line-height: 18px;
+    margin: 10px 20px 0;
 }
 
 .top-menu-bar>.menu-box-2>ul>li>a {
     margin: 0 15px;
     font-size: 14px;
     font-weight: 300;
-    color:#777;
+    color: #777;
 }
 
 .top-menu-bar>.search-ico>a {
     margin-right: 110px;
-    margin-left:30px;
+    margin-left: 30px;
 }
-.top-menu-bar > .menu-box-1 > ul > li {
+
+.top-menu-bar>.menu-box-1>ul>li {
     position: relative;
 }
-.top-menu-bar > .menu-box-1 > ul > li > div {
+
+.top-menu-bar>.menu-box-1>ul>li>div {
     display: none;
 }
-.top-menu-bar > .menu-box-1 > ul > li:hover > div {
-    display:block;
-    width:404px;
-    height: 314px;
-    background-color: rgba(255,255,255,0.9);
-    box-shadow: 5px 3px 20px rgba(0,0,0,0.05);
+
+.top-menu-bar>.menu-box-1>ul>li:hover>div {
+    display: block;
+    width: 400px;
+    height: 310px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.05);
     position: absolute;
-    top:40px;
-    left:-5px;
+    top: 40px;
+    left: -5px;
     padding: 13px 20px 15px 10px;
     white-space: nowrap;
 }
-.top-menu-bar > .menu-box-1 > ul > li > div > img {
+
+.top-menu-bar>.menu-box-1>ul>li>div>img {
     vertical-align: top;
-    right:0;
-    clear:both;
+    border: 2px solid red;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
 }
-.top-menu-bar > .menu-box-1 > ul > li > div > ul > a {
+
+.top-menu-bar>.menu-box-1>ul>li>div>ul {
+    display: inline-block;
+}
+
+.top-menu-bar>.menu-box-1>ul>li>div>ul>a {
     font-size: 14px;
     text-align: left;
+    clear: both;
+    padding: 4px 10px 5px
 }
+
+.top-menu-bar>.search-ico>a {
+    margin-top: -20px;
+}
+
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
 
-/* 슬라이더 끝 */
 .bg-slider {
     height: 100vh;
     position: relative;
 }
+
 .bg-slider .bg-side-bars {
     height: 100%;
 }
-.bg-slider .bg-side-bars > div {
+
+.bg-slider .bg-side-bars>div {
     position: absolute;
     top: 0;
     left: 0;
     width: calc(50% - 100px);
     height: 100%;
     cursor: pointer;
-} 
-.bg-slider .bg-side-bars > div:last-child {
-    left:auto;
-    right:0;
 }
-.bg-slider .bg-side-bars > div > span {
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    left:inherit;
-    right:inherit;
-    font-size:5rem;
+
+.bg-slider .bg-side-bars>div:last-child {
+    left: auto;
+    right: 0;
+}
+
+.bg-slider .bg-side-bars>div>span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: inherit;
+    right: inherit;
+    font-size: 5rem;
     transition: transform 0.2s;
-    margin:0 10px;
-    color:black;
+    margin: 0 20px;
+    color: black;
     opacity: 0.5;
     transition: opacity .3s;
     z-index: 2;
 }
-.bg-slider .bg-side-bars > div > span:hover {
-    opacity:1;
+
+.bg-slider .bg-side-bars>div>span:hover {
+    opacity: 1;
 }
-.bg-slider > .bg-slides > div {
+
+.bg-slider>.bg-slides>div {
     position: absolute;
     top: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
 }
+
+
+/* 슬라이더 끝 */

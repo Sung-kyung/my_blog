@@ -11,8 +11,9 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="/portfolio/cleaderm/index.css">
     <script src="/portfolio/cleaderm/index.js"></script>
+    <link rel="stylesheet" href="/portfolio/cleaderm/index.css">
+    
 </head>
 
 <body>
@@ -26,11 +27,11 @@
             <ul class="flex">
                 <li class="flex">
                     <a href="#" class="flex flex-ai-c">BRAND</a>
-                    <div class="flex">
-                        <ul>
+                    <div class="">
+                        <ul class="">
                             <a href="#">2차메뉴아이템</a>
                         </ul>
-                        <img src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_0.jpg" alt="">
+                        <img class="" src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_0.jpg" alt="">
                     </div>
                 </li>
                 <li class="flex">
@@ -46,6 +47,7 @@
                 </li>
                 <li class="flex"><a href="#" class="flex flex-ai-c">EVENT</a></li>
                 <li class="flex"><a href="#" class="flex flex-ai-c">GALLERY</a></li>
+                <li class="bar flex"></li>
             </ul>
         </nav>
         <nav class="menu-box-2 flex flex-ai-c">
