@@ -252,7 +252,10 @@ label[for] {
     display: flex;
     flex-flow: column nowrap;
 }
-
+*>.flex-column-wrap {
+    display: flex;
+    flex-flow:column wrap;
+}
 *>.flex-grow-1 {
     flex-grow: 1;
 }

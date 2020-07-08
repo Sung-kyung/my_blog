@@ -8,13 +8,13 @@
         <img class="me" src="../resource/img-2/aboutMe.png" alt="">
         <img class="dott" src="../resource/img-2/dott-sm.svg" alt="">
     </div>
-    <div class="me-text-box flex flex-1-0-0">
-        <div class="me-title-box flex-row-wrap">
+    <div class="me-text-box flex flex-1-0-0 flex-row-wrap">
+        <div class="me-title-box ">
             <div class="me-title">Web Designer</div>
             <div class="me-title-2">&</div>
             <div class="me-title-3">Web Publisher</div>
         </div>
-        <div class="me-sub-box flex-row-wrap">
+        <div class="me-sub-box">
                 <div class="about-me">About Me</div>
                 <div class="about-me-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis vitae odio,
                 quod

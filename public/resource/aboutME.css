@@ -48,22 +48,22 @@
 }
 .bg-me > .me-text-box > .me-title-box >.me-title {
     position: absolute;
-    top:0;
-    right:20%;
-    font-size: 3.5vw;
+    top:5%;
+    right:30%;
+    font-size: 3vw;
 }
 .bg-me > .me-text-box > .me-title-box > .me-title-2 {
     position: absolute;
-    top:10%;
-    right:35%;
-    font-size: 4vw;
+    top:15%;
+    left:30%;
+    font-size: 3.5vw;
     color:#D7C4A8;
 }
 .bg-me > .me-text-box > .me-title-box > .me-title-3 {
     position: absolute;
-    top:10%;
+    top:15%;
     right:10%;
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 /* 어바웃미 타이틀 끝 */
 
@@ -76,17 +76,24 @@
 }
 .bg-me > .me-text-box > .me-sub-box > .about-me {
     position: absolute;
-    top:30%;
-    right:20%;
+    top:5%;
+    left:3%;
     font-size: 2vw;
+    background: linear-gradient(to top, #DF6B52 40%, transparent 40%);
 }
 .bg-me > .me-text-box > .me-sub-box > .about-me-2 {
     position: absolute;
-    top:40%;
-    right:13%;
+    top:30%;
     font-size: 1vw;
     color:#afafaf;
     letter-spacing: .5;
+    text-align:center;
+    left:3%;
+}
+@media (max-width:780px) {
+    .bg-me > .me-box ,.bg-me > .me-text-box{
+        flex-wrap: wrap;
+    }
 }
 /* 어바웃미 서브 끝 */
 .contacts {
