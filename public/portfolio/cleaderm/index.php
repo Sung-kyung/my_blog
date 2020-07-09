@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/portfolio/cleaderm/index.js"></script>
     <link rel="stylesheet" href="/portfolio/cleaderm/index.css">
-    
+
 </head>
 
 <body>
@@ -27,20 +27,21 @@
             <ul class="flex">
                 <li class="flex">
                     <a href="#" class="flex flex-ai-c">BRAND</a>
-                    <div class="">
+                    <div class="ul-box">
                         <ul class="">
-                            <a href="#">2차메뉴아이템</a>
+                            <li><a href="#">브랜드 스토리</a></li>
                         </ul>
-                        <img class="" src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_0.jpg" alt="">
+                        <img class="" src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_0.jpg"
+                            alt="">
                     </div>
                 </li>
                 <li class="flex">
                     <a href="#" class="flex flex-ai-c">SHOPPING</a>
-                    <div class="flex">
+                    <div class="ul-box">
                         <ul>
-                            <a href="#" class="flex-row-wrap">2차메뉴아이템</a>
-                            <a href="#">2차메뉴아이템</a>
-                            <a href="#">2차메뉴아이템</a>
+                            <li><a href="#">닥터락토</a></li>
+                            <li><a href="#">클렌징</a></a></li>
+                            <li><a href="#">스킨케어</a></li>
                         </ul>
                         <img src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_1.jpg" alt="">
                     </div>
@@ -54,8 +55,29 @@
             <ul class="flex">
                 <li class="flex"><a href="#" class="flex flex-ai c">로그인</a></li>
                 <li class="flex"><a href="#" class="flex flex-ai c">회원가입</a></li>
-                <li class="flex"><a href="#" class="flex flex-ai c">마이쇼핑</a></li>
-                <li class="flex"><a href="#" class="flex flex-ai c">커뮤니티</a></li>
+                <li class="flex">
+                    <a href="#" class="flex flex-ai c">마이쇼핑</a>
+                    <div class="ul-box">
+                        <ul>
+                            <li><a href="#">마이페이지</a></li>
+                            <li><a href="#">장바구니</a></a></li>
+                            <li><a href="#">주문조회</a></li>
+                            <li><a href="#">내가 쓴 글</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="flex">
+                    <a href="#" class="flex flex-ai c">커뮤니티</a>
+                    <div class="ul-box">
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></a></a></li>
+                            <li><a href="#">고객후기</a></li>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">Q & A</a></a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </nav>
         <div class="search-ico flex flex-ai-c">
@@ -65,23 +87,37 @@
     </div>
     <div class="bg-slider">
         <div class="bg-slides">
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s22.jpg);"></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="active"
+                style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s22.jpg);"></div>
+            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s23.gif);"></div>
+            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s21.jpg);"></div>
+            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s20.jpg);"></div>
+            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s15.jpg);"></div>
         </div>
 
         <div class="bg-side-bars">
-            <div>
-                <span>
-                    <i class="fa fa-angle-left" aria-hidden="true"></i>
-                </span>
+            <div class="left-btn">
+                <a href="#">
+                    <img src="https://sung-kyung.github.io/img1/pf/cleaderm/slider_2_prev_btn.png" alt="">
+                </a>
             </div>
-            <div>
-                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <div class="right-btn">
+                <a href="#">
+                    <img class="right-img" src="https://sung-kyung.github.io/img1/pf/cleaderm/slider_2_next_btn.png"
+                        alt="">
+                </a>
             </div>
         </div>
+
+        <ul class="dot-box">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
+
 
 
 

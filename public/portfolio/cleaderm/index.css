@@ -398,8 +398,8 @@ label[for] {
 
 .top-menu-bar>.menu-box-1>ul>li:hover>div {
     display: block;
-    width: 400px;
-    height: 310px;
+    width: 380px;
+    height: 280px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.05);
     position: absolute;
@@ -411,27 +411,60 @@ label[for] {
 
 .top-menu-bar>.menu-box-1>ul>li>div>img {
     vertical-align: top;
-    border: 2px solid red;
     display: inline-block;
-    margin-left: 30px;
-    margin-top: 10px;
+    padding:6px 0px 1px 10px;
 }
 
 .top-menu-bar>.menu-box-1>ul>li>div>ul {
     display: inline-block;
 }
 
-.top-menu-bar>.menu-box-1>ul>li>div>ul>a {
+.top-menu-bar>.menu-box-1>ul>li>div>ul>li>a {
     font-size: 14px;
     text-align: left;
     clear: both;
-    padding: 4px 10px 5px
+    padding: 4px 10px 5px 14px;
+    border-top:0px;
+    color:#999;
+    line-height: 18px;
+    transition:color .3s;
 }
-
+.top-menu-bar>.menu-box-1>ul>li>div>ul>li:hover>a {
+    color:#000;
+}
 .top-menu-bar>.search-ico>a {
     margin-top: -20px;
 }
-
+.top-menu-bar>.menu-box-2>ul>li {
+    position: relative;
+}
+.top-menu-bar>.menu-box-2>ul>li>div {
+    display: none;
+}
+.top-menu-bar>.menu-box-2>ul>li:hover>div {
+    display: block;
+    width: 123px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    padding: 13px 20px 15px 10px;
+    white-space: nowrap;
+}
+.top-menu-bar>.menu-box-2>ul>li>div>ul>li>a {
+    font-size: 14px;
+    text-align: left;
+    clear: both;
+    padding: 4px 10px 5px 14px;
+    border-top:0px;
+    color:#999;
+    line-height: 18px;
+    transition:color .3s;
+}
+.top-menu-bar>.menu-box-2>ul>li>div>ul>li:hover>a {
+    color:#000;
+}
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
@@ -453,29 +486,36 @@ label[for] {
     height: 100%;
     cursor: pointer;
 }
+.bg-slider .bg-side-bars>div>a {
+    opacity: 0;
+}
+.bg-slider:hover .bg-side-bars > div > a {
+    opacity:0.5;
+}
+.bg-slider  .bg-side-bars > div>a:hover{
+    opacity:1;
+}
 
 .bg-slider .bg-side-bars>div:last-child {
     left: auto;
     right: 0;
 }
 
-.bg-slider .bg-side-bars>div>span {
+.bg-slider .bg-side-bars>div>a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: inherit;
-    right: inherit;
+    left:inherit;
+    right:inherit;
     font-size: 5rem;
     transition: transform 0.2s;
     margin: 0 20px;
-    color: black;
-    opacity: 0.5;
     transition: opacity .3s;
     z-index: 2;
+    margin-left:60px;
 }
-
-.bg-slider .bg-side-bars>div>span:hover {
-    opacity: 1;
+.bg-slider .bg-side-bars>.right-btn>a {
+    margin-right:60px;
 }
 
 .bg-slider>.bg-slides>div {
@@ -488,7 +528,25 @@ label[for] {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+    opacity:0;
+    transition:opacity 0.5s;  
 }
-
-
+.bg-slider > .bg-slides > div.active {
+    opacity:1;
+}
+.dot-box  {
+    position: absolute;
+    top:50%;
+    right:20px;
+}
+.dot-box > li {
+    width:12px;
+    height: 12px;
+    border:2px solid black;
+    background: #fff;
+    z-index: 99;
+    margin:10px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 /* 슬라이더 끝 */
