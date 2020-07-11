@@ -1,7 +1,7 @@
 <?php
-    include "../part/head.php";
+include "../../part/head.php";
 ?>
-
+<link rel="stylesheet" href="/portfolio/index.css">
 <div class="portfolio-box con flex ">
     <div class="portfolio-img flex flex-1-0-0"
         style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/notebook.png);"></div>
@@ -16,18 +16,18 @@
 </div>
 <ul class="port-list-box con row">
     <li class="cell">
-        <a href="kakaobank.html" target="_blank"style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/kakaoBank.jpg);"></a>
+        <a href="/portfolio/kakaobank" target="_blank"style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/kakaoBank.jpg);"></a>
         <div class="port-title"><a href="kakaobank.html" target="_blank">Kakao Bank</a></div>
     </li>
     <li class="cell">
-        <a href="#" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/inotech.jpg);"></a>
+        <a href="/portfolio/innotech" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/inotech.jpg);"></a>
         <div class="port-title"><a href="#" target="_blank">Innotech</a></div>
     </li>
     <li class="cell">
-        <a href="#" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/heimish.jpg);"></a>
+        <a href="/portfolio/heimish" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/heimish.jpg);"></a>
         <div class="port-title"><a href="W" target="_blank">Heimish</a></div>
     </li>
 </ul>
 <?php
-    include "../part/foot.php";
+include "../../part/foot.php";
 ?>

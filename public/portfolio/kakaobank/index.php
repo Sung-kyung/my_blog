@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>카카오뱅크</title>
-  <link rel="stylesheet" href="/resource/kakaobank.css">
+  <link rel="stylesheet" href="/portfolio/kakaobank/index.css">
 
 </head>
 <body>

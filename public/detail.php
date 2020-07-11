@@ -15,6 +15,9 @@ WHERE id = {$id}
 $rs = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($rs);
 ?>
+
+<link rel="stylesheet" href="detail.css">
+
 <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">

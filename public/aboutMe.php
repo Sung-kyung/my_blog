@@ -2,6 +2,8 @@
     include "../part/head.php";
 ?>
 
+<link rel="stylesheet" href="/aboutMe.css">
+
 <div class="bg-me con flex">
     <div class="me-box flex  flex-1-0-0">
         <div class="me-circle"></div>

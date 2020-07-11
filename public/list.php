@@ -29,6 +29,7 @@ WHERE id = {$cateItemId}
 $rs2 = mysqli_query($dbConn, $sql2);
 $row = mysqli_fetch_assoc($rs2);
 ?>
+<link rel="stylesheet" href="/list.css">
 
 <h1 class="list-title con"><?=$row['name']?></h1>
     

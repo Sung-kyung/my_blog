@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-
-
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -14,11 +10,6 @@
     <link rel="stylesheet" href="/resource/common.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
-    <link rel="stylesheet" href="/resource/index.css">
-    <link rel="stylesheet" href="/resource/aboutME.css">
-    <link rel="stylesheet" href="/resource/list.css">
-    <link rel="stylesheet" href="/resource/detail.css">
-    <link rel="stylesheet" href="/resource/portfolio.css">
 </head>
 
 <body>
@@ -47,14 +38,14 @@
                     </ul>
                 </li>
                 <li><a href="#" class="block">Artwork</a>
-                <li><a href="#" class="block">Portfolio</a></li>
+                <li><a href="/portfolio" class="block">Portfolio</a></li>
                 <li><a href="#" class="block">Daliy</a>
-                        <ul>
-                            <li><a href="/list.php?cateItemId=1">Cafe</a></li>
-                            <li><a href="/list.php?cateItemId=2">Daily rec</a></li>
-                            <li><a href="/list.php?cateItemId=3">IT Study</a></li>
-                            <li><a href="/list.php?cateItemId=4">Journey</a></li>
-                        </ul>
+                    <ul>
+                        <li><a href="/list.php?cateItemId=1">Cafe</a></li>
+                        <li><a href="/list.php?cateItemId=2">Daily rec</a></li>
+                        <li><a href="/list.php?cateItemId=3">IT Study</a></li>
+                        <li><a href="/list.php?cateItemId=4">Journey</a></li>
+                    </ul>
                 <li><a href="#" class="block">SNS</a>
                     <ul>
                         <li><a href="#">Instagram</a>
@@ -73,11 +64,11 @@
 
     <div class="top-menu-bar con flex flex-jc-end">
         <form action="#" class="flex">
-        <input type="text" placeholder="검색어를 입력해주세요.">
-        <a href="#" class="flex  flex-as-c"><i class="fas fa-search"></i></a>
+            <input type="text" placeholder="검색어를 입력해주세요.">
+            <a href="#" class="flex  flex-as-c"><i class="fas fa-search"></i></a>
         </form>
-        <div class="flex"><a href="#" class="flex  ">LOGIN</a></div>
-        <div class="flex"><a href="#" class="flex ">글쓰기</a></div>
+        <div class="flex"><a href="#" class="flex">LOGIN</a></div>
+        <div class="flex"><a href="#" class="flex">글쓰기</a></div>
     </div>
     <div class="top-bar visible-md-up con">
         <div class="con height-100p">
@@ -91,16 +82,17 @@
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img
                                 src="/resource/img/logo_1.png" alt=""></a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/portfolio.php"
+                    <li class=" flex-1-0-0 flex"><a href="/portfolio"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
                     <li class=" flex-1-0-0 flex"><a href="/list.php?cateItemId=1"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a>
-                            <ul>
+                        <ul>
                             <li><a href="/list.php?cateItemId=1">Cafe</a></li>
                             <li><a href="/list.php?cateItemId=2">Daily rec</a></li>
                             <li><a href="/list.php?cateItemId=3">IT Study</a></li>
                             <li><a href="/list.php?cateItemId=4">Journey</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>

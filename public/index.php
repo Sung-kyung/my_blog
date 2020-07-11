@@ -1,6 +1,7 @@
 <?php
     include "../part/head.php";
 ?>
+<link rel="stylesheet" href="/index.css">
 <div class="slider con">
     <div class="slides con">
         <div style="background-image: url(/resource/img-2/banner-3.jpg);" class="block banner-1 active con"></div>

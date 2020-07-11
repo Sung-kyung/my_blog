@@ -8,7 +8,6 @@
     margin-right:auto;
 }
 .bg-me > .me-box {
-    border:2px solid red;
     height: 30vw;
 }
 .bg-me > .me-box > .me-circle {
@@ -36,13 +35,11 @@
     left:2%;
 }
 .bg-me > .me-text-box {
-    border:2px solid green;
     height: 30vw;
     width:100%;
     position:relative;
 }
 .bg-me > .me-text-box > .me-title-box {
-    border:2px solid blue;
     height: 50%;
     width:100%;
 }
@@ -69,7 +66,6 @@
 
 /* 어바웃미 서브 시작*/
 .bg-me > .me-text-box > .me-sub-box {
-    border:2px solid pink;
     height: 50%;
     width:100%;
     position: relative;

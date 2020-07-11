@@ -81,11 +81,22 @@
             </ul>
         </nav>
         <div class="search-ico flex flex-ai-c">
-            <a href="#" class="flex flex-ai-c"><img
-                    src="https://sung-kyung.github.io/img1/pf/cleaderm/top_r_menu_icon_03_b.png" alt=""></a>
+            <a href="#" class="flex flex-ai-c">
+                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/top_r_menu_icon_03_b.png" alt="">
+            </a>
+            <div class="search-fade">
+                <div class="search-box">
+                    <span>검색</span>
+                    <input type="text" class="text-bx">
+                    <input class="go-btn" type="image" src="https://www.cleaderm.co.kr/_dj/img/search_btn_img.png">
+                </div>
+            </div>
         </div>
+
     </div>
-    <div class="bg-slider">
+
+    <div class="bg-slider slider-k slider-k1 height-100vh" data-autoplay="Y" data-autoplay-dir="right"
+        data-autoplay-interval="7000">
         <div class="bg-slides">
             <div class="active"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s22.jpg);"></div>
@@ -109,16 +120,7 @@
             </div>
         </div>
 
-        <ul class="dot-box">
-            <li class="slick-active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
     </div>
-
-
 
 
 
