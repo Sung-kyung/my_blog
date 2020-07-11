@@ -110,7 +110,7 @@
         </div>
 
         <ul class="dot-box">
-            <li></li>
+            <li class="slick-active"></li>
             <li></li>
             <li></li>
             <li></li>

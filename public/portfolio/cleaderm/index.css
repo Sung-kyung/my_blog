@@ -398,7 +398,6 @@ label[for] {
 
 .top-menu-bar>.menu-box-1>ul>li:hover>div {
     display: block;
-    width: 380px;
     height: 280px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.05);
@@ -407,6 +406,7 @@ label[for] {
     left: -5px;
     padding: 13px 20px 15px 10px;
     white-space: nowrap;
+
 }
 
 .top-menu-bar>.menu-box-1>ul>li>div>img {
@@ -548,5 +548,8 @@ label[for] {
     margin:10px 10px;
     border-radius: 50%;
     cursor: pointer;
+}
+.dot-box > li.slick-active {
+    background:#000;
 }
 /* 슬라이더 끝 */
