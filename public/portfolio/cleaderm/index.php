@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>클리덤 닥터락토 모작</title>
+    <link rel="icon" href="../../resource/img/favicon_20190423115023.ico">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
