@@ -379,6 +379,7 @@ label[for] {
 }
 
 /* 탑바 끝 */
+
 /* 모바일 탑바 시작 */
 
 @media (max-width:1000px) {
@@ -405,10 +406,14 @@ label[for] {
   width:calc((100% - 147px) / 2);
 }
 .mobile-top-bar > .menu-ico {
-  margin-top:19px;
   position: relative;
-  border:1px solid red;
-  height: 20px;
+  display: block;
+  top: 21px;
+  left: 2px;
+  z-index: 10;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
 }
 .mobile-top-bar > .menu-ico > span {
     position: absolute;
@@ -416,7 +421,7 @@ label[for] {
     left:10%;
     width: 19px;
     height: 1px;
-    margin: -1px 0 0 -10px;
+    margin: -1px 0 0 -8px;
     background-color: #000;
     text-indent: -999em;
 }
@@ -424,22 +429,26 @@ label[for] {
 .mobile-top-bar > .menu-ico > span::before {
   content: "";
   position: absolute;
-  top:0;
-  left: 10%;
+  top:50%;
+  left: 50%;
   width: 19px;
+  height: 1px;
   background-color: #000;
   text-indent: -999em;
+  margin-left: -10px;
+  margin-top:-7px;
 }
 .mobile-top-bar > .menu-ico > span::after {
     content: "";
     position: absolute;
-    top: 100%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
     width: 19px;
     height: 1px;
     background-color: #000;
     text-indent: -999em;
-    margin-top:100%;
+    margin-left: -10px;
+    margin-top:7px;
 }
 .mobile-top-bar > .mobile-logo > a {
   margin-top:19px;
