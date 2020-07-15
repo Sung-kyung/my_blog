@@ -337,9 +337,9 @@ label[for] {
   max-width: 1640px;
   max-height: 840px;
 }
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 @media (min-width:1001px) {
   body {
@@ -357,17 +357,17 @@ body {
   left:0;
 }
 
-.top-bar>.logo {
+/* .top-bar>.logo {
   margin-left: 135px;
-}
+} */
 
 .top-bar>a>img {
   width: 196px;
 }
-
+/* 
 .top-bar>.menu-box-1>ul {
   margin-right: 110px;
-}
+} */
 
 .top-bar>.menu-box-1>ul>li>a {
   padding: 0 35px;
@@ -411,6 +411,7 @@ body {
   width: 19px;
   height: 19px;
   cursor: pointer;
+  overflow: visible;
 }
 .mobile-top-bar > .menu-ico > span {
     position: absolute;
@@ -481,11 +482,12 @@ body {
   transition: padding-top 1s;
 }
 
-@media ( max-width:700px ) {
+@media ( max-width:767px ) {
   .slide-box::after {
     content: "";
     display: block;
     padding-top: 100vh;
+    object-fit:cover;
   }
 }
 
@@ -628,10 +630,10 @@ body {
   }
 }
 @media ( max-width: 1023px) {
-  .post-list > ul > li > a > .category {
+  .category {
     font-size:0.8125em;
   }
-  .post-list > ul > li > a > .post-title {
+  .post-title, .title {
     height: 2.5em;
     font-size: 1.0625em;
     line-height: 1.25;
@@ -693,6 +695,9 @@ body {
     color: #666;
 }
 @media (max-width:1023px) {
+    .sticky-post {
+        margin-bottom:67px;
+    }
   .sticky-post, .sticky-post > .post-text {
     padding:0;
     display: block;
@@ -732,3 +737,71 @@ body {
 }
 
 /* sticky 리스트 끝  */
+
+/* 스토리 리스트 시작 */
+/* .stories > ul {
+    margin-left:-15px;
+    margin-right:-15px;
+} */
+
+.stories > ul > li {
+    width:calc(100% / 4);
+    /* padding:0 0 0 58px; */
+    margin: 0 0 50px;
+    padding-left: 3.755868544600939%;
+}
+.stories > ul > li > a {
+    display:block;
+    width:100%;
+}
+.stories > ul > li > a > img {
+    margin-bottom:22px;
+    width:100%;
+    height: auto;
+    display:block;
+}
+.stories > ul >li > a > .category {
+    display: block;
+    font-size: 0.875em;
+    color: #666;
+    letter-spacing: 0.075em;
+}
+.stories > ul > li > a > .title {
+    display: block;
+    overflow: hidden;
+    max-height: 3em;
+    margin: 11px 0 0;
+    text-overflow: ellipsis;
+    font-size: 1.25em;
+    line-height: 1.5;
+    color: #222;
+    letter-spacing: 0.05em;
+}
+.stories > ul > li > a > .excerpt {
+    display: block;
+    max-height: 3.428571428571428em;
+    margin: 8px 0 2px;
+    overflow: hidden;
+    font-size: 0.875em;
+    line-height: 1.714285714285714;
+    color: #666;
+    text-overflow: ellipsis;
+}
+@media (max-width:1023px) {
+    .stories > ul > li {
+        width:50%;
+        margin-bottom:33px;
+    }
+    .stories > ul > li > a > .excerpt {
+        display:none;
+    }
+}
+@media (max-width:1023px) {
+    .stories > ul > li > a > .category {
+        font-size: 0.8125em;
+    }
+    .stories > ul > li > a > .title {
+        font-size: 0.875em;
+    }
+}
+/* 스토리 리스트 끝 */
