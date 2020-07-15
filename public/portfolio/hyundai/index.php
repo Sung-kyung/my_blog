@@ -15,25 +15,26 @@
 </head>
 
 <body>
-    <div class="top-bar flex visible-md-up">
+    <div class="top-bar visible-md-up">
+        <div class="inner flex con flex-ai-c">
+            <a href="#" class="logo flex flex-ai-c flex-grow-1 con">
+                <img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png" alt="">
+            </a>
 
-        <a href="#" class="logo flex flex-ai-c flex-grow-1 con">
-            <img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png" alt="">
-        </a>
-
-        <nav class="menu-box-1 flex con">
-            <ul class="flex con">
-                <li class="flex"><a href="#" class="flex flex-ai-c">Artists</a></li>
-                <li class="flex"><a href="#" class="flex flex-ai-c">Exhibitions</a></li>
-                <li class="flex"><a href="#" class="flex flex-ai-c">Stories</a></li>
-                <li class="flex"><a href="#" class="flex flex-ai-c">About</a></li>
-                <li class="flex"><a href="#" class="flex flex-ai-c">Search</a></li>
-            </ul>
-        </nav>
+            <nav class="menu-box-1 flex con">
+                <ul class="flex con">
+                    <li class="flex"><a href="#" class="flex flex-ai-c">Artists</a></li>
+                    <li class="flex"><a href="#" class="flex flex-ai-c">Exhibitions</a></li>
+                    <li class="flex"><a href="#" class="flex flex-ai-c">Stories</a></li>
+                    <li class="flex"><a href="#" class="flex flex-ai-c">About</a></li>
+                    <li class="flex"><a href="#" class="flex flex-ai-c">Search</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <div class="mobile-top-bar visible-sm-down row">
-        <div class="menu-ico flex cell">
+        <div class="menu-ico flex cell btn-toggle-mobile-side-bar active">
             <span>메뉴</span>
         </div>
         <div class="mobile-logo cell">
@@ -46,6 +47,10 @@
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package_2x.png);">
             </a>
         </div>
+    </div>
+
+    <div class="mobile-side-bar active">
+        
     </div>
 
     <div class="slide-box con slider-k height-full" data-autoplay="Y" data-autoplay-dir="left"
@@ -84,7 +89,7 @@
         </div>
     </div>
 
-    <div class="post-list con">
+    <div class="post-list con con-2">
         <ul class="row">
             <li class="cell ">
                 <a href="#" class="img-box">
@@ -113,7 +118,7 @@
         </ul>
     </div>
 
-    <div class="sticky-post con">
+    <div class="sticky-post con con-2">
         <a href="#">
             <img src="https://sung-kyung.github.io/img1/pf/hyundai/30106a41-528d-4a64-bdc2-b556f990d497.resize_large.jpg"
                 alt="">
@@ -121,83 +126,96 @@
         <a href="#" class="post-text">
             <span class="category block">Press</span>
             <span class="title block">Minjung Kim 김민정 : In Conversation</span>
-            <span class="excerpt">“Ink and paper—they are like a couple. The ink is made by the smoke of the trees.”</span>
+            <span class="excerpt">“Ink and paper—they are like a couple. The ink is made by the smoke of the
+                trees.”</span>
         </a>
     </div>
 
-    <div class="stories con">
+    <div class="stories con con-2">
         <ul class="row">
             <li class="cell">
                 <a href="#">
                     <img src="https://sung-kyung.github.io/img1/pf/hyundai/8e3702a0-3d5d-413b-8148-a174499ab5b9.crop_small.jpg"
-                        alt="">
+                        alt="" srcset="">
                     <span class="category block">News</span>
                     <span class="title block">Kang Seung Lee 이강승 : Imaginaries of the Future</span>
-                    <span class="excerpt">Meet Kang Seung Lee’s most recent project "Imaginaries of the Future" currently on view at MMCA Seoul as part of the exhibition, '2020 MMCA Asia Project Looking for Another Family.'</span>
+                    <span class="excerpt">Meet Kang Seung Lee’s most recent project "Imaginaries of the Future"
+                        currently on view at MMCA Seoul as part of the exhibition, '2020 MMCA Asia Project Looking for
+                        Another Family.'</span>
                 </a>
             </li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/9b90d8cf-9486-472b-ade7-8a437536df4a.crop_small.jpg"
-                        alt="">
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/9b90d8cf-9486-472b-ade7-8a437536df4a.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">Archive</span>
                     <span class="title block">Nam June Paik 백남준 : In Venice 1993</span>
-                    <span class="excerpt">Gallery Hyundai accompanied the artist to capture historic moments at the 1993 Venice biennale.</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/be408e14-4ffc-48ca-bf46-b4560f2999fd.crop_small.jpg"
-                        alt="">
+                    <span class="excerpt">Gallery Hyundai accompanied the artist to capture historic moments at the 1993
+                        Venice biennale.</span></a></li>
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/be408e14-4ffc-48ca-bf46-b4560f2999fd.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">News</span>
                     <span class="title block">Kang Seung Lee 이강승 : No Space, Just A Place</span>
-                    <span class="excerpt">Kang Seung Lee is participating in No Space, Just A Place: Eterotopia currently on view at Daelim Museum in Seoul. </span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/fba0979b-cb1a-404e-b8b4-896cb2ddd17c.crop_small.jpg"
-                        alt="">
+                    <span class="excerpt">Kang Seung Lee is participating in No Space, Just A Place: Eterotopia
+                        currently on view at Daelim Museum in Seoul. </span></a></li>
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/fba0979b-cb1a-404e-b8b4-896cb2ddd17c.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">Essays</span>
                     <span class="title block">Park Minjoon 박민준 : Story of Rapport </span>
-                    <span class="excerpt">Park Minjoon’s first novel Rapport Circus invites readers to the fascinating world of magic. </span></a></li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/baf45cea-a3c2-4cc4-9767-f9d61ad7d903.crop_small.jpg"
-                        alt="">
+                    <span class="excerpt">Park Minjoon’s first novel Rapport Circus invites readers to the fascinating
+                        world of magic. </span></a></li>
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/baf45cea-a3c2-4cc4-9767-f9d61ad7d903.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">News</span>
                     <span class="title block">Iván Navarro 이반 나바로 : The Ladder</span>
-                    <span class="excerpt">Iván Navarro’s first permanent site-specific public artwork, "The Ladder," has been unveiled by Shorenstein Residential for its new apartment building, 50 Jones, in San Francisco</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/96d92504-b323-4bab-8cc5-411f1b65f086.crop_small.jpg"
-                        alt="">
+                    <span class="excerpt">Iván Navarro’s first permanent site-specific public artwork, "The Ladder," has
+                        been unveiled by Shorenstein Residential for its new apartment building, 50 Jones, in San
+                        Francisco</span></a></li>
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/96d92504-b323-4bab-8cc5-411f1b65f086.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">Press</span>
                     <span class="title block">"A Full View, at Last, of Modern Art in South Korea"</span>
-                    <span class="excerpt">Reviewing the art book "Korean Art from 1953: Collision, Innovation, Interaction," which outlines the history of Korean contemporary art, Jason Farago, an art critic for the New York Times.</span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/d42704d2-3b92-4461-9ceb-86f697e70eac.crop_small.jpg"
-                        alt="">
+                    <span class="excerpt">Reviewing the art book "Korean Art from 1953: Collision, Innovation,
+                        Interaction," which outlines the history of Korean contemporary art, Jason Farago, an art critic
+                        for the New York Times.</span></a></li>
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/d42704d2-3b92-4461-9ceb-86f697e70eac.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">Essays</span>
                     <span class="title block">Yoo Geun-Taek 유근택 : Normandy</span>
-                    <span class="excerpt">Here we introduce Yoo Geun-Taek essay, photographs and new paintings produced in Normandy. </span>
-                </a>
-            </li>
-            <li class="cell">
-                <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/28b5de58-2b46-4f3f-a4e5-d029ba080c26.crop_small.jpg"
-                        alt="">
+                    <span class="excerpt">Here we introduce Yoo Geun-Taek essay, photographs and new paintings produced
+                        in Normandy. </span></a></li>
+            <li class="cell"><a href="#"><img
+                        src="https://sung-kyung.github.io/img1/pf/hyundai/28b5de58-2b46-4f3f-a4e5-d029ba080c26.crop_small.jpg"
+                        alt="" srcset="">
                     <span class="category block">Press</span>
                     <span class="title block">Yang Jung Uk 양정욱 : Scenery of Dialogue</span>
-                    <span class="excerpt">Yang Jung Uk has gained renown in the art scene for his lyrical and synaesthetic works featuring sound, light, and movement. You can find an interview with him in GQ Korea's June issue. </span>
-                </a>
-            </li>
+                    <span class="excerpt ">Yang Jung Uk has gained renown in the art scene for his lyrical and
+                        synaesthetic works featuring sound, light, and movement. You can find an interview with him in
+                        GQ Korea's June issue. </span></a></li>
         </ul>
+        <div class="lead-more-btn">
+            <a href="#">Lead More</a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="social-channel">
+            <ul class="flex flex-jc-c">
+                <li class="flex  flex-ai-c"><a href="#" class="instagram">INSTAGRAM</a></li>
+                <li class="flex flex-ai-c"><a href="#" class="facebook">FACEBOOK</a></li>
+                <li class="flex flex-ai-c"><a href="#" class="twitter">TWITTER</a></li>
+                <li class="flex flex-ai-c"><a href="#" class="youtube">YOUTUBE</a></li>
+                <li class="flex flex-ai-c"><a href="#" class="newsletter">NEWSLETTER</a></li>
+            </ul>
+        </div>
+        <div class="news">
+            <address>14 Samcheong-ro, Jongno-gu, Seoul 03062 Korea</address>
+            <p class="coptright">Gallery Hyundai - All rights reserved 2020</p>
+        </div>
     </div>
 </body>
 

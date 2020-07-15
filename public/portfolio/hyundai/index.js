@@ -131,3 +131,17 @@ function SliderK__initAutoplay($slider) {
 $(function () {
     SliderK__init();
 });
+
+function MobileSideBar__toggle() {
+    var $btn = $('.btn-toggle-mobile-side-bar');
+    var $MobileSideBar = $('.mobile-side-bar');
+
+    if($btn.hasClass('active')) {
+        $btn.removeClass('active');
+        $MobileSideBar.removeClass('active');
+    }
+    else {
+        $btn.addClass('active');
+        $MobileSideBar.addClass('active');
+    }
+}
