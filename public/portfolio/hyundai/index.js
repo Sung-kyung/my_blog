@@ -76,18 +76,6 @@ function SliderK__initPageNav($slider) {
     });
 }
 
-// 사이드 버튼에 이벤트를 겁니다.
-// function SliderK__initSideBtns($slider) {
-//     $slider.find(".bg-side-bars > div").click(function () {
-//         var index = $(this).index();
-
-//         if (index == 0) {
-//             SliderK__showPrev($slider);
-//         } else {
-//             SliderK__showNext($slider);
-//         }
-//     });
-// }
 
 function SliderK__initAutoplay($slider) {
     var autoplay = $slider.data("autoplay");
@@ -135,13 +123,22 @@ $(function () {
 function MobileSideBar__toggle() {
     var $btn = $('.btn-toggle-mobile-side-bar');
     var $MobileSideBar = $('.mobile-side-bar');
+    var $MobileTopBar = $('.mobile-top-bar');
 
-    if($btn.hasClass('active')) {
+    if ($btn.hasClass('active')) {
         $btn.removeClass('active');
+        $btn.css('display','block');
         $MobileSideBar.removeClass('active');
-    }
-    else {
+        $MobileTopBar.css('display','block');
+    } else {
         $btn.addClass('active');
         $MobileSideBar.addClass('active');
+        $MobileTopBar.css('display','none');
     }
 }
+function MobileSideBar__init() {
+    $('.btn-toggle-mobile-side-bar').click(MobileSideBar__toggle);
+}
+$(function () {
+    MobileSideBar__init();
+});

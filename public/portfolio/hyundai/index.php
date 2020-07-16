@@ -48,9 +48,24 @@
             </a>
         </div>
     </div>
+    <a href="#" class="btn-close btn-toggle-mobile-side-bar">
+            <span></span>
+        </a>
 
-    <div class="mobile-side-bar active">
-        
+    <div class="mobile-side-bar">
+
+        <ul>
+            <li><a href="#">Artists</a></li>
+            <li><a href="#">Exhibitions</a></li>
+            <li><a href="#">Stories</a></li>
+            <li><a href="#">About</a>
+                <ul>
+                    <li><a href="#" class="small-1">Gallery Hyundai</a></li>
+                    <li><a href="#" class="small-2">50Years</a></li>
+                </ul>
+            </li>
+
+        </ul>
     </div>
 
     <div class="slide-box con slider-k height-full" data-autoplay="Y" data-autoplay-dir="left"
