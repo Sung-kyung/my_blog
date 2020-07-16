@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>갤러리 현대 모작</title>
+    <title>GALLERY HYUNDAI</title>
+    <link rel="icon" href="../../resource/img/favicon.ico">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">

@@ -519,7 +519,7 @@ body {
   left:auto;
   right:10%;
   display: block;
-  position: absolute;
+  position: fixed;
   top:20px;
   right:50px;
   z-index: 60;
@@ -907,6 +907,21 @@ body {
   line-height: 1.8;
   color: #666;
   display: block;
+}
+@media (max-width:1023px ) {
+  .stories > ul > li > a > .category {
+    font-size: 0.875em;
+  }
+  .stories > ul > li > a > .title {
+    margin-top: 6px;
+    font-size: 0.875em;
+  }
+  .stories > ul > li > a > .excerpt {
+    display:none;
+  } 
+  .stories > ul > li {
+    margin-bottom: 0;
+  }
 }
 .stories > .lead-more-btn {
   margin-left:auto;
