@@ -20,12 +20,16 @@ include "../../part/head.php";
         <div class="port-title"><a href="kakaobank.html" target="_blank">Kakao Bank</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/innotech" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/inotech.jpg);"></a>
-        <div class="port-title"><a href="#" target="_blank">Innotech</a></div>
+        <a href="/portfolio/cleaderm" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/cleaderm-2.jpg);"></a>
+        <div class="port-title"><a href="/portfolio/cleaderm" target="_blank">Cleaderm</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/heimish" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/heimish.jpg);"></a>
-        <div class="port-title"><a href="W" target="_blank">Heimish</a></div>
+        <a href="/portfolio/heimish" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/heimish.jpg);"></a>
+        <div class="port-title"><a href="#" target="_blank">Heimish</a></div>
+    </li>
+    <li class="cell">
+        <a href="/portfolio/hyundai" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <div class="port-title"><a href="/portfolio/hyundai" target="_blank">Hyundai</a></div>
     </li>
 </ul>
 <?php
