@@ -80,6 +80,35 @@
                     href="#"></a></li>
         </ul>
     </div>
+
+    <div class="company-info flex">
+        <ul class="flex">
+            <li class="stock flex">
+                <a href="#" class="stock-title flex-ai-c">STOCK</a>
+                <a href="#" class="price flex-ai-c">84,400</a>
+                <a href="#" class="flex-ai-c">900 (+1.08 %)</a>
+                <a href="#" class="flex-ai-c">+17.43</a>
+                <a href="#" class="flex-ai-c">+ 0.80 %</a>
+                <a href="#" class="flex-ai-c">KOSPI 2201.19</a>
+            </li>
+            <li class="press flex"><a href="#" class="flex-ai-c">PRESS</a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <div class="notice">
+            <strong>NOTICE</strong>
+            <a href="#">NHN '개인정보처리방침' 변경에 대한 안내</a>
+        </div>
+        <div class="footer-inner">
+                <ul class="row">
+                    <li class="cell"><a href="#">제휴제안</a></li>
+                    <li class="cell"><a href="#">기업윤리</a></li>
+                    <li class="cell"><a href="#">개인정보 처리방침</a></li>
+                </ul>
+                <p class="copyright">©  NHN Corp. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 
 </html>
