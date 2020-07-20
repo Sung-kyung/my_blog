@@ -131,10 +131,14 @@
             <a href="#">NHN '개인정보처리방침' 변경에 대한 안내</a>
         </div>
         <div class="footer-inner">
-                <ul class="row">
+                <ul class="legal row">
                     <li class="cell"><a href="#">제휴제안</a></li>
                     <li class="cell"><a href="#">기업윤리</a></li>
                     <li class="cell"><a href="#">개인정보 처리방침</a></li>
+                </ul>
+                <ul class="sub-list row">
+                    <li class="cell-right"><a href="#"><span>FAMILY SITE</span></a></li>
+                    <li class="cell-right"><a href="#"><span>GLOBAL SITE</span></a></li>
                 </ul>
                 <p class="copyright">©  NHN Corp. All rights reserved.</p>
         </div>

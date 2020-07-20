@@ -391,7 +391,7 @@ body {
 /* 슬라이더 시작 */
 
 .slider-p {
-  height:969px;
+  height:722px;
   position:relative;
   top:0;
   left:0;
@@ -487,7 +487,8 @@ body {
 .slides .text-box > .title {
   font-size: 60px;
   font-weight: bold;
-  margin-bottom:30px;
+  margin-bottom:50px;
+  line-height:1.02;
 }
 .slides .text-box > .text {
   font-size: 22px;
@@ -636,6 +637,11 @@ body {
 }
 .footer > .footer-inner > ul {
   width:100%;
+  border:1px solid red;
+  display:inline-block;
+}
+.footer > .footer-inner > ul > li {
+  display:inline-block;
 }
 .footer > .footer-inner > ul > li > a {
   padding:20px;
@@ -659,5 +665,14 @@ body {
   font-size:14px;
   padding-top:30px;
   margin-left:180px;
+}
+.footer > .footer-inner > .sub-list  {
+  color:#999;
+  border:1px solid red;
+    display:inline-block;
+}
+.footer > .footer-inner > .sub-list > li {
+  border:1px solid blue;
+  display:inline-block;
 }
 /* footer 끝 */
