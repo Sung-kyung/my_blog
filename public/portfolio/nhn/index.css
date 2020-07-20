@@ -345,7 +345,6 @@ body {
     height: 100px;
     z-index: 100;
     position:fixed;
-
 }
 
 .top-bar > .logo-box  {
@@ -390,43 +389,107 @@ body {
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
-.slide-box {
+
+.slider-p {
+  height:969px;
   position:relative;
   top:0;
   left:0;
   width:100%;
   min-height: 650px;
+  overflow: hidden;
 }
-.slide-box > ul {
+.slider-p .slides {
+    width:100%;
+    height:100%;
+}
+.slider-p .slides > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 1s;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.slider-p .slides > div.active {
+    opacity:1;
+}
+
+.slider-p .nav-box {
+    z-index:1;
+    position:absolute;
+    bottom: 201px;
+    right: 180px;
+}
+.slider-p .nav-box .control-box {
+  padding-right:30px;
+}
+.slider-p .nav-box .bar-box .index-box {
+  padding-left:30px;
+}
+.slider-p .nav-box .bar-box .index-box > div {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.slider-p .nav-box .control-box > button {
+  width: 17px;
+  height: 17px;
+  vertical-align: top;
+}
+.slider-p .nav-box .control-box > button >  span {
+  overflow: hidden;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height: inherit;
+  top: 0;
+  left: 0;
 }
-.slide-box > ul > li {
-  position: absolute;
-  padding-top:100vh;
-  width:100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
+.slider-p .nav-box .control-box > button > span::after {
+  content:"";
+  width:10px;
+  height: 17px;
+  background: url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png) 0 0 no-repeat;
+  background-size: 400px auto;
 }
-.slide-box > ul > li > .text-box  {
+
+.slider-p .progress-bar {
+    background-color:#fff;
+    height:2px;
+    width:150px;
+    position:relative;
+}
+.slider-p .progress-bar > .stick {
+    position:absolute;
+    left:0;
+    top:0;
+    width:0;
+    height:100%;
+    background-color:#FA2828;
+}
+.slides .text-box {
   position: absolute;
   top:53.5%;
   left:180px;
   right:180px;
   margin-top:-65px;
   transform: translateY(-50%);
+  z-index:50;
 }
-.slide-box > ul > li > .text-box > .title {
+.slides .text-box > .title {
   font-size: 60px;
   font-weight: bold;
   margin-bottom:30px;
 }
-.slide-box > ul > li > .text-box > .text {
+.slides .text-box > .text {
   font-size: 22px;
   line-height: 1.36;
 }
@@ -528,6 +591,14 @@ body {
 .company-info > ul > .press {
   padding-left:25px;
 }
+.company-info > ul > .press > .press-text {
+  font-size: 14px;
+  color: #fff;
+  margin-left:28px;
+}
+.company-info > ul > .press > .press-text:hover {
+  text-decoration: underline;
+}
 /* 회사소식 끝 */
 
 /* footer 시작 */
@@ -538,7 +609,6 @@ body {
   bottom:0;
   top:100%;
   left:0;
-  margin-top:100px;
 }
 .footer > .notice {
   display:block;

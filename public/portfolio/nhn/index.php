@@ -10,6 +10,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="/portfolio/nhn/index.css">
     <script src="/portfolio/nhn/index.js"></script>
 </head>
@@ -36,46 +40,67 @@
         </div>
     </div>
 
-    <div class="slide-box">
-        <ul>
-            <li style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_01_3840.jpg);">
-                <div class="text-box">
+   <div class="slider-p slider-p-1" data-slider-p-animate-duration="3000">
+    <div class="nav-box flex">
+        <div class="control-box">
+            <button><span>좌</span></button>
+            <button><span>정지</span></button></button>
+            <button><span>우</span></button>
+        </div>
+        <div class="bar-box flex flex-ai-c">
+            <div class="progress-bar">
+                <div class="stick"></div>
+            </div>
+            <div class="index-box flex">
+                <div></div>
+                &nbsp; / &nbsp;
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slides">
+        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_01_3840.jpg);">
+            <div class="text-box">
                     <h3 class="title">Play Hard, Work Smart!</h3>
                     <p class="text">놀이가 작품이 되고 상상이 현실이 되는 곳</p>
                 </div>
-            </li>
-            <li style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_02_3840.jpg);">
-                <div class="text-box">
+        </div>
+        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_02_3840.jpg);">
+            <div class="text-box">
                     <h3 class="title">Let the World Play with Us!</h3>
                     <p class="text">더 넓은 세상, 더 많은 사람들이 더 큰 재미를 우리와 함께 나눕니다.</p>
                 </div>
-            </li>
-            <li style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_03_3840.jpg);">
-                <div class="text-box">
+        </div>
+        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_03_3840.jpg);">
+            <div class="text-box">
                     <h3 class="title">Toward Art, Science & Tech</h3>
                     <p class="text">새로운 세상을 만들기 위해 도전합니다</p>
                 </div>
-            </li>
-        </ul>
+        </div>
     </div>
+</div>
+
+    
+    
     <div class="service-box con">
         <ul class="service-list">
-            <li class="item hangame"
+            <li class="hangame"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
-            <li class="item payco"
+            <li class="payco"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
-            <li class="item toast"
+            <li class="toast"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
-            <li class="item comico"
+            <li class="comico"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
-            <li class="item bugs"
+            <li class="bugs"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
-            <li class="item ticketlink"
+            <li class="ticketlink"
                 style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
         </ul>
@@ -91,7 +116,12 @@
                 <a href="#" class="flex-ai-c">+ 0.80 %</a>
                 <a href="#" class="flex-ai-c">KOSPI 2201.19</a>
             </li>
-            <li class="press flex"><a href="#" class="flex-ai-c">PRESS</a></li>
+            <li class="press flex">
+                <a href="#" class="flex-ai-c">PRESS</a>
+                <p class="press-text flex flex-ai-c"><a href="#">벅스, 회원간 결합상품 ‘크루(Crew)’ 가입 편의성 강화… ‘조르기’ 기능 도입</a></p>
+                <p class="press-text flex flex-ai-c"><a href="#">‘크루세이더 퀘스트’, 대규모 여름방학 이벤트 사전예약 실시</a></p>
+                <p class="press-text flex flex-ai-c"><a href="#">NHN페이코, ‘페이코 맞춤대출’ 제휴 금융사 확대</a></p>
+            </li>
         </ul>
     </div>
 
