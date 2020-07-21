@@ -64,8 +64,7 @@ function SliderP__show($slider, postIndex) {
     var $current = $slider.find(' > .slides > div').eq(currentIndex);
     var $post = $slider.find(' > .slides > div').eq(postIndex);
     
-    $slider.data('slider-p-currentIndex', postIndex);
-    
+    $slider.data('slider-p-currentIndex', postIndex); 
     $current.removeClass('active');
     $post.addClass('active');
     
@@ -96,3 +95,28 @@ function SliderP__stopAnimate($slider) {
 $(function () {
     SliderP__init('.slider-p-1');
 });
+
+console.clear();
+
+
+function intervalText(){
+    var $this = $('.press > .press-text');
+    var $parent = $this.closest('.press');
+    var $actText = $parent.find('> .press-text.active');
+    var $post = $actText.next();
+    
+    if ( $post.length == 0 ) {
+        $post = $('.press > .press-text:nth-child(2)');
+    }
+    
+    $actText.removeClass('active');
+    $post.addClass('active');
+}
+
+
+
+function intervalText__init(){
+    setInterval(intervalText,4000);
+}
+intervalText__init();
+

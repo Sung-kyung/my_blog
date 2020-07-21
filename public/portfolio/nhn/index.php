@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -40,12 +40,12 @@
         </div>
     </div>
 
-   <div class="slider-p slider-p-1" data-slider-p-animate-duration="3000">
+   <div class="slider-p slider-p-1" data-slider-p-animate-duration="4000">
     <div class="nav-box flex">
         <div class="control-box">
-            <button><span>좌</span></button>
-            <button><span>정지</span></button></button>
-            <button><span>우</span></button>
+            <button><span class="prev-btn"></span></span></button>
+            <button><span class="stop-btn"></span></button></button>
+            <button><span class="next-btn"></span></button>
         </div>
         <div class="bar-box flex flex-ai-c">
             <div class="progress-bar">
@@ -118,7 +118,7 @@
             </li>
             <li class="press flex">
                 <a href="#" class="flex-ai-c">PRESS</a>
-                <p class="press-text flex flex-ai-c"><a href="#">벅스, 회원간 결합상품 ‘크루(Crew)’ 가입 편의성 강화… ‘조르기’ 기능 도입</a></p>
+                <p class="press-text flex flex-ai-c active"><a href="#">벅스, 회원간 결합상품 ‘크루(Crew)’ 가입 편의성 강화… ‘조르기’ 기능 도입</a></p>
                 <p class="press-text flex flex-ai-c"><a href="#">‘크루세이더 퀘스트’, 대규모 여름방학 이벤트 사전예약 실시</a></p>
                 <p class="press-text flex flex-ai-c"><a href="#">NHN페이코, ‘페이코 맞춤대출’ 제휴 금융사 확대</a></p>
             </li>
@@ -132,13 +132,55 @@
         </div>
         <div class="footer-inner">
                 <ul class="legal row">
-                    <li class="cell"><a href="#">제휴제안</a></li>
-                    <li class="cell"><a href="#">기업윤리</a></li>
-                    <li class="cell"><a href="#">개인정보 처리방침</a></li>
-                </ul>
-                <ul class="sub-list row">
-                    <li class="cell-right"><a href="#"><span>FAMILY SITE</span></a></li>
-                    <li class="cell-right"><a href="#"><span>GLOBAL SITE</span></a></li>
+                    <li class="legal-list cell"><a href="#">제휴제안</a></li>
+                    <li class="legal-list cell"><a href="#">기업윤리</a></li>
+                    <li class="legal-list cell"><a href="#">개인정보 처리방침</a></li>
+                    <li class="sub-list cell-right">
+                        <a href="#"><span>FAMILY SITE</span></a>
+                        <div class="drop-box">
+                            <div class="drop-box-inner">
+                                <ul class="list">
+                                    <li><a href="#">NHN PIXELCUBE</a></li>
+                                    <li><a href="#">NHN BIGFOOT</a></li>
+                                    <li><a href="#">NHN PAYCO</a></li>
+                                    <li><a href="#">NHN SERVICE</a></li>
+                                    <li><a href="#">WISECAT</a></li>
+                                    <li><a href="#">NHN KCP</a></li>
+                                    <li><a href="#">NHN WETOO</a></li>
+                                    <li><a href="#">NHN TICKETLINK</a></li>
+                                    <li><a href="#">NHN GODO</a></li>
+                                    <li><a href="#">ACCOMMATE</a></li>
+                                    <li><a href="#">BEE 3 STARS</a></li>
+                                    <li><a href="#">OUTDOOR GLOBAL</a></li>
+                                    <li><a href="#">NHN BUGS</a></li>
+                                    <li><a href="#">NHN EDU</a></li>
+                                    <li><a href="#">INCRUIT</a></li>
+                                    <li><a href="#">PNP SECURE</a></li>
+                                    <li><a href="#">NHN AD</a></li>
+                                    <li><a href="#">NHN ACE</a></li>
+                                    <li><a href="#">NHN INVESTMENT</a></li>
+                                    <li><a href="#">NHN DR.TOUR</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sub-list cell-right">
+                        <a href="#"><span>GLOBAL SITE</span></a>
+                        <div class="drop-box">
+                            <div class="drop-box-inner">
+                                <ul class="list">
+                                    <li><a href="#">NHN JAPAN</a></li>
+                                    <li><a href="#">NHN PLAYART</a></li>
+                                    <li><a href="#">NHN TECHORUS</a></li>
+                                    <li><a href="#">NHN SAVAWAY</a></li>
+                                    <li><a href="#">NHN COMICO</a></li>
+                                    <li><a href="#">NHN CAPITAL</a></li>
+                                    <li><a href="#">NHN ASIA</a></li>
+                                    <li><a href="#">NHN GLOBAL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <p class="copyright">©  NHN Corp. All rights reserved.</p>
         </div>
