@@ -120,3 +120,21 @@ function intervalText__init(){
 }
 intervalText__init();
 
+function ShowList__init() {
+    $(".footer-inner > ul > .sub-list").mouseenter(function () {
+        var $this = $(this);
+        var $active = $this.find("> .drop-box");
+        
+        $active.addClass("active");
+    });
+
+    $(".footer-inner > ul > .sub-list").mouseleave(function () {
+        var $this = $(this);
+        var $active = $this.find("> .drop-box");
+        
+        $active.removeClass("active");
+    });
+}
+$(function() {
+    ShowList__init();
+});

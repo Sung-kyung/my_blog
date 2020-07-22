@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nanum+Gothic:wght@400;700&display=swap');
 html {
   /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat",'Nanum Gothic', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -431,6 +430,7 @@ body {
 }
 .slider-p .nav-box .bar-box .index-box {
   padding-left:30px;
+  width:50px;
 }
 .slider-p .nav-box .bar-box .index-box > div {
   font-size: 14px;
@@ -496,7 +496,7 @@ body {
 }
 .slides .text-box {
   position: absolute;
-  top:53.5%;
+  top:51.5%;
   left:180px;
   right:180px;
   margin-top:-65px;
@@ -508,11 +508,12 @@ body {
   font-weight: bold;
   margin-bottom:30px;
   line-height:1.02;
-  font-family: Montserrat;
 }
 .slides .text-box > .text {
   font-size: 22px;
   line-height: 1.36;
+  font-family:'Nanum Gothic', sans-serif;
+  font-weight: 600;
 }
 
 /* 슬라이더 끝 */
@@ -612,20 +613,25 @@ body {
 .company-info > ul > .press {
   padding-left:25px;
 }
+.company-info > ul > .press > a {
+  border:1px solid blue;
+  width:90px;
+} 
 .company-info > ul > .press > .press-text {
   font-size: 14px;
   color: #fff;
   margin-left:28px;
   opacity:0;
-  trasition:opacity .3s;
+  transition:opacity .3s;
   white-space:nowrap;
   z-index:10;
+  border:1px solid red;
 }
 .company-info > ul > .press > .press-text:nth-child(3) {
-    margin-left:-455px;
+    margin-left:-435px;
 }
 .company-info > ul > .press > .press-text:nth-child(4) {
-    margin-left:-368px;
+    margin-left:-345px;
 }
 .company-info > ul > .press > .press-text.active {
     opacity:1;
@@ -709,8 +715,20 @@ body {
   margin-top:1px;
   vertical-align: top;
 }
-.footer > .footer-inner > ul > .sub-list > a > span:hover {
+.footer > .footer-inner > ul > .sub-list:hover > a > span {
   color:#333;
+}
+.footer > .footer-inner > ul > .sub-list:hover > a > span::after {
+  content:"";
+  display: inline-block;
+  width:16px;
+  height:16px;
+  background: url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png) 0 0 no-repeat;
+  background-size: 400px auto;
+  background-position:-227px -27px;
+  margin-left:7px;
+  margin-top:1px;
+  vertical-align: top;
 }
 .footer-inner > ul > .sub-list > .drop-box {
   position: absolute;
@@ -748,9 +766,6 @@ body {
 .footer-inner > ul > .sub-list > .drop-box > .drop-box-inner > ul > li:hover > a {
   color:#FA2828;
 }
-
-
-
 
 .footer > .footer-inner > .copyright {
   clear:both;
