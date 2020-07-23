@@ -337,9 +337,15 @@ body {
 .top-bar {
     border-bottom:1px solid rgba(255,255,255,0.5);
     height: 90px;
+    z-index:100;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
 }
 .top-bar:hover {
     background-color: rgba(255,255,255,0.9);
+    border-bottom:1px solid #000;
 }
 .top-bar > .logo-box {
     left: 80px;
@@ -403,6 +409,7 @@ body {
     left:0;
     width:100%;
     display:none;
+    z-index:51;
 }
 .top-bar > .menu-box-1 ul.active > li > ul {
     display: block;
@@ -425,11 +432,11 @@ body {
 .top-bar > .menu-box-1 > .bg-box {
     height: 0;
     position: absolute;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.9);
     width:100%;
     top:0;
     left:0;
-    z-index:-1;
+    z-index:-3;
 }
 .top-bar > .menu-box-1 > .bg-box.active {
     height: 345px;
@@ -437,17 +444,189 @@ body {
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
-.slide-box > .slides > div {
+.slider-k {
+    position:absolute;
+    user-select:none;
+    width:100%;
+    height:988.89px;
+    top:0;
+    left:0;
+    z-index:-3;
+}
+.slider-k > .slides {
+    height:988.38px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+.slider-k > .slides > div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    height: 100%;
+    height: 988.38px;
     top:0;
     left:0;
     position: absolute;
-    z-index: -2;
+    z-index: -10;
 }
 
+.slider-k .side-btns > div {
+    position:absolute;
+    top:48%;
+    left:0;
+    cursor:pointer;
+    width:40px;
+    height:80px;
+    background-color:rgba(0,0,0,0.2);
+}
 
+.slider-k .side-btns > div:active > span {
+    transform:translateY(-45%);
+}
+
+.slider-k .side-btns > div:last-child {
+    left:auto;
+    right:0;
+}
+
+.slider-k .side-btns > div > span {
+    font-size:4rem;
+    position:absolute;
+    top:42%;
+    transform:translateY(-50%);
+    left:4px;
+    right:inherit;
+    margin:0 10px;
+    transition:transform 0.2s;
+}
+.slider-k .side-btns > .left-btn > span::after {
+    content:"";
+    position:absolute;
+    width:16px;
+    height:16px;
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+    transform:rotate(-45deg);
+}
+.slider-k .side-btns > .right-btn > span::after {
+    content:"";
+    position:absolute;
+    width:16px;
+    height:16px;
+    border-top:2px solid #fff;
+    border-right:2px solid #fff;
+    transform:rotate(45deg);
+    right:10%;
+}
+.slider-k.height-full {
+    height:100%;
+}
+
+.slider-k .slides > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    visibility:hidden;
+    opacity:0;
+    transition: opacity 0.5s, visibility 0.5s;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.slider-k .slides > div.active {
+    visibility:visible;
+    opacity:1;
+}
+
+.slider-k .page-nav {
+    position:absolute;
+    left:320px;
+    text-align:center;
+    z-index:50;
+    top:50%;
+    margin-top: 50px;
+}
+
+.slider-k .page-nav > div {
+    display:inline-block;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    transition: opacity 0.5s;
+    margin:0 4px;
+    cursor:pointer;
+    border:1px solid #fff;
+    
+}
+
+.slider-k .page-nav > div.active {
+    background-color:#fff;
+}
+
+.slider-k > .slides > div > .text-info {
+    position:absolute;
+    top:220px;
+    left:320px;
+}
+.slider-k > .slides > div > .text-info > .title {
+    font-size:60px;
+    line-height:82px;
+    font-weight:300;
+    letter-spacing:0.015em;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity .5s ease-in-out;
+}
+.slider-k > .slides > div.active > .text-info > .title {
+  opacity: 1;
+  transform: translateY(0);
+}
+.slider-k > .slides > div > .text-info > .text {
+    font-size:60px;
+    line-height:82px;
+    font-weight:800;
+    margin-top:-60px;
+    text-transform:uppercase;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform 1s .2s ease-in-out, opacity .5s .2s ease-in-out;
+}
+.slider-k > .slides > div.active > .text-info > .text {
+  opacity: 1;
+  transform: translateY(0);
+}
+.slider-k > .mouse {
+  position: absolute;
+  top:698px;
+  left:319px;
+}
+.slider-k > .mouse > span {
+  border:2px solid #fff;
+  width:16px;
+  height: 29px;
+  display: block;
+  border-radius:15px;
+}
+.slider-k > .mouse > span::before {
+  content:"";
+  position: absolute;
+  width:2px;
+  height: 8px;
+  background-color: #fff;
+  top:8px;
+  left:9px;
+  animation: mouse 1.3s infinite;
+}
+@keyframes mouse {
+  0% {height:0px}
+  30% {height:2px}
+  50% {height:4px}
+  70% {height:6px;}
+  100% {height:8px}
+}
 /* 슬라이더 끝 */

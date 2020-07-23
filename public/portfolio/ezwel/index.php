@@ -63,26 +63,44 @@
         </div>
     </div>
 
-    <div class="slide-box">
-        <div class="slides">
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img02.jpg);"></div>
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img03.jpg);"></div>
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img01.jpg);"></div>
-        </div>
-
-        <div class="bg-side-bars">
-            <div class="left-btn">
-                <a href="#">
-                    
-                </a>
+    
+   <div class="slide-box slider-k height-full" data-autoplay="Y" data-autoplay-dir="left" data-autoplay-interval="3000">
+    <div class="slides">
+        <div class="active" style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img02.jpg);">
+            <div class="text-info">
+                <p class="title">기업의 성공과<br>성장을 돕는</p>
+                <p class="text">Good Partner</p>
             </div>
-            <div class="right-btn">
-                <a href="#">
-                    
-                </a>
+        </div>
+        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img03.jpg);">
+            <div class="text-info">
+                <p class="title">대한민국<br>복지기준을 만들어가는</p>
+                <p class="text">Market Leader</p>
+            </div>
+        </div>
+        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img01.jpg);">
+            <div class="text-info">
+                <p class="title">일과 삶의 균형을<br>디자인하는</p>
+                <p class="text">Life Styler</p>
             </div>
         </div>
     </div>
+    
+    <div class="side-btns">
+        <div class="left-btn">
+            <span>
+            </span>
+        </div>
+        <div class="right-btn">
+            <span>
+            </span>
+        </div>
+    </div>
+    
+    <div class="mouse">
+        <span></span>
+    </div>
+</div>
     
 </body>
 </html>
