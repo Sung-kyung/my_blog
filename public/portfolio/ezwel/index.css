@@ -329,7 +329,6 @@ label[for] {
 
 /* 커스텀 */
 body {
-    background-color:lightsteelblue;
     color:#fff;
 }
 /* 탑바  시작 */
@@ -444,17 +443,25 @@ body {
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
+.slide-box {
+  width:100%;
+  height:100vh;
+  top:0;
+  left:0;
+  position:relative;
+}
 .slider-k {
     position:absolute;
     user-select:none;
     width:100%;
-    height:988.89px;
+    height:100%;
     top:0;
     left:0;
     z-index:-3;
+    display:block;
 }
 .slider-k > .slides {
-    height:988.38px;
+    height:100vh;
     position:absolute;
     top:0;
     left:0;
@@ -545,11 +552,11 @@ body {
 
 .slider-k .page-nav {
     position:absolute;
-    left:320px;
+    left:15%;
     text-align:center;
     z-index:50;
-    top:50%;
-    margin-top: 50px;
+    top:60%;
+    margin-top: 40px;
 }
 
 .slider-k .page-nav > div {
@@ -570,8 +577,8 @@ body {
 
 .slider-k > .slides > div > .text-info {
     position:absolute;
-    top:220px;
-    left:320px;
+    top:20%;
+    left:15%;
 }
 .slider-k > .slides > div > .text-info > .title {
     font-size:60px;
@@ -602,8 +609,8 @@ body {
 }
 .slider-k > .mouse {
   position: absolute;
-  top:698px;
-  left:319px;
+  top:85%;
+  left:15%;
 }
 .slider-k > .mouse > span {
   border:2px solid #fff;
@@ -630,3 +637,24 @@ body {
   100% {height:8px}
 }
 /* 슬라이더 끝 */
+
+/* 최신정보 시작 */
+.about-ezwel {
+  width:100%;
+  height:100vh;
+  border:1px solid green;
+}
+.about-ezwel > .about-ezwel-title {
+  display:block;
+  border:1px solid red;
+  color:#000;
+  font-size:42px;
+  padding-top:120px;
+  padding-left:10%;
+  line-height: 54px;
+}
+.about-ezwel > .about-ezwel-title > span {
+  font-size:20px;
+  color:#dfdfdf;
+}
+/* 최신정보 끝 */
