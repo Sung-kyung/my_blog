@@ -35,11 +35,11 @@ function SliderK__show($slider, index) {
 }
 
 function SliderK__showPrev($slider) {
-    SliderK__showPost($slider, -1);
+    SliderK__showPost($slider, 1);
 }
 
 function SliderK__showNext($slider) {
-    SliderK__showPost($slider, 1);
+    SliderK__showPost($slider, -1);
 }
 
 function SliderK__showPost($slider, change) {

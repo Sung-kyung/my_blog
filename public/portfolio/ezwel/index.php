@@ -110,10 +110,47 @@
     </div>
     <!--최신정보 페이지 -->
     <div class="about-ezwel">
-        <h1 class="about-ezwel-title">
-            <span>ABOUT EZWEL</span>
-            <br>이지웰의<br>최신 정보입니다.
-        </h1>
+        <div class="info-box">
+            <h1 class="about-ezwel-title">
+                <span>ABOUT EZWEL</span>
+                <br>이지웰의<br>최신 정보입니다.
+            </h1>
+            <div class="stock-box">
+                <div class="stock">
+                    <span class="stock-info">주가정보</span>
+                    <p class="up-down">350</p>
+                    <p class="num">12,000</p>
+                    <span class="date">2020/07/25 00:51:32</span>
+                </div>
+            </div>
+        </div>
+        <div class="about-list flex">
+            <div class="news flex"></div>
+            <div class="financial-box flex">
+                <div class="financial">
+                    <p class="financial-title">재무정보</p>
+                    <p class="financial-content">분기/연도별<br>재무정보입니다.</p>
+                </div>
+            </div>
+            <div class="notice-box flex">
+                <div class="notice">
+                    <span>공시</span>
+                    <div>
+                        <p class="notice-content">주식등의대량보유상황보고서(일반)</p>
+                        <span class="notice-date">2020-07-24</span>
+                    </div>
+                    <div>
+                        <p class="notice-content">교환청구권행사</p>
+                        <span class="notice-date">2020-07-24</span>
+                    </div>
+                    <div>
+                        <p class="notice-content">자기주식처분결과보고서</p>
+                        <span class="notice-date">2020-07-22</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-bg"></div>
     </div>
 
 </body>
