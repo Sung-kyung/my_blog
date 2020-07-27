@@ -31,6 +31,18 @@ include "../../part/head.php";
         <a href="/portfolio/hyundai" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
         <div class="port-title"><a href="/portfolio/hyundai" target="_blank">Hyundai</a></div>
     </li>
+    <li class="cell">
+        <a href="/portfolio/nhn" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <div class="port-title"><a href="https://www.nhn.com/ko/index.nhn" target="_blank">NHN</a></div>
+    </li>
+    <li class="cell">
+        <a href="/portfolio/ezwel" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <div class="port-title"><a href="http://www.ezwel.com/renew/main.ez" target="_blank">EZWEL</a></div>
+    </li>
+    <li class="cell">
+        <a href="https://sung-kyung.github.io/img1/pf/artworks/1/tomato.png" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/pf/artworks/1/tomato.png);"></a>
+        <div class="port-title"><a href="/portfolio/ezwel" target="_blank">EZWEL</a></div>
+    </li>
 </ul>
 <?php
 include "../../part/foot.php";

@@ -69,25 +69,27 @@
 
     <!--탑 슬라이더-->
     <div class="slide-box">
-        <div class="slider-k height-full" data-autoplay="Y" data-autoplay-dir="left" data-autoplay-interval="3000">
+        <div class="slider-k height-full" data-autoplay="Y" data-autoplay-dir="right" data-autoplay-interval="3000">
             <div class="slides">
-                <div class="active"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img02.jpg);">
+                <div>
+                    <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img02.jpg);"></div>
                     <div class="text-info">
                         <p class="title">기업의 성공과<br>성장을 돕는</p>
-                        <p class="text">Good Partner</p>
+                        <p class="text">Good Partner1</p>
                     </div>
                 </div>
-                <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img03.jpg);">
+                <div>
+                    <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img03.jpg);"></div>
                     <div class="text-info">
                         <p class="title">대한민국<br>복지기준을 만들어가는</p>
-                        <p class="text">Market Leader</p>
+                        <p class="text">Market Leader2</p>
                     </div>
                 </div>
-                <div style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img01.jpg);">
+                <div>
+                    <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img01.jpg);"></div>
                     <div class="text-info">
                         <p class="title">일과 삶의 균형을<br>디자인하는</p>
-                        <p class="text">Life Styler</p>
+                        <p class="text">Life Styler3</p>
                     </div>
                 </div>
             </div>

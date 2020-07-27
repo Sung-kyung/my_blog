@@ -614,7 +614,6 @@ body {
   padding-left:25px;
 }
 .company-info > ul > .press > a {
-  border:1px solid blue;
   width:90px;
 } 
 .company-info > ul > .press > .press-text {
@@ -625,7 +624,6 @@ body {
   transition:opacity .3s;
   white-space:nowrap;
   z-index:10;
-  border:1px solid red;
 }
 .company-info > ul > .press > .press-text:nth-child(3) {
     margin-left:-435px;

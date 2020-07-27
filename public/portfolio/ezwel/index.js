@@ -26,6 +26,7 @@ $(function() {
 function SliderK__show($slider, index) {
     var $currentSlide = $slider.find('.slides > div.active');
     var $postSlide = $slider.find('.slides > div').eq(index);
+
     
     $currentSlide.removeClass('active');
     $postSlide.addClass('active');
@@ -35,11 +36,11 @@ function SliderK__show($slider, index) {
 }
 
 function SliderK__showPrev($slider) {
-    SliderK__showPost($slider, 1);
+    SliderK__showPost($slider, -1);
 }
 
 function SliderK__showNext($slider) {
-    SliderK__showPost($slider, -1);
+    SliderK__showPost($slider, 1);
 }
 
 function SliderK__showPost($slider, change) {
@@ -70,6 +71,10 @@ function SliderK__showPost($slider, change) {
 function SliderK__init() {
     $('.slider-k').each(function(index, node) {
         var $slider = $(node);
+
+        if ( $slider.find('.slides > div.active').length == 0 ) {
+            $slider.find('.slides > div').eq(0).addClass('active');
+        }
         
         SliderK__initPageNav($slider);
         SliderK__initSideBtns($slider);
