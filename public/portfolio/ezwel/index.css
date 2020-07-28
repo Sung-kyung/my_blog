@@ -233,7 +233,7 @@ label[for] {
 
 .table-row.row::after {
   display: inline;
-  clear: non;
+  clear: none;
 }
 
 .table-row>.cell {
@@ -914,11 +914,18 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   overflow: hidden;
   white-space: nowrap;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 .notice-date {
   font-size: 14px;
   font-weight: 300;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .about-ezwel .about-list>.news {
@@ -1016,7 +1023,16 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   z-index: 100;
 }
 
-@media (max-width: 924px) {
+@media (max-height: 924px) {
+  .about-ezwel .info-box .about-ezwel-title {
+    margin-bottom: 60px;
+    font-size: 42px;
+    line-height: 54px;
+  }
+  .about-ezwel .info-box .about-ezwel-title > span {
+    margin-bottom:6px;
+    font-size:20px;
+  }
   .about-ezwel .info-box>.stock-box {
     top: 140px;
     height: 280px;
@@ -1024,3 +1040,70 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
 }
 
 /* 최신정보 끝 */
+
+/* 3페이지 시작 */
+.infomation {
+  background-color: #f6f6f6;
+  height: 772px;
+  width: 100%;
+}
+
+.infomation::after {
+  content: "";
+  background-image: url(https://sung-kyung.github.io/img1/pf/ezwel/guide-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  top: 180px;
+  left: 50%;
+  width: 191px;
+  height: 191px;
+  margin-left: 449px;
+  position: absolute;
+}
+.infomation > .info-box > .info-title {
+  margin-bottom: 90px;
+  font-size: 42px;
+  line-height: 54px;
+  color:#000;
+  padding-top: 120px;
+  position: absolute;
+}
+.infomation > .info-box > .info-title > span {
+  display:block;
+  margin-bottom: 12px;
+  font-size: 30px;
+  line-height: 1;
+  color: #dfdfdf;
+}
+.infomation .ico-box ul {
+  width:100%;
+  height: 200px;
+  border:1px solid green;
+  position: absolute;
+  top:50%;
+  left:0;
+}
+.infomation .ico-box  ul > li {
+  border:1px solid red;
+  width:20%;
+  height: 159px;
+  color:#000;
+}
+
+
+@media (max-height:924px) {
+  .infomation::after {
+    top:150px;
+    width:171px;
+    height:171px;
+    background-size: 100% auto;
+  }
+  .infomation > .info-box > .info-title {
+    margin-bottom:60px;
+  }
+  .infomation > .info-box > .info-title > span {
+    font-size:20px;
+    margin-bottom:6px;
+  }
+}
+/* 3페이지 끝 */

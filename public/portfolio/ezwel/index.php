@@ -85,7 +85,7 @@
                             </div>
                             <div class="text-info">
                                 <p class="title">기업의 성공과<br>성장을 돕는</p>
-                                <p class="text">Good Partner1</p>
+                                <p class="text">Good Partner</p>
                             </div>
                         </div>
                         <div>
@@ -94,7 +94,7 @@
                             </div>
                             <div class="text-info">
                                 <p class="title">대한민국<br>복지기준을 만들어가는</p>
-                                <p class="text">Market Leader2</p>
+                                <p class="text">Market Leader</p>
                             </div>
                         </div>
                         <div>
@@ -103,7 +103,7 @@
                             </div>
                             <div class="text-info">
                                 <p class="title">일과 삶의 균형을<br>디자인하는</p>
-                                <p class="text">Life Styler3</p>
+                                <p class="text">Life Styler</p>
                             </div>
                         </div>
                     </div>
@@ -187,14 +187,17 @@
                                 <div>
                                     <p class="notice-content">주식등의대량보유상황보고서(일반)</p>
                                     <span class="notice-date">2020-07-24</span>
+                                    <p class="line"></p>
                                 </div>
                                 <div>
                                     <p class="notice-content">교환청구권행사</p>
                                     <span class="notice-date">2020-07-24</span>
+                                    <p class="line"></p>
                                 </div>
                                 <div>
                                     <p class="notice-content">자기주식처분결과보고서</p>
                                     <span class="notice-date">2020-07-22</span>
+
                                 </div>
                             </div>
                         </div>
@@ -203,7 +206,23 @@
             </div>
         </div>
         <div class="section">
-            3
+            <div class="infomation">
+                <div class="info-box con-box">
+                    <h1 class="info-title">
+                        <span>SUPPORT</span>
+                        이지웰의<br>이용안내입니다.
+                    </h1>
+                </div>
+                <div class="ico-box">
+                    <ul class="flex flex-jc-sb">
+                        <li class="flex">안녕</li>
+                        <li class="flex">아히</li>
+                        <li class="flex">ㅇㄹㄴㅇㄹ</li>
+                        <li class="flex">ㄴㅇㄹㄴㅇ4</li>
+                        <li class="flex">ㄴㅇㄹㄴㅇㄹㄴㅇㄹ5</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </body>
