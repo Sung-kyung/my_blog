@@ -215,13 +215,118 @@
                 </div>
                 <div class="ico-box">
                     <ul class="flex flex-jc-sb">
-                        <li class="flex">안녕</li>
-                        <li class="flex">아히</li>
-                        <li class="flex">ㅇㄹㄴㅇㄹ</li>
-                        <li class="flex">ㄴㅇㄹㄴㅇ4</li>
-                        <li class="flex">ㄴㅇㄹㄴㅇㄹㄴㅇㄹ5</li>
+                        <li class="flex">
+                            <a href="#" class="consulting">
+                                <figure>
+                                    <i
+                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                    <figcaption>복지컨설팅</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="shop">
+                                <figure>
+                                    <i
+                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                    <figcaption>복지SHOP 입점</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="service">
+                                <figure>
+                                    <i
+                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                    <figcaption>서비스 제휴</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="download">
+                                <figure>
+                                    <i
+                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                    <figcaption>앱 다운로드</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="flex">
+                            <a href="#" class="ethics">
+                                <figure>
+                                    <i
+                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                    <figcaption>윤리제보</figcaption>
+                                </figure>
+                            </a>
+                        </li>
                     </ul>
                 </div>
+                <div class="footer">
+                    <div class="inner-footer con-box">
+                        <nav class="navi">
+                            <ul class="row">
+                                <li class="cell">
+                                    <a href="#">개인정보처리방침
+                                        <i></i>
+                                    </a>
+                                    <div class="tooltip">
+                                        <p><span></span></p>
+                                    </div>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">정보보호관리체계인증(ISMS)
+                                        <i></i>
+                                    </a>
+                                    <div class="tooltip">
+                                        <p><span></span></p>
+                                    </div>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">가족친화기업인증
+                                    <i></i>
+                                    </a>
+                                    <div class="tooltip">
+                                        <p><span></span></p>
+                                    </div>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">인적자원개발우수기관인증
+                                    <i></i>
+                                    </a>
+                                    <div class="tooltip">
+                                        <p><span></span></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="copyright">
+                            <p class="copy-1">
+                                <a href="#">이지웰(주)</a>
+                                <a href="#" class="kosdaq">KOSDAQ. 코스닥상장법인</a>
+                            </p>
+                            <p>대표이사. 조현철</p>
+                            <p>서울특별시 구로구 디지털로 34길 43, 코오롱싸이언스밸리 1차 14층</p>
+                            <p>고객센터. 02.3282.0579(평일 09~18시) / help@ezwel.com &nbsp;&nbsp;&nbsp;채용문의.recruit@ezwel.com
+                            </p>
+                            <p>Copyright ©Ezwel Co., Ltd. All rights reserved</p>
+                        </div>
+                        <div class="related-site">
+                            <button type="button">
+                                <span>패밀리 사이트</span>
+                            </button>
+                            <ul class="site-list">
+                                <li><a href="#">이지웰니스</a></li>
+                                <li><a href="#">인터치투어</a></li>
+                                <li><a href="#">이지웰가족복지재단</a></li>
+                                <li><a href="#">웰트리서비스</a></li>
+                                <li><a href="#">온누리전통시장몰</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

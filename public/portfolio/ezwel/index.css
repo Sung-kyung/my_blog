@@ -1077,19 +1077,80 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
 }
 .infomation .ico-box ul {
   width:100%;
-  height: 200px;
-  border:1px solid green;
+  height: 277px;
   position: absolute;
-  top:50%;
+  top:48%;
   left:0;
+  vertical-align: middle;
 }
 .infomation .ico-box  ul > li {
-  border:1px solid red;
+  border:1px solid #ddd;
   width:20%;
-  height: 159px;
+  height: 277px;
   color:#000;
+  text-align: center;
 }
 
+.infomation .ico-box  ul > li > a {
+  display: flex;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.ico-box > ul > li > .consulting > figure > i {
+  background-position: 0 -245px;
+  width: 101px;
+  height: 89px;
+  display:inline-block;
+  margin-top:30px;
+  transform: rotateY(180deg);
+  transition:transform .5s .1s;
+}
+.ico-box > ul > li > .shop > figure > i {
+  background-position:-175px 0;
+  width: 105px;
+  height: 100px;
+  display:inline-block;
+  margin-top:30px;
+  transform: rotateY(180deg);
+  transition:transform .5s .2s;
+}
+.ico-box > ul > li > .service > figure > i {
+  background-position:0 -135px;
+  width: 105px;
+  height: 100px;
+  display:inline-block;
+  margin-top:30px;
+  transform: rotateY(180deg);
+  transition:transform .5s .3s;
+}
+.ico-box > ul > li > .download > figure > i {
+  background-position:-115px -135px;
+  width: 95px;
+  height: 99px;
+  display:inline-block;
+  margin-top:30px;
+  transform: rotateY(180deg);
+  transition:transform .5s .4s;
+}
+.ico-box > ul > li > .ethics > figure > i {
+  background-position:-290px -105px;
+  width: 92px;
+  height: 91px;
+  display:inline-block;
+  margin-top:30px;
+  transform: rotateY(180deg);
+  transition:transform .5s .5s;
+}
+.section.active .ico-box > ul > li > a > figure > i {
+  transform: rotateY(0);
+}
+.ico-box > ul > li > a > figure > figcaption {
+  margin-top:25px;
+}
+.ico-box > ul > li > .shop > figure > figcaption {
+  margin-top:20px;
+}
 
 @media (max-height:924px) {
   .infomation::after {
@@ -1105,5 +1166,144 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
     font-size:20px;
     margin-bottom:6px;
   }
+  .infomation .ico-box  ul > li {
+    height: 159px;
+  }
 }
+
 /* 3페이지 끝 */
+
+/* footer 시작 */
+
+.infomation > .footer {
+  width:100%;
+  height:299px;
+  background-color: #333;
+  position:relative;
+  margin-top:-130px;
+}
+.infomation > .footer > .inner-footer {
+  padding:30px 0;
+  position: relative;
+}
+.infomation > .footer > .inner-footer > .navi {
+  margin-bottom:25px;
+}
+.infomation > .footer > .inner-footer > .navi > ul > li > a {
+  font-weight:300;
+  padding:0 30px;
+  position: relative;
+  border:1px solid red;
+}
+.infomation > .footer > .inner-footer > .navi > ul > li:first-child > a {
+  padding-left:0;
+}
+.infomation > .footer > .inner-footer > .navi > ul > li > a::before,.infomation > .footer > .inner-footer > .navi > ul > li > a::after {
+  content:"";
+  position: absolute;
+  width:2px;
+  height: 12px;
+  background-color:#838383;
+  top:50%;
+  lefT:0;
+  transform: translateX(-50%)translateY(-50%);
+}
+.infomation > .footer > .inner-footer > .navi > ul > li:first-child > a::before,.infomation > .footer > .inner-footer > .navi > ul > li:first-child > a::after {
+  display: none;
+}
+
+.infomation > .footer > .inner-footer > .navi > ul > li > a > i {
+  width:16px;
+  height:16px;
+  border:1px solid #999;
+  margin-left:10px;
+  vertical-align: -4px;
+  display: inline-block;
+}
+
+
+
+
+
+
+.infomation > .footer > .inner-footer > .copyright  {
+  font-size: 14px;
+  line-height: 10px;
+}
+.infomation > .footer > .inner-footer > .copyright > .copy-1 > .kosdaq {
+  color:#888888;
+}
+.infomation > .footer > .inner-footer >.related-site {
+  position: absolute;
+  right:0;
+  top:32%;
+  margin-top:-25px;
+}
+.infomation > .footer > .inner-footer > .related-site > button {
+  width: 230px;
+  height: 50px;
+  background-color:#222;
+  border:transparent;
+  text-align: left;
+}
+.infomation > .footer > .inner-footer > .related-site > button > span {
+  color:#fff;
+  font-weight: 300;
+  padding-left:15px;
+  font-size:15px;
+  position:relative;
+  padding-right:100px;
+}
+.infomation > .footer > .inner-footer > .related-site > button > span::after {
+  content:"▲";
+  position: absolute;
+  right:0;
+  font-size:10px;
+  top:3px;
+}
+.infomation > .footer > .inner-footer > .related-site.active > button > span::after {
+  content:"▼";
+  position: absolute;
+  right:0;
+  font-size:10px;
+  top:3px;
+}
+.infomation > .footer > .inner-footer >.related-site > .site-list {
+  display:none;
+  background-color:#fff;
+  color:#000;
+  position: absolute;
+  bottom:50px;
+  left:0;
+  width:100%;
+}
+.infomation > .footer > .inner-footer >.related-site.active > .site-list {
+  display:block;
+}
+.infomation > .footer > .inner-footer >.related-site > .site-list > li > a {
+  position: relative;
+  display: block;
+  padding: 20px 20px;
+  line-height: 1;
+}
+.infomation > .footer > .inner-footer >.related-site > .site-list > li:not(:first-child) > a::before {
+  content:"";
+  position: absolute;
+  width:190px;
+  height:1px;
+  top:0;
+  left:20px;
+  background-color: #ddd;
+}
+.infomation > .footer > .inner-footer >.related-site > .site-list > li > a::after {
+  content:"";
+  position: absolute;
+  width:9px;
+  height:9px;
+  border-top:2px solid #aaa;
+  border-right:2px solid #aaa;
+  transform: rotate(45deg);
+  top:23px;
+  right:25px;
+}
+/* footer 끝 */

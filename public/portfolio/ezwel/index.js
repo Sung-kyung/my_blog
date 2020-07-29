@@ -190,8 +190,23 @@ function SliderK__initAutoplay($slider) {
     }, autoplayInterval);
 }
 
+function FamilySite__init() {
+    $('.infomation > .footer > .inner-footer >.related-site').click(function() {
+        var $this = $(this);
+         var hasClass = $this.hasClass('active');
+        
+        if( hasClass ) {
+            $this.removeClass('active');
+        }
+       else {
+           $this.addClass('active');
+       }
+    });
+}
+
 
 $(function () {
     SliderK__init();
-    ShowNews__init()
+    ShowNews__init();
+    FamilySite__init();
 });
