@@ -270,32 +270,38 @@
                                     <a href="#">개인정보처리방침
                                         <i></i>
                                     </a>
-                                    <div class="tooltip">
-                                        <p><span></span></p>
-                                    </div>
                                 </li>
                                 <li class="cell">
                                     <a href="#">정보보호관리체계인증(ISMS)
                                         <i></i>
                                     </a>
                                     <div class="tooltip">
-                                        <p><span></span></p>
+                                        <p><span>인증범위</span>
+                                            온라인복지서비스운영
+                                        </p>
+                                        <p><span>유효기간</span>
+                                            2018.12.30~2021.12.29
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="cell">
                                     <a href="#">가족친화기업인증
-                                    <i></i>
+                                        <i></i>
                                     </a>
                                     <div class="tooltip">
-                                        <p><span></span></p>
+                                        <p><span>유효기간</span>
+                                            2018.12.01~2021.11.30
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="cell">
                                     <a href="#">인적자원개발우수기관인증
-                                    <i></i>
+                                        <i></i>
                                     </a>
                                     <div class="tooltip">
-                                        <p><span></span></p>
+                                        <p><span>유효기간</span>
+                                            2018.09.19~2021.09.18
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
