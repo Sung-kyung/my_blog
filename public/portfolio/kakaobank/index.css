@@ -69,8 +69,7 @@ a {
     width:100%;
     background-color:white;
     z-index:100;
-}
-.top-bar {
+    border-bottom:1px solid #dfdfdf;
 }
 .top-bar > a {
     margin-top:33px;
@@ -87,7 +86,7 @@ a {
 }
 .top-bar > .menu-box >ul > li:hover >a {
     text-decoration:underline;
-     border-bottom:2px solid black;   
+    border-bottom:2px solid black;   
 }
 .top-bar > .menu-box >ul > .submit-document {
     background-color:#FEDE22;
@@ -191,7 +190,7 @@ cursor:pointer;
     vertical-align:middle;
     
 }
-.ico-2{
+.ico-2 {
     background-position:-371px -292px;
     display:inline-block;
     margin: -2px 10px 0 0;
@@ -471,14 +470,14 @@ cursor:pointer;
 .banner-6 > .cont-text-5  > .sub-title-5 {
     font-size:40px;
     font-weight:bold;
-    line-height;1.35;
+    line-height:1.35;
 }
 .banner-6 > .cont-text-5  > .sub-title-5-text {
-    font-size:15px;
-    font-weight:400;
+    font-size: 15px;
+    font-weight: 400;
     color:#666;
-    line-height:1.7;
-    margin-top:24px;    
+    line-height: 1.7;
+    margin-top: 24px;    
 }
 .banner-6 > .cont-btn-5 {
     position:absolute;
@@ -502,14 +501,12 @@ cursor:pointer;
 body {
     margin:0;
 }
-
 .page-1 {
     width:100%;
     height:930px;
     position:relative;
     overflow:hidden;
 }
-
 .page-1 .stars {
     position:absolute;
     top:0;
@@ -518,7 +515,6 @@ body {
     bottom:0;
     background-color:#333B58;
 }
-
 .page-1 .stars > div {
     width:5px;
     height:5px;
@@ -533,41 +529,34 @@ body {
     animation-name: twinkle;
     animation-iteration-count: infinite;
 }
-
 .page-1 .stars > div:nth-child(2) {
     margin-top:-100px;
     margin-left:-100px;
     animation-delay: 1s;
 }
-
 .page-1 .stars > div:nth-child(2) {
     margin-top:-100px;
     margin-left:-100px;
     animation-duration: 5s;
 }
-
 .page-1 .stars > div:nth-child(3) {
     margin-top:-200px;
     margin-left:-100px;
     animation-duration: 1s;
     transform:scale(0.7);
 }
-
 .page-1 .stars > div:nth-child(4) {
     margin-top:-100px;
     margin-left:-200px;
 }
-
 .page-1 .stars > div:nth-child(5) {
     margin-top:-300px;
     margin-left:-300px;
 }
-
 .page-1 .stars > div:nth-child(6) {
     margin-top:200px;
     margin-left:-100px;
 }
-
 .page-1 .stars > div:nth-child(7) {
     margin-top:100px;
     margin-left:-400px;
@@ -604,8 +593,6 @@ body {
     transform:scale(0.9);
      animation-duration: 0.3s;
 }
-
-
 @keyframes twinkle {
     0% {
 
@@ -620,7 +607,6 @@ body {
         
     }
 }
-
 .page-1 .light-sky {
     background-color:#559cde;
     position:absolute;
@@ -630,7 +616,6 @@ body {
     height:100%;
     transition:bottom 0.6s;
 }
-
 .page-1 .stars-cover {
     background-color:#333B58;
     opacity:1;
@@ -641,15 +626,12 @@ body {
     height:100%;
     transition:opacity 4s 1s;
 }
-
 .page-1:hover .stars-cover {
     opacity:0;
 }
-
 .page-1:hover .light-sky {
     bottom:100%;
 }
-
 .page-1 .sun-and-moon {
     width:100px;
     height:100px;
@@ -662,7 +644,6 @@ body {
     overflow:hidden;
     border:1px solid transparent;
 }
-
 .page-1 .sun-and-moon > .circle-1 {
     background-color:#ffe400;
     position:absolute;
@@ -672,12 +653,10 @@ body {
     height:90%;
     border-radius:50%;
 }
-
 .page-1:hover .sun-and-moon > .circle-1 {
     background-color:white;
     transition:background-color 1s 1s;
 }
-
 .page-1 .sun-and-moon > .circle-2 {
     background-color:#333B58;
     position:absolute;
@@ -688,12 +667,10 @@ body {
     left:0;
     transform:translateX(-72%) translateY(-72%);
 }
-
 .page-1:hover .sun-and-moon > .circle-2 {
     transform:translateX(-15%) translateY(-15%);
     transition: transform 1s 1s;
 }
-
 /* 하늘별달 끝 */
 
 /* 7페이지 텍스트랑 이미지 */
@@ -765,8 +742,7 @@ body {
     position:absolute;
     padding-top:150px;
     text-align:center;
-    width:100%;
-    
+    width:100%;   
 }
 .banner-8 > .cont-text-7 > .sub-title-7 {
     font-size:40px;
@@ -818,7 +794,7 @@ body {
     font-size:40px;
     font-weight:bold;
     line-height:1.35;
-    
+  
 }
 .banner-end > .cont-text-end > .cont-bar {
     display:block;
@@ -860,7 +836,6 @@ body {
     text-align:center;
     color:#666;
     font-weight:200;
-    
 }
 /* 마지막 페이지 끝 */
 
@@ -951,8 +926,6 @@ body {
     margin-left:60px;
     margin-top:5px;
 }
-
-
 .foot-bottom > .list-channel {
     position:absolute;
     right:55px;

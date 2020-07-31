@@ -206,8 +206,8 @@
             </div>
         </div>
         <div class="section">
-            <div class="infomation">
-                <div class="info-box con-box">
+            <div class="infomation con-box">
+                <div class="info-box">
                     <h1 class="info-title">
                         <span>SUPPORT</span>
                         이지웰의<br>이용안내입니다.
@@ -261,8 +261,10 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-                <div class="footer">
+</div>
+
+            </div>
+            <div class="footer">
                     <div class="inner-footer con-box">
                         <nav class="navi">
                             <ul class="row">
@@ -332,8 +334,6 @@
 
                     </div>
                 </div>
-
-            </div>
         </div>
     </div>
 </body>

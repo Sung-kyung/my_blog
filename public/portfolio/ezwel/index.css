@@ -340,6 +340,9 @@ body {
 }
 
 /* 탑바  시작 */
+html:not([data-fullpage-index="0"]) {
+  padding-top:91px;
+}
 
 .top-bar {
   height: 90px;
@@ -1043,10 +1046,15 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
 /* 최신정보 끝 */
 
 /* 3페이지 시작 */
+html[data-fullpage-index="2"] {
+  background-color: #f6f6f6;
+}
 .infomation {
   background-color: #f6f6f6;
-  height: 772px;
   width: 100%;
+  top:0;
+  left:0;
+  height: 772px;
 }
 
 .infomation::after {
@@ -1054,7 +1062,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   background-image: url(https://sung-kyung.github.io/img1/pf/ezwel/guide-bg.png);
   background-position: left;
   background-repeat: no-repeat;
-  top: 180px;
+  top: 120px;
   left: 50%;
   width: 191px;
   height: 191px;
@@ -1062,12 +1070,12 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   position: absolute;
 }
 .infomation > .info-box > .info-title {
-  margin-bottom: 90px;
-  font-size: 42px;
-  line-height: 54px;
-  color:#000;
-  padding-top: 120px;
+  display: inline-block;
+  color: #000;
   position: absolute;
+  font-size: 50px;
+  line-height: 82px;
+  font-weight: 800;
 }
 .infomation > .info-box > .info-title > span {
   display:block;
@@ -1076,11 +1084,12 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   line-height: 1;
   color: #dfdfdf;
 }
+
 .infomation .ico-box ul {
   width:100%;
   height: 277px;
   position: absolute;
-  top:48%;
+  top:39%;
   left:0;
   vertical-align: middle;
 }
@@ -1104,7 +1113,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   width: 101px;
   height: 89px;
   display:inline-block;
-  /* margin-top:30px; */
+  margin-top:30px;
   transform: rotateY(180deg);
   transition:transform .5s .1s;
 }
@@ -1113,7 +1122,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   width: 105px;
   height: 100px;
   display:inline-block;
-  /* margin-top:30px; */
+  margin-top:30px;
   transform: rotateY(180deg);
   transition:transform .5s .2s;
 }
@@ -1122,7 +1131,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   width: 105px;
   height: 100px;
   display:inline-block;
-  /* margin-top:30px; */
+  margin-top:30px;
   transform: rotateY(180deg);
   transition:transform .5s .3s;
 }
@@ -1131,7 +1140,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   width: 95px;
   height: 99px;
   display:inline-block;
-  /* margin-top:30px; */
+  margin-top:30px;
   transform: rotateY(180deg);
   transition:transform .5s .4s;
 }
@@ -1140,20 +1149,28 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   width: 92px;
   height: 91px;
   display:inline-block;
-  /* margin-top:30px; */
+  margin-top:30px;
   transform: rotateY(180deg);
   transition:transform .5s .5s;
 }
 .section.active .ico-box > ul > li > a > figure > i {
   transform: rotateY(0);
 }
-/* .ico-box > ul > li > a > figure > figcaption {
+.ico-box > ul > li > a > figure > figcaption {
   margin-top:25px;
 }
 .ico-box > ul > li > .shop > figure > figcaption {
   margin-top:20px;
-} */
-
+}
+.ico-box > ul:hover > li:hover > a > figure {
+  transition:opacity 0.8s;
+}
+.ico-box > ul:hover > li > a > figure {
+  opacity: 0.5;
+}
+.ico-box > ul:hover > li:hover > a > figure {
+  opacity: 1;
+}
 @media (max-height:924px) {
   .infomation::after {
     top:150px;
@@ -1163,47 +1180,55 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   }
   .infomation > .info-box > .info-title {
     margin-bottom:60px;
+    font-size: 42px;
+    line-height: 54px;
   }
-  .infomation > .info-box > .info-title > span {
+  /* .infomation > .info-box > .info-title > span {
     font-size:20px;
     margin-bottom:6px;
-  }
+    color:#dfdfdf;
+  } */
   .infomation .ico-box  ul > li {
     height: 159px;
   }
+  .ico-box > ul > li > .ethics > figure > i {
+    margin-top:0;
+  }
   .section.active .ico-box > ul > li > a > figure > i, .ico-box > ul > li > a > figure > figcaption  {
     margin-bottom:15px;
+  }
+  .ico-box > ul > li > .shop > figure > figcaption {
+    margin-top:10px;
   }
 }
 
 /* 3페이지 끝 */
 
 /* footer 시작 */
-
-.infomation > .footer {
+ .footer {
   width:100%;
   height:229px;
   background-color: #333;
   position: absolute;
-  margin-top:-200px;
+  margin-top:-320px;
   top:100%;
 }
-.infomation > .footer > .inner-footer {
+ .footer > .inner-footer {
   padding:30px 0;
   position: relative;
 }
-.infomation > .footer > .inner-footer > .navi {
+ .footer > .inner-footer > .navi {
   margin-bottom:25px;
 }
-.infomation > .footer > .inner-footer > .navi > ul > li > a {
+ .footer > .inner-footer > .navi > ul > li > a {
   font-weight:300;
   padding:0 20px;
   position: relative;
 }
-.infomation > .footer > .inner-footer > .navi > ul > li:first-child > a {
+ .footer > .inner-footer > .navi > ul > li:first-child > a {
   padding-left:0;
 }
-.infomation > .footer > .inner-footer > .navi > ul > li > a::before,.infomation > .footer > .inner-footer > .navi > ul > li > a::after {
+ .footer > .inner-footer > .navi > ul > li > a::before, .footer > .inner-footer > .navi > ul > li > a::after {
   content:"";
   position: absolute;
   width:2px;
@@ -1213,11 +1238,11 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   lefT:0;
   transform: translateX(-50%)translateY(-50%);
 }
-.infomation > .footer > .inner-footer > .navi > ul > li:first-child > a::before,.infomation > .footer > .inner-footer > .navi > ul > li:first-child > a::after {
+ .footer > .inner-footer > .navi > ul > li:first-child > a::before, .footer > .inner-footer > .navi > ul > li:first-child > a::after {
   display: none;
 }
 
-.infomation > .footer > .inner-footer > .navi > ul > li:not(:first-child) > a > i {
+ .footer > .inner-footer > .navi > ul > li:not(:first-child) > a > i {
   width:16px;
   height:16px;
   border:1px solid #999;
@@ -1226,7 +1251,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   border-radius: 50%;
   display: inline-block;
 }
-.infomation > .footer > .inner-footer > .navi > ul > li:not(:first-child) > a > i::before {
+ .footer > .inner-footer > .navi > ul > li:not(:first-child) > a > i::before {
   content:"";
   display:inline-block;
   width:2px;
@@ -1236,45 +1261,73 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   background-color:#999;
   box-shadow:0 2px #999, 0 3px #999, 0 6px #999;
 }
-.infomation > .footer > .inner-footer > .navi > ul > li > .tooltip  {
+ .footer > .inner-footer > .navi > ul > li > .tooltip  {
   position: absolute;
-  width:280px;
+  width:250px;
   background-color: #222;
   border-radius: 4px;
-  display:block;
-  padding:0 10px;
+  display:none;
+  padding:10px;
+  top:-60px;
+  left:15%;
+  text-align: center;
+  line-height: 0.5;
 }
-.infomation > .footer > .inner-footer > .navi > ul > li > .tooltip > span {
+.footer > .inner-footer > .navi > ul > li:hover > .tooltip {
+  display: block;
+}
+.footer > .inner-footer > .navi > ul > li:nth-child(3) > .tooltip {
+  left:32%;
+}
+.footer > .inner-footer > .navi > ul > li:nth-child(4) > .tooltip {
+  left:52%;
+}
+.footer > .inner-footer > .navi > ul > li:nth-child(3) > .tooltip, .footer > .inner-footer > .navi > ul > li:nth-child(4) > .tooltip  {
+  top:-40px;
+}
+ .footer > .inner-footer > .navi > ul > li > .tooltip > span {
   margin-right:6px;
   font-weight:600;
   display:inline-block;
 }
+ .footer > .inner-footer > .navi > ul > li > .tooltip > p::after {
+  content:"";
+  position: absolute;
+  width:10px;
+  height: 10px;
+  background-color: #222;
+  transform: rotate(45deg);
+  bottom:-5px;
+  left:52%;
+}
+ .footer > .inner-footer > .navi > ul > li:nth-child(2) > .tooltip > p::after {
+  left:68%;
+}
+ .footer > .inner-footer > .navi > ul > li:nth-child(4) > .tooltip > p::after {
+  left:55%;
+}
 
-
-
-
-
-.infomation > .footer > .inner-footer > .copyright  {
+ .footer > .inner-footer > .copyright  {
   font-size: 14px;
   line-height: 10px;
 }
-.infomation > .footer > .inner-footer > .copyright > .copy-1 > .kosdaq {
+ .footer > .inner-footer > .copyright > .copy-1 > .kosdaq {
   color:#888888;
 }
-.infomation > .footer > .inner-footer >.related-site {
+ .footer > .inner-footer >.related-site {
   position: absolute;
   right:0;
   top:32%;
   margin-top:-25px;
 }
-.infomation > .footer > .inner-footer > .related-site > button {
+ .footer > .inner-footer > .related-site > button {
   width: 230px;
   height: 50px;
   background-color:#222;
   border:transparent;
   text-align: left;
 }
-.infomation > .footer > .inner-footer > .related-site > button > span {
+ .footer > .inner-footer > .related-site > button > span {
   color:#fff;
   font-weight: 300;
   padding-left:15px;
@@ -1282,21 +1335,21 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   position:relative;
   padding-right:100px;
 }
-.infomation > .footer > .inner-footer > .related-site > button > span::after {
+ .footer > .inner-footer > .related-site > button > span::after {
   content:"▲";
   position: absolute;
   right:0;
   font-size:10px;
   top:3px;
 }
-.infomation > .footer > .inner-footer > .related-site.active > button > span::after {
+ .footer > .inner-footer > .related-site.active > button > span::after {
   content:"▼";
   position: absolute;
   right:0;
   font-size:10px;
   top:3px;
 }
-.infomation > .footer > .inner-footer >.related-site > .site-list {
+.footer > .inner-footer >.related-site > .site-list {
   display:none;
   background-color:#fff;
   color:#000;
@@ -1305,16 +1358,16 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   left:0;
   width:100%;
 }
-.infomation > .footer > .inner-footer >.related-site.active > .site-list {
+ .footer > .inner-footer >.related-site.active > .site-list {
   display:block;
 }
-.infomation > .footer > .inner-footer >.related-site > .site-list > li > a {
+ .footer > .inner-footer >.related-site > .site-list > li > a {
   position: relative;
   display: block;
   padding: 20px 20px;
   line-height: 1;
 }
-.infomation > .footer > .inner-footer >.related-site > .site-list > li:not(:first-child) > a::before {
+.footer > .inner-footer >.related-site > .site-list > li:not(:first-child) > a::before {
   content:"";
   position: absolute;
   width:190px;
@@ -1323,7 +1376,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   left:20px;
   background-color: #ddd;
 }
-.infomation > .footer > .inner-footer >.related-site > .site-list > li > a::after {
+.footer > .inner-footer >.related-site > .site-list > li > a::after {
   content:"";
   position: absolute;
   width:9px;
@@ -1335,3 +1388,4 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
   right:25px;
 }
 /* footer 끝 */
+

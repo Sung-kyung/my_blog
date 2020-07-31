@@ -3,6 +3,7 @@ $(function () {
 
     var myFullpage = new fullpage('#fullpage', {
         scrollingSpeed: 200,
+        verticalCenter:false,
         onLeave: function (origin, destination, direction) {
             $html.attr('data-fullpage-index', destination.index);
         }
