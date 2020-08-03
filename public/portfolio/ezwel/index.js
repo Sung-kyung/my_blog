@@ -192,7 +192,7 @@ function SliderK__initAutoplay($slider) {
 }
 
 function FamilySite__init() {
-    $('.infomation > .footer > .inner-footer >.related-site').click(function() {
+    $('.footer > .inner-footer >.related-site').click(function() {
         var $this = $(this);
          var hasClass = $this.hasClass('active');
         

@@ -738,31 +738,35 @@ body {
     background-color:white;
     position:relative;
 }
-.banner-8 > .cont-text-7 {
+.text-box {
+    width:900px;
+    height:350px;
+}
+.banner-8 >.text-box> .cont-text-7 {
     position:absolute;
     padding-top:150px;
     text-align:center;
     width:100%;   
 }
-.banner-8 > .cont-text-7 > .sub-title-7 {
+.banner-8 > .text-box>.cont-text-7 > .sub-title-7 {
     font-size:40px;
     font-weight:bold;
     line-height:1.35;
 }
-.banner-8 > .cont-text-7 > .sub-title-7-text {
+.banner-8 > .text-box>.cont-text-7 > .sub-title-7-text {
     color:#666;
     margin-top:24px;
     font-weight:400;
     font-size:15px;
     line-height:1.7;
 }
-.banner-8 > .cont-btn-7 {
+.banner-8 >.text-box> .cont-btn-7 {
     position:absolute;
     top:337px;
     left:50%;
     margin-left:-129px;
 }
-.banner-8 > .cont-btn-7 > a {
+.banner-8 > .text-box>.cont-btn-7 > a {
     background-color:#f6f6f6;
     width:258px;
     height:56px;
@@ -772,10 +776,48 @@ body {
     border-radius:10px;
     text-align:center;
 }
-.banner-8 > .cont-btn-7 > a:hover {
+.banner-8 > .text-box>.cont-btn-7 > a:hover {
     text-decoration:underline;
 }
-
+.my-slider> .owl-carousel{
+    height:600px;
+}
+.my-slider {
+   margin-top:100px;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height: 600px;
+}
+.my-slider .item {
+  padding:100px 0;
+  transition: all .25s;
+  margin-left:-30px;
+  margin-right:-30px;
+  background-color: white;
+}
+.my-slider .owl-item.active.center > .item {
+  margin-left:-50px;
+  margin-right:-50px;
+  margin-top:-30px;
+}
+.my-slider .owl-item.active.center + * {
+  z-index:7; 
+}
+.my-slider .owl-item.active.center {
+    z-index:10;
+}
+.my-slider > .owl-carousel.owl-theme > .owl-nav > button {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  right:calc(100% + 100px);
+}
+.my-slider > .owl-carousel.owl-theme > .owl-nav > button:last-child {
+  left:calc(100% + 100px);
+  right:auto;
+}
 /* 8페이지 끝 */
 
 /* 마지막 페이지 */

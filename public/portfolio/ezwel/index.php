@@ -205,7 +205,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section section3">
             <div class="infomation con-box">
                 <div class="info-box">
                     <h1 class="info-title">
@@ -261,7 +261,7 @@
                             </a>
                         </li>
                     </ul>
-</div>
+                </div>
 
             </div>
             <div class="footer">
@@ -335,7 +335,8 @@
                     </div>
                 </div>
         </div>
-    </div>
+
+        </div>
 </body>
 
 </html>
