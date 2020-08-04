@@ -1,6 +1,6 @@
 $(function () {
     var myFullpage = new fullpage("#fullpage", {
-        verticalCenter: false,
+        verticalCentered: false,
         navigation: true,
         navigationPosition: "right",
         scrollingSpeed: 1000
@@ -22,11 +22,11 @@ function SideBar__init() {
         if (hasClass) {
             $btn.removeClass("active");
             $sideBar.fadeOut();
-            $sideBar.removeClass("active");
+            $sideBar.removeClass("ani-active");
         } else {
             $btn.addClass("active");
             $sideBar.fadeIn();
-             $sideBar.addClass("ani-active");
+            $sideBar.addClass("ani-active");
         }
     });
 }

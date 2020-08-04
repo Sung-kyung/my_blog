@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!--탑바-->
     <div class="top-bar flex">
         <div class="logo flex flex-1-0-0"><a href="#" class="flex flex-ai-c"><img src="https://www.seogaandcook.com/sns/img/common/logo.png" alt=""></a></div>
         <div class="menu-box-1 flex">
@@ -30,7 +31,7 @@
         </div>
         <div class="menu-ico btn-side flex flex-1-0-0 flex-jc-e"><a href="#" class="flex flex-ai-c"><img src="https://sung-kyung.github.io/img1/pf/sns/top_panel.png" alt=""></a></div>
     </div>
-
+   <!--사이드바-->
     <div class="side-bar">
         <div class="side-top-bar">
             <div class="logo-ico"><a href="#"><img src="https://www.seogaandcook.com/sns/img/common/logo.png" alt=""></a></div>
@@ -89,7 +90,9 @@
         </div>
 
     </div>
+
     <div id="fullpage">
+        <!--1페이지-->
         <div class="section">
             <div class="main">
                 <div class="main-text-box">
@@ -97,9 +100,20 @@
                     <div class="main-text-2">TASTY STORY BEGINS</div>
                     <div class="main-text-3">맛있는 이야기가 시작되는 곳</div>
                 </div>
+                <div class="mouse">
+                    <img src="https://sung-kyung.github.io/img1/pf/sns/main_v_arrow.png" alt="">
+                    <img class="mouse-dot" src="https://sung-kyung.github.io/img1/pf/sns/main_v_dot.png" alt="">
+                    <span></span>
+                </div>
             </div>
         </div>
-        <div class="section">페이지 7</div>
+        <!--2페이지-->
+        <div class="section">
+            <div class="title-text-box">
+                <div class="text-1">CREATE A PERSON'S STORY</div>
+                <div class="text-2">S&S는 사람과 공간이 함께 어울릴 수 있도록 더 풍요롭고 더 맛있는 기회와 가치를 제공합니다.</div>
+            </div>
+        </div>
         <div class="section">페이지 8</div>
         <div class="section">페이지 9</div>
         <div class="section">페이지 10</div>

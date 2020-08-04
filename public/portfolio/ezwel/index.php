@@ -206,8 +206,8 @@
             </div>
         </div>
         <div class="section section3">
-            <div class="infomation con-box">
-                <div class="info-box">
+            <div class="infomation">
+                <div class="info-box con-box">
                     <h1 class="info-title">
                         <span>SUPPORT</span>
                         이지웰의<br>이용안내입니다.
