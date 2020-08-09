@@ -114,7 +114,16 @@
                 <div class="text-2">S&S는 사람과 공간이 함께 어울릴 수 있도록 더 풍요롭고 더 맛있는 기회와 가치를 제공합니다.</div>
             </div>
         </div>
-        <div class="section">페이지 8</div>
+        <div class="section">
+            <div class="bg">
+                <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
+                <div class="our-time">
+                    <div class="our-time-1">
+                        <!-- <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourtime.png" alt=""></div> -->
+                    </div>
+
+                </div>
+        </div>
         <div class="section">페이지 9</div>
         <div class="section">페이지 10</div>
     </div>
