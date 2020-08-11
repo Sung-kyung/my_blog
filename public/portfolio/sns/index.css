@@ -658,27 +658,75 @@ label[for] {
     width:100%;
     /* min-width:1200px;
     max-width:1680px; */
+    height:501px;
     top:50%;
     left:0;
     transform:translateY(-50%);
-    border:2px solid green;
     z-index: 4;
-    margin:0 auto;
-    padding:80px 100px;
+    margin:50px auto;
+    padding:0 100px;
     position: relative;
+    
 }
 .bg > .our-time > .our-time-1 {
     width:50%;
-    height: 100%;
-    border:1px solid blue;
     position: absolute;
     top:0;
-    left:0;
+    float:left;
+    height:501px;
+}
+.bg > .our-time::after {
+    content:"";
+    display:block;
+    clear:both;
 }
 .bg > .our-time > .our-time-1 > img {
     width:668px;
     height:auto;
-    padding-top:54px;
     display: block;
+    position: absolute;
+    padding-top:45px;
+}
+.bg > .our-time > .our-time-text {
+    width:50%;
+    position: absolute;
+    height:100%;
+    top:0;
+    right:0;
+    float:right;
+    letter-spacing: -1px;
+}
+.bg > .our-time > .our-time-text > .our-time-title {
+    color:#222222;
+    font-size:25px;
+    height:40px;
+    padding-top:130px;
+}
+.bg > .our-time > .our-time-text > .our-time-con {
+    color:#333333;
+    font-size:50px;
+    margin-top:20px;
+    font-weight: 500;
+}
+.bg > .our-time > .our-time-text > .our-time-sub {
+    color:#888888;
+    font-size:18px;
+    margin-top:30px;
+    font-weight:300;
+    line-height: 1.7;
+}
+.bg > .our-time > .our-time-text > .btn-view {
+    width:170px;
+    height:50px;
+    margin-top:35px;
+    cursor: pointer;
+    background-color: #222222;
+}
+.bg > .our-time > .our-time-text > .btn-view > a {
+    color:#fff;
+    padding-top:15px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
 }
 /* 3페이지 끝 */

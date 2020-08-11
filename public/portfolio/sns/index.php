@@ -10,7 +10,9 @@
     <script src="https://alvarotrigo.com/fullPage/fullpage.js"></script>
     <link rel="stylesheet" href="https://alvarotrigo.com/fullPage/fullpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/portfolio/sns/index.css">
     <script src="/portfolio/sns/index.js"></script>
 </head>
@@ -18,7 +20,8 @@
 <body>
     <!--탑바-->
     <div class="top-bar flex">
-        <div class="logo flex flex-1-0-0"><a href="#" class="flex flex-ai-c"><img src="https://www.seogaandcook.com/sns/img/common/logo.png" alt=""></a></div>
+        <div class="logo flex flex-1-0-0"><a href="#" class="flex flex-ai-c"><img
+                    src="https://www.seogaandcook.com/sns/img/common/logo.png" alt=""></a></div>
         <div class="menu-box-1 flex">
             <ul class="flex">
                 <li class="flex"><a href="#" class="flex flex-ai-c">ABOUT US</a></li>
@@ -29,12 +32,14 @@
                 <li class="flex"><a href="#" class="flex flex-ai-c">COMMUNITY</a></li>
             </ul>
         </div>
-        <div class="menu-ico btn-side flex flex-1-0-0 flex-jc-e"><a href="#" class="flex flex-ai-c"><img src="https://sung-kyung.github.io/img1/pf/sns/top_panel.png" alt=""></a></div>
+        <div class="menu-ico btn-side flex flex-1-0-0 flex-jc-e"><a href="#" class="flex flex-ai-c"><img
+                    src="https://sung-kyung.github.io/img1/pf/sns/top_panel.png" alt=""></a></div>
     </div>
-   <!--사이드바-->
+    <!--사이드바-->
     <div class="side-bar">
         <div class="side-top-bar">
-            <div class="logo-ico"><a href="#"><img src="https://www.seogaandcook.com/sns/img/common/logo.png" alt=""></a></div>
+            <div class="logo-ico"><a href="#"><img src="https://www.seogaandcook.com/sns/img/common/logo.png"
+                        alt=""></a></div>
             <div class="btn-close btn-side"><a href="#"></a></div>
             <div class="side-menu flex flex-jc-c">
                 <ul class="flex">
@@ -119,10 +124,23 @@
                 <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
                 <div class="our-time">
                     <div class="our-time-1">
-                        <!-- <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourtime.png" alt=""></div> -->
+                        <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourtime.png" alt=""></div>
+                    <div class="our-time-text">
+                        <div class="our-time-title">S&S STORY</div>
+                        <div class="our-time-con">
+                            OUR TIME<br>IN THE SAME TIME
+                        </div>
+                        <div class="our-time-sub">
+                            우리는 그때 그곳에서처럼 당신을 기다립니다.<br>
+                            맛있는 음식, 다정하게 내 이름을 부르는 사람, 마주보며 웃는 당신이 있는 곳<br>
+                            이곳은 S&S입니다.
+                        </div>
+                        <div class="btn-view">
+                            <a href="#">VIEW MORE</a>
+                        </div>
                     </div>
-
                 </div>
+            </div>
         </div>
         <div class="section">페이지 9</div>
         <div class="section">페이지 10</div>
