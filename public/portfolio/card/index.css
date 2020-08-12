@@ -339,14 +339,15 @@ label[for] {
 /* 메인페이지 시작 */
 .main {
     position: relative;
+    height: 100vh;
 }
-
 .main-top-bar {
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .main-top-bar>.logo {
@@ -379,13 +380,12 @@ label[for] {
     display: inline-block;
     transform: rotate(-90deg);
     position: absolute;
-    top: 60%;
-    left: 30%;
-
+    top: 55%;
+    left: 33%;
 }
 
 .main .main-text>span {
-    font-size: 40px;
+    font-size: 45px;
     font-family: "youandi";
     font-weight: normal;
     color: #3d3b3b;
@@ -394,7 +394,7 @@ label[for] {
 .main .box-1 {
     width: 250px;
     margin: 0 auto;
-    margin-top: 220px;
+    padding-bottom:300px;
 }
 
 .main .box-1::after {
@@ -454,13 +454,22 @@ label[for] {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition:opacity .4s;
+    z-index:102;
+    position: absolute;
+    top:0;
+    left:0;
 }
-
+.side-bar.active {
+    opacity: 1;
+}
 .side-bar>ul {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
+    z-index:102;
 }
 
 .side-bar>ul>li>a {
@@ -475,16 +484,61 @@ label[for] {
 .side-bar>ul>li > a::after {
     content: "";
     position: absolute;
-    height: 2px;
-    width:100%;
+    height: 5px;
+    width: 0;
     background-color: #ffed24;
     top: 50%;
     left: 0;
-    transition:left .3s;
+    transition:left .3s, width .3s;
 }
 
-.side-bar>ul>li:hover::after {
-    left:100%;
+.side-bar>ul>li:hover a::after {
+    width: 100%;
 }
-
+.side-bar > .close-btn {
+    position: absolute;
+    right:0;
+    top:0;
+    padding:20px 45px;
+    z-index:102;
+    cursor:pointer;
+}
+.side-bar > .close-btn > span {
+    color:#fff;
+    font-size:30px;
+}
 /* 사이드바 끝 */
+
+/* zero card 시작 */
+
+.zero-card {
+    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100vh;
+    z-index: -1;
+    position: relative;
+}
+.zero-card > .zero-box {
+    height: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-48%);
+    overflow: hidden;
+}
+.zero-card > .zero-box::after {
+    content:"";
+    background-size: 100% 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.zero-card > .zero-box > img {
+    width:100%;
+}
+.zero-card > .zero-box > .zero-text {
+}
+/* zero card 끝 */

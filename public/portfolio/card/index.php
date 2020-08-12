@@ -14,31 +14,30 @@
 
 <body>
     <!--탑바-->
-        <div class="main-top-bar flex flex-jc-sb">
-                    <div class="logo flex flex-1-0-0">
-                        <a href="#" class="flex flex-ai-c"><img
-                                src="https://sung-kyung.github.io/img1/pf/card/card_image/logo_header%20(1).png"
-                                alt=""></a>
-                    </div>
-                    <div class="side-btn flex">
-                        <span class="flex flex-ai-c"><i class="fas fa-bars"></i></span>
-                    </div>
-                </div>
-    <!--사이드바-->
-        <div class="side-bar">
-            <ul>
-                <li><a href="#">CARD</a></li>
-                <li><a href="#">MY ACCOUNT</a></li>
-                <li><a href="#">BENEFIT</a></li>
-                <li><a href="#">FINANCE</a></li>
-                <li><a href="#">CULTURE & LIFE</a></li>
-                <li><a href="#">SERVICE</a></li>
-            </ul>
+    <div class="main-top-bar flex flex-jc-sb">
+        <div class="logo flex flex-1-0-0">
+            <a href="#" class="flex flex-ai-c"><img
+                    src="https://sung-kyung.github.io/img1/pf/card/card_image/logo_header%20(1).png" alt=""></a>
         </div>
+        <div class="side-btn flex">
+            <span class="flex flex-ai-c"><i class="fas fa-bars"></i></span>
+        </div>
+    </div>
+    <!--사이드바-->
+    <div class="side-bar">
+        <ul>
+            <li><a href="#">CARD</a></li>
+            <li><a href="#">MY ACCOUNT</a></li>
+            <li><a href="#">BENEFIT</a></li>
+            <li><a href="#">FINANCE</a></li>
+            <li><a href="#">CULTURE & LIFE</a></li>
+            <li><a href="#">SERVICE</a></li>
+        </ul>
+        <div class="side-btn close-btn"><span><i class="fas fa-times"></i></span></div>
+    </div>
     <div id="fullpage">
-        <div class="section">
+        <div class="section section-1">
             <div class="main">
-            
                 <div class="side-text">HYUNDAI CARD</div>
                 <div class="box-1 relative">
                     <div class="bg">
@@ -50,11 +49,22 @@
                     </div>
                 </div>
                 <div class="main-text">
-                        <span>세상에 없던<br>놀라운 카드</span>
-                    </div>
+                    <span>세상에 없던<br>놀라운 카드</span>
+                </div>
             </div>
         </div>
-        <div class="section">페이지 2</div>
+        <div class="section" style="position:relative;">
+            <div class="zero-card">
+                <div class="zero-box">
+                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/zero-card.png" alt="">
+                    <div class="zero-text">
+                        <div class="zero-main-1">ZERO</div>
+                        <div class="zero-main-2">EDITION</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <div class="section">페이지 3</div>
         <div class="section">페이지 4</div>
         <div class="section">페이지 5</div>
