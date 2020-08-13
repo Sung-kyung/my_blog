@@ -35,24 +35,30 @@
         </ul>
         <div class="side-btn close-btn"><span><i class="fas fa-times"></i></span></div>
     </div>
+    <!--풀페이지 시작 -->
     <div id="fullpage">
+        <!--메인페이지-->
         <div class="section section-1">
             <div class="main">
                 <div class="side-text">HYUNDAI CARD</div>
-                <div class="box-1 relative">
-                    <div class="bg">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 490.1">
-                            <path class="path"
-                                d="M555.5,196.5v464s1,11,14,12h283s11-1,11-12v-464s-1-12-13-12h-279S557.5,182.5,555.5,196.5Z"
-                                transform="translate(-554.5 -183.4)" />
-                        </svg>
+                <div class="main-box">
+                    <div class="box-1 relative">
+                        <div class="bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 490.1">
+                                <path class="path"
+                                    d="M555.5,196.5v464s1,11,14,12h283s11-1,11-12v-464s-1-12-13-12h-279S557.5,182.5,555.5,196.5Z"
+                                    transform="translate(-554.5 -183.4)" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="main-text">
+                        <span>세상에 없던<br>놀라운 카드</span>
                     </div>
                 </div>
-                <div class="main-text">
-                    <span>세상에 없던<br>놀라운 카드</span>
-                </div>
+
             </div>
         </div>
+        <!--제로 에디션-->
         <div class="section section-2" style="position:relative;">
             <div class="zero-box-1">
                 <div class="box">
@@ -67,6 +73,25 @@
                 <img class="circle-1" src="https://sung-kyung.github.io/img1/pf/card/card_image/circle-1.png" alt="">
                 <img class="circle-2" src="https://sung-kyung.github.io/img1/pf/card/card_image/circle-2.png" alt="">
             </div>
+            <div class="zero-sub-box">
+                <div class="sub-text-w sub-1">
+                    <p class="sub-title">제한 없이 누구나 쉽게</p>
+                    <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
+                </div>
+                <div class="sub-text-w sub-2">
+                    <p class="sub-title">제한 없이 누구나 쉽게</p>
+                    <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
+                </div>
+                <div class="sub-text-b sub-3">
+                    <p class="sub-title">제한 없이 누구나 쉽게</p>
+                    <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
+                </div>
+                <div class="sub-text-b sub-4">
+                    <p class="sub-title">제한 없이 누구나 쉽게</p>
+                    <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
+                </div>
+            </div>
+            <div class="y-circle"></div>
         </div>
         <div class="section">페이지 3</div>
         <div class="section">페이지 4</div>

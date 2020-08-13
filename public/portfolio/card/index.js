@@ -3,7 +3,7 @@ $(function () {
         verticalCentered: false,
         navigation: false,
         navigationPosition: "right",
-        scrollingSpeed: 1000
+        scrollingSpeed: 800
     });
 });
 

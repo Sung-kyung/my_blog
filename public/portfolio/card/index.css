@@ -341,6 +341,7 @@ label[for] {
     position: relative;
     height: 100vh;
 }
+
 .main-top-bar {
     height: 80px;
     position: fixed;
@@ -375,13 +376,18 @@ label[for] {
     top: 50%;
     font-family: "youandi";
 }
-
+.main-box {
+    width:600px;
+    height: 700px;
+    margin:0 auto;
+    position: relative;
+}
 .main .main-text {
     display: inline-block;
     transform: rotate(-90deg);
     position: absolute;
-    top: 55%;
-    left: 33%;
+    bottom:10%;
+    left:0;
 }
 
 .main .main-text>span {
@@ -394,7 +400,7 @@ label[for] {
 .main .box-1 {
     width: 250px;
     margin: 0 auto;
-    padding-bottom:300px;
+    padding-bottom: 300px;
 }
 
 .main .box-1::after {
@@ -455,21 +461,23 @@ label[for] {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
-    transition:opacity .4s;
-    z-index:102;
+    transition: opacity .4s;
+    z-index: 102;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
+
 .side-bar.active {
     opacity: 1;
 }
+
 .side-bar>ul {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
-    z-index:102;
+    z-index: 102;
 }
 
 .side-bar>ul>li>a {
@@ -481,7 +489,7 @@ label[for] {
     display: inline-block;
 }
 
-.side-bar>ul>li > a::after {
+.side-bar>ul>li>a::after {
     content: "";
     position: absolute;
     height: 5px;
@@ -489,84 +497,91 @@ label[for] {
     background-color: #ffed24;
     top: 50%;
     left: 0;
-    transition:left .3s, width .3s;
+    transition: left .3s, width .3s;
 }
 
 .side-bar>ul>li:hover a::after {
     width: 100%;
 }
-.side-bar > .close-btn {
+
+.side-bar>.close-btn {
     position: absolute;
-    right:0;
-    top:0;
-    padding:20px 45px;
-    z-index:102;
-    cursor:pointer;
+    right: 0;
+    top: 0;
+    padding: 20px 45px;
+    z-index: 102;
+    cursor: pointer;
 }
-.side-bar > .close-btn > span {
-    color:#fff;
-    font-size:30px;
+
+.side-bar>.close-btn>span {
+    color: #fff;
+    font-size: 30px;
 }
+
 /* 사이드바 끝 */
 
 /* zero card 시작 */
 
 .zero-box-1 {
-    height:100vh;
-    background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png?dummy=12312);
-    background-size:100% 100%;
-    position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-width:800px;
+    height: 100vh;
+    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png?dummy=12312);
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
 }
 
-.zero-box-1 > .box {
-    width:308px;
-    height:488px;
-    border-radius:10px;
-    overflow:hidden;
-    position:relative;
+.zero-box-1>.box {
+    width: 308px;
+    height: 488px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
     z-index: 5;
     box-shadow: 5px 5px 10px #383838;
 }
 
-.zero-box-1 > .box::after {
-    content:"";
-    position:absolute;
-    top:calc((100vh - 488px) / 2 * -1);
-    left:calc((100vw - 308px) / 2 * -1);
-    width:100vw;
-    height:100vh;
-    background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png);
-    background-size:100% 100%;
-    transform:rotate(180deg);
-    background-color:white;
+.zero-box-1>.box::after {
+    content: "";
+    position: absolute;
+    top: calc((100vh - 488px) / 2 * -1);
+    left: calc((100vw - 308px) / 2 * -1);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png);
+    background-size: 100% 100%;
+    transform: rotate(180deg);
+    background-color: white;
 }
-.zero-box-1 > .box > img {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:10;
+
+.zero-box-1>.box>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
-@media ( max-width:800px ) {
-    .zero-box-1 > .box::after {
-        left:calc((800px - 200px) / 2 * -1);
-        width:800px;
+
+@media (max-width:800px) {
+    .zero-box-1>.box::after {
+        left: calc((800px - 200px) / 2 * -1);
+        width: 800px;
     }
 }
+
 .zero-text-box {
-    width:100%;
+    width: 100%;
     height: 200px;
     position: absolute;
-    top:35%;
-    left:0;
+    top: 35%;
+    left: 0;
     display: flex;
     text-align: center;
     opacity: 0;
 }
-.section-2.active .zero-text-box{
+
+.section-2.active .zero-text-box {
     animation: zero 3s .5s;
     animation-fill-mode: forwards;
 }
@@ -576,114 +591,217 @@ label[for] {
         opacity: 0;
         transform: translateY(100px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.zero-text-box > .z-text-1 {
-    color:#fff;
+.zero-text-box>.z-text-1 {
+    color: #fff;
     display: inline-block;
     font-size: 90px;
     font-family: "youandi";
-    width:50%;
-    padding-top:50px;
-    margin-left:230px;
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 230px;
 }
-.section-2.active .zero-text-box > .z-text-1 {
+
+.section-2.active .zero-text-box>.z-text-1 {
     animation: remove .5s 3.5s;
     animation-fill-mode: forwards;
 }
 
-.zero-text-box > .z-text-2 {
+.zero-text-box>.z-text-2 {
     display: inline-block;
     font-size: 90px;
     font-family: "youandi";
-    width:50%;
-    padding-top:50px;
-    margin-right:200px;
-    color:#383838;
+    width: 50%;
+    padding-top: 50px;
+    margin-right: 200px;
+    color: #383838;
 }
-.section-2.active .zero-text-box > .z-text-2 {
+
+.section-2.active .zero-text-box>.z-text-2 {
     animation: remove-2 .5s 3.5s;
     animation-fill-mode: forwards;
 }
+
 @keyframes remove {
     0% {
         opacity: 1;
-        transform:translateX(0);
+        transform: translateX(0);
     }
+
     100% {
         opacity: 0;
-        transform:translateX(-100px);
+        transform: translateX(-100px);
     }
 }
+
 @keyframes remove-2 {
     0% {
         opacity: 1;
-        transform:translateX(0);
+        transform: translateX(0);
     }
+
     100% {
         opacity: 0;
-        transform:translateX(100px);
+        transform: translateX(100px);
     }
 }
-.section-2 .circle > .circle-1 {
+
+.section-2 .circle>.circle-1 {
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translateX(-50%)translateY(-50%);
     z-index: 1;
     opacity: 0;
 }
-.section-2.active .circle > .circle-1 {
+
+.section-2.active .circle>.circle-1 {
     animation: circle-on 0.8s 3s forwards, rotate-ani 40s 4.3s infinite;
 }
 
-.section-2 .circle > .circle-2 {
+.section-2 .circle>.circle-2 {
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translateX(-50%)translateY(-50%);
     z-index: 1;
     opacity: 0;
 }
-.section-2.active .circle > .circle-2 {
+
+.section-2.active .circle>.circle-2 {
     animation: circle-on 0.8s 3.5s forwards, rotate-ani-2 40s 4.3s alternate infinite;
 }
+
 @keyframes circle-on {
     0% {
         opacity: 0;
         transform: translateX(-50%)translateY(-50%)scale(0.2);
     }
+
     95% {
         opacity: 1;
         transform: translateX(-50%)translateY(-50%)scale(1.05);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(-50%)translateY(-50%)scale(1);
     }
 }
+
 @keyframes rotate-ani {
     0% {
         opacity: 1;
         transform: translateX(-50%)translateY(-50%)scale(1);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(-50%)translateY(-50%)scale(1)rotate(360deg);
     }
 }
+
 @keyframes rotate-ani-2 {
     0% {
         opacity: 1;
         transform: translateX(-50%)translateY(-50%)scale(1);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(-50%)translateY(-50%)scale(1)rotate(-360deg);
+    }
+}
+
+.section-2 .zero-sub-box>.sub-text-w,
+.section-2 .zero-sub-box>.sub-text-b {
+    position: absolute;
+}
+
+.section-2 .zero-sub-box>.sub-text-w {
+    color: #fff;
+}
+.section-2 .zero-sub-box>.sub-text-b {
+    color: #383838;
+}
+.section-2 .zero-sub-box>.sub-1 {
+    top: 20%;
+    left: 9%;
+}
+.section-2 .zero-sub-box>.sub-2 {
+    top: 60%;
+    left: 7%;
+}
+.section-2 .zero-sub-box>.sub-3 {
+    top: 30%;
+    right: 8%;
+}
+.section-2 .zero-sub-box>.sub-4 {
+    top: 70%;
+    right: 9%;
+}
+
+.section-2 .zero-sub-box>.sub-text-w>.sub-title {
+    font-size: 2.1vw;
+    font-family: "youandi";
+    font-weight: normal;
+}
+
+.section-2 .zero-sub-box>.sub-text-w>.sub-con {
+    font-size: 0.8vw;
+    font-family: "youandi";
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: -3px;
+}
+.section-2 .zero-sub-box>.sub-text-b>.sub-title {
+    font-size: 2.1vw;
+    font-family: "youandi";
+    font-weight: normal;
+}
+
+.section-2 .zero-sub-box>.sub-text-b>.sub-con {
+    font-size: 0.8vw;
+    font-family: "youandi";
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: -3px;
+}
+.section-2 .y-circle {
+    width:13px;
+    height:13px;
+    border-radius: 50%;
+    background-color: #deb821;
+    position: absolute;
+    top:30%;
+    left:29%;
+    z-index:13;
+}
+
+@media (min-width:1201px) {
+    .zero-text-box > .z-text-1 {
+        font-size: 90px;
+        margin-left:230px;
+    }
+    .zero-text-box > .z-text-2 {
+        font-size: 90px;
+        margin-left:230px;
+    }
+}
+@media (max-width:1200px) {
+    .zero-text-box > .z-text-1 {
+        font-size: 40px;
+        margin-left: 80px;
+    }
+    .zero-text-box > .z-text-2 {
+        font-size: 40px;
+        margin-left: 50px;
     }
 }
 /* zero card 끝 */
