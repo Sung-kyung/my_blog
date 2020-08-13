@@ -53,16 +53,19 @@
                 </div>
             </div>
         </div>
-        <div class="section" style="position:relative;">
-            <div class="zero-card">
-                <div class="zero-box">
-                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/zero-card.png" alt="">
-                    <div class="zero-text">
-                        <div class="zero-main-1">ZERO</div>
-                        <div class="zero-main-2">EDITION</div>
-                    </div>
-
+        <div class="section section-2" style="position:relative;">
+            <div class="zero-box-1">
+                <div class="box">
+                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/card-trans.png" alt="">
                 </div>
+            </div>
+            <div class="zero-text-box">
+                <div class="z-text-1">ZERO</div>
+                <div class="z-text-2">EDITION</div>
+            </div>
+            <div class="circle">
+                <img class="circle-1" src="https://sung-kyung.github.io/img1/pf/card/card_image/circle-1.png" alt="">
+                <img class="circle-2" src="https://sung-kyung.github.io/img1/pf/card/card_image/circle-2.png" alt="">
             </div>
         </div>
         <div class="section">페이지 3</div>

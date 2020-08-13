@@ -511,34 +511,179 @@ label[for] {
 
 /* zero card 시작 */
 
-.zero-card {
-    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.zero-box-1 {
     height:100vh;
-    z-index: -1;
-    position: relative;
+    background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png?dummy=12312);
+    background-size:100% 100%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-width:800px;
 }
-.zero-card > .zero-box {
-    height: 500px;
+
+.zero-box-1 > .box {
+    width:308px;
+    height:488px;
+    border-radius:10px;
+    overflow:hidden;
+    position:relative;
+    z-index: 5;
+    box-shadow: 5px 5px 10px #383838;
+}
+
+.zero-box-1 > .box::after {
+    content:"";
+    position:absolute;
+    top:calc((100vh - 488px) / 2 * -1);
+    left:calc((100vw - 308px) / 2 * -1);
+    width:100vw;
+    height:100vh;
+    background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png);
+    background-size:100% 100%;
+    transform:rotate(180deg);
+    background-color:white;
+}
+.zero-box-1 > .box > img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:10;
+}
+@media ( max-width:800px ) {
+    .zero-box-1 > .box::after {
+        left:calc((800px - 200px) / 2 * -1);
+        width:800px;
+    }
+}
+.zero-text-box {
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top:35%;
+    left:0;
+    display: flex;
+    text-align: center;
+    opacity: 0;
+}
+.section-2.active .zero-text-box{
+    animation: zero 3s .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zero {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.zero-text-box > .z-text-1 {
+    color:#fff;
+    display: inline-block;
+    font-size: 90px;
+    font-family: "youandi";
+    width:50%;
+    padding-top:50px;
+    margin-left:230px;
+}
+.section-2.active .zero-text-box > .z-text-1 {
+    animation: remove .5s 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.zero-text-box > .z-text-2 {
+    display: inline-block;
+    font-size: 90px;
+    font-family: "youandi";
+    width:50%;
+    padding-top:50px;
+    margin-right:200px;
+    color:#383838;
+}
+.section-2.active .zero-text-box > .z-text-2 {
+    animation: remove-2 .5s 3.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes remove {
+    0% {
+        opacity: 1;
+        transform:translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform:translateX(-100px);
+    }
+}
+@keyframes remove-2 {
+    0% {
+        opacity: 1;
+        transform:translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform:translateX(100px);
+    }
+}
+.section-2 .circle > .circle-1 {
     position: absolute;
     top:50%;
     left:50%;
-    transform: translateX(-50%)translateY(-48%);
-    overflow: hidden;
+    transform: translateX(-50%)translateY(-50%);
+    z-index: 1;
+    opacity: 0;
 }
-.zero-card > .zero-box::after {
-    content:"";
-    background-size: 100% 100%;
+.section-2.active .circle > .circle-1 {
+    animation: circle-on 0.8s 3s forwards, rotate-ani 40s 4.3s infinite;
+}
+
+.section-2 .circle > .circle-2 {
     position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    z-index: 1;
+    opacity: 0;
 }
-.zero-card > .zero-box > img {
-    width:100%;
+.section-2.active .circle > .circle-2 {
+    animation: circle-on 0.8s 3.5s forwards, rotate-ani-2 40s 4.3s alternate infinite;
 }
-.zero-card > .zero-box > .zero-text {
+@keyframes circle-on {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%)translateY(-50%)scale(0.2);
+    }
+    95% {
+        opacity: 1;
+        transform: translateX(-50%)translateY(-50%)scale(1.05);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-50%)translateY(-50%)scale(1);
+    }
+}
+@keyframes rotate-ani {
+    0% {
+        opacity: 1;
+        transform: translateX(-50%)translateY(-50%)scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-50%)translateY(-50%)scale(1)rotate(360deg);
+    }
+}
+@keyframes rotate-ani-2 {
+    0% {
+        opacity: 1;
+        transform: translateX(-50%)translateY(-50%)scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-50%)translateY(-50%)scale(1)rotate(-360deg);
+    }
 }
 /* zero card 끝 */
