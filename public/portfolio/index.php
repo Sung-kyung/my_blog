@@ -49,6 +49,12 @@ include "../../part/head.php";
         <a href="/portfolio/sns" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
         <div class="port-title"><a href="https://www.seogaandcook.com/sns/company/#anchor1" target="_blank">S&S</a></div>
     </li>
+    <li class="cell">
+        <a href="/portfolio/card" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <div class="port-title"><a href="https://www.hyundaicard.com/index.jsp" target="_blank">HYUNDAI CARD</a></div>
+    </li>
+    <h1>현대카드 디자인 시안</h1>
+    <a data-title="메인"" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/card/card_image/design.png">시안</a>
 
 
     <h1>어플 디자인</h1>
@@ -56,11 +62,6 @@ include "../../part/head.php";
 <a data-title="2페이지" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/2페이지.png" style="display:none;">이미지2</a>
 <a data-title="사이드바" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/side-bar.png" style="display:none;">이미지3</a>
 <a data-title="로그인" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/Login.png" style="display:none;">이미지4</a>
-
-    <!-- <a href="https://sung-kyung.github.io/img1/pf/artworks/1/main.png">디자인1</a>
-<a href="https://sung-kyung.github.io/img1/pf/artworks/1/2페이지.png">디자인2</a>
-<a href="https://sung-kyung.github.io/img1/pf/artworks/1/side-bar.png">디자인3</a>
-<a href="https://sung-kyung.github.io/img1/pf/artworks/1/Login.png">디자인4</a> -->
 </ul>
 <?php
 include "../../part/foot.php";

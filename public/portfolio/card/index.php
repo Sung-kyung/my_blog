@@ -72,28 +72,62 @@
             <div class="circle">
                 <img class="circle-1" src="https://sung-kyung.github.io/img1/pf/card/card_image/circle-1.png" alt="">
                 <img class="circle-2" src="https://sung-kyung.github.io/img1/pf/card/card_image/circle-2.png" alt="">
+                <div class="y-circle y-circle-1"></div>
+                <div class="y-circle y-circle-2"></div>
+                <div class="y-circle y-circle-3"></div>
+                <div class="y-circle y-circle-4"></div>
             </div>
             <div class="zero-sub-box">
-                <div class="sub-text-w sub-1">
+                <div class="sub-text sub-text-w sub-1">
                     <p class="sub-title">제한 없이 누구나 쉽게</p>
                     <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
                 </div>
-                <div class="sub-text-w sub-2">
+                <div class="sub-text sub-text-w sub-2">
                     <p class="sub-title">제한 없이 누구나 쉽게</p>
                     <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
                 </div>
-                <div class="sub-text-b sub-3">
+                <div class="sub-text sub-text-b sub-3">
                     <p class="sub-title">제한 없이 누구나 쉽게</p>
                     <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
                 </div>
-                <div class="sub-text-b sub-4">
+                <div class="sub-text sub-text-b sub-4">
                     <p class="sub-title">제한 없이 누구나 쉽게</p>
                     <p class="sub-con">전월 실적 걱정은 그만<br>누구나 혜택 제공 횟수와 한도 제한 없이</p>
                 </div>
             </div>
-            <div class="y-circle"></div>
         </div>
-        <div class="section">페이지 3</div>
+
+        <!--디지털 러버-->
+        <div class="section section-3">
+            <div class="digital">
+                <div class="digi-text-box">
+                    <div class="digi-title">나만의 우주를 여행하는</div>
+                    <div class="digi-title digi-title-bold">디지털 여행자를 위한 특별한 디자인.</div>
+                    <div class="digi-title">&nbsp; 그 네가지 이야기를 소개합니다.</div>
+                    <div class="go-to-benefit">
+                        <p class="go-btn">혜택 보러가기</p>
+                        <a href="#"><img src="https://sung-kyung.github.io/img1/pf/card/card_image/go.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="digi-content">
+                    <div class="slide-digi-box">
+                        <div class="slide-digi"
+                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90059145_3383433341671068_9076477566851743744_o.jpg);">
+                        </div>
+                        <div class="slide-digi"
+                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90189834_3383433108337758_1704240703770460160_o.jpg);">
+                        </div>
+                        <div class="slide-digi"
+                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90246372_3383432808337788_604448833673363456_o.jpg);">
+                        </div>
+                        <div class="slide-digi"
+                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90377355_3383433215004414_7847199051324850176_o.jpg);">
+                        </div>
+                    </div>
+                    <div class="card-slide-box"></div>
+                </div>
+            </div>
+        </div>
         <div class="section">페이지 4</div>
         <div class="section">페이지 5</div>
         <div class="section">페이지 6</div>
