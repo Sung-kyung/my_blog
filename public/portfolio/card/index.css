@@ -349,8 +349,9 @@ label[for] {
 
 /* 커스텀 */
 .section {
-    min-width:1600px;
+    min-width: 1600px;
 }
+
 /* 메인페이지 시작 */
 .main {
     position: relative;
@@ -393,7 +394,7 @@ label[for] {
 }
 
 .main-box {
-    width: 600px;
+    width: 900px;
     height: 700px;
     margin: 0 auto;
     position: relative;
@@ -404,7 +405,7 @@ label[for] {
     transform: rotate(-90deg);
     position: absolute;
     bottom: 10%;
-    left: 0;
+    left: 17%;
 }
 
 .main .main-text>span {
@@ -446,6 +447,21 @@ label[for] {
     animation: dash 5s linear infinite;
 }
 
+.main .main-box>.show-card {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -1;
+    animation: showCard 2.1s 2.8s forwards;
+}
+
+.main .main-box>.show-card>img {
+    width: 250px;
+    height: 395.24px;
+}
+
 @keyframes dash {
     0% {
         stroke-dashoffset: 1570;
@@ -470,6 +486,18 @@ label[for] {
     }
 }
 
+@keyframes showCard {
+    0% {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-130%);
+    }
+}
+
 /* 메인페이지 끝 */
 
 /* 사이드바 시작 */
@@ -483,10 +511,12 @@ label[for] {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
 }
 
 .side-bar.active {
     opacity: 1;
+    display: block;
 }
 
 .side-bar>ul {
@@ -863,7 +893,7 @@ label[for] {
 }
 
 .section-2 .zero-sub-box>.sub-text-w>.sub-title {
-    font-size: 40px;
+    font-size: 36px;
     font-family: "youandi";
     font-weight: 700;
 }
@@ -895,62 +925,231 @@ label[for] {
 /* 디지털러버 시작 */
 .section-3 {
     background-color: #eeeeee;
+    overflow: hidden;
 }
-.section-3 > .digital > .digi-text-box {
-    width:1500px;
-    height:300px;
+
+.section-3>.digital>.digi-text-box {
+    width: 1500px;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
 }
-.section-3 > .digital > .digi-text-box > .digi-title {
+
+.section-3>.digital>.digi-text-box>.digi-title {
     display: inline-block;
-    margin-top:150px;
+    margin-top: 150px;
     font-family: "youandi";
-    font-size:30px;
+    font-size: 30px;
     font-weight: 500;
-    color:#3d3b3b;
+    color: #3d3b3b;
     letter-spacing: 1.8;
 }
-.section-3 > .digital > .digi-text-box > .digi-title-bold {
+
+.section-3>.digital>.digi-text-box>.digi-title-bold {
     font-weight: 700;
-    font-size:40px;
+    font-size: 40px;
 }
-.section-3 > .digital > .digi-text-box > .go-to-benefit {
-    margin-top:50px;
+
+.section-3>.digital>.digi-text-box>.go-to-benefit {
+    margin-top: 50px;
     position: relative;
 }
-.section-3 > .digital > .digi-text-box > .go-to-benefit > .go-btn {
+
+.section-3>.digital>.digi-text-box>.go-to-benefit>.go-btn {
     cursor: pointer;
     font-family: "youandi";
-    font-size:18px;
+    font-size: 18px;
     font-weight: 400;
-    color:#878e94;
+    color: #878e94;
     display: inline-block;
 }
-.section-3 > .digital > .digi-text-box > .go-to-benefit > a >img{
+
+.section-3>.digital>.digi-text-box>.go-to-benefit>a>img {
     position: absolute;
-    top:-64px;
-    left:45.5%;
+    top: -64px;
+    left: 45.5%;
 }
-.section-3  .digital .digi-content {
-    border:1px solid red;
-    width:100%;
-    height:600px;
+
+.section-3 .digital .digi-content {
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
     position: relative;
 }
-.section-3  .digital .digi-content .slide-digi-box {
-    border:1px solid blue;
-    width:50%;
-    height:100%
+
+.section-3 .digital .digi-content .slide-digi-box {
+    width: 50%;
+    height: 100%;
+    position: relative;
 }
+
 .section-3 .digital .digi-content .slide-digi-box .slide-digi {
     background-repeat: no-repeat;
     background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 17%;
+}
+
+.section-3 .digital .digi-content .card-slide-box {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.my-slider-1 {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.my-slider-1 .item {
+    background-color: #eeeeee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    transition: all .25s;
+}
+
+.my-slider-1 .owl-item.active.center>.item {
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: -60px;
+}
+
+.my-slider-1 .owl-item.active.center+* {
+    z-index: 7;
+}
+
+.my-slider-1 .owl-item.active.center {
+    z-index: 10;
+}
+
+.my-slider-1>.owl-carousel.owl-theme>.owl-nav>button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: calc(100% + 30px);
+}
+
+.my-slider-1>.owl-carousel.owl-theme>.owl-nav>button:last-child {
+    left: calc(100% + 30px);
+    right: auto;
+}
+
+/* 디지털러버 끝 */
+
+/* m/x edition 시작 */
+.mx-edition {
     width:100%;
     height:100%;
+    position: relative;
+    overflow: hidden;
+}
+.mx-edition  > .video-box {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: block;
+}
+.mx-edition  > .video-box > video {
     position: absolute;
     top:0;
     left:0;
-    border:1px solid green;
+    width:100%;
+    height:100%;
+    display: block;
+    object-fit:cover;
 }
-/* 디지털러버 끝 */
+.mx-edition  .mx-text-box {
+    height: 200px;
+    width:94%;
+    display: block;
+    position: relative;
+}
+.mx-edition  .mx-text-box .mx-text {
+    text-align: right;
+    margin-top:50px;
+}
+.mx-edition  .mx-text-box .line {
+    width:100px;
+    height:5px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    right:0;
+    top:30px;
+}
+.mx-edition  .mx-text-box .mx-text .mx-title {
+    font-size:30px;
+    font-family: "youandi";
+    font-weight: 600;
+}
+.mx-edition  .mx-text-box .mx-text .mx-sub {
+    font-size:15px;
+    font-family: "youandi";
+    font-weight: 300;
+    margin-top:12px;
+}
+/* m/x edition 끝 */
+
+/* dive 시작 */
+.dive {
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.dive > .bg-white {
+    width:100%;
+    height:70%;
+    background-color: white;
+    display: block;
+}
+.dive > .bg-black {
+    width:100%;
+    height:30%;
+    background-color: black;
+    display: block;
+}
+.dive > .bg-white > .dive-logo {
+    width:50%;
+    height:100%;
+    position:relative;
+}
+.dive > .bg-white > .dive-logo > img {
+    margin-top:-50px;
+    display: inline-block;;
+}
+.dive > .bg-white > .dive-logo .dive-text {
+    position: absolute;
+    top:450px;
+    left:16%;
+    font-weight: 500;
+    font-family: "youandi";
+    width:100%;
+    height:100%;
+}
+.dive > .bg-white > .dive-logo .dive-text > p {
+    font-size:13px;
+    font-weight: 300;
+    margin-top:-10px;
+    letter-spacing: 1.5;
+}
+.dive > .bg-black > .phone {
+    position: absolute;
+    bottom:8%;
+    right:14%;
+}
+.dive > .bg-black > .phone > .phone-img {
+    height:620px;
+}
+.dive > .bg-black .hand-img {
+    bottom:0;
+    right:0;
+    position: absolute;
+}
+/* dive 끝 */

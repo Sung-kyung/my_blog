@@ -1,3 +1,22 @@
+function MySlider1__init() {
+    $('.my-slider-1 .owl-carousel').owlCarousel({
+        responsive: {
+            0: {
+                items: 3
+            }
+        },
+        loop: true,
+        dots: false,
+        nav: true,
+        navText: ['<img src="https://sung-kyung.github.io/img1/pf/card/card_image/card_arrowlf.png" alt="">', '<img src="https://sung-kyung.github.io/img1/pf/card/card_image/card_arrowrt.png" alt="">'],
+        center: true
+    });
+}
+
+$(function () {
+    MySlider1__init();
+});
+
 $(function () {
     var myFullpage = new fullpage("#fullpage", {
         verticalCentered: false,
@@ -23,6 +42,7 @@ function ShowSideBar__init() {
         }
     });
 }
-$(function() {
-   ShowSideBar__init(); 
+$(function () {
+    ShowSideBar__init();
 });
+

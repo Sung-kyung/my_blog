@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyundai Card</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://alvarotrigo.com/fullPage/fullpage.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="/portfolio/card/index.css">
@@ -54,6 +59,8 @@
                     <div class="main-text">
                         <span>세상에 없던<br>놀라운 카드</span>
                     </div>
+                    <div class="show-card"><img
+                            src="https://sung-kyung.github.io/img1/pf/card/card_image/card_ZRO_h.png" alt=""></div>
                 </div>
 
             </div>
@@ -124,12 +131,68 @@
                             style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90377355_3383433215004414_7847199051324850176_o.jpg);">
                         </div>
                     </div>
-                    <div class="card-slide-box"></div>
+                    <div class="card-slide-box">
+                        <div class="my-slider-1">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/card_ONOF_h.png"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/img_card_rustyrobot.png"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/img_card_foggyplanet.png"
+                                        alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://sung-kyung.github.io/img1/pf/card/card_image/img_card_starbomb.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="section">페이지 4</div>
-        <div class="section">페이지 5</div>
+        <!--m/x edition-->
+        <div class="section section-4">
+            <div class="mx-edition">
+                <div class="video-box">
+                    <video src="https://sung-kyung.github.io/img1/pf/card/card_image/hyundai_card.mp4"
+                        autoplay="autoplay" loop="loop" muted="muted"></video>
+                </div>
+                <div class="mx-text-box row">
+                    <div class="mx-text cell-right">
+                        <div class="mx-title">Colorful, Wonderful</div>
+                        <div class="mx-sub">The world is changing, and I can't stand it.<br>Enjoy a various benefits
+                            with Hyundai Card</div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <!--dive-->
+        <div class="section section-5">
+            <div class="dive">
+                <div class="bg-white">
+                    <div class="dive-logo">
+                        <img src="https://sung-kyung.github.io/img1/pf/card/card_image/animation.gif" alt="">
+                        <div class="dive-text">
+                            <h2>힙스터들의 필수 앱</h2>
+                            <p>Get word from Hyundai Card as soon as possible.<br>With th dive app, you can be a hipster from today.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-black">
+                    <div class="phone">
+                        <img class="phone-img" src="https://sung-kyung.github.io/img1/pf/card/card_image/phone-shadow.png?dummy123123" alt="no">
+                    </div>
+                    <img class="hand-img" src="https://sung-kyung.github.io/img1/pf/card/card_image/hand-1.png?dummy123123123123" alt="no">
+                </div>
+            </div>
+        </div>
         <div class="section">페이지 6</div>
     </div>
 </body>
