@@ -1211,9 +1211,12 @@ label[for] {
     width:100%;
     height:100%;
 }
+.dive > .bg-black {
+    position: relative;
+}
 .dive > .bg-black > .phone {
     position: absolute;
-    bottom:8%;
+    bottom:9%;
     right:14%;
 }
 .dive > .bg-black > .phone > .phone-img {
@@ -1291,5 +1294,31 @@ label[for] {
     top:50%;
     left:13%;
     transform: translateY(-50%);
+}
+.dive > .bg-black > .black-box {
+    width:300px;
+    height:247px;
+    background-color: black;
+    position: absolute;
+    bottom:0;
+    right:37%;
+    z-index: 100;
+}
+.dive > .bg-white > .water {
+    position: absolute;
+    top:60%;
+    right:40%;
+    opacity: 0;
+}
+.section-5.active .dive > .bg-white > .water {
+    animation:water-1 .8s 2.3s forwards;
+}
+@keyframes water-1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 /* dive 끝 */

@@ -210,6 +210,7 @@
                     <div class="diving">
                         <img src="https://sung-kyung.github.io/img1/pf/card/card_image/diving-sm.png?dummy12312312" alt="">
                     </div>
+                    <img class="water" src="https://sung-kyung.github.io/img1/pf/card/card_image/water.gif?dummy123" alt="">
                 </div>
                 <div class="bg-black">
                     <div class="phone">
@@ -230,6 +231,8 @@
                             <div>APPLE STORE</div>
                         </div>
                     </div>
+                    <div class="black-box"></div>
+                    
                 </div>
             </div>
         </div>
