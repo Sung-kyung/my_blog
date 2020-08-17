@@ -12,6 +12,13 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://alvarotrigo.com/fullPage/fullpage.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/MotionPathPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(MotionPathPlugin);
+    </script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="/portfolio/card/index.css">
     <script src="/portfolio/card/index.js"></script>
@@ -117,38 +124,52 @@
                     </div>
                 </div>
                 <div class="digi-content">
-                    <div class="slide-digi-box">
-                        <div class="slide-digi"
-                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90059145_3383433341671068_9076477566851743744_o.jpg);">
-                        </div>
-                        <div class="slide-digi"
-                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90189834_3383433108337758_1704240703770460160_o.jpg);">
-                        </div>
-                        <div class="slide-digi"
-                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90246372_3383432808337788_604448833673363456_o.jpg);">
-                        </div>
-                        <div class="slide-digi"
-                            style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90377355_3383433215004414_7847199051324850176_o.jpg);">
+                    <div class="slide-digi-box carousel-2" data-carousel-1-autoplay-status="Y">
+                        <div class="owl-carousel owl-theme">
+                            <div onclick="Carousel2__itemClicked(this);" class="item slide-digi active"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90059145_3383433341671068_9076477566851743744_o.jpg);">
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item slide-digi"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90189834_3383433108337758_1704240703770460160_o.jpg);">
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item slide-digi"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90246372_3383432808337788_604448833673363456_o.jpg);">
+                            </div>
+                            <div onclick="Carousel2__itemClicked(this);" class="item slide-digi"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/card/card_image/90377355_3383433215004414_7847199051324850176_o.jpg);">
+                            </div>
                         </div>
                     </div>
                     <div class="card-slide-box">
-                        <div class="my-slider-1">
+                        <div class="carousel-1 my-slider-1">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
                                     <img src="https://sung-kyung.github.io/img1/pf/card/card_image/card_ONOF_h.png"
                                         alt="">
+                                    <div class="digi-title">Jean Crush</div>
+                                    <div class="digi-con">디지털 러버의 우주선에서 떨어져 나온 조각, Jean Crush<br>
+                                        우주선에서 떨어진 메탈 조각을 상상하여 그려낸 카드</div>
                                 </div>
                                 <div class="item">
                                     <img src="https://sung-kyung.github.io/img1/pf/card/card_image/img_card_rustyrobot.png"
                                         alt="">
+                                    <div class="digi-title">Rusty Robot</div>
+                                    <div class="digi-con">디지털 러버의 오랜 로봇 친구, Rusty Robot<br>
+                                        부식되어 빛바랜 낡은 로봇을 모티브로 한 카드</div>
                                 </div>
                                 <div class="item">
                                     <img src="https://sung-kyung.github.io/img1/pf/card/card_image/img_card_foggyplanet.png"
                                         alt="">
+                                    <div class="digi-title">Foggy Planet</div>
+                                    <div class="digi-con">디지털 러버의 우주선으로 통하는 카드키, Foggy Planet<br>
+                                        우주선 안으로 안내해 줄 디지털 러버의 ID, 카드키를 모티브로 한 카드</div>
                                 </div>
                                 <div class="item">
                                     <img src="https://sung-kyung.github.io/img1/pf/card/card_image/img_card_starbomb.png"
                                         alt="">
+                                    <div class="digi-title">Star Bomb</div>
+                                    <div class="digi-con">우주선 창 너머로 보이는 별의 강렬한 폭발, Star Bomb<br>
+                                        행성이 폭발할 때 발산하는 에너지를 강렬한 컬러 대비로 표현한 카드</div>
                                 </div>
                             </div>
                         </div>
@@ -181,15 +202,34 @@
                         <img src="https://sung-kyung.github.io/img1/pf/card/card_image/animation.gif" alt="">
                         <div class="dive-text">
                             <h2>힙스터들의 필수 앱</h2>
-                            <p>Get word from Hyundai Card as soon as possible.<br>With th dive app, you can be a hipster from today.</p>
+                            <p>Get word from Hyundai Card as soon as possible.<br>With the dive app, you can be a
+                                hipster
+                                from today.</p>
                         </div>
+                    </div>
+                    <div class="diving">
+                        <img src="https://sung-kyung.github.io/img1/pf/card/card_image/diving-sm.png?dummy12312312" alt="">
                     </div>
                 </div>
                 <div class="bg-black">
                     <div class="phone">
-                        <img class="phone-img" src="https://sung-kyung.github.io/img1/pf/card/card_image/phone-shadow.png?dummy123123" alt="no">
+                        <img class="phone-img"
+                            src="https://sung-kyung.github.io/img1/pf/card/card_image/phone-shadow.png?dummy123123"
+                            alt="no">
+                        <img class="app" src="https://sung-kyung.github.io/img1/pf/card/card_image/unnamed.png" alt="">
                     </div>
-                    <img class="hand-img" src="https://sung-kyung.github.io/img1/pf/card/card_image/hand-1.png?dummy123123123123" alt="no">
+                    <img class="hand-img"
+                        src="https://sung-kyung.github.io/img1/pf/card/card_image/hand-1.png?dummy123123123123"
+                        alt="no">
+                    <div class="download">
+                        <div class="download-text">지금 바로 다운로드 받으세요</div>
+                        <div class="google">
+                            <div>GOOGLE PLAY</div>
+                        </div>
+                        <div class="apple">
+                            <div>APPLE STORE</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -444,7 +444,7 @@ label[for] {
 .main .box-1>.bg>svg>.path {
     stroke-dasharray: 1570;
     stroke-dashoffset: 0;
-    animation: dash 5s linear infinite;
+    animation: dash 5s linear;
 }
 
 .main .main-box>.show-card {
@@ -969,7 +969,7 @@ label[for] {
     top: -64px;
     left: 45.5%;
 }
-
+/* 슬라이더 시작 */
 .section-3 .digital .digi-content {
     width: 100%;
     height: 600px;
@@ -977,22 +977,47 @@ label[for] {
     position: relative;
 }
 
-.section-3 .digital .digi-content .slide-digi-box {
+.section-3 .digital .digi-content .carousel-2 {
     width: 50%;
     height: 100%;
     position: relative;
 }
 
-.section-3 .digital .digi-content .slide-digi-box .slide-digi {
+.section-3 .digital .digi-content  .carousel-2 .owl-carousel .item  {
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 100%;
+    height: 600px;
     position: absolute;
     top: 0;
     left: 17%;
 }
+.owl-item {
+    height:600px;
+}
+.carousel-2 > .owl-carousel > .owl-nav {
+    margin:0 !important;
+}
 
+.carousel-2 > .owl-carousel > .owl-nav > div {
+    padding:0;
+    margin:0 20px;
+    border-radius:0;
+    background-color:transparent;
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    font-size:4rem;
+}
+
+.carousel-2[data-carousel-1-autoplay-status="Y"] .play {
+    display:none;
+}
+
+.carousel-2[data-carousel-1-autoplay-status="N"] .stop {
+    display:none;
+}
 .section-3 .digital .digi-content .card-slide-box {
     position: absolute;
     width: 50%;
@@ -1006,11 +1031,12 @@ label[for] {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    position:relative;
 }
 
 .my-slider-1 .item {
     background-color: #eeeeee;
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 100px;
     transition: all .25s;
 }
@@ -1040,7 +1066,40 @@ label[for] {
     left: calc(100% + 30px);
     right: auto;
 }
+.my-slider-1>.owl-carousel.owl-theme .item {
+    text-align: center;
+}
+.my-slider-1>.owl-carousel.owl-theme .item > .digi-title {
+    font-size:18px;
+    font-family: "youandi";
+    font-weight: 600;
+    margin-top:26px;
+}
+.my-slider-1>.owl-carousel.owl-theme .item > .digi-title {
+    display: none;
+}
+.my-slider-1>.owl-carousel.owl-theme .owl-item.active.center .item > .digi-title {
+    display: block;
+}
+.my-slider-1>.owl-carousel.owl-theme .item > .digi-con {
+    display: none;
+}
 
+.my-slider-1>.owl-carousel.owl-theme .owl-item.active.center .item > .digi-con {
+    display: block;
+}
+
+.my-slider-1>.owl-carousel.owl-theme .item > .digi-con {
+    font-size:16px;
+    font-family: "youandi";
+    font-weight: 400;
+    position: absolute;
+    bottom:4%;
+    left:50%;
+    transform: translateX(-50%);
+    width:500px;
+    line-height: 1.3;
+}
 /* 디지털러버 끝 */
 
 /* m/x edition 시작 */
@@ -1114,6 +1173,7 @@ label[for] {
     height:30%;
     background-color: black;
     display: block;
+    position: relative;
 }
 .dive > .bg-white > .dive-logo {
     width:50%;
@@ -1138,6 +1198,18 @@ label[for] {
     font-weight: 300;
     margin-top:-10px;
     letter-spacing: 1.5;
+    line-height: 1.4;
+}
+.dive > .bg-white >.diving {
+    position: absolute;
+    top:40%;
+    left:75%;
+    z-index: 10;
+    transform: rotate(160deg);
+}
+.dive > .bg-white >.diving >img {
+    width:100%;
+    height:100%;
 }
 .dive > .bg-black > .phone {
     position: absolute;
@@ -1145,11 +1217,79 @@ label[for] {
     right:14%;
 }
 .dive > .bg-black > .phone > .phone-img {
-    height:620px;
+    height:640px;
+}
+.dive > .bg-black > .phone > .app {
+    width:140px;
+    height:140px;
+    position: absolute;
+    top:32%;
+    left:50%;
+    transform: translateX(-50%);
 }
 .dive > .bg-black .hand-img {
     bottom:0;
     right:0;
     position: absolute;
+    width:449px;
+    height:447px;
+}
+.dive > .bg-black .download {
+    width:50%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:8%;
+}
+.dive > .bg-black .download > .download-text {
+    font-family: "youandi";
+    font-size:25px;
+    font-weight: 600;
+    color:#fff;
+    margin-top:80px;
+}
+.dive > .bg-black .download > .google , .dive > .bg-black .download > .apple  {
+    border:1px solid #fff;
+    width:240px;
+    height:70px;
+    border-radius: 45px;
+    display: inline-block;
+    margin-top:30px;
+    text-align: center;
+    cursor: pointer;
+}
+.dive > .bg-black .download > .google {
+    margin-right:10px;
+}
+.dive > .bg-black .download > .google > div, .dive > .bg-black .download > .apple > div {
+    font-family: "youandi";
+    font-size:16px;
+    font-weight: 500;
+    color:#fff;
+    display: inline-block;
+    margin-top:27px;
+    position: relative;
+    width:100%;
+    padding-left:30px;
+}
+.dive > .bg-black .download > .google > div::before {
+    content:"";
+    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/google.png);
+    width:30px;
+    height:35px;
+    position: absolute;
+    top:50%;
+    left:13%;
+    transform: translateY(-50%);
+}
+.dive > .bg-black .download > .apple > div::before {
+    content:"";
+    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/apple.png);
+    width:30px;
+    height:35px;
+    position: absolute;
+    top:50%;
+    left:13%;
+    transform: translateY(-50%);
 }
 /* dive 끝 */
