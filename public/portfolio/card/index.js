@@ -119,11 +119,11 @@ function action1() {
     }
     action1Done = true;
     gsap.to(".diving", {
-        duration: 2, 
+        duration: 4, 
         ease: "power1.inOut",
         immediateRender: true,
         motionPath: {
-            path: "M657.5,328.5s-3-242-8-248c0,0-19-78-82-46s-377,408-377,408",
+            path: "M1683.5,501.5s-3-242-8-248c0,0-19-78-82-46s-377,408-377,408l-139,157s-84,125-172,144-182,0-182,0-135-86-193-148l-457-384-143-124-82-81",
             align: "#path",
             alignOrigin: [0.5, 0.5],
             autoRotate: 240
@@ -142,6 +142,8 @@ $(function () {
         navigationPosition: "right",
         scrollingSpeed: 800,
         afterLoad: function(origin, destination, direction) {
+            $('html').attr('data-fullpage-index', destination.index);
+
             if ( $(destination.item).hasClass('section-5') ) {
                 action1();
             }
@@ -173,3 +175,67 @@ $(function () {
     ShowSideBar__init();
 });
 
+var $window = $(window);
+
+var windowWidth = $window.width();
+var windowHeight = $window.height();
+
+$window.resize(_.throttle(function() {
+    windowWidth = $window.width();
+    windowHeight = $window.height();
+}, 100));
+
+$window.resize(_.throttle(function() {
+    MousemoveEffect1__update();
+}, 100));
+
+var MousemoveEffect1__$el = null;
+var MousemoveEffect1__lastPosX = 0;
+var MousemoveEffect1__lastPosY = 0;
+var MousemoveEffect1__animationQuality = 10; // 숫자가 낮을 수록 좋음, 대신 느려질 수 있음
+
+if ( MousemoveEffect1__animationQuality < 10 ) {
+    MousemoveEffect1__animationQuality = 10;
+}
+
+function MousemoveEffect1__update() {
+    console.log("MousemoveEffect1__lastPosX : " + MousemoveEffect1__lastPosX);
+    console.log("MousemoveEffect1__lastPosY : " + MousemoveEffect1__lastPosY);
+    
+    MousemoveEffect1__$el.each(function(index, node) {
+        var $node = $(node);
+        var horRes = $node.data('data-mousemove-effect1-hor-res');
+        var verRes = $node.data('data-mousemove-effect1-ver-res');
+        
+        var x = (MousemoveEffect1__lastPosX - (windowWidth / 2)) * horRes;
+        var y = (MousemoveEffect1__lastPosY - (windowHeight / 2)) * verRes;
+        $(node).css('transform', 'translateX(' + x + 'px) translateY(' + y + 'px)');
+    });
+}
+
+function MousemoveEffect1__init() {
+    MousemoveEffect1__$el = $('.mousemove-effect-1-el');
+    
+    MousemoveEffect1__$el.each(function(index, node) {
+        var $node = $(node);
+        // 좌우 민감도
+        $node.data('data-mousemove-effect1-hor-res', $node.attr('data-mousemove-effect1-hor-res') * 1);
+        // 위아래 민감도
+        $node.data('data-mousemove-effect1-ver-res', $node.attr('data-mousemove-effect1-ver-res') * 1);
+    });
+    
+    var MousemoveEffect1__updateThrottled = _.throttle(function() {
+        MousemoveEffect1__update();
+    }, MousemoveEffect1__animationQuality);
+
+    $window.mousemove(function(e) {
+        MousemoveEffect1__lastPosX = e.clientX;
+        MousemoveEffect1__lastPosY = e.clientY;
+        
+        MousemoveEffect1__updateThrottled();
+    });
+}
+
+$(function() {
+   MousemoveEffect1__init(); 
+});

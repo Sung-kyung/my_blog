@@ -1161,6 +1161,7 @@ label[for] {
     width:100%;
     height:100%;
     position: relative;
+    overflow: hidden;
 }
 .dive > .bg-white {
     width:100%;
@@ -1213,11 +1214,13 @@ label[for] {
 }
 .dive > .bg-black {
     position: relative;
+    z-index: 10;
 }
 .dive > .bg-black > .phone {
     position: absolute;
     bottom:9%;
     right:14%;
+    z-index: 15;
 }
 .dive > .bg-black > .phone > .phone-img {
     height:640px;
@@ -1236,6 +1239,7 @@ label[for] {
     position: absolute;
     width:449px;
     height:447px;
+    z-index: 30;
 }
 .dive > .bg-black .download {
     width:50%;
@@ -1252,7 +1256,7 @@ label[for] {
     margin-top:80px;
 }
 .dive > .bg-black .download > .google , .dive > .bg-black .download > .apple  {
-    border:1px solid #fff;
+    border:1.5px solid #fff;
     width:240px;
     height:70px;
     border-radius: 45px;
@@ -1300,7 +1304,7 @@ label[for] {
     height:247px;
     background-color: black;
     position: absolute;
-    bottom:0;
+    bottom:14%;
     right:37%;
     z-index: 100;
 }
@@ -1311,14 +1315,233 @@ label[for] {
     opacity: 0;
 }
 .section-5.active .dive > .bg-white > .water {
-    animation:water-1 .8s 2.3s forwards;
+    animation:water-1 .9s 2.3s;
 }
 @keyframes water-1 {
     0% {
         opacity: 0;
     }
     100% {
-        opacity: 1;
+        opacity: 1;  
     }
 }
 /* dive 끝 */
+
+/* dive-2 시작 */
+.section-6 {
+    width:100%;
+    height:100%;
+    background-color: black;
+    position: relative;
+    color:white;
+}
+.logo-white {
+    display: none;
+}
+html[data-fullpage-index="5"] .main-top-bar> .logo >a > img  {
+    display: none;
+}
+html[data-fullpage-index="5"] .main-top-bar> .logo >a > .logo-white {
+    display: block;
+}
+html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
+    color:white;
+}
+.dive-box-1, .dive-box-2 {
+    width:100%;
+    height:calc(100% / 2);
+}
+.dive-box-1 {
+    height:calc(50% + 80px);
+}
+.dive-box-1 > .dive-card-box {
+    width:50%;
+    height:100%;   
+}
+.dive-box-1 > .dive-card-box > ul > .dive-1 {
+    position: absolute;
+    top:55%;
+    left:12%;
+    opacity: 0;
+    transition: top 1.7s, opacity 2s;
+}
+.dive-box-1 > .dive-card-box > ul > .dive-2 {
+    position: absolute;
+    top:0;
+    left:24%;
+    opacity: 0;
+    transition: top 1.7s , opacity 2s;
+}
+.dive-box-1 > .dive-card-box > ul > .dive-3 {
+    position: absolute;
+    top:55%;
+    left:36%;
+    opacity: 0;
+    transition: top 1.7s , opacity 2s;
+}
+.section-6.active .dive-box-1 > .dive-card-box > ul > .dive-1 {
+    top:20%;
+    left:12%;
+    opacity: 1;
+}
+.section-6.active .dive-box-1 > .dive-card-box > ul > .dive-2 {
+    top:15%;
+    left:24%;
+    opacity: 1;
+}
+.section-6.active .dive-box-1 > .dive-card-box > ul > .dive-3 {
+    top:20%;
+    left:36%;
+    opacity: 1;
+}
+
+.dive-box-1 > .dive-textbox-1 {
+    width:50%;
+    height:100%;
+    position: relative;
+}
+.dive-box-1 > .dive-textbox-1 > h1 {
+    font-family: "youandi";
+    font-weight: 600;
+    font-size:3em;
+    position: absolute;
+    top:38%;
+    left:50px;
+}
+.dive-box-1 > .dive-textbox-1 > ul {
+    font-family: "youandi";
+    font-weight: 500;
+    font-size:1.5em;
+    position: absolute;
+    top:50%;
+    left:50px;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    margin-top:25px;
+}
+.dive-box-2 > .dive-textbox-2 {
+    width:50%;
+    height:100%;
+    position: relative;
+}
+.dive-box-2 > .dive-textbox-2 > h1 {
+    font-family: "youandi";
+    font-weight: 600;
+    font-size:3em;
+    position: absolute;
+    top:0;
+    right:150px;
+}
+.dive-box-2 > .dive-textbox-2 > ul {
+    font-family: "youandi";
+    font-weight: 500;
+    font-size:1.5em;
+    position: absolute;
+    top:20%;
+    right:38%;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    margin-top:25px;
+}
+.dive-box-2 > .dive-card-box-2 {
+    width:50%;
+    height:100%;   
+}
+.dive-box-2 > .dive-card-box-2 > ul > .dive-4 {
+    position: absolute;
+    top:20%;
+    right:13%;
+    opacity: 0;
+    transition: top 1.7s, opacity 2s;
+}
+.dive-box-2 > .dive-card-box-2 > ul > .dive-5 {
+    position: absolute;
+    top:90%;
+    right:24%;
+    opacity: 0;
+    transition: top 1.7s , opacity 2s;
+}
+.dive-box-2 > .dive-card-box-2 > ul > .dive-6 {
+    position: absolute;
+    top:20%;
+    right:35%;
+    opacity: 0;
+    transition: top 1.7s , opacity 2s;
+}
+.section-6.active .dive-box-2 > .dive-card-box-2 > ul > .dive-4 {
+    top:60%;
+    right:12%;
+    opacity: 1;
+}
+.section-6.active .dive-box-2 > .dive-card-box-2 > ul > .dive-5 {
+    top:55%;
+    right:24%;
+    opacity: 1;
+}
+.section-6.active .dive-box-2 > .dive-card-box-2 > ul > .dive-6 {
+    top:60%;
+    right:36%;
+    opacity: 1;
+}
+
+
+.mousemove-effect-1-el {
+    position:absolute;
+}
+
+.mousemove-effect-1-el > img {
+    width:100%;
+    display:block;
+}
+
+.mousemove-effect-1-el-1 {
+    left:0;
+    top:50px;
+    width:96%;
+    pointer-events: none; /* 클릭, 드래그 안되도록 */
+}
+
+.mousemove-effect-1-el-2 {
+    right:0;
+    top:70px;
+    width:100%;
+    pointer-events: none; /* 클릭, 드래그 안되도록 */
+}
+
+/* dive-2 끝 */
+
+/* footer 시작 */
+.footer {
+    height: auto !important;
+}
+.footer > .foot {
+    height:300px;
+    background-color:rgb(24, 24, 24);
+    color:white;
+}
+.footer > .foot > .foot-text-box {
+    border:1px solid gold;
+    width:60%;
+    height:100%;
+    margin:0 auto;
+}
+.footer > .foot > .foot-text-box > ul {
+    padding-left:60px;
+}
+.footer > .foot > .foot-text-box > ul > li {
+    font-family: "youandi";
+    font-size:25px;
+    font-weight:500;
+    line-height: 1.7;
+    display: block;
+}
+/* .footer > .foot > .foot-text-box > ul ul {
+    position: absolute;
+} */
+.footer > .foot > .foot-text-box > ul ul > li {
+    font-family: "youandi";
+    font-size:15px;
+    font-weight:400;
+    padding:0 15px;
+}
+/* footer 끝 */

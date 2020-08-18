@@ -12,13 +12,13 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://alvarotrigo.com/fullPage/fullpage.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/MotionPathPlugin.min.js"></script>
     <script>
         gsap.registerPlugin(MotionPathPlugin);
     </script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="/portfolio/card/index.css">
     <script src="/portfolio/card/index.js"></script>
@@ -29,7 +29,10 @@
     <div class="main-top-bar flex flex-jc-sb">
         <div class="logo flex flex-1-0-0">
             <a href="#" class="flex flex-ai-c"><img
-                    src="https://sung-kyung.github.io/img1/pf/card/card_image/logo_header%20(1).png" alt=""></a>
+                    src="https://sung-kyung.github.io/img1/pf/card/card_image/logo_header%20(1).png" alt="">
+                <img src="https://sung-kyung.github.io/img1/pf/card/card_image/logo_header.png" alt=""
+                    class="logo-white">
+            </a>
         </div>
         <div class="side-btn flex">
             <span class="flex flex-ai-c"><i class="fas fa-bars"></i></span>
@@ -208,9 +211,11 @@
                         </div>
                     </div>
                     <div class="diving">
-                        <img src="https://sung-kyung.github.io/img1/pf/card/card_image/diving-sm.png?dummy12312312" alt="">
+                        <img src="https://sung-kyung.github.io/img1/pf/card/card_image/diving-sm.png?dummy12312312"
+                            alt="">
                     </div>
-                    <img class="water" src="https://sung-kyung.github.io/img1/pf/card/card_image/water.gif?dummy123" alt="">
+                    <img class="water" src="https://sung-kyung.github.io/img1/pf/card/card_image/water.gif?dummy123"
+                        alt="">
                 </div>
                 <div class="bg-black">
                     <div class="phone">
@@ -232,11 +237,110 @@
                         </div>
                     </div>
                     <div class="black-box"></div>
-                    
+
                 </div>
             </div>
         </div>
-        <div class="section">페이지 6</div>
+        <div class="section section-6">
+            <div class="dive-box-1 row">
+                <div class="dive-card-box cell">
+                    <ul class="row">
+                        <li class="dive-1 cell"><img
+                                src="https://sung-kyung.github.io/img1/pf/card/card_image/dive-4.png" alt="no"
+                                srcset=""></li>
+                        <li class="dive-2 cell"><img
+                                src="https://sung-kyung.github.io/img1/pf/card/card_image/dive-5.png" alt="no"
+                                srcset=""></li>
+                        <li class="dive-3 cell"><img
+                                src="https://sung-kyung.github.io/img1/pf/card/card_image/dive-6.png" alt="no"
+                                srcset=""></li>
+                    </ul>
+                </div>
+                <div class="dive-textbox-1 cell">
+                    <h1>매일매일 취향을 업데이트</h1>
+                    <ul>
+                        <li>#가성비갑_여행법</li>
+                        <li>#한정판_스니커즈</li>
+                        <li>#요즘_뜨는_맛집</li>
+                        <li>#소장각_플레이리스트</li>
+                        <li>#힙스터_필수템</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dive-box-2 row">
+                <div class="dive-textbox-2 cell">
+                    <h1>현대카드의 컬쳐소식을<br>가장 빠르게</h1>
+                    <ul>
+                        <li>#라이브러리_무료입장</li>
+                        <li>#이태원_핫한_전시_예매</li>
+                        <li>#스페셜토크_단독예매</li>
+                        <li>#고메위크_완전정복</li>
+                        <li>#넥스트_슈퍼콘서트</li>
+                    </ul>
+                </div>
+                <div class="dive-card-box-2 cell">
+                    <ul class="row">
+                        <li class="dive-4 cell"><img
+                                src="https://sung-kyung.github.io/img1/pf/card/card_image/dive-3.png" alt="no"
+                                srcset=""></li>
+                        <li class="dive-5 cell"><img
+                                src="https://sung-kyung.github.io/img1/pf/card/card_image/dive-2.png" alt="no"
+                                srcset=""></li>
+                        <li class="dive-6 cell"><img
+                                src="https://sung-kyung.github.io/img1/pf/card/card_image/dive-1.png" alt="no"
+                                srcset=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mousemove-effect-1-el mousemove-effect-1-el-1" data-mousemove-effect1-hor-res="0.01"
+                data-mousemove-effect1-ver-res="0.1">
+                <img src="https://sung-kyung.github.io/img1/pf/card/card_image/flower-left.png" alt="">
+            </div>
+
+            <div class="mousemove-effect-1-el mousemove-effect-1-el-2" data-mousemove-effect1-hor-res="0.01"
+                data-mousemove-effect1-ver-res="0.1">
+                <img src="https://sung-kyung.github.io/img1/pf/card/card_image/flower-right.png" alt="">
+            </div>
+        </div>
+        <!--footer-->
+        <div class="section footer fp-auto-height">
+            <div class="foot">
+                <div class="foot-text-box">
+                    <ul>
+                        <li>About
+                            <ul class="sub-menu row">
+                                <li class="cell"><a href="#">회사소개</a></li>
+                                <li class="cell"><a href="#">지배구조</a></li>
+                                <li class="cell"><a href="#">고객권리안내문</a></li>
+                                <li class="cell"><a href="#">전자민원접수</a></li>
+                                <li class="cell"><a href="#">이용안내</a></li>
+                                <li class="cell"><a href="#">투자정보</a></li>
+                            </ul>
+                        </li>
+                        <li>Service
+                            <ul class="sub-menu row">
+                                <li class="cell"><a href="#">회사소개</a></li>
+                                <li class="cell"><a href="#">지배구조</a></li>
+                                <li class="cell"><a href="#">고객권리안내문</a></li>
+                                <li class="cell"><a href="#">전자민원접수</a></li>
+                                <li class="cell"><a href="#">이용안내</a></li>
+                                <li class="cell"><a href="#">투자정보</a></li>
+                            </ul>
+                        </li>
+                        <li>Contact
+                            <ul class="sub-menu row">
+                                <li class="cell"><a href="#">회사소개</a></li>
+                                <li class="cell"><a href="#">지배구조</a></li>
+                                <li class="cell"><a href="#">고객권리안내문</a></li>
+                                <li class="cell"><a href="#">전자민원접수</a></li>
+                                <li class="cell"><a href="#">이용안내</a></li>
+                                <li class="cell"><a href="#">투자정보</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
