@@ -50,6 +50,12 @@
         </ul>
         <div class="side-btn close-btn"><span><i class="fas fa-times"></i></span></div>
     </div>
+    <!--홈버튼-->
+    <div id="top" class="top-btn" style="cursor:pointer;">
+        <a href="#anchor1">
+            <img src="https://sung-kyung.github.io/img1/pf/card/card_image/top-btn-2.png?dummy123123" alt="">
+        </a>
+    </div>
     <!--풀페이지 시작 -->
     <div id="fullpage">
         <!--메인페이지-->
@@ -305,40 +311,43 @@
         <!--footer-->
         <div class="section footer fp-auto-height">
             <div class="foot">
-                <div class="foot-text-box">
-                    <ul>
-                        <li>About
-                            <ul class="sub-menu row">
-                                <li class="cell"><a href="#">회사소개</a></li>
-                                <li class="cell"><a href="#">지배구조</a></li>
-                                <li class="cell"><a href="#">고객권리안내문</a></li>
-                                <li class="cell"><a href="#">전자민원접수</a></li>
-                                <li class="cell"><a href="#">이용안내</a></li>
-                                <li class="cell"><a href="#">투자정보</a></li>
-                            </ul>
-                        </li>
-                        <li>Service
-                            <ul class="sub-menu row">
-                                <li class="cell"><a href="#">회사소개</a></li>
-                                <li class="cell"><a href="#">지배구조</a></li>
-                                <li class="cell"><a href="#">고객권리안내문</a></li>
-                                <li class="cell"><a href="#">전자민원접수</a></li>
-                                <li class="cell"><a href="#">이용안내</a></li>
-                                <li class="cell"><a href="#">투자정보</a></li>
-                            </ul>
-                        </li>
-                        <li>Contact
-                            <ul class="sub-menu row">
-                                <li class="cell"><a href="#">회사소개</a></li>
-                                <li class="cell"><a href="#">지배구조</a></li>
-                                <li class="cell"><a href="#">고객권리안내문</a></li>
-                                <li class="cell"><a href="#">전자민원접수</a></li>
-                                <li class="cell"><a href="#">이용안내</a></li>
-                                <li class="cell"><a href="#">투자정보</a></li>
-                            </ul>
-                        </li>
+                <nav class="foot-text-box">
+                    <ul class="about flex">
+                        <li class="flex">About</li>
+                        <ul class="flex flex-ai-c">
+                            <li class="flex"><a href="#">회사소개</a></li>
+                            <li class="flex"><a href="#">지배구조</a></li>
+                            <li class="flex"><a href="#">고객권리안내문</a></li>
+                            <li class="flex"><a href="#">전자민원접수</a></li>
+                            <li class="flex"><a href="#">이용안내</a></li>
+                            <li class="flex"><a href="#">투자정보</a></li>
+                        </ul>
                     </ul>
-                </div>
+                    <ul class="service flex">
+                        <li class="flex">Service</li>
+                        <ul class="flex flex-ai-c">
+                            <li class="flex"><a href="#">이용약관</a></li>
+                            <li class="flex"><a href="#">상품공시실</a></li>
+                            <li class="flex"><a href="#">사이버신문고</a></li>
+                            <li class="flex"><a href="#">개인정보처리방침</a></li>
+                            <li class="flex"><a href="#">고객권리안내문</a></li>
+                            <li class="flex"><a href="#">위치기반서비스</a></li>
+                        </ul>
+                    </ul>
+                    <ul class="contact flex">
+                        <li class="flex">Contact</li>
+                        <ul class="flex flex-ai-c">
+                            <li class="flex"><a href="#">고객센터 1577-6000</a></li>
+                            <li class="flex"><a href="#">(해외 82-2-3015-9000)</a></li>
+                            <li class="flex"><a href="#">카드신청 1577-0100 </a></li>
+                            <li class="flex"><a href="#">금융신청 1577-6100</a></li>
+                            <li class="flex"><a href="#">도난분실신고 1577-6200</a></li>
+                        </ul>
+                    </ul>
+                    <div class="address flex flex-jc-c">서울시 영등포구 의사당대로 3 현대캐피탈빌딩 대표이사 정태영 사업자 등록번호 213-86-15419</div>
+                    <div class="copyright flex flex-jc-c">© HYUNDAI CARD Corp.</div>
+                    <div class="foot-img flex flex-jc-c"><img src="https://sung-kyung.github.io/img1/pf/card/card_image/logo_footer.png" alt=""></div>
+                </nav>
             </div>
         </div>
     </div>

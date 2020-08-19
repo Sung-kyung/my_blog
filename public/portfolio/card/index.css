@@ -497,7 +497,16 @@ label[for] {
         transform: translateX(-130%);
     }
 }
-
+ .top-btn {
+    position: fixed;
+    bottom:10px;
+    left:50px;
+    display: inline-block;
+    z-index: 1000;
+}
+.top-btn > a > img {
+    box-shadow: 3px 3px 3px 0 #333;
+}
 /* 메인페이지 끝 */
 
 /* 사이드바 시작 */
@@ -629,7 +638,7 @@ label[for] {
 }
 
 .section-2.active .zero-text-box {
-    animation: zero 1.8s .5s;
+    animation: zero 1.3s .5s;
     animation-fill-mode: forwards;
 }
 
@@ -1334,6 +1343,7 @@ label[for] {
     background-color: black;
     position: relative;
     color:white;
+    overflow: hidden;
 }
 .logo-white {
     display: none;
@@ -1430,7 +1440,7 @@ html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
     font-size:3em;
     position: absolute;
     top:0;
-    right:150px;
+    right:180px;
 }
 .dive-box-2 > .dive-textbox-2 > ul {
     font-family: "youandi";
@@ -1445,12 +1455,12 @@ html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
 }
 .dive-box-2 > .dive-card-box-2 {
     width:50%;
-    height:100%;   
+    height:100%;
 }
 .dive-box-2 > .dive-card-box-2 > ul > .dive-4 {
     position: absolute;
     top:20%;
-    right:13%;
+    right:12%;
     opacity: 0;
     transition: top 1.7s, opacity 2s;
 }
@@ -1464,7 +1474,7 @@ html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
 .dive-box-2 > .dive-card-box-2 > ul > .dive-6 {
     position: absolute;
     top:20%;
-    right:35%;
+    right:36%;
     opacity: 0;
     transition: top 1.7s , opacity 2s;
 }
@@ -1496,14 +1506,14 @@ html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
 
 .mousemove-effect-1-el-1 {
     left:0;
-    top:50px;
+    top:30px;
     width:96%;
     pointer-events: none; /* 클릭, 드래그 안되도록 */
 }
 
 .mousemove-effect-1-el-2 {
     right:0;
-    top:70px;
+    top:40px;
     width:100%;
     pointer-events: none; /* 클릭, 드래그 안되도록 */
 }
@@ -1511,22 +1521,23 @@ html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
 /* dive-2 끝 */
 
 /* footer 시작 */
+
 .footer {
     height: auto !important;
 }
 .footer > .foot {
-    height:300px;
+    height:290px;
     background-color:rgb(24, 24, 24);
     color:white;
 }
 .footer > .foot > .foot-text-box {
-    border:1px solid gold;
     width:60%;
     height:100%;
     margin:0 auto;
+    padding-top:30px;
 }
 .footer > .foot > .foot-text-box > ul {
-    padding-left:60px;
+    padding-left:90px;
 }
 .footer > .foot > .foot-text-box > ul > li {
     font-family: "youandi";
@@ -1534,14 +1545,29 @@ html[data-fullpage-index="5"] .main-top-bar> .side-btn i  {
     font-weight:500;
     line-height: 1.7;
     display: block;
+    margin-right:10px;
+    width:100px;
 }
-/* .footer > .foot > .foot-text-box > ul ul {
-    position: absolute;
-} */
 .footer > .foot > .foot-text-box > ul ul > li {
     font-family: "youandi";
-    font-size:15px;
+    font-size:14px;
     font-weight:400;
-    padding:0 15px;
+    padding:0 7px;
+    
+}
+.footer > .foot > .foot-text-box > .address {
+    font-family: "youandi";
+    font-size:11px;
+    font-weight:300;
+    margin-top:30px;
+}
+.footer > .foot > .foot-text-box > .copyright {
+    font-family: "youandi";
+    font-size:12px;
+    font-weight:300;
+    margin-top:5px;
+}
+.footer > .foot > .foot-text-box > .foot-img {
+    margin-top:30px;
 }
 /* footer 끝 */

@@ -141,6 +141,7 @@ $(function () {
         navigation: false,
         navigationPosition: "right",
         scrollingSpeed: 800,
+        anchors:['anchor1','anchor2','anchor3','achor4','anchor5','anchor6','anchor7'],
         afterLoad: function(origin, destination, direction) {
             $('html').attr('data-fullpage-index', destination.index);
 
@@ -154,6 +155,7 @@ $(function () {
         }
     });
 });
+
 
 
 function ShowSideBar__init() {
