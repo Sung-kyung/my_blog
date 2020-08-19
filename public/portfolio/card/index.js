@@ -120,6 +120,8 @@ function action1() {
     action1Done = true;
     gsap.to(".diving", {
         duration: 4, 
+        repeat: 12,
+        repeatDelay: 3,
         ease: "power1.inOut",
         immediateRender: true,
         motionPath: {
