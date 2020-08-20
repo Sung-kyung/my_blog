@@ -111,26 +111,49 @@ function Carousel2__init() {
     });
 }
 
-var action1Done = false;
+var action1NowWork = false;
 
 function action1() {
-    if ( action1Done ) {
+
+    if ( action1NowWork ) {
         return;
     }
-    action1Done = true;
+
+    action1NowWork = true;
+    
     gsap.to(".diving", {
-        duration: 4, 
-        repeat: 12,
-        repeatDelay: 3,
+        duration: 3, 
         ease: "power1.inOut",
         immediateRender: true,
         motionPath: {
-            path: "M1683.5,501.5s-3-242-8-248c0,0-19-78-82-46s-377,408-377,408l-139,157s-84,125-172,144-182,0-182,0-135-86-193-148l-457-384-143-124-82-81",
+            path: "M1671.5,569.5l-4.07-242c-1.82-108.67-92.1-195.9-200.71-191.83-45.8,1.71-93.56,19.68-136.22,67.82-140,158-399,684-399,684s-304,59-400,78-250-204-250-204L.5,439.5",
             align: "#path",
             alignOrigin: [0.5, 0.5],
             autoRotate: 240
         }
     });
+
+    var actionWater = function() {
+        $('.dive > .bg-white > .water').animate({
+            opacity:1
+        }, 800, function() {
+            $('.dive > .bg-white > .water').animate({'opacity': 0}, 200);
+        });
+    };
+
+    setTimeout(function() {
+        actionWater();
+    }, 1300);
+
+    setTimeout(function() {
+        $('.section-5 .diving').remove();
+        $('.section-5 > .dive > .bg-white').append('<div class="diving"><img src="https://sung-kyung.github.io/img1/pf/card/card_image/diving-sm.png?dummy12312312" alt=""></div>');
+    }, 7000);
+
+    setTimeout(function() {
+        action1NowWork = false;
+        action1();
+    }, 8000);
 }
 
 $(function() {
@@ -203,8 +226,8 @@ if ( MousemoveEffect1__animationQuality < 10 ) {
 }
 
 function MousemoveEffect1__update() {
-    console.log("MousemoveEffect1__lastPosX : " + MousemoveEffect1__lastPosX);
-    console.log("MousemoveEffect1__lastPosY : " + MousemoveEffect1__lastPosY);
+    // console.log("MousemoveEffect1__lastPosX : " + MousemoveEffect1__lastPosX);
+    // console.log("MousemoveEffect1__lastPosY : " + MousemoveEffect1__lastPosY);
     
     MousemoveEffect1__$el.each(function(index, node) {
         var $node = $(node);
@@ -240,6 +263,22 @@ function MousemoveEffect1__init() {
     });
 }
 
+function scroll__init(){
+    $('.section').on('mousewheel', function(){
+        var $html = $('html');
+        var htmlIndex = $html.attr('data-fullpage-index');
+
+        if (htmlIndex >= 5) {
+            console.log('hi');
+            setTimeout(function(){
+                $('.section-6').addClass('active');
+            }, 10)
+        }
+    })
+}
+
+
 $(function() {
    MousemoveEffect1__init(); 
+   scroll__init();
 });
