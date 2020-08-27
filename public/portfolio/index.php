@@ -55,6 +55,8 @@ include "../../part/head.php";
     </li>
     <h1>현대카드 디자인 시안</h1>
     <a data-title="메인"" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/card/card_image/design.png">시안</a>
+    <h1>포트폴리오 디자인 시안</h1>
+    <a data-title="메인"" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/portfolio/port.jpg">시안</a>
 
 
     <h1>어플 디자인</h1>

@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 @font-face {
     font-family: 'Myriad Pro';
-    src: url('font/Myriad Pro/Myriad-Pro_31655.ttf') format('truetype'),
-    url('font/Myriad Pro/Myriad-Pro-Semibold-Italic_31645.ttf') format('truetype'),
-    url('font/Myriad Pro/Myriad-Pro-Bold-Italic_31626.ttf') format('truetype');
+    src: url('font/Myriad-Pro_31655.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('font/BebasNeue-Book.ttf') format('truetype');
 }
 
 /* 노말라이즈 */
@@ -336,3 +345,181 @@ label[for] {
 }
 
 /* 커스텀 */
+
+/* 메인 시작 */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.main>.copyright {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.main>.main-img {
+    display: inline-block;
+    width: auto;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    overflow: hidden;
+}
+
+.main>.main-img>div {
+    display: inline-block;
+    font-family: 'BebasNeue';
+    font-size: 30px;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    padding: 7px 0;
+    letter-spacing: 0.8em;
+    animation: down 1s 2.3s forwards;
+    transition: transform .4s;
+    opacity: 1;
+}
+
+.main>.main-img>.folio,
+.main>.main-img>.kyung {
+    top: 75%;
+    right: 1.4%;
+    left: auto;
+    letter-spacing: 0.7em;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(50px);
+        display: none;
+    }
+}
+
+.main>.light {
+    width: 460px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 30%;
+    transform: translateX(-50%)translateY(-50%);
+    background-color: #ff0000;
+    box-shadow: 0px 0px 8px 5px #ff0000;
+    animation: blinker .7s 1.6s forwards;
+    animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    opacity: 0;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.main>.main-img>.sung,
+.main>.main-img>.kyung {
+    animation: up 1s 2.7s forwards;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main>.main-img>.sung {
+    left: 11%;
+}
+
+.main>.main-img>.kyung {
+    letter-spacing: 0.6em;
+    right: 1.5%;
+}
+
+/* 메인 끝 */
+
+/* 2페이지 시작 */
+.page-2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.page-2>.img-box {
+    width: 40%;
+    height: 100%;
+}
+.page-2>.img-box >.img-wrap {
+    width:90%;
+    height:90%;
+    margin-top:40px;
+    margin-left:30px;
+    position: relative;
+    overflow: hidden;
+}
+.page-2>.img-box .img-wrap > div {
+    position: absolute;
+    top:0;
+    left:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+}
+.page-2>.text-box {
+    width: 60%;
+    height: 100%;
+    border: 1px solid blue;
+}
+.page-2>.text-box > .title {
+    font-family: 'BebasNeue';
+    color:#6B6B6B;
+    font-size:72px;
+    margin-top:20px;
+    position: relative;
+}
+.page-2>.text-box > .title::after {
+    content:"";
+    width:350px;
+    height:6px;
+    background-color: #ff0000;
+    position: absolute;
+    top:100%;
+    right:0;
+    left:auto;
+}
+.page-2>.text-box > .count-num {
+    color:#ff0000;
+    font-family: "BebasNeue";
+    font-size:200px;
+    letter-spacing: 0.1em;
+    margin-left:50px;
+    margin-top:20px;
+}
+/* 2페이지 끝 */
