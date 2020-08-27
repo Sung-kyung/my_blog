@@ -474,6 +474,7 @@ label[for] {
 .page-2>.img-box {
     width: 40%;
     height: 100%;
+    overflow: hidden;
 }
 .page-2>.img-box >.img-wrap {
     width:90%;
@@ -481,7 +482,10 @@ label[for] {
     margin-top:40px;
     margin-left:30px;
     position: relative;
-    overflow: hidden;
+    transition:transform 3s;
+}
+.page-2>.img-box:hover >.img-wrap {
+    transform: translateY(-100%);
 }
 .page-2>.img-box .img-wrap > div {
     position: absolute;
@@ -495,7 +499,8 @@ label[for] {
 .page-2>.text-box {
     width: 60%;
     height: 100%;
-    border: 1px solid blue;
+    border-left: 1px solid #e3e3e3;
+    position:relative;
 }
 .page-2>.text-box > .title {
     font-family: 'BebasNeue';
@@ -517,9 +522,42 @@ label[for] {
 .page-2>.text-box > .count-num {
     color:#ff0000;
     font-family: "BebasNeue";
-    font-size:200px;
+    font-size:70px;
     letter-spacing: 0.1em;
     margin-left:50px;
     margin-top:20px;
 }
+.owl-carousel{
+    width:100%;
+    height:50%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    margin-left:20px;
+}
+.owl-item {
+    width:300px;
+}
+.owl-carousel .item {
+    width:250px;
+    height:350px;
+    background-color:#e3e3e3;
+    display:inline-block;
+    position: relative;
+    cursor:pointer;
+}
+.owl-carousel .item .w-box {
+    width:210px;
+    height:150px;
+    position: absolute;
+    top:20px;
+    left:20px;
+    background-color:#fff;
+}
+.owl-carousel .item-1 .w-box > img {
+    width:180px;
+    margin:0 auto;
+    padding-top:60px;
+}
+
 /* 2페이지 끝 */
