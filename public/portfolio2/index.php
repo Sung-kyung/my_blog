@@ -42,14 +42,200 @@
         <div class="text-box cell-right row">
             <div class="title cell-right">UX / UI DESIGN</div>
             <div class="count-num txt-box-1"></div>
-            <div class="owl-carousel owl-theme">
-                <div class="item item-1" data-no="01" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png" onclick="Slider1__itemClick(this);"><div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png" alt=""></div></div>
-                <div class="item item-2" data-no="02" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/card.png?dummy123123" onclick="Slider1__itemClick(this);"><div class="w-box"></div></div>
-                <div class="item item-3" data-no="03" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png" onclick="Slider1__itemClick(this);"><div class="w-box"></div></div>
-                <div class="item item-4" data-no="04" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png" onclick="Slider1__itemClick(this);"><div class="w-box"></div></div>
-                <div class="item item-5" data-no="05" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png" onclick="Slider1__itemClick(this);"><div class="w-box"></div></div>
-                <div class="item item-6" data-no="06" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png" onclick="Slider1__itemClick(this);"><div class="w-box"></div></div>
-                <div class="item item-7" data-no="07" data-link-url="https://www.naver.com" data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png" onclick="Slider1__itemClick(this);"><div class="w-box"></div></div>
+            <div class="tab-box">
+                <div class="head">
+                    <ul class="row">
+                        <li class="cell"><a href="#">ALL</a></li>
+                        <li class="cell"><a href="#">COPY</a></li>
+                        <li class="cell"><a href="#">REDISIGN</a></li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>
+                            <div class="menu-1 owl-carousel owl-theme">
+                                <div class="item item-1 row border" data-no="01" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-2" data-no="02" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai_card.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/card_logo.png" alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">HYUNDAI CARD</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/card/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-3" data-no="03" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/hollys_logo.png" alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">HOLLYS COFFEE</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-4" data-no="04" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-5" data-no="05" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-6" data-no="06" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-7" data-no="07" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-1 owl-carousel owl-theme">
+                                <div class="item item-1 row border" data-no="01" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-2" data-no="02" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai_card.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/card_logo.png" alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">HYUNDAI CARD</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/card/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-3" data-no="03" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/hollys_logo.png" alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">HOLLYS COFFEE</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="menu-1 owl-carousel owl-theme">
+                                <div class="item item-1 row border" data-no="01" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
+                                            alt=""></div>
+                                    <div class="title-box">
+                                        <div class="title">GALLERY HYUNDAI</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-2" data-no="02" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai_card.png?dummy123123"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/card_logo.png" alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">HYUNDAI CARD</div>
+                                        <div class="cont">원본사이트 : <a
+                                                href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/card/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 

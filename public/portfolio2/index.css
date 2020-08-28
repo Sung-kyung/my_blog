@@ -345,7 +345,9 @@ label[for] {
 }
 
 /* 커스텀 */
-
+html, body {
+    overflow-x: hidden;
+}
 /* 메인 시작 */
 
 .main {
@@ -480,7 +482,7 @@ label[for] {
     width:90%;
     height:90%;
     margin-top:40px;
-    margin-left:30px;
+    margin-left:50px;
     position: relative;
     transition:transform 3s;
 }
@@ -527,20 +529,28 @@ label[for] {
     margin-left:50px;
     margin-top:20px;
 }
+.tab-box > .head > ul{
+   border:1px solid red;
+   margin-top:700px;
+   margin-left:70px;
+}
+.tab-box > .head > ul > li {
+    padding:0 20px;
+}
+
+
+
 .owl-carousel{
     width:100%;
     height:50%;
     position: absolute;
-    bottom:0;
+    bottom:8%;
     left:0;
     margin-left:20px;
 }
-.owl-item {
-    width:300px;
-}
 .owl-carousel .item {
-    width:250px;
-    height:350px;
+    width:250px !important;
+    height:380px;
     background-color:#e3e3e3;
     display:inline-block;
     position: relative;
@@ -554,10 +564,56 @@ label[for] {
     left:20px;
     background-color:#fff;
 }
-.owl-carousel .item-1 .w-box > img {
-    width:180px;
+
+.item.border  .w-box {
+    border:2px solid #ff0000;
+}
+
+.owl-carousel .item .w-box > img {
+    width:170px;
     margin:0 auto;
     padding-top:60px;
+}
+.owl-carousel .item .title-box {
+    width:200px;
+    height:auto;
+    position: absolute;
+    top:55%;
+    left:20px;
+}
+.owl-carousel .item .title-box .title {
+    font-size:20px;
+}
+.owl-carousel .item .title-box .cont {
+    font-size:13px;
+    margin-top:10px;
+}
+.owl-carousel .item .title-box .cont > a {
+    font-size:10px;
+    text-decoration: underline;
+}
+.owl-carousel .item .title-box .cont > a:hover {
+    color:#ff0000;
+}
+.owl-carousel .item .view-btn {
+    width:120px;
+    height:38px;
+    background-color: #ff0000;
+    color:#fff;
+    border-radius: 12px;
+    position: absolute;
+    bottom:5%;
+    right:20px;
+    text-align: center;
+}
+.owl-carousel .item .view-btn > a {
+    font-size:15px;
+    display: block;
+    margin-top:8px;
+}
+.owl-carousel .item .view-btn:hover {
+    background-color: #fff;
+    color:#000;
 }
 
 /* 2페이지 끝 */

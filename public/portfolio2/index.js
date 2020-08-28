@@ -1,14 +1,11 @@
 function Owl__init() {
     $('.owl-carousel').owlCarousel({
         loop:false,
-        margin:10,
+        margin:100,
         nav:false,
         dots:false,
-        responsive:{
-            0:{
-                items:3
-            }
-        }
+        autoWidth:true,
+        items:3
     });
 }
 
@@ -21,7 +18,22 @@ function Slider1__itemClick(el) {
     $('.img-box-1').empty().append("<a href='" + link + "' target='_blank'><img src='" + url + "'></a>");
     $('.txt-box-1').empty().append("<h1>" + no + "</h1>");
 }
+
+
+function border_1(){
+    $('.menu-1  .item').click(function(){
+        var $border = $('.menu-1  .item.border');
+
+        $border.removeClass('border');
+        $(this).addClass('border');
+        
+    })
+}
+
+
 $(function() {
     Owl__init();
-    Slider1__itemClick(el);
+    Slider1__itemClick();
+    border_1();
+    $('.item-1').click();
 });
