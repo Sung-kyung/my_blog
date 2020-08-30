@@ -45,14 +45,14 @@
             <div class="tab-box">
                 <div class="head">
                     <ul class="row">
-                        <li class="cell"><a href="#">ALL</a></li>
+                        <li class="cell active-tab"><a href="#">ALL</a></li>
                         <li class="cell"><a href="#">COPY</a></li>
                         <li class="cell"><a href="#">REDISIGN</a></li>
                     </ul>
                 </div>
                 <div class="body">
                     <ul>
-                        <li>
+                        <li class="owl-1 active-tab">
                             <div class="menu-1 owl-carousel owl-theme">
                                 <div class="item item-1 row border" data-no="01" data-link-url="https://www.naver.com"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
@@ -155,7 +155,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="owl-1">
                             <div class="menu-1 owl-carousel owl-theme">
                                 <div class="item item-1 row border" data-no="01" data-link-url="https://www.naver.com"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
@@ -201,7 +201,7 @@
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                         </li>
-                        <li>
+                        <li class="owl-1">
                             <div class="menu-1 owl-carousel owl-theme">
                                 <div class="item item-1 row border" data-no="01" data-link-url="https://www.naver.com"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai.png"
@@ -238,7 +238,45 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    <div class="page-3 row">
+        <div class="img-box-3 cell">
+            <div class="monitor"><img src="https://sung-kyung.github.io/img1/pf/portfolio/monitor.png" alt=""></div>
+        </div>
+        <div class="text-box-3 cell-right">
+            <div class="title cell-right">DESIGN</div>
+            <div class="count-num txt-box-1"></div>
+            <div class="owl-carousel owl-theme">
+                <div class="item" data-no="01" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+                <div class="item" data-no="02" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+                <div class="item" data-no="03" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+                <div class="item" data-no="04" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+                <div class="item" data-no="05" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+                <div class="item" data-no="06" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+                <div class="item" data-no="07" data-link-url="https://www.naver.com"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
+                                    onclick="Slider1__itemClick(this);">
+                </div>
+            </div>
+        </div>
     </div>
 
 

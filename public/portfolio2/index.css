@@ -487,7 +487,7 @@ html, body {
     transition:transform 3s;
 }
 .page-2>.img-box:hover >.img-wrap {
-    transform: translateY(-100%);
+    transform: translateY(-160%);
 }
 .page-2>.img-box .img-wrap > div {
     position: absolute;
@@ -529,24 +529,56 @@ html, body {
     margin-left:50px;
     margin-top:20px;
 }
+.tab-box > .head {
+    z-index: 300;
+}
 .tab-box > .head > ul{
-   border:1px solid red;
-   margin-top:700px;
-   margin-left:70px;
+   margin-left:20px;
+   position: absolute;
+   bottom:5%;
+   left:20px;
 }
 .tab-box > .head > ul > li {
     padding:0 20px;
+    cursor:pointer;
+    color:#afafaf;
+    z-index: 20;
 }
-
-
-
-.owl-carousel{
+.tab-box > .head > ul > li.active-tab {
+    color:black;
+}
+.tab-box > .body {
+    position:relative;
+    max-width: 1200px;
+    max-height: 600px;
+}
+.tab-box > .body > ul {
     width:100%;
-    height:50%;
+    height:400px;
+}
+.tab-box > .body > ul > li {
+    position: relative;
+    top:70%;
+    left:20px;
+    width:1200px;
+    height:300px;
+    display:none;
+    z-index: 5;
+}
+.tab-box > .body > ul > li.active-tab {
+    display:block;
+}
+.owl-carousel{
+    width:1200px;
+    height:300px;
     position: absolute;
-    bottom:8%;
+    bottom:40%;
     left:0;
     margin-left:20px;
+    z-index: 10;
+}
+.menu-1 {
+    z-index: -1;
 }
 .owl-carousel .item {
     width:250px !important;
@@ -564,7 +596,9 @@ html, body {
     left:20px;
     background-color:#fff;
 }
-
+.owl-carousel .item div {
+    z-index: 1;
+}
 .item.border  .w-box {
     border:2px solid #ff0000;
 }
@@ -617,3 +651,56 @@ html, body {
 }
 
 /* 2페이지 끝 */
+
+/* 3페이지 시작 */
+.page-3 {
+    width:100%;
+    height:100vh;
+}
+.page-3 > .img-box-3 {
+    width:50%;
+    height:100%;
+}
+.page-3 > .img-box-3 >.monitor {
+    width:100%;
+    height:100%;
+}
+.page-3 > .img-box-3 >.monitor > img {
+    width:780px;
+    padding-top:100px;
+    padding-left:20px;
+}
+.page-3 > .text-box-3 {
+    width:50%;
+    height:100%;
+    border:1px solid green;
+    position: relative;
+}
+.page-3>.text-box-3 > .title {
+    font-family: 'BebasNeue';
+    color:#6B6B6B;
+    font-size:72px;
+    margin-top:20px;
+    padding-right:40px;
+    position: relative;
+}
+.page-3>.text-box-3 > .title::after {
+    content:"";
+    width:200px;
+    height:6px;
+    background-color: #ff0000;
+    position: absolute;
+    top:100%;
+    right:0;
+    left:auto;
+}
+.page-3>.text-box-3 > .count-num {
+    color:#ff0000;
+    font-family: "BebasNeue";
+    font-size:120px;
+    letter-spacing: 0.15em;
+    position: absolute;
+    top:19%;
+    right:10%;
+}
+/* 3페이지 끝 */
