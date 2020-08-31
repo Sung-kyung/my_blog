@@ -349,10 +349,12 @@ html, body {
     overflow-x: hidden;
 }
 /* 메인 시작 */
-
+html,body {
+    height:100%;
+}
 .main {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
@@ -470,7 +472,7 @@ html, body {
 /* 2페이지 시작 */
 .page-2 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .page-2>.img-box {
@@ -481,22 +483,19 @@ html, body {
 .page-2>.img-box >.img-wrap {
     width:90%;
     height:90%;
-    margin-top:40px;
+    margin-top:30px;
     margin-left:50px;
     position: relative;
-    transition:transform 3s;
 }
-.page-2>.img-box:hover >.img-wrap {
-    transform: translateY(-160%);
-}
-.page-2>.img-box .img-wrap > div {
-    position: absolute;
-    top:0;
-    left:0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
+.page-2>.img-box >.img-wrap > a {
+    display:block;
     height:100%;
+    background-size:100% auto;
+    background-position:0 0;
+    transition:background-position 3s;
+}
+.page-2>.img-box:hover >.img-wrap > a {
+    background-position:0 100%;
 }
 .page-2>.text-box {
     width: 60%;
@@ -528,6 +527,9 @@ html, body {
     letter-spacing: 0.1em;
     margin-left:50px;
     margin-top:20px;
+    display:inline-block;
+    width:200px;
+    height:168px;
 }
 .tab-box > .head {
     z-index: 300;
@@ -535,14 +537,14 @@ html, body {
 .tab-box > .head > ul{
    margin-left:20px;
    position: absolute;
-   bottom:5%;
-   left:20px;
+   bottom:8%;
+   left:15px;
 }
 .tab-box > .head > ul > li {
     padding:0 20px;
     cursor:pointer;
     color:#afafaf;
-    z-index: 20;
+    z-index: 998;
 }
 .tab-box > .head > ul > li.active-tab {
     color:black;
@@ -558,7 +560,7 @@ html, body {
 }
 .tab-box > .body > ul > li {
     position: relative;
-    top:70%;
+    top:90%;
     left:20px;
     width:1200px;
     height:300px;
@@ -655,7 +657,7 @@ html, body {
 /* 3페이지 시작 */
 .page-3 {
     width:100%;
-    height:100vh;
+    height:100%;
 }
 .page-3 > .img-box-3 {
     width:50%;
@@ -664,16 +666,32 @@ html, body {
 .page-3 > .img-box-3 >.monitor {
     width:100%;
     height:100%;
+    position: relative;
 }
 .page-3 > .img-box-3 >.monitor > img {
     width:780px;
-    padding-top:100px;
-    padding-left:20px;
+    padding-top:20%;
+    padding-left:10%;
+}
+.page-3 > .img-box-3 >.monitor > .img-box-2 {
+    width:685px;
+    height:391px;
+    position:absolute;
+    top:24.5%;
+    left:15.5%;
+    overflow:hidden;
+}
+.page-3 > .img-box-3 >.monitor > .img-box-2 img {
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:0;
+    left:0;
 }
 .page-3 > .text-box-3 {
     width:50%;
     height:100%;
-    border:1px solid green;
+    border-left:1px solid #e3e3e3;
     position: relative;
 }
 .page-3>.text-box-3 > .title {
@@ -686,7 +704,7 @@ html, body {
 }
 .page-3>.text-box-3 > .title::after {
     content:"";
-    width:200px;
+    width:210px;
     height:6px;
     background-color: #ff0000;
     position: absolute;
@@ -697,10 +715,66 @@ html, body {
 .page-3>.text-box-3 > .count-num {
     color:#ff0000;
     font-family: "BebasNeue";
-    font-size:120px;
+    font-size:100px;
     letter-spacing: 0.15em;
     position: absolute;
     top:19%;
+    right:8%;
+}
+.page-3>.text-box-3 > .sub {
+    width:500px;
+    height:200px;
+    position:absolute;
     right:10%;
+    top:43%;
+    text-align:right;
+}
+.page-3>.text-box-3 > .sub > .title-en-box {
+    color:#ff0000;
+    padding-right:10px;
+}
+.page-3>.text-box-3 > .sub > .title-ko-box {
+    font-size:40px;
+    margin-top:-20px;
+    white-space:nowrap;
+    font-weight:bold;
+}
+.page-3>.text-box-3 > .sub > .title-en-box,.page-3>.text-box-3 > .sub > .creat-box {
+    display:inline-block;
+    font-family: 'Myriad Pro';
+}
+
+
+
+
+.slide-2  {
+    position: absolute;
+    bottom:8%;
+    left:50px;
+    width:800px;
+    height:200px;
+    overflow: hidden;
+}
+.slide-2 > .owl-carousel {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:800px;
+    height:200px;
+    margin-left:30px;
+}
+.slide-2 > .owl-carousel .item {
+    width:140px !important;
+    height:140px;
+    background-color: #dfdfdf;
+    display: flex;
+    cursor: pointer;
+}
+.owl-item.active {
+    width:170px !important;
+}
+.slide-2 > .owl-carousel .item.border-1 {
+    border:2px solid #ff0000;
 }
 /* 3페이지 끝 */

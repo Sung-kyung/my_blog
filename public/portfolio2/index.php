@@ -45,9 +45,9 @@
             <div class="tab-box">
                 <div class="head">
                     <ul class="row">
-                        <li class="cell active-tab"><a href="#">ALL</a></li>
-                        <li class="cell"><a href="#">COPY</a></li>
-                        <li class="cell"><a href="#">REDISIGN</a></li>
+                        <li class="cell active-tab">ALL</li>
+                        <li class="cell">COPY</li>
+                        <li class="cell">REDISIGN</li>
                     </ul>
                 </div>
                 <div class="body">
@@ -241,39 +241,38 @@
     </div>
     <div class="page-3 row">
         <div class="img-box-3 cell">
-            <div class="monitor"><img src="https://sung-kyung.github.io/img1/pf/portfolio/monitor.png" alt=""></div>
+            <div class="monitor">
+                <img src="https://sung-kyung.github.io/img1/pf/portfolio/monitor.png" alt="">
+                <div class="img-box-2"></div>     
+        </div>
         </div>
         <div class="text-box-3 cell-right">
             <div class="title cell-right">DESIGN</div>
-            <div class="count-num txt-box-1"></div>
-            <div class="owl-carousel owl-theme">
-                <div class="item" data-no="01" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
-                </div>
-                <div class="item" data-no="02" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
-                </div>
-                <div class="item" data-no="03" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
-                </div>
-                <div class="item" data-no="04" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
-                </div>
-                <div class="item" data-no="05" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
-                </div>
-                <div class="item" data-no="06" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
-                </div>
-                <div class="item" data-no="07" data-link-url="https://www.naver.com"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/"
-                                    onclick="Slider1__itemClick(this);">
+            <div class="count-num txt-box-2"></div>
+            <div class="sub">
+                <div class="title-en-box"></div>
+                <div class="creat-box"></div>
+                <div class="title-ko-box"></div>
+            </div>
+              <div class="slide-2">
+                <div class="owl-2 owl-carousel owl-theme">
+                    <div class="item item-2-1" data-no2="01" data-title-en="Tomato Infographic" data-creat="Creative _ Copy" data-title-ko="토마토 인포그래픽" data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/tomato.png" onclick="Slider1__itemClick2(this);" ></div>
+
+                    <div class="item" data-no2="02"  data-title-en="WaterMelon Juice" data-creat="Creative _ Copy" data-title-ko="수박주스" data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/watermelon.jpg" onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="03"  data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/illom.jpg" data-title-en="Illom bosten Sofa" data-creat="Creative _ Redesign" data-title-ko="일룸 보스턴 소파" onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="04"  data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/orange.jpg" data-title-en="Orange Juice" data-creat="Creative _ Redesign" data-title-ko="오렌지 주스" onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="05"  data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/social.jpg" data-title-en="Social Media" data-creat="Creative _ Copy" data-title-ko="소셜 미디어"  onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="06" data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/covid.jpg" data-title-en="Social Distance" data-creat="Creative _ Redesign" data-title-ko="사회적 거리두기" onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="07"  data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/dior.jpg" data-title-en="Dior Addict" data-creat="Creative _ Redesign" data-title-ko="디올 어딕트" onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="08"  data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/africa.jpg" data-title-en="Africa Festival Poster" data-creat="Creative _ Redesign" data-title-ko="아프리카 페스티벌 포스터" onclick="Slider1__itemClick2(this);"></div>
+
+                    <div class="item" data-no2="09"  data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/travel.gif" data-title-en="Time To Travel" data-creat="Creative _ Copy" data-title-ko="여행 일러스트" onclick="Slider1__itemClick2(this);"></div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 function Owl__init() {
-    $('.owl-carousel').owlCarousel({
+    $('.owl-1 > .owl-carousel').owlCarousel({
         loop: false,
         margin: 100,
         nav: false,
@@ -8,15 +8,38 @@ function Owl__init() {
         items: 3
     });
 }
+function Owl2__init() {
+    $('.slide-2 > .owl-carousel').owlCarousel({
+        loop: false,
+        nav: false,
+        dots: false,
+        items: 4
+    });
+}
 
 function Slider1__itemClick(el) {
     var $el = $(el);
     var url = $el.attr('data-img-url');
     var link = $el.attr('data-link-url');
     var no = $el.attr('data-no');
-
-    $('.img-box-1').empty().append("<a href='" + link + "' target='_blank'><img src='" + url + "'></a>");
+    
+    $('.img-box-1').empty().append("<a href='" + link + "' target='_blank' style=\"background-image:url(\'" + url + "\')\"></a>");
     $('.txt-box-1').empty().append("<h1>" + no + "</h1>");
+}
+
+function Slider1__itemClick2(el) {
+    var $el = $(el);
+    var url2 = $el.attr('data-img2-url');
+    var title = $el.attr('data-title-en');
+    var titleKo = $el.attr('data-title-ko');
+    var creat = $el.attr('data-creat');
+    var no2 = $el.attr('data-no2');
+
+    $('.img-box-2').empty().append("<img src='" + url2 + "'>");
+    $('.title-en-box').empty().append("<h2>" + title + "</h2>");
+    $('.creat-box').empty().append("<h5>" + creat + "</h5>");
+    $('.title-ko-box').empty().append("<div>" + titleKo + "</div>");
+    $('.txt-box-2').empty().append("<h1>" + no2 + "</h1>");
 }
 
 // 탭박스
@@ -71,12 +94,25 @@ function border_1() {
 
     })
 }
+function border_2() {
+    $('.owl-2 .item').click(function () {
+        var $border = $('.owl-2 .item.border-1');
+
+        $border.removeClass('border-1');
+        $(this).addClass('border-1');
+
+    })
+}
 
 
 $(function () {
     Owl__init();
+    Owl2__init();
     Slider1__itemClick();
+    Slider1__itemClick2();
     border_1();
+    border_2();
     Tab__init();
-    $('.item-1').click();
+    $('.owl-1 > .menu-1  .item-1').click();
+    $('.owl-2  .item-2-1').click();
 });
