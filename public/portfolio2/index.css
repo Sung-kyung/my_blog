@@ -493,7 +493,8 @@ html, body {
     height:100%;
     background-size:100% auto;
     background-position:0 0;
-    transition:background-position 3s;
+    background-repeat: no-repeat;
+    transition:background-position 4s;
 }
 .page-2>.img-box:hover >.img-wrap > a {
     background-position:0 100%;
@@ -777,9 +778,15 @@ html, body {
 .slide-2 > .owl-carousel .item {
     width:140px !important;
     height:140px;
-    background-color: #dfdfdf;
+    background-color: #f0ecec;
     display: flex;
     cursor: pointer;
+}
+.slide-2 > .owl-carousel .item img {
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    padding:10%;
 }
 .owl-item.active {
     width:170px !important;
@@ -874,7 +881,8 @@ html, body {
 .page-4 .receipt-box > .profile-txt-box >.edu {
     border-bottom:3px dashed #b3b3b3;
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 22px;
+    padding-top:22px;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu > .education, .page-4 .receipt-box > .profile-txt-box >.edu > .certificate {
     font-size:25px;
@@ -887,7 +895,7 @@ html, body {
 }
 .page-4 .receipt-box > .profile-txt-box >.edu span {
     position: absolute;
-    top:19.5%;
+    top:23.5%;
     right:10%;
     display: block;
     text-align: right;
@@ -901,10 +909,10 @@ html, body {
     padding-left:35px;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu .hannam {
-    top:32%;
+    top:36%;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu .high {
-    top:46%;
+    top:50%;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill {
     padding-left:5px;
@@ -973,10 +981,10 @@ html, body {
 .page-4 .receipt-box > .profile-txt-2 >.feedback {
     text-align: center;
     padding-top:160px;
-    font-weight:300;
     letter-spacing: 0.08em;
-    font-size:23px;
+    font-size:27px;
     white-space: nowrap;
+    font-family: 'BebasNeue';
 }
 @media (max-width:970px) {
     .page-4 .receipt-box > .profile-txt-2 {
@@ -988,3 +996,95 @@ html, body {
     }
 }
 /* 4페이지 끝 */
+
+/* contact 페이지 시작 */
+.page-contact {
+    width:100%;
+    border-top:1px solid #dfdfdf;
+    padding-bottom:40px;
+    position: relative;
+}
+.page-contact > .phone {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background-image: url(https://sung-kyung.github.io/img1/pf/portfolio/phone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width:100%;
+    height:400px;
+}
+.page-contact > .phone > .con-txt {
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: 'BebasNeue';
+    font-size:40px;
+    letter-spacing: 0.2em;
+}
+.form-box {
+    display: block;
+    padding:50px 0;
+    text-align: center;
+}
+.form-box > form > #name > input, .form-box > form > #email > input  {
+    width:919px;
+    height:52px;
+}
+input {
+    margin:15px 0;
+}
+.form-box > form > #content > textarea {
+    width:919px;
+    height:149px;
+    margin:15px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:16px;
+}
+.form-box > form > #submit > input {
+    background-color: #ff0000;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, .5);
+    color:#fff;
+    font-size:20px;
+    letter-spacing: 0.08em;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+}
+.form-box > form > #submit > input:hover {
+    background-color: #fff;
+    color:#333;
+}
+.notice {
+    text-align: center;
+    color:gray;
+    padding-bottom:30px;
+}
+/* contact 페이지 끝 */
+
+/* top버튼 */
+.top-btn {
+    position: fixed;
+    width:100px;
+    height:auto;
+    bottom:-6px;
+    left:30px;
+    cursor: pointer;
+}
+.top-btn > a {
+    display: block;
+    width:50px;
+    text-align: center;
+    font-family: 'Myriad Pro';
+    padding-left:3px;
+}
+.top-btn > img {
+    width:50px;
+}
+/* top버튼 끝 */
