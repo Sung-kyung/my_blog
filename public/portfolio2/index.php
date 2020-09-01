@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>유성경 포트폴리오</title>
-</head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- owl 캐러셀 불러오기 -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-<link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
-<script src="/portfolio2/index.js"></script>
-<link rel="stylesheet" href="/portfolio2/index.css">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- owl 캐러셀 불러오기 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="/portfolio2/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="/portfolio2/index.js"></script>
+</head>
 
 <body>
     <div class="main">
@@ -300,18 +301,18 @@
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/travel.gif"
                         data-title-en="Time To Travel" data-creat="Creative _ Copy" data-title-ko="여행 일러스트"
                         onclick="Slider1__itemClick2(this);"></div>
-                        
-                        <div class="item" data-no2="10"
+
+                    <div class="item" data-no2="10"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/diptyque.jpg"
                         data-title-en="Diptyque" data-creat="Creative _ Redesign" data-title-ko="딥디크 향수배너"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                        <div class="item" data-no2="11"
+                    <div class="item" data-no2="11"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/twosome.jpg"
                         data-title-en="Twosome Summer" data-creat="Creative _ Copy" data-title-ko="투썸 플레이스"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                        <div class="item" data-no2="12"
+                    <div class="item" data-no2="12"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/domino.jpg"
                         data-title-en="Domino Pizza" data-creat="Creative _ Redesign" data-title-ko="도미노 피자 배너"
                         onclick="Slider1__itemClick2(this);"></div>
@@ -320,8 +321,8 @@
         </div>
     </div>
     <div class="page-4">
-        <div class="receipt-box"
-            style="background-image:url(https://sung-kyung.github.io/img1/pf/portfolio/receipt.png);">
+        <div class="receipt-box">
+            <img src="https://sung-kyung.github.io/img1/pf/portfolio/receipt.png" alt="">
             <div class="profile-txt-box">
                 <div class="name">Sung Kyung</div>
                 <div class="profile">PROFILE</div>
@@ -345,41 +346,42 @@
                     <span class="hannam">한남대학교 컨벤션호텔경영 / <br>경영학과 졸업</span>
                     <span class="high">순천매산여자고등학교 졸업</span>
                 </div>
-                <div class="skill">
+                <div class="skill visible-box active-on-visible" data-active-on-visible-diff-y="-500">
                     <div class="skill-title">SKILL</div>
                     <div class="html flex flex-jc-sb skill-cont">
-                        <div class="flex">HTML</div>
-                        <div class="flex progress"></div>
+                        <div class="flex sk">HTML</div>
+                        <div class="flex progress pro-1"></div>
                         <div class="flex per">90%</div>
                     </div>
                     <div class="css flex flex-jc-sb skill-cont">
-                        <div class="flex">CSS</div>
-                        <div class="flex progress"></div>
+                        <div class="flex sk">CSS</div>
+                        <div class="flex progress pro-2"></div>
                         <div class="flex per">00%</div>
                     </div>
                     <div class="java flex flex-jc-sb skill-cont">
-                        <div class="flex">JavaScript</div>
-                        <div class="flex progress"></div>
+                        <div class="flex sk">JavaScript</div>
+                        <div class="flex progress pro-3"></div>
                         <div class="flex per">00%</div>
                     </div>
                     <div class="photo flex flex-jc-sb skill-cont">
-                        <div class="flex">Photoshop</div>
-                        <div class="flex progress"></div>
+                        <div class="flex sk">Photoshop</div>
+                        <div class="flex progress pro-4"></div>
                         <div class="flex per">00%</div>
                     </div>
                     <div class="illu flex flex-jc-sb skill-cont">
-                        <div class="flex">Illustrator</div>
-                        <div class="flex progress"></div>
+                        <div class="flex sk">Illustrator</div>
+                        <div class="flex progress pro-5"></div>
                         <div class="flex per">00%</div>
                     </div>
                 </div>
+            </div>
+            <div class="profile-txt-2">
                 <div class="thank">THANK YOU !</div>
                 <div class="feedback">Please Leave Your Feedback At Bottom</div>
             </div>
         </div>
+
     </div>
-
-
 
 </body>
 

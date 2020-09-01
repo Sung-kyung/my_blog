@@ -349,12 +349,12 @@ html, body {
     overflow-x: hidden;
 }
 /* 메인 시작 */
-html,body {
+/* html,body {
     height:100%;
-}
+} */
 .main {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
 }
 
@@ -473,7 +473,7 @@ html,body {
 /* 2페이지 시작 */
 .page-2 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .page-2>.img-box {
@@ -670,7 +670,7 @@ html,body {
 /* 3페이지 시작 */
 .page-3 {
     width:100%;
-    height:100%;
+    height: 100vh;
 }
 .page-3 > .img-box-3 {
     width:50%;
@@ -807,28 +807,36 @@ html,body {
 /* 4페이지 시작 */
 .page-4 {
     width:100%;
-    height:200%;
 }
 .page-4 .receipt-box {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width:100%;
-    height:100%;
     position: relative;
     margin-top:60px;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-4 .receipt-box > img {
+    display: block;
+    width:100%;
+    z-index: -1;
 }
 .page-4 .receipt-box > .profile-txt-box {
-    width:750px;
-    height:1400px;
     position: absolute;
-    top:5%;
+    max-width:900px;
+    width: 100%;
+    top:8%;
     left:50%;
     transform: translateX(-50%);
+    z-index: 1;
+}
+@media (max-width: 970px) {
+    .page-4 .receipt-box > .profile-txt-box {
+        max-width:700px;
+    }
 }
 .page-4 .receipt-box > .profile-txt-box >.name {
     text-align: center;
-    font-size: 17px;
+    font-size: 19px;
     color:#303030;
     padding:15px 0;
     border-bottom:3px dashed #b3b3b3;
@@ -904,7 +912,7 @@ html,body {
 .page-4 .receipt-box > .profile-txt-box >.skill >.skill-title {
     font-size:25px;
     font-weight: bold;
-    padding-top:15px;
+    padding-top:20px;
     padding-bottom: 20px;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont {
@@ -912,19 +920,71 @@ html,body {
     font-size:20px;
     padding-left:35px;
 }
+.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .sk {
+    width:100px;
+    height: auto;
+}
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .per {
     padding-right:25px;
 }
-.page-4 .receipt-box > .profile-txt-box >.thank {
+.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress {
+    position: relative;
+    width:500px;
+    height:20px;
+    background-color: #E0E0DF;
+    align-self: center;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress::after {
+    content:"";
+    display: block;
+    height:100%;
+    width:0;
+    background-color: #4d4d4d;
+    transition: width 1.5s;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-1::after {
+    width:80%;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-2::after {
+    width:90%;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-3::after {
+    width:60%;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-4::after {
+    width:70%;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-5::after {
+    width:70%;
+}
+.page-4 .receipt-box > .profile-txt-2 {
+    max-width:900px;
+    position: absolute;
+    bottom:6.5%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.page-4 .receipt-box > .profile-txt-2 >.thank {
     text-align: center;
-    padding-top:75px;
+    padding-top:40px;
     font-size:30px;
     font-weight:500;
 }
-.page-4 .receipt-box > .profile-txt-box >.feedback {
+.page-4 .receipt-box > .profile-txt-2 >.feedback {
     text-align: center;
-    padding-top:140px;
+    padding-top:160px;
     font-weight:300;
     letter-spacing: 0.08em;
+    font-size:23px;
+    white-space: nowrap;
+}
+@media (max-width:970px) {
+    .page-4 .receipt-box > .profile-txt-2 {
+        max-width: 700px;
+        bottom:5%;
+    }
+    .page-4 .receipt-box > .profile-txt-2 >.feedback {
+        padding-top:130px;
+    }
 }
 /* 4페이지 끝 */

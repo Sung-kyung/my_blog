@@ -1,3 +1,5 @@
+
+
 function Owl__init() {
     $('.owl-1 > .owl-carousel').owlCarousel({
         loop: false,
@@ -105,7 +107,44 @@ function border_2() {
 }
 
 
-$(function () {
+function ActiveOnVisible__initOffset() {
+    $(".active-on-visible").each(function (index, node) {
+        var $node = $(node);
+
+        var offsetTop = $node.offset().top;
+        $node.attr("data-active-on-visible-offsetTop", offsetTop);
+
+        if (!$node.attr("data-active-on-visible-diff-y")) {
+            $node.attr("data-active-on-visible-diff-y", "0");
+        }
+
+        if (!$node.attr("data-active-on-visible-delay")) {
+            $node.attr("data-active-on-visible-delay", "0");
+        }
+    });
+
+    ActiveOnVisible__checkAndActive();
+}
+
+function ActiveOnVisible__checkAndActive() {
+    $(".active-on-visible").each(function (index, node) {
+        var $node = $(node);
+
+        var offsetTop = parseInt(
+            $node.attr("data-active-on-visible-offsetTop")
+        );
+        var diffY = parseInt($node.attr("data-active-on-visible-diff-y"));
+        var delay = parseInt($node.attr("data-active-on-visible-delay"));
+
+        if ($('body').scrollTop() + $('body').height() + diffY > offsetTop) {
+            setTimeout(function () {
+                $node.addClass("active");
+            }, delay);
+        }
+    });
+}
+
+$(function() {
     Owl__init();
     Owl2__init();
     Slider1__itemClick();
@@ -115,4 +154,14 @@ $(function () {
     Tab__init();
     $('.owl-1 > .menu-1  .item-1').click();
     $('.owl-2  .item-2-1').click();
+
+    // 스크롤 이벤트
+    ActiveOnVisible__initOffset();
+    
+    setTimeout(function(){
+        ActiveOnVisible__checkAndActive();
+    }, 100);
+    
+    $(window).resize(ActiveOnVisible__initOffset);
+    $('body').scroll(ActiveOnVisible__checkAndActive);
 });
