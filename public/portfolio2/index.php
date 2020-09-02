@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="item item-5" data-no="05"
                                     data-link-url="https://site17.blog.oa.gg/portfolio/nhn/"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn.jpg"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn2.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
                                             src="https://sung-kyung.github.io/img1/pf/nhn/logo_black.png" alt=""></div>
@@ -218,7 +218,7 @@
                                 </div>
                                 <div class="item item-5" data-no="03"
                                     data-link-url="https://site17.blog.oa.gg/portfolio/nhn/"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn.jpg"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn2.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
                                             src="https://sung-kyung.github.io/img1/pf/nhn/logo_black.png" alt=""></div>
@@ -322,7 +322,7 @@
         <div class="img-box-3 cell">
             <div class="monitor">
                 <img src="https://sung-kyung.github.io/img1/pf/portfolio/monitor2.png" alt="">
-                <a data-title="잘가1" data-lightbox="example-set" href="" class="img-box-2"></a>
+                <a data-title="Design" data-lightbox="example-set" href="" class="img-box-2"></a>
             </div>
         </div>
         <div class="text-box-3 cell-right">
@@ -342,43 +342,43 @@
 
                     <div class="item item-2-2" data-no2="02" data-title-en="WaterMelon Juice" data-creat="Creative _ Copy"
                         data-title-ko="수박주스"
-                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/watermelon.jpg"
+                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/watermelon.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/water.png?dummy123123123" alt=""></div>
 
                     <div class="item item-2-3" data-no2="03"
-                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/illom.jpg"
+                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/illom.png"
                         data-title-en="Iloom bosten Sofa" data-creat="Creative _ Redesign" data-title-ko="일룸 보스턴 소파"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/sofa.png?dummy1212" alt=""></div>
 
                     <div class="item item-2-4" data-no2="04"
-                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/orange.jpg"
+                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/orange.png"
                         data-title-en="Orange Juice" data-creat="Creative _ Redesign" data-title-ko="오렌지 주스"
-                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/orange.png" alt=""></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/oran.png?dummy123123" alt=""></div>
 
                     <div class="item item-2-5" data-no2="05"
-                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/social.jpg"
+                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/social.png"
                         data-title-en="Social Media" data-creat="Creative _ Copy" data-title-ko="소셜 미디어"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/media.png?dummy12341234" alt=""></div>
 
                     <div class="item item-2-6" data-no2="06"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/covid.jpg"
                         data-title-en="Social Distance" data-creat="Creative _ Redesign" data-title-ko="사회적 거리두기"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/covid.png" alt=""></div>
 
                     <div class="item item-2-7" data-no2="07"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/dior.jpg"
                         data-title-en="Dior Addict" data-creat="Creative _ Redesign" data-title-ko="디올 어딕트"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/lip.png" alt=""></div>
 
                     <div class="item item-2-8" data-no2="08"
-                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/africa.jpg"
+                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/africa.png"
                         data-title-en="Africa Festival Poster" data-creat="Creative _ Redesign"
-                        data-title-ko="아프리카 페스티벌 포스터" onclick="Slider1__itemClick2(this);"></div>
+                        data-title-ko="아프리카 페스티벌 포스터" onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/woman.png?dummy1212123" alt=""></div>
 
                     <div class="item item-2-9" data-no2="09"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/travel.gif"
                         data-title-en="Time To Travel" data-creat="Creative _ Copy" data-title-ko="여행 일러스트"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/travel.png" alt=""></div>
 
                     <div class="item item-2-10" data-no2="10"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/diptyque.jpg"
@@ -386,9 +386,9 @@
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/dip.png" alt=""></div>
 
                     <div class="item item-2-11" data-no2="11"
-                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/twosome.jpg"
+                        data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/twosome.png"
                         data-title-en="Twosome Summer" data-creat="Creative _ Copy" data-title-ko="투썸 플레이스"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/cake.png" alt=""></div>
 
                     <div class="item item-2-12" data-no2="12"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/domino.jpg"
@@ -478,8 +478,8 @@
             <form action onsubmit="sendEmailFormSubmit(this); return false;" name="sendEmailForm">
                 <input type="hidden" name="receiverName" value="유성경">
                 <input type="hidden" name="receiverEmail" value="yoo960115@gmail.com">
-                <div id="name"><input type="text" name="senderName" placeholder="이름을 입력해주세요."></div>
-                <div id="email"><input type="email" name="senderEmail" placeholder="이메일을 입력해주세요."></div>
+                <div id="name"><input type="text" name="senderName" placeholder="당신의 이름을 입력해주세요."></div>
+                <div id="email"><input type="email" name="senderEmail" placeholder="당신의 이메일을 입력해주세요."></div>
                 <div id="content">
                     <textarea name="body" placeholder="문의하실 내용을 입력해주세요."></textarea>
                 </div>

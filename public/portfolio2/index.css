@@ -806,7 +806,7 @@ html, body {
     background-color: #F28F29;
 }
 .slide-2 > .owl-carousel .item-2-5 {
-    background-color: #EDEDCD;
+    background-color: #1d7955;
 }
 .slide-2 > .owl-carousel .item-2-6 {
     background-color: #e22f4b;
@@ -831,7 +831,8 @@ html, body {
 }
 
 .slide-2 > .owl-carousel .item.border-1 {
-    border:2px solid #ff0000;
+    border:2px solid transparent;
+    box-shadow: 7px 25px 8px 10px #5e5e5e96;
 }
 
 @media (max-height:850px) {
