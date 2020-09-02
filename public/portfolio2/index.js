@@ -1,4 +1,12 @@
 
+$(function() {
+    lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        disableScrolling: false,
+        fitImagesInViewport:false
+      })
+});
 
 function Owl__init() {
     $('.owl-1 > .owl-carousel').owlCarousel({
@@ -19,6 +27,7 @@ function Owl2__init() {
     });
 }
 
+
 function Slider1__itemClick(el) {
     var $el = $(el);
     var url = $el.attr('data-img-url');
@@ -38,6 +47,7 @@ function Slider1__itemClick2(el) {
     var no2 = $el.attr('data-no2');
 
     $('.img-box-2').empty().append("<img src='" + url2 + "'>");
+    $('.img-box-2').attr('href', url2);
     $('.title-en-box').empty().append("<h2>" + title + "</h2>");
     $('.creat-box').empty().append("<h5>" + creat + "</h5>");
     $('.title-ko-box').empty().append("<div>" + titleKo + "</div>");

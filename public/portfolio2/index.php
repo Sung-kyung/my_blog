@@ -8,6 +8,7 @@
     <title>유성경 포트폴리오</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- owl 캐러셀 불러오기 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -16,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
 
     <link rel="stylesheet" href="/portfolio2/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
@@ -317,8 +321,8 @@
     <div class="page-3 row">
         <div class="img-box-3 cell">
             <div class="monitor">
-                <img src="https://sung-kyung.github.io/img1/pf/portfolio/monitor.png" alt="">
-                <div class="img-box-2"></div>
+                <img src="https://sung-kyung.github.io/img1/pf/portfolio/monitor2.png" alt="">
+                <a data-title="잘가1" data-lightbox="example-set" href="" class="img-box-2"></a>
             </div>
         </div>
         <div class="text-box-3 cell-right">
@@ -334,62 +338,62 @@
                     <div class="item item-2-1" data-no2="01" data-title-en="Tomato Infographic"
                         data-creat="Creative _ Copy" data-title-ko="토마토 인포그래픽"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/tomato.png"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/toma2.png?dummy123123" alt=""></div>
 
-                    <div class="item" data-no2="02" data-title-en="WaterMelon Juice" data-creat="Creative _ Copy"
+                    <div class="item item-2-2" data-no2="02" data-title-en="WaterMelon Juice" data-creat="Creative _ Copy"
                         data-title-ko="수박주스"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/watermelon.jpg"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/water.png?dummy123123123" alt=""></div>
 
-                    <div class="item" data-no2="03"
+                    <div class="item item-2-3" data-no2="03"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/illom.jpg"
                         data-title-en="Iloom bosten Sofa" data-creat="Creative _ Redesign" data-title-ko="일룸 보스턴 소파"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/sofa.png?dummy1212" alt=""></div>
 
-                    <div class="item" data-no2="04"
+                    <div class="item item-2-4" data-no2="04"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/orange.jpg"
                         data-title-en="Orange Juice" data-creat="Creative _ Redesign" data-title-ko="오렌지 주스"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/orange.png" alt=""></div>
 
-                    <div class="item" data-no2="05"
+                    <div class="item item-2-5" data-no2="05"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/social.jpg"
                         data-title-en="Social Media" data-creat="Creative _ Copy" data-title-ko="소셜 미디어"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                    <div class="item" data-no2="06"
+                    <div class="item item-2-6" data-no2="06"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/covid.jpg"
                         data-title-en="Social Distance" data-creat="Creative _ Redesign" data-title-ko="사회적 거리두기"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                    <div class="item" data-no2="07"
+                    <div class="item item-2-7" data-no2="07"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/dior.jpg"
                         data-title-en="Dior Addict" data-creat="Creative _ Redesign" data-title-ko="디올 어딕트"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                    <div class="item" data-no2="08"
+                    <div class="item item-2-8" data-no2="08"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/africa.jpg"
                         data-title-en="Africa Festival Poster" data-creat="Creative _ Redesign"
                         data-title-ko="아프리카 페스티벌 포스터" onclick="Slider1__itemClick2(this);"></div>
 
-                    <div class="item" data-no2="09"
+                    <div class="item item-2-9" data-no2="09"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/travel.gif"
                         data-title-en="Time To Travel" data-creat="Creative _ Copy" data-title-ko="여행 일러스트"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                    <div class="item" data-no2="10"
+                    <div class="item item-2-10" data-no2="10"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/diptyque.jpg"
                         data-title-en="Diptyque" data-creat="Creative _ Redesign" data-title-ko="딥디크 향수배너"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/dip.png" alt=""></div>
 
-                    <div class="item" data-no2="11"
+                    <div class="item item-2-11" data-no2="11"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/twosome.jpg"
                         data-title-en="Twosome Summer" data-creat="Creative _ Copy" data-title-ko="투썸 플레이스"
                         onclick="Slider1__itemClick2(this);"></div>
 
-                    <div class="item" data-no2="12"
+                    <div class="item item-2-12" data-no2="12"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/domino.jpg"
                         data-title-en="Domino Pizza" data-creat="Creative _ Redesign" data-title-ko="도미노 피자 배너"
-                        onclick="Slider1__itemClick2(this);"></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/pizza.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -409,16 +413,24 @@
                 </div>
                 <div class="edu">
                     <div class="education">Education</div>
-                    <div class="edu-1">2020.04 ~ 2020.10</div>
-                    <div class="edu-1">2014.03 ~</div>
-                    <div class="edu-1">2011.03 ~ 2014.02</div>
+                    <div class="edu-box1 edu-box flex flex-jc-sb ">
+                        <div class="edu-1 flex">2020.04 ~ 2020.10</div>
+                        <span class="sbs flex">대전 SBS 아카데미 컴퓨터학원 웹 과정 수료 </span>
+                    </div>
+                    <div class="edu-box2 edu-box flex flex-jc-sb">
+                        <div class="edu-1 flex">2014.03 ~</div>
+                        <span class="hannam flex">한남대학교 컨벤션호텔경영 / 경영학과 졸업</span>
+                    </div>
+                    <div class="edu-box3 edu-box flex flex-jc-sb">
+                        <div class="edu-1 flex">2011.03 ~ 2014.02</div>
+                        <span class="high flex">순천매산여자고등학교 졸업</span>
+                    </div>
                     <div class="certificate">Certificate</div>
                     <div class="cer">운전면허 2종 보통</div>
                     <div class="cer">컴퓨터 활용능력 1급</div>
                     <div class="cer">웹 디자인 기능사 필기</div>
-                    <span class="sbs">대전 SBS 아카데미 컴퓨터학원 <br>웹 과정 수료 </span>
-                    <span class="hannam">한남대학교 컨벤션호텔경영 / <br>경영학과 졸업</span>
-                    <span class="high">순천매산여자고등학교 졸업</span>
+
+
                 </div>
                 <div class="skill visible-box active-on-visible" data-active-on-visible-diff-y="-200">
                     <div class="skill-title">SKILL</div>
