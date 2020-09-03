@@ -332,67 +332,72 @@
                 <div class="title-en-box"></div>
                 <div class="creat-box"></div>
                 <div class="title-ko-box"></div>
+                <div class="tool-box"></div>
+                <div class="palette flex flex-jc-e">
+                <div class="palette-box flex flex-ai-c"></div>
+                <div class="palette-img-box flex flex-ai-c"></div>
+                </div>
             </div>
             <div class="slide-2">
                 <div class="owl-2 owl-carousel owl-theme">
                     <div class="item item-2-1" data-no2="01" data-title-en="Tomato Infographic"
-                        data-creat="Creative _ Copy" data-title-ko="토마토 인포그래픽"
+                        data-creat="Creative _ Copy" data-title-ko="토마토 인포그래픽" data-tool="Tool : Illust" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color1.png"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/tomato.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/toma2.png?dummy123123" alt=""></div>
 
-                    <div class="item item-2-2" data-no2="02" data-title-en="WaterMelon Juice" data-creat="Creative _ Copy"
-                        data-title-ko="수박주스"
+                    <div class="item item-2-2" data-no2="02" data-title-en="WaterMelon Juice" data-creat="Creative _ Copy" 
+                        data-title-ko="수박주스" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color2.png"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/watermelon.png"
-                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/water.png?dummy123123123" alt=""></div>
+                        onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/water.png?dummy123123123" alt=""></div> 
 
                     <div class="item item-2-3" data-no2="03"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/illom.png"
-                        data-title-en="Iloom bosten Sofa" data-creat="Creative _ Redesign" data-title-ko="일룸 보스턴 소파"
+                        data-title-en="Iloom bosten Sofa" data-creat="Creative _ Redesign" data-title-ko="일룸 보스턴 소파" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color3.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/sofa.png?dummy1212" alt=""></div>
 
                     <div class="item item-2-4" data-no2="04"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/orange.png"
-                        data-title-en="Orange Juice" data-creat="Creative _ Redesign" data-title-ko="오렌지 주스"
+                        data-title-en="Orange Juice" data-creat="Creative _ Redesign" data-title-ko="오렌지 주스" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color4.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/oran.png?dummy123123" alt=""></div>
 
                     <div class="item item-2-5" data-no2="05"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/social.png"
-                        data-title-en="Social Media" data-creat="Creative _ Copy" data-title-ko="소셜 미디어"
+                        data-title-en="Social Media" data-creat="Creative _ Copy" data-title-ko="소셜 미디어" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color5.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/media.png?dummy12341234" alt=""></div>
 
                     <div class="item item-2-6" data-no2="06"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/covid.jpg"
-                        data-title-en="Social Distance" data-creat="Creative _ Redesign" data-title-ko="사회적 거리두기"
+                        data-title-en="Social Distance" data-creat="Creative _ Redesign" data-title-ko="사회적 거리두기" data-tool="Tool : Illust" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color6.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/covid.png" alt=""></div>
 
                     <div class="item item-2-7" data-no2="07"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/dior.jpg"
-                        data-title-en="Dior Addict" data-creat="Creative _ Redesign" data-title-ko="디올 어딕트"
+                        data-title-en="Dior Addict" data-creat="Creative _ Redesign" data-title-ko="디올 어딕트" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color7.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/lip.png" alt=""></div>
 
                     <div class="item item-2-8" data-no2="08"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/africa.png"
-                        data-title-en="Africa Festival Poster" data-creat="Creative _ Redesign"
+                        data-title-en="Africa Festival Poster" data-creat="Creative _ Redesign" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color8.png"
                         data-title-ko="아프리카 페스티벌 포스터" onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/woman.png?dummy1212123" alt=""></div>
 
                     <div class="item item-2-9" data-no2="09"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/travel.gif"
-                        data-title-en="Time To Travel" data-creat="Creative _ Copy" data-title-ko="여행 일러스트"
+                        data-title-en="Time To Travel" data-creat="Creative _ Copy" data-title-ko="여행 일러스트" data-tool="Tool : Illust" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color9.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/travel.png" alt=""></div>
 
                     <div class="item item-2-10" data-no2="10"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/diptyque.jpg"
-                        data-title-en="Diptyque" data-creat="Creative _ Redesign" data-title-ko="딥디크 향수배너"
+                        data-title-en="Diptyque" data-creat="Creative _ Redesign" data-title-ko="딥디크 향수배너" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color10.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/dip.png" alt=""></div>
 
                     <div class="item item-2-11" data-no2="11"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/twosome.png"
-                        data-title-en="Twosome Summer" data-creat="Creative _ Copy" data-title-ko="투썸 플레이스"
+                        data-title-en="Twosome Summer" data-creat="Creative _ Copy" data-title-ko="투썸 플레이스" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color11.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/cake.png" alt=""></div>
 
                     <div class="item item-2-12" data-no2="12"
                         data-img2-url="https://sung-kyung.github.io/img1/pf/portfolio/domino.jpg"
-                        data-title-en="Domino Pizza" data-creat="Creative _ Redesign" data-title-ko="도미노 피자 배너"
+                        data-title-en="Domino Pizza" data-creat="Creative _ Redesign" data-title-ko="도미노 피자 배너" data-tool="Tool : Photoshop" data-palette="Palette :" data-palette-img-url="https://sung-kyung.github.io/img1/pf/portfolio/color12.png"
                         onclick="Slider1__itemClick2(this);"><img src="https://sung-kyung.github.io/img1/pf/portfolio/pizza.png" alt=""></div>
                 </div>
             </div>

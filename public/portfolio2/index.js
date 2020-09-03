@@ -45,6 +45,9 @@ function Slider1__itemClick2(el) {
     var titleKo = $el.attr('data-title-ko');
     var creat = $el.attr('data-creat');
     var no2 = $el.attr('data-no2');
+    var tool = $el.attr('data-tool');
+    var palette = $el.attr('data-palette');
+    var paletteImg = $el.attr('data-palette-img-url');
 
     $('.img-box-2').empty().append("<img src='" + url2 + "'>");
     $('.img-box-2').attr('href', url2);
@@ -52,6 +55,9 @@ function Slider1__itemClick2(el) {
     $('.creat-box').empty().append("<h5>" + creat + "</h5>");
     $('.title-ko-box').empty().append("<div>" + titleKo + "</div>");
     $('.txt-box-2').empty().append("<h1>" + no2 + "</h1>");
+    $('.tool-box').empty().append("<h3>" + tool + "</h3>");
+    $('.palette-box').empty().append("<h3>" + palette + "</h3>");
+    $('.palette-img-box').empty().append("<img src='" + paletteImg + "'>");
 }
 
 // 탭박스

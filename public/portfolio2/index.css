@@ -18,7 +18,12 @@ html {
 body,
 ul,
 li,
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -748,6 +753,7 @@ html, body {
 .page-3>.text-box-3 > .sub > .title-en-box {
     color:#ff0000;
     padding-right:10px;
+    padding:20px 0;
 }
 .page-3>.text-box-3 > .sub > .title-ko-box {
     font-size:40px;
@@ -755,6 +761,22 @@ html, body {
     white-space:nowrap;
     font-weight:bold;
 }
+.page-3>.text-box-3 > .sub > .tool-box {
+    font-family: 'Myriad Pro';
+    display: block;
+    margin-top:20px;
+    color:#4d4d4d;
+}
+.page-3>.text-box-3 > .sub  .palette-box {
+    font-family: 'Myriad Pro';
+    display:inline-block;
+    padding-right:8px;
+    color:#4d4d4d;
+}
+.page-3>.text-box-3 > .sub  .palette-img-box {
+    display:inline-block;
+}
+
 .page-3>.text-box-3 > .sub > .title-en-box,.page-3>.text-box-3 > .sub > .creat-box {
     display:inline-block;
     font-family: 'Myriad Pro';
@@ -848,6 +870,9 @@ html, body {
     }
     .page-3>.text-box-3 > .sub {
         top:45%;
+    }
+    .slide-2 {
+        bottom:0%;
     }
 }
 /* 3페이지 끝 */
