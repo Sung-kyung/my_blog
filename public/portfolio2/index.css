@@ -10,10 +10,19 @@ html {
 }
 
 @font-face {
+    font-family: 'Myriad light';
+    src: url('font/Myriad-Pro-Light_31642.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'BebasNeue';
     src: url('font/BebasNeue-Book.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'hey August';
+    src: url('font/Hey August.ttf') format('truetype');
+}
 /* 노말라이즈 */
 body,
 ul,
@@ -683,30 +692,28 @@ html, body {
     height:100%;
 }
 .page-3 > .img-box-3 >.monitor {
-    width:90%;
-    padding-top:25%;
-    padding-left:3%;
-    box-sizing: border-box;
     position: relative;
+    width:90%;
+    margin-top:25%;
+    margin-left:3%;
+    box-sizing: border-box;
 }
 .page-3 > .img-box-3 >.monitor > img {
     display: block;
     width: 100%;
 }
 .page-3 > .img-box-3 >.monitor > .img-box-2 {
-    width:85%;
-    height:46.5%;
     position:absolute;
-    top:31.5%;
-    left:9.9%;
-    overflow:hidden;
+    width:90%;
+    height: 63%;
+    top:7%;
+    left:6%;
+    overflow: hidden;
 }
 .page-3 > .img-box-3 >.monitor > .img-box-2 img {
+    position: relative;
     width:100%;
     height:auto;
-    position:absolute;
-    top:0;
-    left:0;
     z-index: -1;
 }
 .page-3 > .text-box-3 {
@@ -762,13 +769,16 @@ html, body {
     font-weight:bold;
 }
 .page-3>.text-box-3 > .sub > .tool-box {
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad light';
     display: block;
     margin-top:20px;
     color:#4d4d4d;
 }
+.page-3>.text-box-3 > .sub  .palette {
+    margin-top:5px;
+}
 .page-3>.text-box-3 > .sub  .palette-box {
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad light';
     display:inline-block;
     padding-right:8px;
     color:#4d4d4d;
@@ -815,6 +825,9 @@ html, body {
 .owl-item.active {
     width:170px !important;
 }
+.slide-2 .owl-carousel .owl-stage-outer {
+    overflow: visible;
+}
 .slide-2 > .owl-carousel .item-2-1 {
     background-color: #E71C21;
 }
@@ -854,20 +867,10 @@ html, body {
 
 .slide-2 > .owl-carousel .item.border-1 {
     border:2px solid transparent;
-    box-shadow: 7px 25px 8px 10px #5e5e5e96;
+    box-shadow: 7px 7px 5px #5e5e5e96;
 }
 
 @media (max-height:850px) {
-    .page-3 > .img-box-3 >.monitor > img {
-        padding-left:4%;
-        width:700px;
-    }
-    .page-3 > .img-box-3 >.monitor > .img-box-2 {
-        top:25.6%;
-        left:10.2%;
-        width:615px;
-        height:351px;
-    }
     .page-3>.text-box-3 > .sub {
         top:45%;
     }
@@ -907,42 +910,47 @@ html, body {
         max-width:700px;
     }
 }
+.page-4 .receipt-box > .profile-txt-box >.about-me {
+    font-family: 'hey August';
+    font-size: 150px;
+    color:#333;
+    text-align: center;
+    padding-top:50px;
+}
 .page-4 .receipt-box > .profile-txt-box >.name {
     text-align: center;
     font-size: 19px;
     color:#303030;
-    padding:15px 0;
-    border-bottom:3px dashed #b3b3b3;
 }
-.page-4 .receipt-box > .profile-txt-box >.profile {
-    font-size: 35px;
-    font-weight:bold;
-    color:#ff0000;
-    text-align: center;
-    padding:15px 0;
-    border-bottom:5px dashed #b3b3b3;
-}
+
 .page-4 .receipt-box > .profile-txt-box >.profile-cont {
     border-bottom:3px dashed #b3b3b3;
     position: relative;
-    padding:10px 0;
     font-size:18px;
+    margin-top:100px;
+    padding-bottom:40px;
+    line-height: 1.4;
 }
-.page-4 .receipt-box > .profile-txt-box >.profile-cont div {
-    padding:3px 0;
-    padding-left:5px;
+.page-4 .receipt-box > .profile-txt-box >.profile-cont .pro-box div {
+    display: inline-block;
 }
-.page-4 .receipt-box > .profile-txt-box >.profile-cont div:first-child {
-    padding-top:15px;
+.page-4 .receipt-box > .profile-txt-box >.profile-cont .pro-box div:first-child {
+    font-weight: bold;
+    font-size:25px;
 }
-.page-4 .receipt-box > .profile-txt-box >.profile-cont div:nth-child(4) {
-    padding-bottom: 15px;
+.page-4 .receipt-box > .profile-txt-box >.profile-cont .pro-box div:last-child {
+    font-size:20px;
 }
-.page-4 .receipt-box > .profile-txt-box >.profile-cont span {
+
+.page-4 .receipt-box > .profile-txt-box >.profile-cont .tag-box div {
     position: absolute;
     top:30%;
-    right:10%;
+    right:0;
     display:block;
+    font-size: 25px;
+}
+.page-4 .receipt-box > .profile-txt-box >.profile-cont .tag-box div:last-child {
+    top:52%;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu {
     border-bottom:3px dashed #b3b3b3;
@@ -951,37 +959,49 @@ html, body {
     padding-top:22px;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu .education, .page-4 .receipt-box > .profile-txt-box >.edu > .certificate {
-    font-size:25px;
+    font-size:28px;
     font-weight: bold;
     padding-top:8px;
+    padding-bottom:10px;
 }
 .page-4 .receipt-box > .profile-txt-box .edu-box {
-    padding:4px 0;
+    padding:1px 0;
     padding-left:5px;
 }
-.page-4 .receipt-box > .profile-txt-box .edu-box1 {
-    padding-top:14px;
+.page-4 .receipt-box > .profile-txt-box .edu-box .edu-1, .page-4 .receipt-box > .profile-txt-box >.edu .cer-box .date  {
+    font-size:20px;
+}
+.page-4 .receipt-box > .profile-txt-box .edu-box .edu-2, .page-4 .receipt-box > .profile-txt-box >.edu .cer-box .cer {
+    font-size:18px;
+}
+.page-4 .receipt-box > .profile-txt-box >.edu > .certificate {
+    padding-top:20px;
+}
+.page-4 .receipt-box > .profile-txt-box >.edu .cer-box {
+    padding:1px 0;
+    padding-left:5px;
+}
+.page-4 .receipt-box > .profile-txt-box >.edu .cer-box > div {
+    display: block;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu .cer {
     padding:2px 0;
 }
-.page-4 .receipt-box > .profile-txt-box >.edu .cer, .page-4 .receipt-box > .profile-txt-box >.edu .edu-1 {
-    padding-left:35px;
-}
-
 .page-4 .receipt-box > .profile-txt-box >.skill {
     padding-left:5px;
 } 
+.page-4 .receipt-box > .profile-txt-box >.edu > div:last-child {
+    padding-bottom:20px;
+}
 .page-4 .receipt-box > .profile-txt-box >.skill >.skill-title {
-    font-size:25px;
+    font-size:28px;
     font-weight: bold;
-    padding-top:20px;
+    padding-top:30px;
     padding-bottom: 20px;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont {
     padding:15px 0;
     font-size:20px;
-    padding-left:35px;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .sk {
     width:100px;
@@ -992,7 +1012,7 @@ html, body {
 }
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress {
     position: relative;
-    width:500px;
+    width:600px;
     height:20px;
     background-color: #E0E0DF;
     align-self: center;
@@ -1002,8 +1022,10 @@ html, body {
     display: block;
     height:100%;
     width:0;
-    background-color: #4d4d4d;
+    border-top: 20px solid #4d4d4d;
+    border-right: 20px solid #4d4d4d;
     transition: width 1.5s;
+    box-sizing: border-box;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-1::after {
     width:80%;
@@ -1029,17 +1051,17 @@ html, body {
 }
 .page-4 .receipt-box > .profile-txt-2 >.thank {
     text-align: center;
-    padding-top:40px;
     font-size:30px;
     font-weight:500;
+    font-family:'Myriad Pro' ;
 }
 .page-4 .receipt-box > .profile-txt-2 >.feedback {
     text-align: center;
-    padding-top:160px;
+    padding-top:200px;
     letter-spacing: 0.08em;
-    font-size:27px;
+    font-size:19px;
     white-space: nowrap;
-    font-family: 'BebasNeue';
+    font-family: 'BebasNeue','Myriad light' ;
 }
 @media (max-width:970px) {
     .page-4 .receipt-box > .profile-txt-2 {

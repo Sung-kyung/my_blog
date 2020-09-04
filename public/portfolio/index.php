@@ -13,7 +13,8 @@ include "../../part/head.php";
         style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/notebook.png);"></div>
     <div class="porfolio-text-box flex-1-0-0">
         <div class="portfolio-text flex-jc-c">" Web Designer "</div>
-        <div class="portfolio-text-sub flex-jc-c">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi odit fuga,
+        <div class="portfolio-text-sub flex-jc-c">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+            odit fuga,
             placeat perferendis incidunt laboriosam eveniet eos voluptate nam animi molestias harum optio vel excepturi
             est labore, assumenda illo facilis!Voluptatum reiciendis ut cum tenetur adipisci. Fugit tempore nesciunt
             dolorem enim officia a, veniam, voluptas deserunt laboriosam fuga culpa molestiae reiciendis saepe
@@ -22,48 +23,68 @@ include "../../part/head.php";
 </div>
 <ul class="port-list-box con row">
     <li class="cell">
-        <a href="/portfolio/kakaobank" target="_blank"style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/kakaoBank.jpg);"></a>
+        <a href="./portfolio2" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/kakaoBank.jpg);"></a>
+        <div class="port-title"><a href="./portfolio2" target="_blank">Portfolio Page</a></div>
+    </li>
+    <li class="cell">
+        <a href="/portfolio/kakaobank" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/kakaoBank.jpg);"></a>
         <div class="port-title"><a href="kakaobank.html" target="_blank">Kakao Bank</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/cleaderm" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/cleaderm-2.jpg);"></a>
+        <a href="/portfolio/cleaderm" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/cleaderm-2.jpg);"></a>
         <div class="port-title"><a href="/portfolio/cleaderm" target="_blank">Cleaderm</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/heimish" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/heimish.jpg);"></a>
+        <a href="/portfolio/heimish" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/heimish.jpg);"></a>
         <div class="port-title"><a href="#" target="_blank">Heimish</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/hyundai" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <a href="/portfolio/hyundai" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
         <div class="port-title"><a href="/portfolio/hyundai" target="_blank">Hyundai</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/nhn" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <a href="/portfolio/nhn" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
         <div class="port-title"><a href="https://www.nhn.com/ko/index.nhn" target="_blank">NHN</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/ezwel" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <a href="/portfolio/ezwel" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
         <div class="port-title"><a href="http://www.ezwel.com/renew/main.ez" target="_blank">EZWEL</a></div>
     </li>
     <li class="cell">
-        <a href="/portfolio/sns" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
-        <div class="port-title"><a href="https://www.seogaandcook.com/sns/company/#anchor1" target="_blank">S&S</a></div>
+        <a href="/portfolio/sns" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <div class="port-title"><a href="https://www.seogaandcook.com/sns/company/#anchor1" target="_blank">S&S</a>
+        </div>
     </li>
     <li class="cell">
-        <a href="/portfolio/card" target="_blank" style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
+        <a href="/portfolio/card" target="_blank"
+            style="background-image:url(https://sung-kyung.github.io/img1/blog/articles/0701/hyundai.png);"></a>
         <div class="port-title"><a href="https://www.hyundaicard.com/index.jsp" target="_blank">HYUNDAI CARD</a></div>
     </li>
     <h1>현대카드 디자인 시안</h1>
-    <a data-title="메인"" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/card/card_image/design.png">시안</a>
+    <a data-title="메인"" data-lightbox=" example-set"
+        href="https://sung-kyung.github.io/img1/pf/card/card_image/design.png">시안</a>
     <h1>포트폴리오 디자인 시안</h1>
-    <a data-title="메인"" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/portfolio/port.jpg">시안</a>
+    <a data-title="메인"" data-lightbox=" example-set"
+        href="https://sung-kyung.github.io/img1/pf/portfolio/port.jpg">시안</a>
 
 
     <h1>어플 디자인</h1>
-<a data-title="메인"" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/main.png">이미지1</a>
-<a data-title="2페이지" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/2페이지.png" style="display:none;">이미지2</a>
-<a data-title="사이드바" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/side-bar.png" style="display:none;">이미지3</a>
-<a data-title="로그인" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/Login.png" style="display:none;">이미지4</a>
+    <a data-title="메인"" data-lightbox=" example-set"
+        href="https://sung-kyung.github.io/img1/pf/artworks/1/main.png">이미지1</a>
+    <a data-title="2페이지" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/2페이지.png"
+        style="display:none;">이미지2</a>
+    <a data-title="사이드바" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/side-bar.png"
+        style="display:none;">이미지3</a>
+    <a data-title="로그인" data-lightbox="example-set" href="https://sung-kyung.github.io/img1/pf/artworks/1/Login.png"
+        style="display:none;">이미지4</a>
 </ul>
 <?php
 include "../../part/foot.php";

@@ -1,11 +1,10 @@
-
-$(function() {
+$(function () {
     lightbox.option({
         resizeDuration: 200,
         wrapAround: true,
         disableScrolling: false,
-        fitImagesInViewport:false
-      })
+        fitImagesInViewport: false
+    })
 });
 
 function Owl__init() {
@@ -18,12 +17,18 @@ function Owl__init() {
         items: 3
     });
 }
+
 function Owl2__init() {
     $('.slide-2 > .owl-carousel').owlCarousel({
         loop: false,
         nav: false,
         dots: false,
-        items: 4
+        items: 4,
+        navigation: true,
+        // navigationText: [
+        //     "<i class='fa fa-chevron-left'></i>",
+        //     "<i class='fa fa-chevron-right'></i>"
+        // ]
     });
 }
 
@@ -33,7 +38,7 @@ function Slider1__itemClick(el) {
     var url = $el.attr('data-img-url');
     var link = $el.attr('data-link-url');
     var no = $el.attr('data-no');
-    
+
     $('.img-box-1').empty().append("<a href='" + link + "' target='_blank' style=\"background-image:url(\'" + url + "\')\"></a>");
     $('.txt-box-1').empty().append("<h1>" + no + "</h1>");
 }
@@ -91,8 +96,8 @@ function Tab__init() {
                 return false;
             }
         });
-    }); 
-  
+    });
+
     // 메뉴 마우스 리브
 
     $(".head > ul > li").click(function () {
@@ -112,6 +117,7 @@ function border_1() {
 
     })
 }
+
 function border_2() {
     $('.owl-2 .item').click(function () {
         var $border = $('.owl-2 .item.border-1');
@@ -162,19 +168,19 @@ function ActiveOnVisible__checkAndActive() {
 
 //contact 실행
 function sendEmailFormSubmit(form) {
-    if ( form.receiverName.value.length == 0 ) {
+    if (form.receiverName.value.length == 0) {
         alert('폼안에 receiverName 의 value 를 입력해주세요.');
         return false;
     }
 
-    if ( form.receiverEmail.value.length == 0 ) {
+    if (form.receiverEmail.value.length == 0) {
         alert('폼안에 receiverEmail 의 value 를 입력해주세요.');
         return false;
     }
 
     form.senderName.value = form.senderName.value.trim();
 
-    if ( form.senderName.value.length == 0 ) {
+    if (form.senderName.value.length == 0) {
         alert('당신의 이름을 입력해주세요.');
         form.senderName.focus();
         return false;
@@ -182,7 +188,7 @@ function sendEmailFormSubmit(form) {
 
     form.senderEmail.value = form.senderEmail.value.trim();
 
-    if ( form.senderEmail.value.length == 0 ) {
+    if (form.senderEmail.value.length == 0) {
         alert('당신의 이메일을 입력해주세요.');
         form.senderEmail.focus();
         return false;
@@ -190,7 +196,7 @@ function sendEmailFormSubmit(form) {
 
     form.body.value = form.body.value.trim();
 
-    if ( form.body.value.length == 0 ) {
+    if (form.body.value.length == 0) {
         alert('내용을 입력해주세요.');
         form.body.focus();
         return false;
@@ -207,19 +213,19 @@ function sendEmailFormSubmit(form) {
 
     //console.log("URL : " + url);
 
-    var head= document.getElementsByTagName('head')[0];
+    var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = url;
     head.appendChild(script);
 }
 
-function nl2br(str){  
-    return str.replace(/\n/g, "<br />");  
+function nl2br(str) {
+    return str.replace(/\n/g, "<br />");
 }
 
 function Email__callback(data) {
-    if ( data.resultCode.substr(0, 2) == 'S-' ) {
+    if (data.resultCode.substr(0, 2) == 'S-') {
         document.sendEmailForm.reset();
     }
 
@@ -227,7 +233,7 @@ function Email__callback(data) {
 }
 
 
-$(function() {
+$(function () {
     Owl__init();
     Owl2__init();
     Slider1__itemClick();
@@ -240,11 +246,11 @@ $(function() {
 
     // 스크롤 이벤트
     ActiveOnVisible__initOffset();
-    
-    setTimeout(function(){
+
+    setTimeout(function () {
         ActiveOnVisible__checkAndActive();
     }, 100);
-    
+
     $(window).resize(ActiveOnVisible__initOffset);
     $(window).scroll(ActiveOnVisible__checkAndActive);
 });
