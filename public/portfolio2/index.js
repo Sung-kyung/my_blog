@@ -21,14 +21,10 @@ function Owl__init() {
 function Owl2__init() {
     $('.slide-2 > .owl-carousel').owlCarousel({
         loop: false,
-        nav: false,
+        nav: true,
         dots: false,
         items: 4,
-        navigation: true,
-        // navigationText: [
-        //     "<i class='fa fa-chevron-left'></i>",
-        //     "<i class='fa fa-chevron-right'></i>"
-        // ]
+        navText: ['<i class="fas fa-angle-left"></i>','<i class="fas fa-angle-right"></i>']
     });
 }
 

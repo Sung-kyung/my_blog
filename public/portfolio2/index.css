@@ -362,6 +362,32 @@ label[for] {
 html, body {
     overflow-x: hidden;
 }
+/* 스크롤바 변경 */
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFf;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    width: 16px;
+    height: 13px;
+    background: rgb(255, 255, 255);
+}
 /* 메인 시작 */
 /* html,body {
     height:100%;
@@ -802,7 +828,6 @@ html, body {
 }
 .slide-2 > .owl-carousel {
     position: absolute;
-    top:0;
     left:0;
     bottom:0;
     width:800px;
@@ -869,7 +894,17 @@ html, body {
     border:2px solid transparent;
     box-shadow: 7px 7px 5px #5e5e5e96;
 }
-
+.slide-2 > .owl-carousel .owl-nav {
+    /* border:1px solid red; */
+    position: absolute;
+    bottom:0;
+    display: inline-block;
+}
+.slide-2 > .owl-carousel .owl-nav .owl-prev, .slide-2 > .owl-carousel .owl-nav .owl-next {
+    background-color: transparent;
+    color:gray;
+    font-size:16px;
+}
 @media (max-height:850px) {
     .page-3>.text-box-3 > .sub {
         top:45%;
@@ -898,7 +933,7 @@ html, body {
 }
 .page-4 .receipt-box > .profile-txt-box {
     position: absolute;
-    max-width:900px;
+    max-width:850px;
     width: 100%;
     top:8%;
     left:50%;
@@ -929,7 +964,7 @@ html, body {
     font-size:18px;
     margin-top:100px;
     padding-bottom:40px;
-    line-height: 1.4;
+    line-height: 1.45;
 }
 .page-4 .receipt-box > .profile-txt-box >.profile-cont .pro-box div {
     display: inline-block;
@@ -937,6 +972,7 @@ html, body {
 .page-4 .receipt-box > .profile-txt-box >.profile-cont .pro-box div:first-child {
     font-weight: bold;
     font-size:25px;
+    width:76px;
 }
 .page-4 .receipt-box > .profile-txt-box >.profile-cont .pro-box div:last-child {
     font-size:20px;
@@ -997,10 +1033,10 @@ html, body {
     font-size:28px;
     font-weight: bold;
     padding-top:30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont {
-    padding:15px 0;
+    padding:12px 0;
     font-size:20px;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .sk {
@@ -1020,12 +1056,12 @@ html, body {
 .page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress::after {
     content:"";
     display: block;
-    height:100%;
     width:0;
     border-top: 20px solid #4d4d4d;
-    border-right: 20px solid #4d4d4d;
+    border-right: 20px solid #E0E0DF;
     transition: width 1.5s;
     box-sizing: border-box;
+    background-color: #4d4d4d;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-1::after {
     width:80%;
@@ -1034,12 +1070,15 @@ html, body {
     width:90%;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-3::after {
-    width:60%;
+    width:50%;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-4::after {
-    width:70%;
+    width:60%;
 }
 .page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-5::after {
+    width:70%;
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-6::after {
     width:70%;
 }
 .page-4 .receipt-box > .profile-txt-2 {
@@ -1052,16 +1091,22 @@ html, body {
 .page-4 .receipt-box > .profile-txt-2 >.thank {
     text-align: center;
     font-size:30px;
-    font-weight:500;
-    font-family:'Myriad Pro' ;
+    font-weight:700;
+    padding-left:20px;
 }
 .page-4 .receipt-box > .profile-txt-2 >.feedback {
     text-align: center;
-    padding-top:200px;
+    padding-top:225px;
+    padding-left:20px;
     letter-spacing: 0.08em;
-    font-size:19px;
     white-space: nowrap;
-    font-family: 'BebasNeue','Myriad light' ;
+    font-family: 'Myriad Pro' ;
+    font-size:13px;
+}
+.page-4 .receipt-box > .profile-txt-2 >.read {
+    font-family: 'Myriad light' ;
+    padding-left:20px;
+    font-size:13px;
 }
 @media (max-width:970px) {
     .page-4 .receipt-box > .profile-txt-2 {

@@ -447,20 +447,20 @@
                 <div class="name">Yoo Sung Kyung</div>
                 <div class="profile-cont">
                     <div class="name-box pro-box">
-                        <div>Name</div>
-                        <div> : 유성경</div>
+                        <div class="pro-title">Name</div>
+                        <div>&nbsp;: &nbsp;유성경</div>
                     </div>
                     <div class="Email-box pro-box">
-                        <div>Email</div>
-                        <div> : yoo960115@gmail.com</div>
+                        <div class="pro-title">Email</div>
+                        <div>&nbsp;: &nbsp;yoo960115@gmail.com</div>
                     </div>
                     <div class="Blog-box pro-box">
-                        <div>Blog</div>
-                        <div> : https://site17.blog.oa.gg</div>
+                        <div class="pro-title">Blog</div>
+                        <div>&nbsp;: &nbsp;https://site17.blog.oa.gg</div>
                     </div>
                     <div class="Wiki-box pro-box">
-                        <div>Wiki</div>
-                        <div> : https://to2.kr/bma</div>
+                        <div class="pro-title">Wiki</div>
+                        <div>&nbsp;: &nbsp;https://to2.kr/bma</div>
                     </div>
                     <div class="tag-box flex flex-jc-e">
                         <div>#Web Designer</div>
@@ -484,15 +484,11 @@
                     </div>
                     <div class="certificate">Certificate</div>
                     <div class="cer-box flex flex-jc-sb">
-                        <div class="date flex">2020.04 ~ 2020.10</div>
-                        <div class="cer flex">운전면허 2종 보통</div>
-                    </div>
-                    <div class="cer-box flex flex-jc-sb">
-                        <div class="date flex">2020.04 ~ 2020.10</div>
+                        <div class="date flex">2019.11</div>
                         <div class="cer flex">컴퓨터 활용능력 1급</div>
                     </div>
                     <div class="cer-box flex flex-jc-sb">
-                        <div class="date flex">2020.04 ~ 2020.10</div>
+                        <div class="date flex">2020.04 ~</div>
                         <div class="cer flex">웹 디자인 기능사 필기</div>
                     </div>
 
@@ -512,23 +508,29 @@
                     <div class="java flex flex-jc-sb skill-cont">
                         <div class="flex sk">JavaScript</div>
                         <div class="flex progress pro-3"></div>
+                        <div class="flex per">50%</div>
+                    </div>
+                    <div class="jq flex flex-jc-sb skill-cont">
+                        <div class="flex sk">Jquery</div>
+                        <div class="flex progress pro-4"></div>
                         <div class="flex per">60%</div>
                     </div>
                     <div class="photo flex flex-jc-sb skill-cont">
                         <div class="flex sk">Photoshop</div>
-                        <div class="flex progress pro-4"></div>
+                        <div class="flex progress pro-5"></div>
                         <div class="flex per">70%</div>
                     </div>
                     <div class="illu flex flex-jc-sb skill-cont">
                         <div class="flex sk">Illustrator</div>
-                        <div class="flex progress pro-5"></div>
+                        <div class="flex progress pro-6"></div>
                         <div class="flex per">70%</div>
                     </div>
                 </div>
             </div>
             <div class="profile-txt-2">
-                <div class="thank">THANK YOU</div>
-                <div class="feedback">Take a shot of the QR code<br>QR Code를 찍어보세요</div>
+                <div class="thank">THANK YOU ! </div>
+                <div class="feedback">QR Code를 찍어보세요</div>
+                <div class="read">YOUR FEEDBACK KEEPS ME IMPROVING</div>
             </div>
         </div>
 
