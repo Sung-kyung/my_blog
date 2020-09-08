@@ -497,32 +497,44 @@
                     <div class="skill-title">SKILL</div>
                     <div class="html flex flex-jc-sb skill-cont">
                         <div class="flex sk">HTML</div>
-                        <div class="flex progress pro-1"></div>
+                        <div class="flex progress pro-1">
+                            <div></div>
+                        </div>
                         <div class="flex per">80%</div>
                     </div>
                     <div class="css flex flex-jc-sb skill-cont">
                         <div class="flex sk">CSS</div>
-                        <div class="flex progress pro-2"></div>
+                        <div class="flex progress pro-2">
+                            <div></div>
+                        </div>
                         <div class="flex per">90%</div>
                     </div>
                     <div class="java flex flex-jc-sb skill-cont">
                         <div class="flex sk">JavaScript</div>
-                        <div class="flex progress pro-3"></div>
+                        <div class="flex progress pro-3">
+                            <div></div>
+                        </div>
                         <div class="flex per">50%</div>
                     </div>
                     <div class="jq flex flex-jc-sb skill-cont">
                         <div class="flex sk">Jquery</div>
-                        <div class="flex progress pro-4"></div>
+                        <div class="flex progress pro-4">
+                            <div></div>
+                        </div>
                         <div class="flex per">60%</div>
                     </div>
                     <div class="photo flex flex-jc-sb skill-cont">
                         <div class="flex sk">Photoshop</div>
-                        <div class="flex progress pro-5"></div>
+                        <div class="flex progress pro-5">
+                            <div></div>
+                        </div>
                         <div class="flex per">70%</div>
                     </div>
                     <div class="illu flex flex-jc-sb skill-cont">
                         <div class="flex sk">Illustrator</div>
-                        <div class="flex progress pro-6"></div>
+                        <div class="flex progress pro-6">
+                            <div></div>
+                        </div>
                         <div class="flex per">70%</div>
                     </div>
                 </div>

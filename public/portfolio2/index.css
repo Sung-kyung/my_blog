@@ -1053,32 +1053,53 @@ html, body {
     background-color: #E0E0DF;
     align-self: center;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress::after {
+.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress > div {
     content:"";
     display: block;
     width:0;
-    border-top: 20px solid #4d4d4d;
-    border-right: 20px solid #E0E0DF;
     transition: width 1.5s;
     box-sizing: border-box;
     background-color: #4d4d4d;
+    position: relative;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-1::after {
+
+.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background-color:#eeefef;
+    height:20px;
+}
+
+.page-4 .receipt-box > .profile-txt-box >.skill .skill-cont > .progress > div::after {
+    content:"";
+    display: block;
+    position: absolute;
+    width:40px;
+    height: 20px;
+    background-color:#E0E0DF;
+    right:0;
+    transform-origin:top right;
+    transform: rotate(-45deg);
+}
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-1 > div {
     width:80%;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-2::after {
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-2 > div {
     width:90%;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-3::after {
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-3 > div {
     width:50%;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-4::after {
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-4 > div {
     width:60%;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-5::after {
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-5 > div {
     width:70%;
 }
-.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-6::after {
+.page-4 .receipt-box > .profile-txt-box >.skill.active .skill-cont > .pro-6 > div {
     width:70%;
 }
 .page-4 .receipt-box > .profile-txt-2 {
