@@ -1,4 +1,4 @@
-console.clear();
+
 function Round1__init() {
     var $circle1 = $('.discover-round-1');
 

@@ -44,14 +44,15 @@
             <div class="main-title-2 main-title">SEASON MENU</div>
             <div class="main-title-3 main-title">MALTESERS</div>
             <div class="main-title-4 main-title">#빙수를_FUN하게 #떤넹수 #몰티져스</div>
-        </div>
-        <div class="discover-box flex">
+            <div class="discover-box flex">
             <div class="discover-round-1">
                 <div class="cross"></div>
             </div>
             <div class="discover-text flex-as-c">DISCOVER MORE</div>
 
         </div>
+        </div>
+        
         <div class="bingsu-img"><img src="https://sung-kyung.github.io/img1/pf/hollys/bingsu-1.png" alt=""></div>
     </div>
     <!--page 2-->
@@ -72,6 +73,9 @@
             <img class="choco" src="https://sung-kyung.github.io/img1/pf/hollys/choco.png" alt="">
             <div class="choco-text">초코벨벳<br>라운드</div>
         </div>
+    </div>
+    <div class="bg-3">
+        <img src="https://sung-kyung.github.io/img1/pf/hollys/3page_wave.png" alt="" class="wave-3">
     </div>
 </body>
 
