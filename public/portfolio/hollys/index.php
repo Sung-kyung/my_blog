@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/MotionPathPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(MotionPathPlugin);
+    </script>
     <script src="/portfolio/hollys/common.js"></script>
     <link rel="stylesheet" href="/portfolio/hollys/common.css">
 </head>
@@ -45,14 +50,14 @@
             <div class="main-title-3 main-title">MALTESERS</div>
             <div class="main-title-4 main-title">#빙수를_FUN하게 #떤넹수 #몰티져스</div>
             <div class="discover-box flex">
-            <div class="discover-round-1">
-                <div class="cross"></div>
-            </div>
-            <div class="discover-text flex-as-c">DISCOVER MORE</div>
+                <div class="discover-round-1">
+                    <div class="cross"></div>
+                </div>
+                <div class="discover-text flex-as-c">DISCOVER MORE</div>
 
+            </div>
         </div>
-        </div>
-        
+
         <div class="bingsu-img"><img src="https://sung-kyung.github.io/img1/pf/hollys/bingsu-1.png" alt=""></div>
     </div>
     <!--page 2-->
@@ -62,7 +67,7 @@
         <div class="line-2"></div>
         <div class="sub-title-2">할리스커피의 다양한 메뉴를 맛보세요</div>
         <div class="btn-go-to-menu"><a href="#">메뉴 보기</a></div>
-        <div class="berry-box"><img class="berry" src="https://sung-kyung.github.io/img1/pf/hollys/berry.png" alt="">
+        <div class="berry-box"><img class="berry" src="https://sung-kyung.github.io/img1/pf/hollys/berry2.png?dummy123" alt="">
             <div class="berry-text">딸기치즈케익<br>할리치노</div>
         </div>
         <div class="vanilla-box"> <img class="vanilla" src="https://sung-kyung.github.io/img1/pf/hollys/vanilla.png"
@@ -74,8 +79,39 @@
             <div class="choco-text">초코벨벳<br>라운드</div>
         </div>
     </div>
-    <div class="bg-3">
-        <img src="https://sung-kyung.github.io/img1/pf/hollys/3page_wave.png" alt="" class="wave-3">
+    <div class="bg-3 row">
+        <div class="box-1 cell">
+            <div class="pooh1 pooh"><img src="https://sung-kyung.github.io/img1/pf/hollys/pooh1.png?dummy123123" alt="">
+            </div>
+            <div class="pooh2 pooh"><img src="https://sung-kyung.github.io/img1/pf/hollys/pooh2.png?dummy123123123"
+                    alt=""></div>
+            <div class="pooh3 pooh"><img src="https://sung-kyung.github.io/img1/pf/hollys/balloon.png" alt=""></div>
+            <div class="logo-box">
+                <span id="hollys"><img src="https://sung-kyung.github.io/img1/pf/hollys/col2.png" alt=""></span>
+            </div>
+        </div>
+        <div class="box-2 cell-right">
+            <div class="product-box row">
+                <div class="cell">
+                    <div class="cup-box cup-box-1"><img class="cup1" src="https://sung-kyung.github.io/img1/pf/hollys/cup2.png" alt="no"></div>
+                    <div class="cup-text-box">
+                        <p class="cup-title">글라스머그 곰돌이 푸(오마이) / 300ml</p>
+                        <p class="price">17,000 ₩</p>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="cup-box">
+                        <img class="cup2" src="https://sung-kyung.github.io/img1/pf/hollys/cup.png" alt="no"></div>
+                    <div class="cup-text-box">
+                        <p class="cup-title">리유저블 텀블러 세트 (5개입) / 500ml</p>
+                        <p class="price">29,000 ₩</p>
+                    </div>
+                </div>
+            </div>
+            <div class="roll">
+                <img src="https://sung-kyung.github.io/img1/pf/hollys/roll.png" alt="">
+            </div>
+        </div>
     </div>
 </body>
 

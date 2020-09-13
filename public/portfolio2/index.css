@@ -646,7 +646,7 @@ html, body {
     z-index: 1;
 }
 .item.border  .w-box {
-    border:2px solid #ff0000;
+    border:2px solid #424242;
 }
 
 .owl-carousel .item .w-box > img {
@@ -1207,8 +1207,21 @@ input {
 }
 .notice {
     text-align: center;
-    color:gray;
+    color:#afafaf;
     padding-bottom:30px;
+    padding-top:20px;
+    font-size:13px;
+}
+.contact-bottom > div {
+    color:#555555;
+}
+.contact-bottom > div > span {
+    font-size:14px;
+}
+.contact-bottom > div > i {
+    font-size:20px;
+    padding:0 20px;
+    color:#555555;
 }
 /* contact 페이지 끝 */
 

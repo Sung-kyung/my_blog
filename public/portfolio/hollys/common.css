@@ -4,6 +4,18 @@ html {
   font-family: "Roboto", "Noto Sans KR", sans-serif;
 }
 
+@font-face {
+  font-family: 'Nanum Square';
+  src: url('font/NanumSquareR.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  src: url('font/NanumSquareB.ttf') format('truetype');
+  font-weight: 700;
+}
+
 /* 노말라이즈 */
 body,
 ul,
@@ -17,6 +29,11 @@ h1 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin:0;
+  padding:0;
 }
 
 label[for] {
@@ -348,7 +365,7 @@ label[for] {
 html, body {
   overflow-x:hidden;
   max-width:2000px;
-  min-width:1020px;
+  min-width:1000px;
 }
 /* 탑바 시작 */
 
@@ -389,6 +406,7 @@ html, body {
   left:0;
   width:100%;
   position: absolute;
+  box-shadow: 5px 3px 5px #77767660;
 }
 
 .top-bar>.menu-box-1>ul ul>li>a {
@@ -557,7 +575,7 @@ html, body {
 
 .bg-2{
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .bg-2 > .sub-title {
   position: absolute;
@@ -581,9 +599,10 @@ html, body {
   left:50%;
   transform: translateX(-50%);
   font-size:1.5rem;
-  font-weight:100;
+  font-weight:500;
   letter-spacing: 0.02rem;
   color:white;
+  font-family: 'Nanum Square';
 }
 .bg-2 > .btn-go-to-menu {
   position:absolute;
@@ -618,9 +637,13 @@ html, body {
 }
 .bg-2 >.berry-box > .berry-text {
   z-index: 2;
-  font-weight: 600;
+  font-weight: 500;
   font-size:1.4rem;
-  border:1px solid gold;
+  position: absolute;
+  bottom:30%;
+  left:90%;
+  white-space: nowrap;
+  font-family: 'Nanum Square';
 }
 .bg-2 >.vanilla-box {
   position:absolute;
@@ -636,14 +659,14 @@ html, body {
 }
 
 .bg-2 >.vanilla-box > .vanilla-text {
-  margin-left:50%;
-  bottom:0;
   display: inline-block;
-  position:absolute;
-  left:-80%;
-  font-weight: 600;
+  position: absolute;
+  top:60%;
+  right:90%;
+  font-weight: 500;
   font-size:1.4rem;
-  border:1px solid blue;
+  white-space: nowrap;
+  font-family: 'Nanum Square';
 }
 .bg-2 > .choco-box {
   position:absolute;
@@ -659,10 +682,148 @@ html, body {
 }
 .bg-2 > .choco-box  > .choco-text {
   position:absolute;
-  bottom:10%;
-  right:23%;
-  font-weight: 600;
+  bottom:35%;
+  right:90%;
+  font-weight: 500;
   font-size:1.4rem;
-  border:1px solid red;
+  white-space: nowrap;
+  font-family: 'Nanum Square';
 }
 /* 2페이지 끝 */
+
+/* 3페이지 시작 */
+.bg-3 {
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://sung-kyung.github.io/img1/pf/hollys/3page_wave.png);
+  background-repeat: no-repeat; 
+  width:100%;
+  height:100vh;
+}
+.wave-3 {
+  z-index: -1;
+  display: inline-block;
+}
+.box-1, .box-2 {
+  width:50%;
+  height:inherit;
+  position: relative;
+}
+.box-1 > .pooh1 {
+  position: absolute;
+  top:45%;
+  right:0;
+}
+.box-1 > .pooh2 {
+  position: absolute;
+  top:37%;
+  left:25%;
+}
+.box-1 > .pooh3 {
+  position: absolute;
+  top:60%;
+  left:40%;
+  z-index: -2;
+  animation:balloon 5s infinite forwards;
+}
+.box-1 > .pooh > img {
+  width:100%;
+  display: block;
+}
+@keyframes balloon {
+  0% {
+    top:70%;
+  }
+  100% {
+    top:-30%;
+  }
+}
+.box-1 > .logo-box {
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:30%;
+  z-index: 3;
+}
+.box-1 > .logo-box > span {
+  display: inline-block;
+  position: absolute;
+  bottom:0;
+  left:5%;
+}
+.box-1 > .logo-box > span img {
+  width:400px;
+}
+.box-2 > .product-box {
+  width:100%;
+  height:70%;
+}
+.box-2 > .product-box > div {
+  width:50%;
+  text-align: center;
+  margin-top:95px;
+}
+.box-2 > .product-box > div .cup-box {
+  position: relative;
+  cursor:pointer;
+}
+.box-2 > .product-box > div .cup-box:hover::before {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(255,255,255,.5);
+}
+.box-2 > .product-box > div .cup-box:hover::after {
+  content:"VIEW";
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%)translateY(-50%);
+  color:#333;
+  border:2px solid #333;
+  background-color: rgba(255,255,255,.8);
+  border-radius: 10px;
+  padding:7px 20px;
+  letter-spacing:0.1em;
+  font-size:20px;
+}
+.box-2 > .product-box > div .cup-box-1:hover::after {
+  transform:translateX(-10%)translateY(-50%);
+}
+.box-2 > .product-box > div div .cup1 {
+  height:380px;
+
+}
+.box-2 > .product-box > div div .cup2 {
+  height:380px;
+}
+.box-2 > .product-box > div >.cup-text-box {
+  width:300px;
+  height:100px;
+  margin:0 auto;
+  margin-top:10px;
+}
+.box-2 > .product-box > div >.cup-text-box .cup-title {
+  font-size:14px;
+  text-align: right;
+}
+.box-2 > .product-box > div >.cup-text-box .price {
+  text-align: right;
+  font-size:20px;
+  font-weight: bold;
+  color:#ba000c;
+}
+.box-2 > .roll {
+  display: inline-block;
+  position: absolute;
+  bottom:10%;
+  left:50%;
+}
+.box-2 > .roll > img {
+  width:140px;
+}
+/* 3페이지 끝 */

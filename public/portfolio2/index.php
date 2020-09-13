@@ -19,7 +19,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
     <link rel="stylesheet" href="/portfolio2/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
@@ -67,7 +67,7 @@
                                             alt=""></div>
                                     <div class="title-box">
                                         <div class="title">GALLERY HYUNDAI</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br> <a
                                                 href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
                                         </div>
                                     </div>
@@ -83,7 +83,7 @@
                                     </div>
                                     <div class="title-box">
                                         <div class="title">HYUNDAI CARD</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@
                                     </div>
                                     <div class="title-box">
                                         <div class="title">HOLLYS COFFEE</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
                                     </div>
                                     <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
@@ -113,7 +113,7 @@
                                     </div>
                                     <div class="title-box">
                                         <div class="title">KAKAO BANK</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.kakaobank.com/">https://www.kakaobank.com/</a>
                                         </div>
                                     </div>
@@ -128,7 +128,7 @@
                                             src="https://sung-kyung.github.io/img1/pf/nhn/logo_black.png" alt=""></div>
                                     <div class="title-box">
                                         <div class="title">NHN</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.nhn.com/ko/index.nhn">https://www.nhn.com/ko/index.nhn</a>
                                         </div>
                                     </div>
@@ -143,7 +143,7 @@
                                             alt=""></div>
                                     <div class="title-box">
                                         <div class="title">EZWEL</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="http://www.ezwel.com/renew/main.ez">http://www.ezwel.com/renew/main.ez</a>
                                         </div>
                                     </div>
@@ -158,7 +158,7 @@
                                             src="https://sung-kyung.github.io/img1/pf/cleaderm/logo_b.png" alt=""></div>
                                     <div class="title-box">
                                         <div class="title">CLEADERM</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.cleaderm.co.kr/">https://www.cleaderm.co.kr/</a>
                                         </div>
                                     </div>
@@ -173,7 +173,7 @@
                                             alt=""></div>
                                     <div class="title-box">
                                         <div class="title">S & S</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.seogaandcook.com/sns/company/">https://www.seogaandcook.com/sns/company/</a>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@
                                             alt=""></div>
                                     <div class="title-box">
                                         <div class="title">GALLERY HYUNDAI</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
                                         </div>
                                     </div>
@@ -209,7 +209,7 @@
                                     </div>
                                     <div class="title-box">
                                         <div class="title">Kakao Bank</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br> <a
                                                 href="https://www.kakaobank.com/">https://www.kakaobank.com/</a>
                                         </div>
                                     </div>
@@ -224,7 +224,7 @@
                                             src="https://sung-kyung.github.io/img1/pf/nhn/logo_black.png" alt=""></div>
                                     <div class="title-box">
                                         <div class="title">NHN</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.nhn.com/ko/index.nhn">https://www.nhn.com/ko/index.nhn</a>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@
                                             alt=""></div>
                                     <div class="title-box">
                                         <div class="title">EZWEL</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="http://www.ezwel.com/renew/main.ez">http://www.ezwel.com/renew/main.ez</a>
                                         </div>
                                     </div>
@@ -254,7 +254,7 @@
                                             src="https://sung-kyung.github.io/img1/pf/cleaderm/logo_b.png" alt=""></div>
                                     <div class="title-box">
                                         <div class="title">CLEADERM</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.cleaderm.co.kr/">https://www.cleaderm.co.kr/</a>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@
                                             alt=""></div>
                                     <div class="title-box">
                                         <div class="title">S & S</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.seogaandcook.com/sns/company/">https://www.seogaandcook.com/sns/company/</a>
                                         </div>
                                     </div>
@@ -289,7 +289,7 @@
                                     </div>
                                     <div class="title-box">
                                         <div class="title">HYUNDAI CARD</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
                                         </div>
                                     </div>
@@ -305,7 +305,7 @@
                                     </div>
                                     <div class="title-box">
                                         <div class="title">HOLLYS COFFEE</div>
-                                        <div class="cont">원본사이트 : <a
+                                        <div class="cont">원본사이트 <br><a
                                                 href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
                                     </div>
                                     <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
@@ -566,6 +566,10 @@
                     <input type="submit" value="SUBMIT">
                 </div>
             </form>
+        </div>
+        <div class="contact-bottom flex flex-jc-c flex-ai-c">
+            <div class="hp flex-ai-c"><i class="fas fa-phone-alt"></i><span class="flex-ai-c">010-2325-5132</span></div>
+            <div class="gmail flex-ai-c"><i class="far fa-envelope"></i><span class="flex-ai-c">yoo960115@gmail.com</span></div>
         </div>
         <p class="notice">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
     </div>
