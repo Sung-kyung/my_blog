@@ -16,6 +16,17 @@ html {
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('font/Copperplate Gothic Bold Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('font/CopperplateGothicBold.ttf') format('truetype');
+  font-weight: 700;
+}
 /* 노말라이즈 */
 body,
 ul,
@@ -363,9 +374,7 @@ label[for] {
 
 /* 커스텀 */
 html, body {
-  overflow-x:hidden;
-  max-width:2000px;
-  min-width:1000px;
+  min-width:1900px;
 }
 /* 탑바 시작 */
 
@@ -449,7 +458,7 @@ html, body {
 
 .bg .content {
   top: 30%;
-  right:2%;
+  right:10%;
   width: 500px;
   height: auto;
   position:absolute;
@@ -749,7 +758,7 @@ html, body {
 .box-1 > .logo-box > span {
   display: inline-block;
   position: absolute;
-  bottom:0;
+  bottom:7%;
   left:5%;
 }
 .box-1 > .logo-box > span img {
@@ -827,3 +836,30 @@ html, body {
   width:140px;
 }
 /* 3페이지 끝 */
+
+/* 4페이지 시작 */
+.bg-4 {
+  width:100%;
+  height:100vh;
+  position: relative;
+}
+.with-text-box {
+  border:1px solid red;
+  width:40%;
+  height:700px;
+  transform: translateY(30%);
+  font-family: 'Copperplate Gothic';
+}
+.with-text-box > h1 {
+  color:#ba000c;
+  font-family: 'Copperplate Gothic';
+  font-weight: 700;
+  font-size:60px;
+}
+.with-text-box > h2 {
+  color:#ba000c;
+  font-family: 'Copperplate Gothic';
+  font-weight: 500;
+  font-size:40px;
+}
+/* 4페이지 끝 */

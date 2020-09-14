@@ -12,29 +12,36 @@ function Round1__init() {
 }
 var action1NowWork = false;
 
-function Action() {
+function Action1() {
     $('.roll').mouseover(function () {
-            if (action1NowWork) {
-                return;
+        if ( action1NowWork ) {
+            return;
+        }
+
+        action1NowWork = true;
+
+        gsap.to(".roll", {
+            duration: 3,
+            yoyo:true,
+            repeat:1,
+            ease: "power1.inOut",
+            immediateRender: true,
+            motionPath: {
+                path: "M43.716,17.28 C165.235,16.264 162.76,15.85 235.79,14.85 310.788,14.85 430.42,71.45 456.992,112.197",
+                align: "#path",
+                autoRotate: 0,
+                alignOrigin: [0.5, 0.5]
             }
+        });
 
+        setTimeout(function() {
             action1NowWork = false;
-
-            gsap.to(".roll", {
-                duration: 3,
-                ease: "power1.inOut",
-                immediateRender: true,
-                motionPath: {
-                    path: "M131,24 C206,24 472.044,125.741 491.761,157.986 52.511,19.649 0,0 0,0 ",
-                    align: "#path",
-                    alignOrigin: [0.5, 0.5]
-                }
-            });
+        }, 7000);
     });
 }
 
 
 $(function () {
     Round1__init();
-    Action();
+    Action1();
 });

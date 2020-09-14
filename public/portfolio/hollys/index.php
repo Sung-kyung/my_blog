@@ -113,6 +113,12 @@
             </div>
         </div>
     </div>
+    <div class="bg-4">
+        <div class="with-text-box">
+            <h1>WITH</h1>
+            <h2>HOLLYS COFFEE'S</h2>
+        </div>
+    </div>
 </body>
 
 </html>
