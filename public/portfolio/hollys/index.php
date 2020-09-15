@@ -12,8 +12,8 @@
     <script>
         gsap.registerPlugin(MotionPathPlugin);
     </script>
-    <script src="/portfolio/hollys/common.js"></script>
-    <link rel="stylesheet" href="/portfolio/hollys/common.css">
+    <script src="/portfolio/hollys/index.js"></script>
+    <link rel="stylesheet" href="/portfolio/hollys/index.css">
 </head>
 
 <body>

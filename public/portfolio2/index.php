@@ -90,7 +90,7 @@
                                     <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/card/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-3" data-no="03" data-link-url="https://www.naver.com"
+                                <div class="item item-3" data-no="03" data-link-url="https://site17.blog.oa.gg/portfolio/hollys/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -101,7 +101,7 @@
                                         <div class="cont">원본사이트 <br><a
                                                 href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hollys/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                                 <div class="item item-4" data-no="04"

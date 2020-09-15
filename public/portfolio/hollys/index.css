@@ -704,7 +704,7 @@ html, body {
 .bg-3 {
   position: relative;
   overflow: hidden;
-  background-image: url(https://sung-kyung.github.io/img1/pf/hollys/3page_wave.png);
+  background-image: url(https://sung-kyung.github.io/img1/pf/hollys/3page_wave.png) !important;
   background-repeat: no-repeat; 
   width:100%;
   height:100vh;
