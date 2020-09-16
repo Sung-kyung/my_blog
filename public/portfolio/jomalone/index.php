@@ -55,17 +55,7 @@
             <div class="best-sub">조 말론 런던 온라인 부티크에서<br>
                 가장 사랑 받는 제품을 만나보세요</div>
         </div>
-        <div class="swiper-container-2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">1</div>
-                <div class="swiper-slide">2</div>
-                <div class="swiper-slide">3</div>
-                <div class="swiper-slide">4</div>
-                <div class="swiper-slide">5</div>
-                <div class="swiper-slide">6</div>
-            </div>
-        </div>
-
+    </div>
 </body>
 
 </html>
