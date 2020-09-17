@@ -39,6 +39,10 @@ a {
     color: inherit;
     text-decoration: none;
 }
+h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+    padding:0;
+}
 
 label[for] {
     cursor: pointer;
@@ -430,7 +434,6 @@ label[for] {
 /* 2페이지 시작 */
 .page-2 {
     width:100%;
-    height:100vh;
 }
 .page-2-box {
     height:100%;
@@ -467,8 +470,12 @@ label[for] {
 /* 3페이지 시작 */
 .page-3 {
     width:100%;
-    height:100vh;
     text-align: center;
+    overflow-x: hidden;
+}
+
+.page-3-box {
+    padding-top:200px;
 }
 .page-3-box > .best {
     font-size:70px;
@@ -476,18 +483,122 @@ label[for] {
     font-style: italic;
 }
 .page-3-box > .best-sub {
-    font-family: 'NanumSquare L';
+    font-family: 'NanumSquare R';
     padding-top:15px;
     font-size:16px;
     line-height: 1.4;
 }
 .swiper-container-2{
-    height:300px;
+    padding-top:5%;
+    position: relative;
+    height:550px;
 }
-.swiper-slide{
-    background-color:#14a39c;
-    font-size:5rem;
-    color:white;
-    text-align:center;
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: cover;
+    height:500px;
+    position: relative;
+}
+.swiper-slide > .slide-text-box {
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    width:80%;
+    height:25%;
+}
+.swiper-slide > .slide-text-box > .best-name {
+    font-size:20px;
+    white-space: nowrap;
+    line-height: 1;
+}
+.swiper-slide >.slide-text-box > .best-cont {
+    font-family: 'NanumSquare L';
+    font-size:12px;
+    bottom:0;
+    line-height: 1.4;
+}
+.swiper-scrollbar {
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.page-3 > .bg {
+    background-color: #FCF9EE;
+    width:100%;
+    height:300px;
+    z-index: -1;
+    margin-top:-270px;
 }
 /* 3페이지 끝 */
+
+/* 4페이지 시작 */
+
+.page-4 {
+    background-color: #FCF9EE;
+    width:100%;
+    padding-top:10%;
+    z-index: -2;
+}
+.pack-box {
+    width:60%;
+    padding-top:10%;
+    position: relative;
+}
+
+.pack-box > .pack-video {
+    width:90%;
+    /* margin-left:8%; */
+    padding-bottom:20%;
+    position: relative;
+    z-index: 4;
+}
+.pack-box > .pack-video > video {
+    width:100%;
+    height:100%;
+}
+.pack-box > .rec {
+    width:88%;
+    height:70%;
+    background-color: #040000;
+    position: absolute;
+    top:14.5%;
+    right:8%;
+    z-index: 1;
+}
+.pack-text {
+    width:40%;
+    padding-bottom:10%;
+    margin-top:15%;
+    text-align: center;
+}
+.pack-text > .pack-title {
+    font-weight: 700;
+    font-style:italic;
+    font-size:70px;
+}
+.pack-text > .pack-title-ko {
+    font-family: 'NanumSquare B';
+    font-size:19px;
+    padding-top:15px;
+    color:#383838;
+}
+.pack-text > .pack-cont {
+    font-family: 'NanumSquare L';
+    font-size:20px;
+    padding-top:20%;
+    line-height: 1.5;
+}
+.pack-text > .pack-notice {
+    font-family: 'NanumSquare L';
+    font-size:14px;
+    padding-top:10%;
+}
+.pack-text > .feel {
+    font-family: 'Beautiful Heart';
+    color:#3d3c3c94;
+    font-size:90px;
+    padding-top:15%;
+}
+/* 4페이지 끝 */

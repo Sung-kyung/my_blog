@@ -22,18 +22,36 @@ $(document).ready(function () {
 
     var windowHeight = $(window).height();
 
-    $(window).resize(function() {
+    $(window).resize(function () {
         windowHeight = $(window).height();
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
 
-        if ( scrollTop > windowHeight - 200 ) {
+        if (scrollTop > windowHeight - 200) {
             $topBar.addClass('dark');
-        }
-        else {
+        } else {
             $topBar.removeClass('dark');
         }
     });
+
+    var swiper = new Swiper('.swiper-container-2', {
+        slidesPerView: 6,
+        loop: true,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: false,
+          }
+    });
+
 });
