@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="page-1">
+    <div class="page-1 main">
         <div class="top-bar flex flex-jc-sb flex-ai-c">
             <div class="flex logo"><img src="https://sung-kyung.github.io/img1/pf/jomalone/logo.png" alt=""></div>
             <div class="flex menu-ico">
@@ -31,7 +31,7 @@
         <video src="https://sung-kyung.github.io/img1/pf/jomalone/videoplayback.mp4" autoplay="autoplay" loop="loop"
             muted="muted"></video>
     </div>
-    <div class="page-2">
+    <div class="page-2 new-product">
         <div class="con page-2-box">
             <div class="ancient">Ancient Airborne Garden</div>
             <div class="description">고대 공중정원의 아름다운 전설에 영감을 받은<br>
@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="page-3">
+    <div class="page-3 best-seller">
         <div class="page-3-box">
             <div class="best">Best Seller</div>
             <div class="best-sub">조 말론 런던 온라인 부티크에서<br>
@@ -127,7 +127,7 @@
         <div class="bg">
         </div>
     </div>
-    <div class="page-4">
+    <div class="page-4 packaging-service">
         <div class="con row">
             <div class="pack-box cell">
                 <div class="pack-video">
@@ -150,6 +150,28 @@
             </div>
         </div>
     </div>
+
+    <div class="page-5 scent-pairing">
+        <div class="scent-bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
+        <div class="scent-black-bg"></div>
+        <div class="scent-text-box">
+            <p class="scent-title">Scent Pairing</p>
+            <p class="scent-sub">Tailor Your Scent</p>
+            <p class="scent-sub-ko">당신은 향의 맞춤 재단사입니다.</p>
+            <div class="scent-cont">
+                <p>각기 다른 향들을 더하여 당신을 표현하는 향기를 찾아보세요.</p>
+                <p>당신만의 컬렉션을 만들어 딱 맞는 향의 조합을 찾도록 실험해보세요.</p>
+                <p>서로 다른 향을 조합하여 당신을 표현하는 향으로 만들어보세요.</p>
+            </div>
+        </div>
+        <a class="scent-btn">
+            <img src="https://sung-kyung.github.io/img1/pf/jomalone/button.png" alt="">
+            <span>Going to Combine</span>
+        </a>
+    </div>
+    <footer>
+        <div class="foot"></div>
+    </footer>
 
 </body>
 
