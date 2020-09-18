@@ -152,7 +152,8 @@
     </div>
 
     <div class="page-5 scent-pairing">
-        <div class="scent-bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
+        <div class="scent-bg"
+            style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
         <div class="scent-black-bg"></div>
         <div class="scent-text-box">
             <p class="scent-title">Scent Pairing</p>
@@ -163,14 +164,48 @@
                 <p>당신만의 컬렉션을 만들어 딱 맞는 향의 조합을 찾도록 실험해보세요.</p>
                 <p>서로 다른 향을 조합하여 당신을 표현하는 향으로 만들어보세요.</p>
             </div>
+            <a class="scent-btn">
+                <img src="https://sung-kyung.github.io/img1/pf/jomalone/button.png" alt="">
+                <span>Going to Combine</span>
+            </a>
         </div>
-        <a class="scent-btn">
-            <img src="https://sung-kyung.github.io/img1/pf/jomalone/button.png" alt="">
-            <span>Going to Combine</span>
-        </a>
+
     </div>
     <footer>
-        <div class="foot"></div>
+        <div class="foot con">
+            <div class="foot-menu-box">
+                <ul class="row">
+                    <li class="cell"><a href="#">이용약관 및 개인정보 처리방침</a>
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">고객관리지원팀</a>
+                    <ul>
+                            <li><a href="#">배송정보</a></li>
+                            <li><a href="#">이메일 문의</a></li>
+                        </ul></li>
+                    <li class="cell"><a href="#">법인 판매</a></li>
+                    <li class="cell"><a href="#">매장 안내</a></li>
+                </ul>
+            </div>
+            <div class="foot-info">
+                <ul class="row">
+                    <li class="cell">서울시 강남구 강남대로 382 메리츠타워</li>
+                    <li class="cell">사업자등록번호: 211-81-71889</li>
+                    <li class="cell">통신판매업신고번호: 강남-15737호</li>
+                    <li class="cell">사업자정보조회</li>
+                </ul>
+                <ul class="row">
+                    <li class="cell">고객관리지원팀: 02-6971-3228</li>
+                    <li class="cell">user_support_kr@jomalone.com</li>
+                    <li class="cell">호스팅서비스 사업자: ㈜엘지유플러스</li>
+                    <li class="cell">이엘씨에이한국(유) 대표 SLAVIN PAUL</li>
+                </ul>
+            </div>
+            <div class="copyright">COPYRIGHT ©JO MALONE LONDON 2020 ALL RIGHTS RESERVED</div>
+        </div>
     </footer>
 
 </body>
