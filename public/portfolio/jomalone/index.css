@@ -366,10 +366,9 @@ label[for] {
     position: fixed;
     top:0;
     left:0;
-    z-index: 100;
+    z-index: 300;
     transition: background-color 1s;
 }
-
 .top-bar.dark {
     background-color:rgba(0,0,0,0.4);
 }
@@ -404,17 +403,17 @@ label[for] {
 .btn-toggle-mobile-side-bar > div:nth-child(3) {
     top:80%;
 }
-.btn-toggle-mobile-side-bar:hover > div{
+.btn-toggle-mobile-side-bar.active > div{
     top:40%; 
     transition:top .4s, transform .4s .4s, opacity .2s 0s;
 }
-.btn-toggle-mobile-side-bar:hover > div:nth-child(1){
+.btn-toggle-mobile-side-bar.active > div:nth-child(1){
     transform:rotate(45deg);   
 }
-.btn-toggle-mobile-side-bar:hover > div:nth-child(3){
+.btn-toggle-mobile-side-bar.active > div:nth-child(3){
     transform:rotate(-45deg);   
 }
-.btn-toggle-mobile-side-bar:hover > div:nth-child(2){
+.btn-toggle-mobile-side-bar.active > div:nth-child(2){
     opacity:0;
 }
 
@@ -442,20 +441,32 @@ label[for] {
     height:100%;
     text-align: center;
 }
-.page-2-box > .ancient {
+.page-2-box >.new-text-box {
+    animation: show 3s forwards;
+}
+.page-2-box >.new-text-box > .ancient {
     font-family: 'Beautiful Heart';
     color:#698383;
     font-size:90px;
     padding-top:50px;
     opacity: .6;
-    animation: show 2s forwards;
 }
-.page-2-box > .description {
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.page-2-box > .new-text-box > .description {
     font-family: 'NanumSquare L';
     padding-top:15px;
     line-height: 1.5;
 }
-.page-2-box > .more-view {
+.page-2-box >.new-text-box > .more-view {
     font-weight:500;
     font-style: italic;
     display: block;
@@ -537,6 +548,11 @@ label[for] {
     z-index: -1;
     margin-top:-270px;
 }
+@media (max-width:1600px) {
+    .swiper-slide > .slide-text-box > .best-name {
+        white-space: pre-wrap;
+    }
+}
 /* 3페이지 끝 */
 
 /* 4페이지 시작 */
@@ -583,12 +599,22 @@ label[for] {
     font-weight: 700;
     font-style:italic;
     font-size:70px;
+    opacity: 0;
+    transform: translateX(40%);
+    transition:transform 1s, opacity 1s; 
 }
 .pack-text > .pack-title-ko {
     font-family: 'NanumSquare B';
     font-size:19px;
     padding-top:15px;
     color:#383838;
+    opacity: 0;
+    transform: translateX(40%);
+    transition:transform 1.2s, opacity 1.2s; 
+}
+.pack-text.active > .pack-title, .pack-text.active > .pack-title-ko {
+    opacity: 1;
+    transform: translateX(0);
 }
 .pack-text > .pack-cont {
     font-family: 'NanumSquare L';
@@ -607,6 +633,7 @@ label[for] {
     font-size:90px;
     padding-top:15%;
 }
+
 /* 4페이지 끝 */
 
 /* 5페이지 시작 */
@@ -647,11 +674,13 @@ label[for] {
     font-size:70px;
     font-style:italic;
     white-space: nowrap;
+    animation: show3 3s forwards;
 }
 .scent-text-box > .scent-sub {
     font-family: 'newtextitcstd';
     font-size:23px;
     padding-top:20px;
+    animation: show3 3s .2s forwards;
 }
 .scent-text-box > .scent-sub-ko {
     font-family: 'NanumSquare R';
@@ -659,6 +688,7 @@ label[for] {
     padding-top:7px;
     margin-bottom:40px;
     position: relative;
+    animation: show3 3s .3s forwards;
 }
 .scent-text-box > .scent-sub-ko::after {
     content:"";
@@ -676,6 +706,7 @@ label[for] {
     margin-top:60px;
     line-height: 1.7;
     white-space: nowrap;
+    animation: show3 3s .4s forwards;
 }
 .scent-btn {
     text-align: center;
@@ -695,6 +726,16 @@ label[for] {
     cursor: pointer;
     color:#333;
 }
+@keyframes show3 {
+    0% {
+        opacity: 0;
+        bottom:-50%;
+    }
+    100% {
+        opacity: 1;
+        top:50%;
+    }
+}
 /* 5페이지 끝 */
 
 /* footer 시작 */
@@ -713,7 +754,7 @@ footer {
 .foot > .foot-menu-box > ul > li{
     padding:0 20px;
     font-family: 'NanumSquare R';
-    font-size:15px;
+    font-size:14px;
 }
 .foot > .foot-menu-box > ul > li:first-child {
     padding:0 0;
@@ -723,10 +764,10 @@ footer {
     color:#A8A8A7;
 }
 .foot > .foot-menu-box > ul ul li {
-    padding:5px 0;
+    padding:3px 0;
 }
 .foot > .foot-menu-box > ul ul li:first-child {
-    padding-top:20px;
+    padding-top:15px;
 }
 .foot > .foot-info {
     font-family: 'NanumSquare L';
@@ -763,3 +804,58 @@ footer {
     font-family: 'NanumSquare L';
 }
 /* footer 끝 */
+
+/* side-menu 시작 */
+.side-menu {
+    width:100%;
+    height:100vh;
+    background-color:rgba(0,0,0,.9);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 200;
+    color:#fff;
+    font-family: 'NanumSquare B';
+    display: none;
+}
+.side-menu > ul {
+    height:80%;
+}
+.side-menu > ul > li {
+    padding-top:15%;
+    padding-left:8.5%;
+    font-size:20px;
+}
+.side-menu > ul > li > a {
+    display: block;
+    text-align: center;
+    border-bottom:1px solid white;
+    padding:0 13px;
+    padding-bottom:20px;
+}
+.side-menu > ul ul {
+    margin-top:30px;
+}
+.side-menu > ul ul > li {
+    font-size:16px;
+    padding:7px 0;
+    font-family: 'NanumSquare L';
+}
+
+.side-menu.ani-active {
+    animation-name: down;
+    animation-duration: 1.5s;
+}
+@keyframes down {
+    0% {
+        opacity: 0;
+        transform: translateY(-2000px);
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+/* side-menu 끝 */

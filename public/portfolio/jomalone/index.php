@@ -31,12 +31,68 @@
         <video src="https://sung-kyung.github.io/img1/pf/jomalone/videoplayback.mp4" autoplay="autoplay" loop="loop"
             muted="muted"></video>
     </div>
+
+    <nav class="side-menu">
+        <ul class="row con">
+            <li class="cell"><a href="#">베스트 셀러</a>
+                <ul>
+                    <li><a href="#">베스트셀러</a></li>
+                    <li><a href="#">코롱</a></li>
+                    <li><a href="#">온라인 익스클루시브</a></li>
+                    <li><a href="#">리틀 럭셔리</a></li>
+                </ul>
+            </li>
+            <li class="cell"><a href="#">프레그런스</a>
+                <ul>
+                    <li><a href="#">시트러스</a></li>
+                    <li><a href="#">프루티</a></li>
+                    <li><a href="#">라이트 플로랄</a></li>
+                    <li><a href="#">플로랄</a></li>
+                    <li><a href="#">스파이시</a></li>
+                    <li><a href="#">우디</a></li>
+                    <li><a href="#">코롱 인텐스</a></li>
+                    <li><a href="#">프레그런스 전체보기</a></li>
+                    <li><a href="#">프레그런스 파인더</a></li>
+                    <li><a href="#">센트 페어링</a></li>
+                </ul>
+            </li>
+            <li class="cell"><a href="#">배스 앤 바디</a>
+                <ul>
+                    <li><a href="#">배스 앤 샤워</a></li>
+                    <li><a href="#">바디 케어</a></li>
+                    <li><a href="#">헤어 케어</a></li>
+                    <li><a href="#">잉글리쉬 민트 앤 진저 립밤</a></li>
+                </ul>
+            </li>
+            <li class="cell"><a href="#">홈 컬렉션</a>
+                <ul>
+                    <li><a href="#">캔들</a></li>
+                    <li><a href="#">디퓨저</a></li>
+                    <li><a href="#">디자인 에디션</a></li>
+                    <li><a href="#">센트 투 고</a></li>
+                    <li><a href="#">린넨 스프레이</a></li>
+                    <li><a href="#">룸 스프레이</a></li>
+                </ul>
+            </li>
+            <li class="cell"><a href="#">선물 제안</a>
+                <ul>
+                    <li><a href="#">기프트 파인더</a></li>
+                    <li><a href="#">프레그런스 파인더</a></li>
+                    <li><a href="#">공간을 위한 선물</a></li>
+                    <li><a href="#">브라이덜 웨딩 컬렉션</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
     <div class="page-2 new-product">
         <div class="con page-2-box">
-            <div class="ancient">Ancient Airborne Garden</div>
-            <div class="description">고대 공중정원의 아름다운 전설에 영감을 받은<br>
-                조 말론 런던의 새로운 컬렉션, 로스트 인 원더.</div>
-            <a href="#" class="more-view">MORE VIEW &nbsp;&nbsp;> </a>
+            <div class="new-text-box active-on-visible" data-active-on-visible-diff-y="-50%">
+                <div class="ancient">Ancient Airborne Garden</div>
+                <div class="description">고대 공중정원의 아름다운 전설에 영감을 받은<br>
+                    조 말론 런던의 새로운 컬렉션, 로스트 인 원더.</div>
+                <a href="#" class="more-view">MORE VIEW &nbsp;&nbsp;> </a>
+            </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper slides">
                     <div class="swiper-slide"
@@ -136,8 +192,7 @@
                 </div>
                 <div class="rec"></div>
             </div>
-            <div class="pack-text cell">
-
+            <div class="pack-text cell active-on-visible" data-active-on-visible-diff-y="-40%">
                 <p class="pack-title">Packaging Service</p>
                 <p class="pack-title-ko">시그니처 포장 서비스</p>
                 <p class="pack-cont">제품 구매 시 시그니처 박스에<br>
@@ -155,7 +210,7 @@
         <div class="scent-bg"
             style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
         <div class="scent-black-bg"></div>
-        <div class="scent-text-box">
+        <div class="scent-text-box active-on-visible" data-active-on-visible-diff-y="-50%">
             <p class="scent-title">Scent Pairing</p>
             <p class="scent-sub">Tailor Your Scent</p>
             <p class="scent-sub-ko">당신은 향의 맞춤 재단사입니다.</p>
@@ -182,10 +237,11 @@
                         </ul>
                     </li>
                     <li class="cell"><a href="#">고객관리지원팀</a>
-                    <ul>
+                        <ul>
                             <li><a href="#">배송정보</a></li>
                             <li><a href="#">이메일 문의</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                     <li class="cell"><a href="#">법인 판매</a></li>
                     <li class="cell"><a href="#">매장 안내</a></li>
                 </ul>
