@@ -393,12 +393,13 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 300;
+    z-index: 12;
     transition: background-color 1s;
 }
 
 .top-bar.dark {
     background-color: rgba(0, 0, 0, 0.4);
+    z-index: 12;
 }
 
 .top-bar>.logo {
@@ -736,7 +737,7 @@ html, body {
     margin: 0 auto;
     text-align: center;
     width: 40%;
-    z-index: 100;
+    z-index: 10;
     color: #fff;
     position: absolute;
     top: 70%;
@@ -918,16 +919,16 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 200;
     color: #fff;
     font-family: 'NanumSquare B';
     visibility: hidden;
+    z-index: 11;
 }
-.side-menu>ul {
+.side-menu>.menu-box-1 {
     height: 80%;
 }
 .side-menu>ul>li {
-    padding-top: 19%;
+    padding-top: 17%;
     padding-left: 8.5%;
     font-size: 20px;
 }
@@ -1006,5 +1007,33 @@ footer {
     100%{
         visibility: hidden;
     }
+}
+.top-icon {
+    width:200px;
+    position: absolute;
+    top:35px;
+    right:7%;
+    cursor:pointer;
+    border:1px solid red;
+    z-index: 100;
+}
+.top-icon > ul > li {
+    padding:0 7px;
+}
+.top-icon > ul > li > a > img {
+    width:30px;
+}
+.top-icon-2 {
+    width:200px;
+    position: absolute;
+    top:35px;
+    right:13%;
+    cursor:pointer;
+}
+.top-icon-2 > ul > li {
+    padding:0 7px;
+}
+.top-icon-2 > ul > li > a > img {
+    width:30px;
 }
 /* side-menu 끝 */

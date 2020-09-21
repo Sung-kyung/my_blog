@@ -34,7 +34,19 @@
     </div>
 
     <nav class="side-menu visible-md-up">
-        <ul class="row con">
+        <div class="top-icon">
+            <ul class="row">
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png"
+                            alt=""></a></li>
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png"
+                            alt=""></a></li>
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png"
+                            alt=""></a></li>
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png"
+                            alt=""></a></li>
+            </ul>
+        </div>
+        <ul class="menu-box-1 row con">
             <li class="cell"><a href="#">베스트 셀러</a>
                 <ul>
                     <li><a href="#">베스트셀러</a></li>
@@ -87,6 +99,18 @@
     </nav>
 
     <nav class="side-menu-2 visible-sm-down">
+        <div class="top-icon-2">
+            <ul class="row">
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png"
+                            alt=""></a></li>
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png"
+                            alt=""></a></li>
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png"
+                            alt=""></a></li>
+                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png"
+                            alt=""></a></li>
+            </ul>
+        </div>
         <ul>
             <li><a href="#">베스트셀러</a>
                 <ul>
@@ -189,7 +213,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/lime2.png?dummy123123);">
                     <div class="slide-text-box">
                         <p class="best-name">Lime Basil & Mandarin Cologne</p>
                         <p class="best-cont">조 말론 런던의 시그니처 향.카리브해의 산들바람에서 실려온 듯한 라임향에 톡 쏘는 바질과 백리향</p>
@@ -210,21 +234,21 @@
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/black.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Blackberry & Bay Cologne Duo</p>
                         <p class="best-cont">조 말론에서 가장 사랑받는 코롱과 미니어처 코롱을 리미티드 타운하우스 틴 케이스에 담아 선보입니다.</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/trio.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Little Luxuries Trio 2</p>
                         <p class="best-cont">조 말론 런던에서 가장 사랑 받는 세 가지 향으로 구성된 세트입니다.</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/daisy.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede<br> Cologne - Daisy Leaf</p>
                         <p class="best-cont">조 말론 런던에서 특별한 레이스를 코롱 보틀과 캔들에 담은 아름다운 웨딩 컬렉션을 선보입니다.</p>
