@@ -53,7 +53,11 @@ $(document).ready(function () {
             hide: false,
         },
         breakpoints: {
-            640: {
+          350: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+            540: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
@@ -78,19 +82,36 @@ function SideMenu__init() {
     $(".btn-toggle-mobile-side-bar").click(function () {
         var $btn = $(".btn-toggle-mobile-side-bar");
         var $sideMenu = $(".side-menu");
+        var $sideMenu2 = $(".side-menu-2");
         var hasClass = $btn.hasClass("active");
 
         if (hasClass) {
             $btn.removeClass("active");
-            $sideMenu.fadeOut();
-            $sideMenu.removeClass("ani-active");
+            $sideMenu.removeClass('active-on');
+            $sideMenu.addClass('active-off');
+            $sideMenu2.removeClass('active-on');
+            $sideMenu2.addClass('active-off');
         } else {
             $btn.addClass("active");
-            $sideMenu.fadeIn();
-            $sideMenu.addClass("ani-active");
+            $sideMenu.addClass('active-on');
+            $sideMenu.removeClass('active-off');
+            $sideMenu2.addClass('active-on');
+            $sideMenu2.removeClass('active-off');
         }
     });
 }
+
+function SideMenu2__Toggle() {
+    $('.side-menu-2 > ul ul').hide();
+    $('.side-menu-2 > ul > li > a').click(function() {
+      $(this).next().slideToggle(800);
+      $('.side-menu-2 > ul > li > a').not(this).next().slideUp(800);
+    });
+}
+
+
+
+
 /* 발견되면 활성화시키는 라이브러리 시작 */
 function ActiveOnVisible__init() {
     $(window).resize(_.debounce(ActiveOnVisible__initOffset, 500));
@@ -172,5 +193,6 @@ function ActiveOnVisible__init() {
   
 $(function() {
     SideMenu__init();
+    SideMenu2__Toggle();
     ActiveOnVisible__init();
 });
