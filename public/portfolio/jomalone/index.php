@@ -19,33 +19,22 @@
 
 <body>
     <div class="page-1 main">
-        <div class="top-bar flex flex-jc-sb flex-ai-c">
-            <div class="flex logo"><img src="https://sung-kyung.github.io/img1/pf/jomalone/logo.png" alt=""></div>
-            <div class="flex menu-ico">
-                <div class="btn-toggle-mobile-side-bar">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-        </div>
         <video src="https://sung-kyung.github.io/img1/pf/jomalone/videoplayback.mp4" autoplay="autoplay" loop="loop"
             muted="muted"></video>
     </div>
 
-    <nav class="side-menu visible-md-up">
-        <div class="top-icon">
-            <ul class="row">
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png"
-                            alt=""></a></li>
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png"
-                            alt=""></a></li>
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png"
-                            alt=""></a></li>
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png"
-                            alt=""></a></li>
-            </ul>
+    <div class="top-bar flex flex-jc-sb flex-ai-c">
+        <div class="flex logo"><img src="https://sung-kyung.github.io/img1/pf/jomalone/logo.png" alt=""></div>
+        <div class="flex menu-ico">
+            <div class="btn-toggle-mobile-side-bar">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
+    </div>
+
+    <nav class="side-menu visible-md-up">
         <ul class="menu-box-1 row con">
             <li class="cell"><a href="#">베스트 셀러</a>
                 <ul>
@@ -98,19 +87,33 @@
         </ul>
     </nav>
 
+    <div class="side-menu-top-icon">
+        <ul class="row">
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png" alt=""></a>
+            </li>
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png" alt=""></a>
+            </li>
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png" alt=""></a>
+            </li>
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="side-menu-top-icon-2">
+        <ul class="row">
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png" alt=""></a>
+            </li>
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png" alt=""></a>
+            </li>
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png" alt=""></a>
+            </li>
+            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+
     <nav class="side-menu-2 visible-sm-down">
-        <div class="top-icon-2">
-            <ul class="row">
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png"
-                            alt=""></a></li>
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png"
-                            alt=""></a></li>
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png"
-                            alt=""></a></li>
-                <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png"
-                            alt=""></a></li>
-            </ul>
-        </div>
         <ul>
             <li><a href="#">베스트셀러</a>
                 <ul>
@@ -252,6 +255,34 @@
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede<br> Cologne - Daisy Leaf</p>
                         <p class="best-cont">조 말론 런던에서 특별한 레이스를 코롱 보틀과 캔들에 담은 아름다운 웨딩 컬렉션을 선보입니다.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    <div class="slide-text-box">
+                        <p class="best-name">Peony & Blush Suede Cologne</p>
+                        <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    <div class="slide-text-box">
+                        <p class="best-name">Peony & Blush Suede Cologne</p>
+                        <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    <div class="slide-text-box">
+                        <p class="best-name">Peony & Blush Suede Cologne</p>
+                        <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    <div class="slide-text-box">
+                        <p class="best-name">Peony & Blush Suede Cologne</p>
+                        <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
                     </div>
                 </div>
             </div>

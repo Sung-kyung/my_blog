@@ -38,7 +38,6 @@ $(document).ready(function () {
 
     var swiper = new Swiper('.swiper-container-2', {
         slidesPerView: 6,
-        loop: true,
         spaceBetween: 20,
         navigation: {
             nextEl: '.swiper-button-next',
@@ -50,7 +49,7 @@ $(document).ready(function () {
         },
         scrollbar: {
             el: '.swiper-scrollbar',
-            hide: false,
+            draggable: true,
         },
         breakpoints: {
           350: {

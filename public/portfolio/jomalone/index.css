@@ -1008,32 +1008,29 @@ footer {
         visibility: hidden;
     }
 }
-.top-icon {
-    width:200px;
-    position: absolute;
+
+.side-menu.active-on + .side-menu-top-icon, .side-menu.active-on + .side-menu-top-icon-2 {
     top:35px;
+    transition: top 1.5s;
+}
+.side-menu-top-icon,.side-menu-top-icon-2 {
+    width:200px;
+    position: fixed;
+    top:calc(35px - 2000px);
     right:7%;
     cursor:pointer;
-    border:1px solid red;
     z-index: 100;
 }
-.top-icon > ul > li {
+.side-menu-top-icon > ul > li {
     padding:0 7px;
 }
-.top-icon > ul > li > a > img {
+.side-menu-top-icon > ul > li > a > img {
     width:30px;
 }
-.top-icon-2 {
-    width:200px;
-    position: absolute;
-    top:35px;
-    right:13%;
-    cursor:pointer;
-}
-.top-icon-2 > ul > li {
+.side-menu-top-icon-2 > ul > li {
     padding:0 7px;
 }
-.top-icon-2 > ul > li > a > img {
+.side-menu-top-icon-2 > ul > li > a > img {
     width:30px;
 }
 /* side-menu 끝 */
