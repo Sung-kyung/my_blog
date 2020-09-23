@@ -10,6 +10,7 @@
     <!-- swiper 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
@@ -18,6 +19,22 @@
 </head>
 
 <body>
+    <!--팝업-->
+    <div class="pop-up">
+        <div class="box">
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <img src="https://sung-kyung.github.io/img1/pf/jomalone/welcome-2.png" alt="">
+            <div class="wel">WELCOME GIFT</div>
+            <div class="line"></div>
+            <div class="pop-text">
+                <p>온라인 부티크 첫 구매 고객께<br>바디 앤 핸드워시(15ml) & 바디 크림 (15ml)<br>2종을 선물로 드립니다.<br>결제 시 쿠폰 코드 창에 WELCOME을 입력하세요.
+                </p>
+            </div>
+            <div class="more"><a href="#">자세히보기</a></div>
+        </div>
+
+    </div>
+    <!--메인-->
     <div class="page-1 main">
         <video src="https://sung-kyung.github.io/img1/pf/jomalone/videoplayback.mp4" autoplay="autoplay" loop="loop"
             muted="muted"></video>
@@ -33,7 +50,7 @@
             </div>
         </div>
     </div>
-
+    <!--사이드메뉴-->
     <nav class="side-menu visible-md-up">
         <ul class="menu-box-1 row con">
             <li class="cell"><a href="#">베스트 셀러</a>
@@ -165,7 +182,7 @@
             </li>
         </ul>
     </nav>
-
+    <!--신제품-->
     <div class="page-2 new-product">
         <div class="con page-2-box">
             <div class="new-text-box active-on-visible active-only-one" data-active-on-visible-diff-y="-100">
@@ -177,15 +194,27 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper slides">
                     <div class="swiper-slide"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/new-slide-1.jpg);">
+                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-1.jpg);">
                     </div>
                     <div class="swiper-slide"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/new-slide-2.jpg);">
+                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-3.jpg?dummy123123);">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container-1">
+                <div class="swiper-wrapper slides-2">
+                    <div class="swiper-slide"
+                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-1-res.jpg?dummy123123);">
+                    </div>
+                    <div class="swiper-slide"
+                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-2-res.jpg?dummy123123123);">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--베스트셀러-->
+
     <div class="page-3 best-seller">
         <div class="page-3-box">
             <div class="best">Best Seller</div>
@@ -292,6 +321,7 @@
         <div class="bg">
         </div>
     </div>
+    <!--포장서비스-->
     <div class="page-4 packaging-service">
         <div class="con row">
             <div class="pack-box cell">
@@ -314,7 +344,7 @@
             </div>
         </div>
     </div>
-
+    <!--센트페어링-->
     <div class="page-5 scent-pairing">
         <div class="scent-bg"
             style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
@@ -335,6 +365,7 @@
         </div>
 
     </div>
+    <!--footer-->
     <footer>
         <div class="foot con">
             <div class="foot-menu-box">
