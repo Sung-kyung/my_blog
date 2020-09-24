@@ -615,7 +615,7 @@ html, body {
     display:block;
 }
 .owl-carousel{
-    width:1200px;
+    width:1600px;
     height:300px;
     position: absolute;
     bottom:40%;
@@ -695,6 +695,7 @@ html, body {
     background-color: #fff;
     color:#000;
 }
+
 @media (max-height:850px) {
     .owl-carousel {
         bottom:45%;

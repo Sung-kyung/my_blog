@@ -59,8 +59,25 @@
                     <ul>
                         <li class="owl-1 active-tab">
                             <div class="menu-1 owl-carousel owl-theme">
-                                <div class="item item-1 row border" data-no="01"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                <div class="item item-2 jomalone" data-no="01"
+                                    data-link-url="https://yoobible.com/portfolio/jomalone/"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/jomalone.jpg"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/logo_jomalone.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">JO MALONE</div>
+                                        <div class="cont">원본사이트 <br><a
+                                                href="https://www.jomalone.co.kr/">https://www.jomalone.co.kr/</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/jomalone/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-1 row border" data-no="02"
+                                    data-link-url="https://yoobible.com/portfolio/hyundai/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/gallery.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
@@ -71,11 +88,11 @@
                                                 href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/hyundai/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-2" data-no="02"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/card/"
+                                <div class="item item-2" data-no="03"
+                                    data-link-url="https://yoobible.com/portfolio/card/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai_card.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -87,10 +104,11 @@
                                                 href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/card/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/card/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-3" data-no="03" data-link-url="https://site17.blog.oa.gg/portfolio/hollys/"
+                                <div class="item item-3" data-no="04"
+                                    data-link-url="https://yoobible.com/portfolio/hollys/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -101,11 +119,11 @@
                                         <div class="cont">원본사이트 <br><a
                                                 href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hollys/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/hollys/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-4" data-no="04"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/kakaobank/"
+                                <div class="item item-4" data-no="05"
+                                    data-link-url="https://yoobible.com/portfolio/kakaobank/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/kakaobank.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -117,11 +135,11 @@
                                                 href="https://www.kakaobank.com/">https://www.kakaobank.com/</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/kakaobank/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/kakaobank/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-5" data-no="05"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/nhn/"
+                                <div class="item item-5" data-no="06"
+                                    data-link-url="https://yoobible.com/portfolio/nhn/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn2.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -132,11 +150,11 @@
                                                 href="https://www.nhn.com/ko/index.nhn">https://www.nhn.com/ko/index.nhn</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/nhn/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/nhn/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-6" data-no="06"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/ezwel/"
+                                <div class="item item-6" data-no="07"
+                                    data-link-url="https://yoobible.com/portfolio/ezwel/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/ezwel.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/ezwel/logo_1.png"
@@ -147,11 +165,11 @@
                                                 href="http://www.ezwel.com/renew/main.ez">http://www.ezwel.com/renew/main.ez</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/ezwel/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/ezwel/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-7" data-no="07"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/cleaderm/"
+                                <div class="item item-7" data-no="08"
+                                    data-link-url="https://yoobible.com/portfolio/cleaderm/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/cleaderm.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -162,11 +180,11 @@
                                                 href="https://www.cleaderm.co.kr/">https://www.cleaderm.co.kr/</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/cleaderm/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/cleaderm/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-8" data-no="08"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/sns/"
+                                <div class="item item-8" data-no="09"
+                                    data-link-url="https://yoobible.com/portfolio/sns/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/sns.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/sns/logo_b.png"
@@ -177,7 +195,7 @@
                                                 href="https://www.seogaandcook.com/sns/company/">https://www.seogaandcook.com/sns/company/</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/sns/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/sns/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                             </div>
@@ -185,7 +203,7 @@
                         <li class="owl-1">
                             <div class="menu-1 owl-carousel owl-theme">
                                 <div class="item item-1 row border" data-no="01"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                    data-link-url="https://yoobible.com/portfolio/hyundai/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/gallery.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png"
@@ -196,12 +214,12 @@
                                                 href="https://www.galleryhyundai.com/main">https://www.galleryhyundai.com/main</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/hyundai/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
 
                                 <div class="item item-4" data-no="02"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/kakaobank/"
+                                    data-link-url="https://yoobible.com/portfolio/kakaobank/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/kakaobank.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -213,11 +231,11 @@
                                                 href="https://www.kakaobank.com/">https://www.kakaobank.com/</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/kakaobank/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/kakaobank/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                                 <div class="item item-5" data-no="03"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/nhn/"
+                                    data-link-url="https://yoobible.com/portfolio/nhn/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn2.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -228,11 +246,11 @@
                                                 href="https://www.nhn.com/ko/index.nhn">https://www.nhn.com/ko/index.nhn</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/nhn/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/nhn/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                                 <div class="item item-6" data-no="04"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/ezwel/"
+                                    data-link-url="https://yoobible.com/portfolio/ezwel/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/ezwel.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/ezwel/logo_1.png"
@@ -243,11 +261,11 @@
                                                 href="http://www.ezwel.com/renew/main.ez">http://www.ezwel.com/renew/main.ez</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/ezwel/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/ezwel/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                                 <div class="item item-7" data-no="05"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/cleaderm/"
+                                    data-link-url="https://yoobible.com/portfolio/cleaderm/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/cleaderm.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -258,11 +276,11 @@
                                                 href="https://www.cleaderm.co.kr/">https://www.cleaderm.co.kr/</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/cleaderm/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/cleaderm/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                                 <div class="item item-8" data-no="06"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/sns/"
+                                    data-link-url="https://yoobible.com/portfolio/sns/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/sns.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/sns/logo_b.png"
@@ -273,7 +291,7 @@
                                                 href="https://www.seogaandcook.com/sns/company/">https://www.seogaandcook.com/sns/company/</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/sns/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/sns/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                             </div>
@@ -281,7 +299,24 @@
                         <li class="owl-1">
                             <div class="menu-1 owl-carousel owl-theme">
                                 <div class="item item-2" data-no="01"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/card/"
+                                    data-link-url="https://yoobible.com/portfolio/jomalone/"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/jomalone.jpg"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/logo_jomalone.png?dummy123123"
+                                            alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">JO MALONE</div>
+                                        <div class="cont">원본사이트 <br><a
+                                                href="https://www.jomalone.co.kr/">https://www.jomalone.co.kr/</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/jomalone/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-2" data-no="02"
+                                    data-link-url="https://yoobible.com/portfolio/card/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hyundai_card.png?dummy123123"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -293,11 +328,11 @@
                                                 href="https://www.hyundaicard.com/index.jsp">https://www.hyundaicard.com/index.jsp</a>
                                         </div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/card/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/card/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-3" data-no="02"
-                                    data-link-url="https://site17.blog.oa.gg/portfolio/card/"
+                                <div class="item item-3" data-no="03"
+                                    data-link-url="https://yoobible.com/portfolio/card/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
@@ -308,7 +343,7 @@
                                         <div class="cont">원본사이트 <br><a
                                                 href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
                                     </div>
-                                    <div class="view-btn cell"><a href="https://site17.blog.oa.gg/portfolio/hyundai/"
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/hyundai/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                             </div>
@@ -569,7 +604,8 @@
         </div>
         <div class="contact-bottom flex flex-jc-c flex-ai-c">
             <div class="hp flex-ai-c"><i class="fas fa-phone-alt"></i><span class="flex-ai-c">010-2325-5132</span></div>
-            <div class="gmail flex-ai-c"><i class="far fa-envelope"></i><span class="flex-ai-c">yoo960115@gmail.com</span></div>
+            <div class="gmail flex-ai-c"><i class="far fa-envelope"></i><span
+                    class="flex-ai-c">yoo960115@gmail.com</span></div>
         </div>
         <p class="notice">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
     </div>

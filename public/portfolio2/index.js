@@ -9,7 +9,7 @@ $(function () {
 
 function Owl__init() {
     $('.owl-1 > .owl-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 100,
         nav: false,
         dots: false,
@@ -20,7 +20,7 @@ function Owl__init() {
 
 function Owl2__init() {
     $('.slide-2 > .owl-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         nav: true,
         dots: false,
         items: 4,

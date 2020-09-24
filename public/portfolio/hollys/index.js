@@ -40,6 +40,25 @@ function Action1() {
     });
 }
 
+$(document).ready(function() {
+    var $topBar = $('.top-bar');
+
+    var windowHeight = $(window).height();
+  
+    $(window).resize(function () {
+      windowHeight = $(window).height();
+    });
+  
+    $(window).scroll(function () {
+      var scrollTop = $(window).scrollTop();
+  
+      if (scrollTop > windowHeight + 2000) {
+        $topBar.addClass('white');
+      } else {
+        $topBar.removeClass('white');
+      }
+    });
+});
 
 $(function () {
     Round1__init();

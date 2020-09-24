@@ -67,7 +67,8 @@
         <div class="line-2"></div>
         <div class="sub-title-2">할리스커피의 다양한 메뉴를 맛보세요</div>
         <div class="btn-go-to-menu"><a href="#">메뉴 보기</a></div>
-        <div class="berry-box"><img class="berry" src="https://sung-kyung.github.io/img1/pf/hollys/berry2.png?dummy123" alt="">
+        <div class="berry-box"><img class="berry" src="https://sung-kyung.github.io/img1/pf/hollys/berry2.png?dummy123"
+                alt="">
             <div class="berry-text">딸기치즈케익<br>할리치노</div>
         </div>
         <div class="vanilla-box"> <img class="vanilla" src="https://sung-kyung.github.io/img1/pf/hollys/vanilla.png"
@@ -93,7 +94,8 @@
         <div class="box-2 cell-right">
             <div class="product-box row">
                 <div class="cell">
-                    <div class="cup-box cup-box-1"><img class="cup1" src="https://sung-kyung.github.io/img1/pf/hollys/cup2.png" alt="no"></div>
+                    <div class="cup-box cup-box-1"><img class="cup1"
+                            src="https://sung-kyung.github.io/img1/pf/hollys/cup2.png" alt="no"></div>
                     <div class="cup-text-box">
                         <p class="cup-title">글라스머그 곰돌이 푸(오마이) / 300ml</p>
                         <p class="price">17,000 ₩</p>
@@ -117,6 +119,13 @@
         <div class="with-text-box">
             <h1>WITH</h1>
             <h2>HOLLYS COFFEE'S</h2>
+            <p>We are recruiting Franchisees. Make your<br>
+                dreams come true.</p>
+            <div class="with-cont">
+                <p class="with-cont-1">할리스 커피와 함께 할</p>
+                <p class="with-cont-2">가맹점주님</p>
+                <p class="with-cont-3">을 모집합니다.</p>
+            </div>
         </div>
     </div>
 </body>

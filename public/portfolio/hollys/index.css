@@ -388,6 +388,10 @@ html, body {
   z-index: 100;
   background-color: #ba000c;
 }
+.top-bar.white {
+  background-color: rgba(255,255,255,.5);
+  color:black;
+}
 .top-bar>.logo {
   padding-left:30px;
 }
@@ -845,10 +849,10 @@ html, body {
 }
 .with-text-box {
   border:1px solid red;
-  width:40%;
+  width:28%;
   height:700px;
   transform: translateY(30%);
-  font-family: 'Copperplate Gothic';
+  margin-left:7%;
 }
 .with-text-box > h1 {
   color:#ba000c;
@@ -861,5 +865,18 @@ html, body {
   font-family: 'Copperplate Gothic';
   font-weight: 500;
   font-size:40px;
+}
+.with-text-box > p {
+  color:#aaa4a4;
+  font-size:19px;
+  margin-top:10px;
+  padding-bottom:30px;
+  letter-spacing: .08em;
+  font-family: 'Nanum Square';
+  border-bottom:1px solid #333;
+}
+.with-text-box > .with-cont > p {
+  font-size:23px;
+
 }
 /* 4페이지 끝 */

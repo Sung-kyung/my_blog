@@ -370,22 +370,28 @@ label[for] {
 .con {
     max-width: 1400px;
 }
+
 @media (max-width:1249px) {
     .visible-sm-down {
         display: block;
     }
+
     .visible-md-up {
         display: none;
     }
 }
+
 @media (min-width:1250px) {
     .visible-sm-down {
         display: none;
     }
 }
-html, body {
+
+html,
+body {
     overflow-x: hidden;
 }
+
 /* 탑바 */
 .top-bar {
     height: 100px;
@@ -482,9 +488,11 @@ html, body {
     height: 100%;
     text-align: center;
 }
+
 .page-2-box>.new-text-box {
     opacity: 0;
 }
+
 .page-2-box>.new-text-box.actived {
     animation: show 3s forwards;
 }
@@ -495,7 +503,9 @@ html, body {
     font-size: 90px;
     margin-top: 50px;
     opacity: .6;
+    white-space: nowrap;
 }
+
 @keyframes show {
     0% {
         opacity: 0;
@@ -507,45 +517,58 @@ html, body {
         transform: translateY(0);
     }
 }
+
 .page-2-box>.new-text-box>.description {
     font-family: 'NanumSquare L';
     padding-top: 15px;
     line-height: 1.5;
 }
-.page-2-box > .new-text-box > .more-view {
+
+.page-2-box>.new-text-box>.more-view {
     font-weight: 500;
     font-style: italic;
     display: block;
     font-size: 20px;
     padding-top: 15px;
 }
+
 .swiper-container {
     margin-top: 100px;
     height: 500px;
     text-align: center;
 }
-.swiper-container > .swiper-wrapper > .swiper-slide {
+
+.swiper-container>.swiper-wrapper>.swiper-slide {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .swiper-container-1 {
     margin-top: 70px;
     height: 300px;
     text-align: center;
     display: none;
 }
-.swiper-container-1 > .swiper-wrapper > .swiper-slide {
+
+.swiper-container-1>.swiper-wrapper>.swiper-slide {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 @media (max-width:1000px) {
     .swiper-container {
         display: none;
     }
+
     .swiper-container-1 {
         display: block;
+    }
+}
+@media (max-width:800px) {
+    .page-2-box>.new-text-box>.ancient {
+        font-size: 70px;
     }
 }
 
@@ -632,6 +655,14 @@ html, body {
     }
 }
 
+@media (max-width: 1000px) {
+    .swiper-slide>.slide-text-box>.best-cont {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
 /* 3페이지 끝 */
 
 /* 4페이지 시작 */
@@ -679,7 +710,7 @@ html, body {
     text-align: center;
 }
 
-.pack-text>.pack-title {
+.pack-text > .pack-title {
     font-weight: 700;
     font-style: italic;
     font-size: 70px;
@@ -698,10 +729,12 @@ html, body {
     transition: transform 1.5s, opacity 1.6s;
 }
 
-.pack-text.actived > .pack-title, .pack-text.actived > .pack-title-ko {
+.pack-text.actived>.pack-title,
+.pack-text.actived>.pack-title-ko {
     opacity: 1;
     transform: translateX(0);
 }
+
 .pack-text>.pack-cont {
     font-family: 'NanumSquare L';
     font-size: 20px;
@@ -721,7 +754,34 @@ html, body {
     font-size: 90px;
     padding-top: 15%;
 }
-
+@media (max-width:800px) {
+    .pack-box>.pack-video,.pack-text {
+        float:none;
+    }
+    .pack-box {
+        margin-left:20%;
+    }
+    .pack-text {
+        text-align: left;
+        margin-left:20%;
+    }
+    .pack-text > .feel {
+        white-space: nowrap;
+        font-size:50px;
+    }
+    .pack-text>.pack-cont {
+        font-size:15px;
+    }
+    .pack-text>.pack-notice {
+        font-size:12px;
+    }
+    .pack-text>.pack-title,.pack-text.actived>.pack-title {
+        font-size:60px;
+        transform: translateX(0);
+        display: inline-block;
+        white-space: nowrap;
+    }
+}
 /* 4페이지 끝 */
 
 /* 5페이지 시작 */
@@ -762,10 +822,12 @@ html, body {
     transform: translateX(-50%)translateY(-50%);
     transition: top 2s, opacity 2s;
 }
+
 .scent-text-box.actived {
     opacity: 1;
     top: 50%;
 }
+
 .scent-text-box>.scent-title {
     font-weight: 700;
     font-size: 70px;
@@ -778,6 +840,7 @@ html, body {
     font-family: 'newtextitcstd';
     font-size: 23px;
     padding-top: 20px;
+    white-space: nowrap;
     animation: show3 3s .2s forwards;
 }
 
@@ -828,6 +891,7 @@ html, body {
     font-size: 17px;
     cursor: pointer;
     color: #333;
+    white-space: nowrap;
 }
 
 @keyframes show3 {
@@ -841,7 +905,15 @@ html, body {
         top: 50%;
     }
 }
-
+@media (max-width:800px) {
+    .scent-text-box {
+        text-align: left;
+        left: 35%;
+    }
+    .scent-text-box>.scent-sub-ko::after {
+     left:10%;   
+    }
+}
 /* 5페이지 끝 */
 
 /* footer 시작 */
@@ -928,7 +1000,8 @@ footer {
 /* footer 끝 */
 
 /* side-menu 시작 */
-.side-menu, .side-menu-2 {
+.side-menu,
+.side-menu-2 {
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, .9);
@@ -940,14 +1013,17 @@ footer {
     visibility: hidden;
     z-index: 11;
 }
+
 .side-menu>.menu-box-1 {
     height: 80%;
 }
+
 .side-menu>ul>li {
     padding-top: 17%;
     padding-left: 8.5%;
     font-size: 20px;
 }
+
 .side-menu>ul>li>a {
     display: block;
     text-align: center;
@@ -955,6 +1031,7 @@ footer {
     padding: 0 13px;
     padding-bottom: 20px;
 }
+
 .side-menu>ul ul {
     margin-top: 30px;
 }
@@ -964,36 +1041,45 @@ footer {
     padding: 7px 0;
     font-family: 'NanumSquare L';
 }
-.side-menu.active-on, .side-menu-2.active-on  {
+
+.side-menu.active-on,
+.side-menu-2.active-on {
     visibility: visible;
     animation-name: down;
     animation-duration: 1.5s;
-} 
-.side-menu-2 > ul {
-    width:70%;
-    height:80%;
-    margin:0 auto;
+}
+
+.side-menu-2>ul {
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
     text-align: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
-.side-menu-2 > ul > li {
-    font-size:40px;
-    padding:15px 0;
-    font-family: 'NanumSquare B';  
+
+.side-menu-2>ul>li {
+    font-size: 40px;
+    padding: 15px 0;
+    font-family: 'NanumSquare B';
 }
-.side-menu-2 > ul > li:first-child {
-    padding-top:10%;
+
+.side-menu-2>ul>li:first-child {
+    padding-top: 10%;
 }
-.side-menu-2 > ul ul {
-    font-size:16px;
+
+.side-menu-2>ul ul {
+    font-size: 16px;
 }
-.side-menu-2 > ul ul > li {
-    padding:8px 0;
-    font-family: 'NanumSquare R';  
+
+.side-menu-2>ul ul>li {
+    padding: 8px 0;
+    font-family: 'NanumSquare R';
 }
-.side-menu-2 > ul ul > li:first-child {
-    padding-top:15px;
+
+.side-menu-2>ul ul>li:first-child {
+    padding-top: 15px;
 }
+
 @keyframes down {
     0% {
         opacity: 0;
@@ -1009,119 +1095,144 @@ footer {
     }
 }
 
-.side-menu.active-off, .side-menu-2.active-off {
+.side-menu.active-off,
+.side-menu-2.active-off {
     visibility: visible;
     animation: side-opa 0.5s forwards;
 }
+
 @keyframes side-opa {
-    0%{
+    0% {
         opacity: 1;
     }
-    99%{
+
+    99% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         visibility: hidden;
     }
 }
 
-.side-menu.active-on + .side-menu-top-icon, .side-menu.active-on + .side-menu-top-icon-2 {
-    top:35px;
+.side-menu.active-on+.side-menu-top-icon,
+.side-menu.active-on+.side-menu-top-icon-2 {
+    top: 35px;
     transition: top 1.5s;
 }
-.side-menu-top-icon,.side-menu-top-icon-2 {
-    width:180px;
+
+.side-menu-top-icon,
+.side-menu-top-icon-2 {
+    width: 180px;
     position: fixed;
-    top:calc(35px - 2000px);
-    right:7%;
-    cursor:pointer;
+    top: calc(35px - 2000px);
+    right: 7%;
+    cursor: pointer;
     z-index: 100;
 }
-.side-menu-top-icon > ul > li {
-    padding:0 7px;
+
+.side-menu-top-icon>ul>li {
+    padding: 0 7px;
 }
-.side-menu-top-icon > ul > li > a > img {
-    width:30px;
+
+.side-menu-top-icon>ul>li>a>img {
+    width: 30px;
 }
-.side-menu-top-icon-2 > ul > li {
-    padding:0 7px;
+
+.side-menu-top-icon-2>ul>li {
+    padding: 0 7px;
 }
-.side-menu-top-icon-2 > ul > li > a > img {
-    width:30px;
+
+.side-menu-top-icon-2>ul>li>a>img {
+    width: 30px;
 }
+
 @media (max-width:1000px) {
-    .side-menu-top-icon,.side-menu-top-icon-2 {
-        right:13%;
+
+    .side-menu-top-icon,
+    .side-menu-top-icon-2 {
+        right: 13%;
     }
 }
+
 /* side-menu 끝 */
 
 /* pop-up */
 .pop-up {
-    width:100%;
-    height:100vh;
-    position:fixed;
-    top:0;
-    left:0;
-    background-color:rgba(0,0,0,.7);
-    display:none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    display: none;
     z-index: 998;
 }
+
 .pop-up.active {
-    display:block;
+    display: block;
 }
+
 .box {
-    width:450px;
-    height:450px;
-    background-color:#fff;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translatex(-50%)translatey(-50%);
-    text-align:center;
-    display:none;
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%)translatey(-50%);
+    text-align: center;
+    display: none;
     font-family: 'NanumSquare R';
     z-index: 999;
 }
+
 .box.active {
-    display:block;
+    display: block;
 }
-.box > img {
-    height:150px;
-    padding-top:50px;
+
+.box>img {
+    height: 150px;
+    padding-top: 50px;
 }
-.box > .wel {
-    font-weight:bold;
-    font-size:18px;
+
+.box>.wel {
+    font-weight: bold;
+    font-size: 18px;
     font-family: 'newtextitcstd';
     letter-spacing: .1em;
 }
-.box > .line {
-    width:40px;
-    height:1.5px;
-    margin:0 auto;
-    margin-top:20px;
-    background-color:black;
+
+.box>.line {
+    width: 40px;
+    height: 1.5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
 }
-.box > .pop-text {
-    font-size:14px;
-    margin-top:25px;
+
+.box>.pop-text {
+    font-size: 14px;
+    margin-top: 25px;
     line-height: 1.4;
 }
-.box > .more {
-    text-decoration:underline;
-    padding-top:20px;
+
+.box>.more {
+    text-decoration: underline;
+    padding-top: 20px;
 }
-.box > .close-btn {
-    z-index:999;
-    width:25px;
-    height:25px;
-    position:absolute;
-    top:15px;
-    right:15px;
-    cursor:pointer;
+
+.box>.close-btn {
+    z-index: 999;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
 }
-.box > .close-btn > i {
-    color:black;
-    font-size:30px;
+
+.box>.close-btn>i {
+    color: black;
+    font-size: 30px;
 }
