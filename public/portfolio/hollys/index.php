@@ -54,7 +54,6 @@
                     <div class="cross"></div>
                 </div>
                 <div class="discover-text flex-as-c">DISCOVER MORE</div>
-
             </div>
         </div>
 
@@ -115,8 +114,8 @@
             </div>
         </div>
     </div>
-    <div class="bg-4">
-        <div class="with-text-box">
+    <div class="bg-4 row">
+        <div class="with-text-box cell">
             <h1>WITH</h1>
             <h2>HOLLYS COFFEE'S</h2>
             <p>We are recruiting Franchisees. Make your<br>
@@ -125,9 +124,31 @@
                 <p class="with-cont-1">할리스 커피와 함께 할</p>
                 <p class="with-cont-2">가맹점주님</p>
                 <p class="with-cont-3">을 모집합니다.</p>
+                <div class="discover-box-2 flex">
+                    <div class="discover-round-2">
+                        <div class="cross"></div>
+                    </div>
+                    <div class="discover-text-2 flex-as-c">DISCOVER MORE</div>
+                </div>
             </div>
         </div>
+        <div class="with-img cell">
+            <img src="https://sung-kyung.github.io/img1/pf/hollys/work.png" alt="">
+            <div class="red-bg"></div>
+        </div>
     </div>
+    <div class="bg-5" style="background-image:url(https://sung-kyung.github.io/img1/pf/hollys/cup-bg.png);">
+        <div class="app-text-box">
+            <p class="order">편리한 주문 서비스 </p>
+            <p class="order-2">스마트오더</p>
+            <p class="order-cont">지금 바로 할리스 APP을 다운받고<br>
+                나만의 메뉴를 만들어 주문해보세요.</p>
+            <div class="download"><a href="#">DOWNLOAD</a></div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
