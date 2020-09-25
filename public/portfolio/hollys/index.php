@@ -114,7 +114,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-4 row">
+    <div class="bg-4 row con">
         <div class="with-text-box cell">
             <h1>WITH</h1>
             <h2>HOLLYS COFFEE'S</h2>
@@ -145,9 +145,33 @@
                 나만의 메뉴를 만들어 주문해보세요.</p>
             <div class="download"><a href="#">DOWNLOAD</a></div>
         </div>
+        <div class="app-img">
+            <img src="https://sung-kyung.github.io/img1/pf/hollys/work-image.png" alt="">
+        </div>
     </div>
     <footer>
-
+        <div class="footer">
+            <ul class="foot-cont row">
+                <li class="cell"><a href="#">개인정보처리방침</a></li>
+                <li class="cell"><a href="#">서비스이용약관</a></li>
+                <li class="cell"><a href="#">멤버십이용약관</a></li>
+                <li class="cell"><a href="#">고객문의</a></li>
+                <li class="cell"><a href="#">고객설문</a></li>
+                <li class="cell"><a href="#">사이트맵</a></li>
+                <li class="cell"><a href="#">BI 소개</a></li>
+            </ul>
+            <ul class="foot-info row">
+                <li class="cell">법인명: (주) 할리스에프앤비</li>
+                <li class="cell">대표자: 김유진</li>
+                <li class="cell">사업자등록번호 211-87-61044</li>
+                <li class="cell">통신판매업: 제2019-서울종로-0193호</li>
+            </ul>
+            <ul class="foot-info-2 row">
+                <li class="cell">주소 : 서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동)</li>
+                <li class="cell">대표전화 : 02-2188-7100 (가맹문의 : 1670-4432)</li>
+            </ul>
+            <div class="copyright">COPYRIGHT (C) HOLLYS COFFEE Co., Ltd. All Rights Reserved.</div>
+        </div>
     </footer>
 </body>
 
