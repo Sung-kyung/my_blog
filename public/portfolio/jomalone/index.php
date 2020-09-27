@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jo Malone</title>
+    <!-- 스토어.js 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/store2/2.11.1/store2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- swiper 불러오기 -->
@@ -31,6 +33,12 @@
                 </p>
             </div>
             <div class="more"><a href="#">자세히보기</a></div>
+            <div class="not-open">
+                <a class="btn-close-for-a-while">
+                    <i class="fas fa-window-close"></i>
+                    오늘 하루 이 창을 띄우지 않음
+                </a>
+            </div>
         </div>
 
     </div>
@@ -358,10 +366,10 @@
                 <p>당신만의 컬렉션을 만들어 딱 맞는 향의 조합을 찾도록 실험해보세요.</p>
                 <p>서로 다른 향을 조합하여 당신을 표현하는 향으로 만들어보세요.</p>
             </div>
-            <a class="scent-btn">
+            <div class="scent-btn">
                 <img src="https://sung-kyung.github.io/img1/pf/jomalone/button.png" alt="">
                 <span>Going to Combine</span>
-            </a>
+            </div>
         </div>
 
     </div>

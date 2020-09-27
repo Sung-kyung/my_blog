@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>카카오뱅크</title>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- 아울 캐러셀 불러오기 -->
@@ -182,23 +183,27 @@
         </div>
     </div>
     <div class="banner-box">
-        <div class="banner-1 ">
-            <div class="con main">
-                <div class="main-title">같지만 다른 은행<br>카카오뱅크</div>
-                <div class="main-text">일상에서 더 쉽게, 더 자주 만나는 은행<br>카카오뱅크가 한번 더 편리해졌습니다.</div>
-                <ul>
-                    <li>
-                        <div class="ico ico-1"></div>
-                        <a href="#">Google Play</a>
-                    </li>
-                    <li>
-                        <div class="ico ico-2"></div>
-                        <a href="#">Apple Store</a>
+        <div class="wrap">
+            <div class="banner-1 ">
+                <div class="con main">
+                    <div class="text-box-1">
+                        <div class="main-title">같지만 다른 은행<br>카카오뱅크</div>
+                        <div class="main-text">일상에서 더 쉽게, 더 자주 만나는 은행<br>카카오뱅크가 한번 더 편리해졌습니다.</div>
+                        <ul class="row">
+                            <li class="cell">
+                                <div class="ico ico-1"></div>
+                                <a href="#">Google Play</a>
+                            </li>
+                            <li class="cell">
+                                <div class="ico ico-2"></div>
+                                <a href="#">Apple Store</a>
 
-                    </li>
-                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-
         </div>
     </div>
     <div class="banner-box-2 con-min-width">
@@ -215,7 +220,7 @@
     <div class="intro-cont-divider"></div>
 
     <div class="banner-box-3 con-min-width">
-        <div class="banner-3 con">
+        <div class="banner-3 con active-on-visible active-only-one" data-active-on-visible-diff-y="-200">
             <img src="https://www.kakaobank.com/static/images/web/renewal/main-savings.png" alt="" class="phone-img-2">
             <div class="cont-text-2">
                 <div class="sub-title-2">우대조건 없이<br>합리적인 예금과 적금</div>
@@ -261,7 +266,7 @@
     <div class="intro-cont-divider"></div>
 
     <div class="banner-box-6 con-min-width">
-        <div class="banner-6 con">
+        <div class="banner-6 con active-on-visible active-only-one" data-active-on-visible-diff-y="-200">
             <img src="https://www.kakaobank.com/static/images/web/renewal/main-foreignRemittance.png" alt="">
             <div class="cont-text-5">
                 <div class="sub-title-5">

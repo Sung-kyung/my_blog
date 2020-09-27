@@ -1,18 +1,68 @@
-function popup_start() {
-  $(".pop-up > .box").addClass("active");
-  $(".pop-up").addClass("active");
+// 스토어 js
+var storeWithExpiration = {
+  set: function (key, val, exp) {
+    store.set(key, {
+      val: val,
+      exp: exp,
+      time: new Date().getTime()
+    });
+  },
+  get: function (key) {
+    var info = store.get(key);
+    if (!info) {
+      return null;
+    }
+    if (new Date().getTime() - info.time > info.exp) {
+      return null;
+    }
+    return info.val;
+  }
+};
+
+// 공유자원 시작
+var $html = $('html');
+// 공유자원 끝
+
+// 팝업1 시작
+var Popup1__preventShow = storeWithExpiration.get('Popup1__preventShow');
+
+function Popup1__show() {
+  if (Popup1__preventShow) {
+    return;
+  }
+  $html.addClass('popup-1-actived');
 }
 
-function alerted() {
-  $(".pop-up>.box>.close-btn").click(function () {
-    $(".pop-up > .box").removeClass("active");
-    $(".pop-up").removeClass("active");
-  });
-  $(".pop-up").click(function () {
-    $(".pop-up").removeClass("active");
-    $(".pop-up > .box").removeClass("active");
-  });
+function Popup1__hide() {
+  $html.removeClass('popup-1-actived');
 }
+
+function Popup1__hideForAWhile() {
+  Popup1__hide();
+  var duration = 60 * 60 * 24;
+  storeWithExpiration.set('Popup1__preventShow', true, duration * 1000);
+}
+
+function Popup1__init() {
+  $('.pop-up > .box > .close-btn').click(Popup1__hide);
+  $('.pop-up > .box > .not-open > .btn-close-for-a-while').click(Popup1__hideForAWhile);
+}
+
+// function popup_start() {
+//   $(".pop-up > .box").addClass("active");
+//   $(".pop-up").addClass("active");
+// }
+
+// function alerted() {
+//   $(".pop-up>.box>.close-btn").click(function () {
+//     $(".pop-up > .box").removeClass("active");
+//     $(".pop-up").removeClass("active");
+//   });
+//   $(".pop-up").click(function () {
+//     $(".pop-up").removeClass("active");
+//     $(".pop-up > .box").removeClass("active");
+//   });
+// }
 
 $(document).ready(function () {
   var swiper = new Swiper('.swiper-container', {
@@ -143,9 +193,6 @@ function SideMenu2__Toggle() {
   });
 }
 
-
-
-
 /* 발견되면 활성화시키는 라이브러리 시작 */
 function ActiveOnVisible__init() {
   $(window).resize(_.debounce(ActiveOnVisible__initOffset, 500));
@@ -224,8 +271,8 @@ function ActiveOnVisible__checkAndActive() {
 /* 발견되면 활성화시키는 라이브러리 끝 */
 
 $(function () {
-  popup_start();
-  alerted();
+  Popup1__init();
+  Popup1__show();
   SideMenu__init();
   SideMenu2__Toggle();
   ActiveOnVisible__init();
