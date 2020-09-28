@@ -118,7 +118,106 @@
                 <div class="text-1">CREATE A PERSON'S STORY</div>
                 <div class="text-2">S&S는 사람과 공간이 함께 어울릴 수 있도록 더 풍요롭고 더 맛있는 기회와 가치를 제공합니다.</div>
             </div>
+            <div class="slider-box-3">
+            <div class="head  flex flex-jc-c">
+                <ul class="flex">
+                    <li><a class="flex flex-ai-c flex-jc-c height-100p">
+                    <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab01.png" alt=""><img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab01_on.png?dummy123123" alt=""></a></a></li>
+                    <li><a class="flex flex-ai-c flex-jc-c height-100p">
+                    <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab02.png?dummy123123" alt=""><img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab02_on.png" alt=""></a></li>
+                    <li><a class="flex flex-ai-c flex-jc-c height-100p">
+                    <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab03.png" alt=""><img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab03_on.png?dummy123123" alt=""></a></li>
+                    <li><a class="flex flex-ai-c flex-jc-c height-100p">
+                    <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab04.png" alt=""><img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab04_on.png?dummy123123" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="body">
+                      <div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0101.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0102.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0103.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+      </div>
+      <div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0201.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0202.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0203.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+      </div>
+      <div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0301.png);"></div> 
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0302.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0303.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+      </div>
+      <div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0401.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0402.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+          <div>
+              <div>
+                  <div class="bg" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0403.png);"></div>
+                  <div class="txt">내용</div>
+              </div>
+          </div>
+      </div>
+            </div>
+            </div>
+
         </div>
+
+        <!--3페이지-->
         <div class="section">
             <div class="bg">
                 <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">

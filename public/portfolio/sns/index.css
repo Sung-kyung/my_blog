@@ -638,6 +638,107 @@ label[for] {
     margin-bottom:48px;
     letter-spacing: -0.7px;
 }
+/* 슬라이더 head 시작 */
+.slider-box-3 {
+    margin-top:20px;
+    border-top:1px solid #dfdfdf;
+}
+.slider-box-3 > .head {
+    height:80px;
+}
+
+.slider-box-3 > .head > ul > li > a {
+    width:300px;
+    position: relative;
+    cursor: pointer;
+}
+.slider-box-3 > .head > ul > li > a::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:2px;
+    background-color:black;
+    display:none;
+}
+.slider-box-3 > .head > ul > li:not(:last-child) > a::after {
+    content:"";
+    position:absolute;
+    top:50%;
+    right:-1px;
+    height:15px;
+    width:2px;
+    background-color:#dfdfdf;
+    z-index:1;
+  }
+  .slider-box-3 > .head > ul > li > a > img:last-child {
+    display:none;
+  }
+  
+  .slider-box-3 > .head > ul > li.active > a > img:last-child {
+    display:block;
+  }
+  
+  .slider-box-3 > .head > ul > li.active > a > img:first-child {
+    display:none;
+  }
+  
+  .slider-box-3 > .head > ul > li.active > a::before {
+    display:block;
+  }
+  /* 슬라이더 head 끝 */
+
+  /* 슬라이더 body 시작 */
+  .slider-box-3 > .body {
+      height:600px;
+      position: relative;
+      overflow: hidden;
+  }
+  /* .slider-box-3 > .body > div {
+      visibility: hidden;
+  } */
+  .slider-box-3 > .body > div.active {
+      visibility: visible;
+  }
+  .slider-box-3 > .body > div > div {
+      position: absolute;
+      width:50%;
+  }
+  .slider-box-3 > .body > div.last-active > div > div > .bg {
+    z-index: 2;
+    transform: translateX(-100%);
+    transition:transform .5s;
+  }
+  .slider-box-3 > .body > div.active > div > div > .bg {
+      z-index: 1;
+  }
+  .slider-box-3 > .body > div > div:nth-child(1) {
+      height:100%;
+      top:0;
+      left:0;
+  }
+  .slider-box-3 > .body > div > div:nth-child(2),.slider-box-3 > .body > div > div:nth-child(3) {
+    height:50%;
+    top:0;
+    right:0;
+  }
+  .slider-box-3 > .body > div > div:nth-child(3) {
+      top:auto;
+      bottom:0;
+      right:0;
+  }
+  .slider-box-3 > .body > div > div > div > .bg {
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+  /* 슬라이더 body 끝 */
 /* 2페이지 끝 */
 
 /* 3페이지 시작 */

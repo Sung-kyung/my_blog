@@ -31,7 +31,51 @@ function SideBar__init() {
     });
 }
 
+function SliderBox3__init() {
+    var mouseInOn = false;
+
+    $('.slider-box-3 > .head > ul > li').click(function() {
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    var index = $(this).index();
+
+    var $old = $(this).closest('.slider-box-3').find(' > .body > .div.active');
+
+    $old.addClass('last-active');
+    setTimeout(function() {
+        $old.removeClass('last-active');    
+    }, 500);
+    $old.removeClass('active');
+    $(this).closest('.slider-box-3').find(' > .body > div').eq(index).addClass('active');
+
+    setInterval(function() {
+        var $post = $('.slider-box-3 > .head > ul > li.active').next();
+
+        if ( $post.length == 0 ) {
+            $post = $('.slider-box-3 > .head > ul > li:first-child');
+        }
+
+        if ( mouseInOn == false ) {
+            $post.click();
+        }
+    }, 4000);
+
+    $(".slider-box-3 > .head > ul > li:first-child").click();
+
+    $('.slider-box-3').mouseenter(function() {
+        mouseInOn = true;
+    });
+
+    $('.slider-box-3').mouseleave(function() {
+        mouseInOn = false;
+    });
+}
+
+
 $(function () {
     StartAni__init();
     SideBar__init();
+    SliderBox3__init();
 });
