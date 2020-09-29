@@ -98,7 +98,7 @@
 
     <div id="fullpage">
         <!--1페이지-->
-        <div class="section">
+        <div class="section page-1">
             <div class="main">
                 <div class="main-text-box">
                     <div class="main-text-1">WHERE THE</div>
@@ -113,7 +113,7 @@
             </div>
         </div>
         <!--2페이지-->
-        <div class="section">
+        <div class="section page-2">
             <div class="title-text-box">
                 <div class="text-1">CREATE A PERSON'S STORY</div>
                 <div class="text-2">S&S는 사람과 공간이 함께 어울릴 수 있도록 더 풍요롭고 더 맛있는 기회와 가치를 제공합니다.</div>
@@ -150,7 +150,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0101.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">BRAND</div>
+                                <div class="txt-2 txt-b">토끼정 당신과 나의 마음이 함께 머무르는 곳</div>
                             </div>
                         </div>
                         <div>
@@ -158,7 +159,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0102.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">MENU</div>
+                                <div class="txt-2">일식과 한식의 조화로 한국인의 입맛을 재해석하다</div>
                             </div>
                         </div>
                         <div>
@@ -166,7 +168,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0103.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">CONCEPT</div>
+                                <div class="txt-2">아름다운 분위기에 맛을 더하다</div>
                             </div>
                         </div>
                     </div>
@@ -176,7 +179,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0201.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">BRAND</div>
+                                <div class="txt-2 txt-b">서가앤쿡은 잃어버린 맛의 추억을 소환합니다</div>
                             </div>
                         </div>
                         <div>
@@ -184,7 +188,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0202.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">MENU</div>
+                                <div class="txt-2">서가앤쿡은 2인 1메뉴의 새로운 맛의 공식을 제공합니다</div>
                             </div>
                         </div>
                         <div>
@@ -192,7 +197,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0203.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">CONCEPT</div>
+                                <div class="txt-2">함께여서 좋은 곳 함께 나눠 좋은 음식 서가앤쿡</div>
                             </div>
                         </div>
                     </div>
@@ -202,7 +208,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0301.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">BRAND</div>
+                                <div class="txt-2 txt-b">소싯적 순수하고 특별한 특별한 이야기가 있는 공간에 머물다</div>
                             </div>
                         </div>
                         <div>
@@ -210,7 +217,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0302.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">MENU</div>
+                                <div class="txt-2">한식의 깔끔한 맛과 멋을 더한 퓨전 중식 브랜드입니다</div>
                             </div>
                         </div>
                         <div>
@@ -218,7 +226,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0303.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">CONCEPT</div>
+                                <div class="txt-2">중식에 새로운 해석을 담다</div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +237,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0401.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">BRAND</div>
+                                <div class="txt-2 txt-b">숨쉬는 순두부는 건강 두부요리로 일상 속 따뜻한 숨을 불어주는 공간입니다</div>
                             </div>
                         </div>
                         <div>
@@ -236,7 +246,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0402.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">MENU</div>
+                                <div class="txt-2">100% 국산콩으로 매일 직접 두부를 만듭니다</div>
                             </div>
                         </div>
                         <div>
@@ -244,7 +255,8 @@
                                 <div class="bg"
                                     style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0403.png);">
                                 </div>
-                                <div class="txt">내용</div>
+                                <div class="txt">CONCEPT</div>
+                                <div class="txt-2">본질의 힘을 믿고, 진짜 두부를 요리합니다</div>
                             </div>
                         </div>
                     </div>
@@ -254,7 +266,7 @@
         </div>
 
         <!--3페이지-->
-        <div class="section">
+        <div class="section page-3">
             <div class="bg">
                 <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
                 <div class="our-time">
@@ -277,9 +289,36 @@
                 </div>
             </div>
         </div>
-        <div class="section">페이지 9</div>
-        <div class="section">페이지 10</div>
+        <!--4페이지-->
+        <div class="section page-4">
+            <div class="bg-2" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_pebg.png);">
+                <div class="people-box row con">
+                    <div class="people-txt cell">
+                        <p class="people">PEOPLE</p>
+                        <p class="people-title">PEOPLE & <br>S&S</p>
+                        <p class="people-cont">경험과 열정, 문화와 음식, 생각의 반전까지 S&S는<br>
+                            맛있는 한 그릇, 행복한 시간을 만들기 위해 열정을 다합니다.<br>
+                            경험과 문화 그 사이에 열정을 다하는 사람이 있습니다.</p>
+                        <div class="btn-view-2">
+                            <a href="#">VIEW MORE</a>
+                        </div>
+                    </div>
+                    <div class="people-img cell">
+                        <img src="https://sung-kyung.github.io/img1/pf/sns/main_people.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--5페이지-->
+        <div class="section page-5">
+            <div class="bg-3">
+                <div class="box-container">
+                    
+                </div>
+            </div>
+        </div>
     </div>
+
 
 </body>
 

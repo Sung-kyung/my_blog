@@ -34,7 +34,15 @@ function SideBar__init() {
 function SliderBox3__init() {
     var mouseInOn = false;
 
+    var switchAnimating = false;
+
     $('.slider-box-3 > .head > ul > li').click(function () {
+        if (switchAnimating) {
+            return;
+        }
+
+        switchAnimating = true;
+
         $(this).siblings('.active').removeClass('active');
         $(this).addClass('active');
 
@@ -45,6 +53,7 @@ function SliderBox3__init() {
         $old.addClass('last-active');
         setTimeout(function () {
             $old.removeClass('last-active');
+            switchAnimating = false;
         }, 500);
         $old.removeClass('active');
         $(this).closest('.slider-box-3').find(' > .body > div').eq(index).addClass('active');
