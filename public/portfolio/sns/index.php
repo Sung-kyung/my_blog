@@ -313,7 +313,20 @@
         <div class="section page-5">
             <div class="bg-3">
                 <div class="box-container">
-                    
+                    <ul class="box-ul-1 row">
+                        <li class="joy cell"><div>WE<br>SHARE<br>JOY</div><img src="https://sung-kyung.github.io/img1/pf/sns/bg_joy.png" alt=""></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_xPtXNSE7_607cc1ab0db965b44ee9614ed6547533777967b1_295x.png);" ></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_ljnfbDP3_344af9b7aad59018123e1eef16f66b8779354043_295x.png);"></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_rEgLfOVi_65dd26e93c005a3928a32b377cf4f80097379c55_295x.png);"></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_Yur1asSn_5c3d0dc9e5e64cad650697183f92dda1e184ac13_295x.png);"></div></li>
+                    </ul>
+                    <ul class="box-ul-2 row">
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_0GQun73O_95f14ecef7e117cc5e5715eb6235ff5316dc3add_295x.jpg);"></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_q9CWv2d0_214a1fb5a2423445f1c6cc8dca26c8f93be7dc6b_295x.png);"></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_a3AHoXGV_a41f34d50d29801fe72f1f3ce73ed80408a51f5b_295x.png);"></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_PkpoZniW_222e384d1022bef8bbb3a6fe4db99a20fac4d9cd_295x.png);"></div></li>
+                        <li class="cell"><div style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_aDOvJYEQ_dca489c4ed3485c4c9aa10c9ebd951e4c37845a4_295x.png);"></div></li>
+                    </ul>
                 </div>
             </div>
         </div>
