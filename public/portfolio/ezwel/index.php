@@ -174,12 +174,14 @@
                                     </span>
                                 </div>
                             </div>
+                            <div class="btn-more"><a href="#">more</a></div>
                         </div>
                         <div class="financial-box flex">
                             <div class="financial">
                                 <p class="financial-title">재무정보</p>
                                 <p class="financial-content">분기/연도별<br>재무정보입니다.</p>
                             </div>
+                            <div class="btn-more btn-more-w"><a href="#">more</a></div>
                         </div>
                         <div class="notice-box flex">
                             <div class="notice">
@@ -200,6 +202,7 @@
 
                                 </div>
                             </div>
+                            <div class="btn-more btn-more-w"><a href="#">more</a></div>
                         </div>
                     </div>
                 </div>

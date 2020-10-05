@@ -70,21 +70,13 @@ $(document).ready(function () {
     loop: true,
     spaceBetween: 30,
     navigation: false,
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'progressbar',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
     }
   });
 
-  var swiper = new Swiper('.swiper-container-1', {
+  var swiper2 = new Swiper('.swiper-container-1', {
     slidesPerView: 1,
     loop: true,
     spaceBetween: 30,
@@ -92,10 +84,6 @@ $(document).ready(function () {
     pagination: {
       el: '.swiper-pagination',
       type: 'progressbar',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
     },
     autoplay: {
       delay: 4000,
