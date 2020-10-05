@@ -268,7 +268,9 @@
         <!--3페이지-->
         <div class="section page-3">
             <div class="bg">
-                <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
+                <div class="bg-img">
+                    <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
+                </div>
                 <div class="our-time row con">
                     <div class="our-time-1 cell">
                         <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourtime.png" alt="">

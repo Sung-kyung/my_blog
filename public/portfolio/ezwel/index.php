@@ -219,7 +219,7 @@
                 <div class="ico-box">
                     <ul class="flex flex-jc-sb">
                         <li class="flex">
-                            <a href="#" class="consulting">
+                            <a href="#" class="consulting margin-0">
                                 <figure>
                                     <i
                                         style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
@@ -228,7 +228,7 @@
                             </a>
                         </li>
                         <li class="flex">
-                            <a href="#" class="shop">
+                            <a href="#" class="shop margin-0">
                                 <figure>
                                     <i
                                         style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
@@ -237,7 +237,7 @@
                             </a>
                         </li>
                         <li class="flex">
-                            <a href="#" class="service">
+                            <a href="#" class="service margin-0">
                                 <figure>
                                     <i
                                         style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
@@ -246,7 +246,7 @@
                             </a>
                         </li>
                         <li class="flex">
-                            <a href="#" class="download">
+                            <a href="#" class="download margin-0">
                                 <figure>
                                     <i
                                         style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
@@ -255,7 +255,7 @@
                             </a>
                         </li>
                         <li class="flex">
-                            <a href="#" class="ethics">
+                            <a href="#" class="ethics margin-0">
                                 <figure>
                                     <i
                                         style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
