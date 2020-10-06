@@ -10,7 +10,7 @@ $(function () {
 function Owl__init() {
     $('.owl-1 > .owl-carousel').owlCarousel({
         loop: true,
-        margin: 100,
+        margin: 50,
         nav: false,
         dots: false,
         autoWidth: true,
@@ -59,6 +59,10 @@ function Slider1__itemClick2(el) {
     $('.tool-box').empty().append("<h3>" + tool + "</h3>");
     $('.palette-box').empty().append("<h3>" + palette + "</h3>");
     $('.palette-img-box').empty().append("<img src='" + paletteImg + "'>");
+}
+
+function Slider1__itemClick3(el) {
+    $('.img-box-2').click();
 }
 
 // 탭박스
@@ -238,7 +242,7 @@ $(function () {
     border_2();
     Tab__init();
     $('.owl-1 > .menu-1  .item-1').click();
-    $('.owl-2  .item-2-1').click();
+    $('.owl-2  .item-2-1').mouseenter();
 
     // 스크롤 이벤트
     ActiveOnVisible__initOffset();

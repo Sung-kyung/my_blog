@@ -372,18 +372,14 @@ label[for] {
 }
 
 @media (max-width:1249px) {
-    .visible-sm-down {
-        display: block;
-    }
-
     .visible-md-up {
-        display: none;
+        display: none !important;
     }
 }
 
 @media (min-width:1250px) {
     .visible-sm-down {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -1091,7 +1087,7 @@ footer {
 @keyframes down {
     0% {
         opacity: 0;
-        transform: translateY(-2000px);
+        transform: translateY(-100%);
     }
 
     60% {
@@ -1105,7 +1101,7 @@ footer {
 
 .side-menu.active-off,
 .side-menu-2.active-off {
-    visibility: visible;
+    visibility: hidden;
     animation: side-opa 0.5s forwards;
 }
 

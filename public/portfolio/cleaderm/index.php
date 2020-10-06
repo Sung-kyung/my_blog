@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!--탑바-->
     <div class="top-menu-bar flex">
 
         <div class="logo-box flex flex-ai-c flex-grow-1">
@@ -95,7 +96,7 @@
         </div>
 
     </div>
-
+<!--메인 배너 슬라이더-->
     <div class="bg-slider slider-k slider-k1 height-100vh" data-autoplay="Y" data-autoplay-dir="right"
         data-autoplay-interval="7000">
         <div class="bg-slides">
@@ -120,7 +121,17 @@
                 </a>
             </div>
         </div>
-
+    </div>
+    <!--유튜브-->
+    <div class="youtube-box">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/Q4jjoUG_-3A?autoplay=1&playlist=Q4jjoUG_-3A&loop=1&controls=0&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <!--멘트 + 배너-->
+    <div class="strong-box">
+        <ul class="row">
+            <li class="text-area cell"></li>
+            <li class="banner-area cell"></li>
+        </ul>
     </div>
 
 

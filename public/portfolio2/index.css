@@ -361,6 +361,7 @@ label[for] {
 /* 커스텀 */
 html, body {
     overflow-x: hidden;
+    min-width:1280px;
 }
 /* 스크롤바 변경 */
 
@@ -848,9 +849,7 @@ html, body {
     box-sizing: border-box;
     padding:10%;
 }
-.owl-item.active {
-    width:170px !important;
-}
+
 .slide-2 .owl-carousel .owl-stage-outer {
     overflow: visible;
 }

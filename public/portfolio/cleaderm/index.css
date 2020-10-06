@@ -335,7 +335,7 @@ label[for] {
 
 /* 탑바 시작 */
 .top-menu-bar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -626,3 +626,29 @@ label[for] {
     display:block;
 }
 /* 슬라이더 끝 */
+
+/* youtube 시작 */
+.youtube-box {
+    padding:2%;
+    text-align: center;
+    background-color: #f6f6f6;
+    margin:0 auto;
+}
+iframe {
+    margin:0 auto;
+}
+/* youtube 끝 */
+
+/* 멘트 + 배너 시작 */
+.strong-box > ul {
+    margin:10%;
+}
+.strong-box > ul > .text-area  {
+    width:55%;
+    border:1px solid red;
+}
+.strong-box > ul > .banner-area  {
+    width:45%;
+    border:1px solid red;
+}
+/* 멘트 + 배너 끝 */

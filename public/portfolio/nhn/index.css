@@ -339,6 +339,7 @@ label[for] {
 body {
     color:white;
     overflow-x: hidden;
+    min-width: 1280px;
 }
 .top-bar  {
     width:100%;

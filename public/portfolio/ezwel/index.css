@@ -1357,15 +1357,18 @@ html[data-fullpage-index="2"] {
 
 .footer>.inner-footer>.navi>ul>li:nth-child(3)>.tooltip {
   left: 32%;
+  line-height: 1.7;
 }
 
 .footer>.inner-footer>.navi>ul>li:nth-child(4)>.tooltip {
   left: 52%;
+  line-height: 1.7;
 }
 
 .footer>.inner-footer>.navi>ul>li:nth-child(3)>.tooltip,
 .footer>.inner-footer>.navi>ul>li:nth-child(4)>.tooltip {
   top: -40px;
+  line-height: 1.7;
 }
 
 .footer>.inner-footer>.navi>ul>li>.tooltip>span {
@@ -1388,7 +1391,10 @@ html[data-fullpage-index="2"] {
 .footer>.inner-footer>.navi>ul>li:nth-child(2)>.tooltip>p::after {
   left: 68%;
 }
-
+.footer>.inner-footer>.navi>ul>li:nth-child(2)>.tooltip>p > span {
+  line-height: 1.5;
+  text-align: left;
+}
 .footer>.inner-footer>.navi>ul>li:nth-child(4)>.tooltip>p::after {
   left: 55%;
 }
