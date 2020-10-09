@@ -4,6 +4,65 @@ $(function() {
     }, 100);
 });
 
+$(document).ready(function() {
+    var $topBtn = $('#top-button');
+    var $sideBtn = $('.side-menu');
+
+    var windowHeight = $(window).height();
+  
+    $(window).resize(function () {
+      windowHeight = $(window).height();
+    });
+  
+    $(window).scroll(function () {
+      var scrollTop = $(window).scrollTop();
+  
+      if (scrollTop > 0) {
+        $topBtn.addClass('active');
+        $sideBtn.addClass('active');
+      } else {
+        $topBtn.removeClass('active');
+        $sideBtn.removeClass('active');
+      }
+    });
+  
+});
+
+// document.querySelector('.trigger').addEventListener('scroll', function(){
+//     document.querySelector('.hidden').classList.remove('disappear');
+//       document.querySelector('.hidden').classList.add('appear');
+//   });
+  
+//   document.querySelector('.hidden').addEventListener('click', function() {
+//     const target = this;
+//     if (target.classList.contains('appear')) {
+//       target.classList.add('disappear');
+//       setTimeout(function(){ target.classList.remove('appear')},1001);
+//     }
+//   });
+
+function SideMenu__init() {
+    $('.side-menu-icon').click(function() {
+        var $sideMenu = $('.side-menu');
+        var $sideBox = $('.side-menu > .side-box');
+
+        if ($sideMenu.hasClass('on')) {
+            $sideMenu.removeClass('on');
+        }
+        else {
+            $sideMenu.addClass('on');
+        }
+
+        $(window).scroll(function () {
+            var scrollTop = $(window).scrollTop();
+        
+            if (scrollTop == 0) {
+              $sideMenu.removeClass('on');
+            }
+          });
+    });
+}
+
 function Search__init() {
     $(".top-menu-bar > .search-ico > a").click(function () {
         var $fade = $(".top-menu-bar > .search-ico > .search-fade");
@@ -105,6 +164,11 @@ function SliderK__init() {
     });
 }
 
+function top_move(){
+    $('#top-button').click(function(){
+        $('html,body').scrollTop('0');
+    });
+}
 // 페이지 내비를 자동으로 만들어줍니다.
 function SliderK__initPageNav($slider) {
     var currentIndex = $slider.find('.bg-slides > div.active').index();
@@ -184,6 +248,124 @@ function SliderK__initAutoplay($slider) {
     }, autoplayInterval);
 }
 
+/* 발견되면 활성화시키는 라이브러리 시작 */
+function ActiveOnVisible__init() {
+    $('.active-on-visible').each(function(index, node) {
+      var $node = $(node);
+  
+      var onFuncName = $node.attr('data-active-on-visible-on-func-name');
+      var offFuncName = $node.attr('data-active-on-visible-off-func-name');
+  
+      $node.data('data-active-on-visible-on-func-name', onFuncName);
+      $node.data('data-active-on-visible-off-func-name', offFuncName);
+    });
+  
+    $(window).resize(_.debounce(ActiveOnVisible__initOffset, 500));
+    ActiveOnVisible__initOffset();
+  
+    $(window).scroll(_.debounce(ActiveOnVisible__checkAndActive, 50));
+    ActiveOnVisible__checkAndActive();
+  }
+  
+  function ActiveOnVisible__initOffset() {
+    var windowHeight = $(window).height();
+  
+    $('.active-on-visible:not(.actived)').each(function(index, node) {
+      var $node = $(node);
+  
+      var offsetTop = $node.offset().top;
+  
+      var matrix = $node.css('transform').replace(/[^0-9\-.,]/g, '').split(',')
+      var translateX = matrix[12] || matrix[4];
+      var translateY = matrix[13] || matrix[5];
+  
+      if ( translateY ) {
+        offsetTop -= translateY;
+      }
+  
+      $node.attr('data-active-on-visible-offsetTop', offsetTop);
+      $node.data('data-active-on-visible-offsetTop', offsetTop);
+  
+      if ( !$node.attr('data-active-on-visible-diff-y') ) {
+        $node.attr('data-active-on-visible-diff-y', '0');
+      }
+  
+      if ( !$node.attr('data-active-on-visible-delay') ) {
+        $node.attr('data-active-on-visible-delay', '0');
+      }
+  
+      var diffY = $node.attr('data-active-on-visible-diff-y');
+      var delay = $node.attr('data-active-on-visible-delay');
+  
+      if ( diffY.substr(-2, 2) == 'vh' ) {
+        diffY = parseInt(diffY);
+  
+        diffY = windowHeight * (diffY / 100);
+      }
+      else if ( diffY.substr(-1, 1) == '%' ) {
+        diffY = parseInt(diffY);
+  
+        diffY = $node.height() * (diffY / 100);
+      }
+      else {
+        diffY = parseInt(diffY);
+      }
+  
+      $node.attr('data-active-on-visible-diff-y-real', diffY);
+      $node.data('data-active-on-visible-diff-y', diffY);
+      $node.data('data-active-on-visible-delay', delay);
+    });
+  
+    ActiveOnVisible__checkAndActive();
+  }
+  
+  function ActiveOnVisible__checkAndActive() { 
+    $('.active-on-visible:not(.actived)').each(function(index, node) {
+      var $node = $(node);
+  
+      var offsetTop = $node.data('data-active-on-visible-offsetTop') * 1;
+      var diffY = parseInt($node.data('data-active-on-visible-diff-y'));
+      var delay = parseInt($node.data('data-active-on-visible-delay'));
+  
+      var onFuncName = $node.data('data-active-on-visible-on-func-name');
+      var offFuncName = $node.data('data-active-on-visible-off-func-name');
+  
+      var scrollTop = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      var nodeHeight = $node.height();
+  
+      if ( scrollTop + windowHeight + diffY > offsetTop ) {
+        setTimeout(function() {
+          if ( $node.hasClass('active') == false ) {
+            $node.addClass('active');
+  
+            if ( $node.hasClass('can-active-once') ) {
+              $node.addClass('actived');
+            }
+  
+            if ( window[onFuncName] ) {
+              window[onFuncName]($node);
+            }
+          }
+        }, delay);
+      }
+      else {
+        if ( $node.hasClass('active') ) {
+          $node.removeClass('active');
+  
+          if ( window[offFuncName] ) {
+            window[offFuncName]($node);
+          }
+        }
+      }
+    });
+  }
+  
+  /* 발견되면 활성화시키는 라이브러리 끝 */
+
 $(function(){
+    top_move();
+    SideMenu__init();
     SliderK__init();
+    ActiveOnVisible__init();
 });
