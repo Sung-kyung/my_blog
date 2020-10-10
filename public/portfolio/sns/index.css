@@ -346,7 +346,21 @@ html, body {
 /* html:not([data-fullpage-index="0"]) {
     padding-top: 80px;
 } */
-
+.section.active .anima {
+    animation-name:fadeUpDown;
+    animation-duration: 3.2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeUpDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 /* 네비게이션 시작 */
 
 #fp-nav>ul {
@@ -361,7 +375,9 @@ html, body {
     height: 14px;
     width: 32px;
 }
-
+#fp-nav>ul>li:last-child {
+    display: none;
+}
 #fp-nav>ul>li>a {
     border: 1px solid transparent;
     box-sizing: border-box;
@@ -1121,3 +1137,86 @@ html, body {
     }
 }
 /* 5페이지 끝 */
+
+/* footer 시작 */
+.footer {
+    height: auto !important;
+}
+.footer > .foot-box {
+    height:232px;
+    text-align: center;
+    color:#666;
+    letter-spacing: -1px;
+}
+.footer > .foot-box > .ask {
+    height:80px;
+    border-bottom:1px solid #ededed;
+}
+.footer > .foot-box > .ask > ul {
+    height:100%;
+}
+.footer > .foot-box > .ask > ul > li {
+    height:inherit;
+}
+.footer > .foot-box > .ask > ul > li > a {
+    display: block;
+    padding:30px;
+    font-size:15px;
+    font-weight: 500;
+    margin:0 15px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-1  {
+    margin-top:30px;
+    font-size:14px;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-1 > a {
+    padding:0 8px;
+    position: relative;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-1 > .privacy::before,.footer > .foot-box > .foot-cont > .foot-cont-1 > .privacy::after {
+    content:"";
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translate(-50%,-50%);
+    width:1px;
+    height:12px;
+    background-color: #d9d9d9;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-1 > .privacy::after {
+    right:0;
+    left:auto;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-2 {
+    font-size:13px;
+    color:#999;
+    margin-top:30px;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-2 > span {
+    padding:0 10px;
+    position: relative;
+}
+.footer > .foot-box > .foot-cont > .foot-cont-2 > span::after {
+    content:"";
+    position: absolute;
+    top:50%;
+    left:0;
+    transform: translate(-50%,-50%);
+    width:1px;
+    height:12px;
+    background-color: #d9d9d9;
+    
+}
+.footer > .foot-box > .foot-cont > .foot-cont-2 > span:first-child::after {
+    display: none;
+}
+.footer > .foot-box > .foot-cont > .copyright {
+    color:#ccc;
+    font-size:13px;
+    margin-top:15px;
+    margin-bottom:20px;
+    letter-spacing: 0;
+}
+/* footer 끝 */

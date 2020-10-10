@@ -410,7 +410,7 @@ body,html {
 
 .top-menu-bar>.menu-box-1>ul>li:hover>div {
     display: block;
-    width: 380px;
+    width: 370px;
     height: 280px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.05);
@@ -424,7 +424,7 @@ body,html {
 .top-menu-bar>.menu-box-1>ul>li>div>img {
     vertical-align: top;
     display: inline-block;
-    padding:6px 0px 1px 10px;
+    padding:6px 0px 1px 40px;
 }
 
 .top-menu-bar>.menu-box-1>ul>li>div>ul {
@@ -635,19 +635,28 @@ opacity: 1;
 .side-menu > .side-box > .side-list > li {
     padding:6px 0;
 }
-.side-menu > .side-box > .side-list > li > a:hover {
+.side-menu > .side-box > .side-list > li > a {
+    padding:7px;
+}
+.side-menu > .side-box > .side-list > li:hover > a {
     border-bottom:2px solid #222;
 }
 .side-menu > .side-box > .side-list ul {
     display: none;
     font-size:16px;
     font-weight: 300;
-    color:rgba(0,0,0,0.3);
+    color:#999;
+    margin:15px 0 10px 0;
+}
+.side-menu > .side-box > .side-list ul > li {
+    padding:3px 0;
     transition:all .3s;
 }
 .side-menu > .side-box > .side-list > li:hover ul {
     display: block;
-    color:rgba(0,0,0,1);
+}
+.side-menu > .side-box > .side-list ul > li:hover {
+    color:#000;
 }
 /* 사이드 메뉴 끝 */
 

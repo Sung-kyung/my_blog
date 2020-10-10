@@ -114,11 +114,11 @@
         </div>
         <!--2페이지-->
         <div class="section page-2">
-            <div class="title-text-box">
+            <div class="title-text-box anima">
                 <div class="text-1">CREATE A PERSON'S STORY</div>
                 <div class="text-2">S&S는 사람과 공간이 함께 어울릴 수 있도록 더 풍요롭고 더 맛있는 기회와 가치를 제공합니다.</div>
             </div>
-            <div class="slider-box-3">
+            <div class="slider-box-3 anima">
                 <div class="head  flex flex-jc-c">
                     <ul class="flex">
                         <li><a class="flex flex-ai-c flex-jc-c height-100p">
@@ -267,7 +267,7 @@
 
         <!--3페이지-->
         <div class="section page-3">
-            <div class="bg">
+            <div class="bg anima">
                 <div class="bg-img">
                     <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
                 </div>
@@ -296,8 +296,8 @@
         </div>
         <!--4페이지-->
         <div class="section page-4">
-            <div class="bg-2" style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_pebg.png);">
-                <div class="people-box row con">
+            <div class="bg-2 " style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_pebg.png);">
+                <div class="people-box row con anima">
                     <div class="people-txt cell">
                         <p class="people">PEOPLE</p>
                         <p class="people-title">PEOPLE & <br>S&S</p>
@@ -317,7 +317,7 @@
         <!--5페이지-->
         <div class="section page-5">
             <div class="bg-3">
-                <div class="box-container con-2">
+                <div class="box-container con-2 anima">
                     <ul class="box-ul-1 row">
                         <li class="joy cell">
                             <div>WE<br>SHARE<br>JOY</div><img src="https://sung-kyung.github.io/img1/pf/sns/bg_joy.png"
@@ -371,6 +371,40 @@
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="section fp-auto-height footer">
+            <div class="foot-box">
+                <div class="ask">
+                    <ul class="row flex flex-jc-c flex-ai-c">
+                        <li class="cell"><a href="#"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/b_icn01.png);">브랜드
+                                제휴 문의</a></li>
+                        <li class="cell"><a href="#"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/b_icn02.png);">가맹
+                                문의</a></li>
+                        <li class="cell"><a href="#"
+                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/b_icn03.png);">고객
+                                문의</a></li>
+                    </ul>
+                </div>
+                <div class="foot-cont">
+                    <div class="foot-cont-1">
+                        <a href="#">이용약관</a>
+                        <a href="#" class="privacy">개인정보취급방침</a>
+                        <a href="#">식구채용</a>
+                    </div>
+                    <div class="foot-cont-2">
+                        <span>(주) 에스앤에스컴퍼니 대구광역시 수성구 두산동 280-3 2층</span>
+                        <span>대표전화 : 070-4610-2580</span>
+                        <span>대표자 : 이성민</span>
+                        <span>고객정보책임 담당자 : 김지호</span>
+                        <span>사업자등록번호 : 502-86-10105</span>
+                    </div>
+                    <div class="copyright">
+                        Copyright (c) 2013 (주) 에스앤에스컴퍼니 All Rights reserved.</div>
                 </div>
             </div>
         </div>

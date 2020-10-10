@@ -49,7 +49,8 @@
     </div>
 
     <div class="top-bar flex flex-jc-sb flex-ai-c">
-        <div class="flex logo"><img src="https://sung-kyung.github.io/img1/pf/jomalone/logo.png" alt=""></div>
+        <div class="flex logo"><img src="https://sung-kyung.github.io/img1/pf/jomalone/logo.png" alt="" class="up">
+        <img src="https://sung-kyung.github.io/img1/pf/jomalone/logo-2.png" alt="" class="down"></div>
         <div class="flex menu-ico">
             <div class="btn-toggle-mobile-side-bar">
                 <div></div>
@@ -58,6 +59,7 @@
             </div>
         </div>
     </div>
+
     <!--사이드메뉴-->
     <nav class="side-menu visible-md-up">
         <ul class="menu-box-1 row con">

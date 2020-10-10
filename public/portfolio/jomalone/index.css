@@ -383,6 +383,22 @@ label[for] {
     }
 }
 
+@media (max-width:800px) {
+    .top-bar>.logo>.up {
+        display: none;
+    }
+    .top-bar>.logo {
+        padding-left:15px !important;
+    }
+    .top-bar>.menu-ico {
+        padding-right:20px !important;
+    }
+}
+@media (min-width:801px) {
+    .top-bar>.logo>.down {
+        display:none;
+    }
+}
 html,
 body {
     overflow-x: hidden;
@@ -409,14 +425,16 @@ body {
 }
 
 .top-bar>.logo>img {
-    width: 180px;
+    max-width: 180px;
 }
-
+.top-bar>.logo>.down {
+    width:110px;
+    height:auto;
+}
 .top-bar>.menu-ico {
     padding-right: 50px;
     cursor: pointer;
 }
-
 .btn-toggle-mobile-side-bar {
     width: 25px;
     height: 20px;
@@ -565,7 +583,7 @@ body {
 }
 @media (max-width:800px) {
     .page-2-box>.new-text-box>.ancient {
-        font-size: 70px;
+        font-size: 50px;
     }
 }
 
@@ -723,6 +741,7 @@ body {
     color: #383838;
     opacity: 0;
     transform: translateX(30%);
+    white-space: nowrap;
     transition: transform 1.5s, opacity 1.6s;
 }
 
@@ -737,12 +756,14 @@ body {
     font-size: 20px;
     padding-top: 20%;
     line-height: 1.5;
+    white-space: nowrap;
 }
 
 .pack-text>.pack-notice {
     font-family: 'NanumSquare L';
     font-size: 14px;
     padding-top: 10%;
+    white-space: nowrap;
 }
 
 .pack-text>.feel {
@@ -752,6 +773,9 @@ body {
     padding-top: 15%;
 }
 @media (max-width:800px) {
+    .page-4 > div {
+        text-align: left;
+    }
     .pack-box>.pack-video,.pack-text {
         float:none;
     }
@@ -773,7 +797,7 @@ body {
         font-size:12px;
     }
     .pack-text>.pack-title,.pack-text.actived>.pack-title {
-        font-size:60px;
+        font-size:40px;
         transform: translateX(0);
         display: inline-block;
         white-space: nowrap;
@@ -847,6 +871,7 @@ body {
     padding-top: 7px;
     margin-bottom: 40px;
     position: relative;
+    white-space: nowrap;
     animation: show3 3s .3s forwards;
 }
 
@@ -907,11 +932,20 @@ body {
         left: 35%;
     }
     .scent-text-box>.scent-sub-ko::after {
-     left:10%;   
+     left:15%;   
     }
     .scent-btn {
         position: absolute;
         left:0;
+    }
+    .scent-text-box>.scent-title {
+        font-size:50px;
+        transform: translateX(0);
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .scent-text-box>.scent-cont > p {
+        font-size:11px;
     }
 }
 /* 5페이지 끝 */
@@ -999,6 +1033,13 @@ footer {
 @media (max-width:800px) {
     .foot {
         padding:3% 2%;
+    }
+    .foot>.foot-menu-box>ul>li {
+        font-size:12px;
+        padding:0 10px;
+    }
+    .foot>.foot-menu-box>ul ul {
+        font-size:10px;
     }
 }
 /* footer 끝 */

@@ -3,6 +3,7 @@ $(function () {
         verticalCentered: false,
         navigation: true,
         navigationPosition: "right",
+        anchors:['anchor1','anchor2','anchor3','achor4','anchor5'],
         scrollingSpeed: 1000
     });
 });

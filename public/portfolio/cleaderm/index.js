@@ -28,18 +28,6 @@ $(document).ready(function() {
   
 });
 
-// document.querySelector('.trigger').addEventListener('scroll', function(){
-//     document.querySelector('.hidden').classList.remove('disappear');
-//       document.querySelector('.hidden').classList.add('appear');
-//   });
-  
-//   document.querySelector('.hidden').addEventListener('click', function() {
-//     const target = this;
-//     if (target.classList.contains('appear')) {
-//       target.classList.add('disappear');
-//       setTimeout(function(){ target.classList.remove('appear')},1001);
-//     }
-//   });
 
 function SideMenu__init() {
     $('.side-menu-icon').click(function() {
