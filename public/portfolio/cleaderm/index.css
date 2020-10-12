@@ -334,7 +334,7 @@ label[for] {
 /* 커스텀 */
 body {
     overflow-x: hidden;
-
+    min-width:1300px;
 }
 body,html {
     scroll-behavior: smooth;
@@ -352,6 +352,7 @@ body,html {
     height: 118px;
     z-index: 10;
     margin-top: 10px;
+    min-width:1300px;
 }
 
 .top-menu-bar>.logo-box>.logo>img {

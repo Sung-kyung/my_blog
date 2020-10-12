@@ -108,21 +108,6 @@
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                                 <div class="item item-3" data-no="04"
-                                    data-link-url="https://yoobible.com/portfolio/hollys/"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
-                                    onclick="Slider1__itemClick(this);">
-                                    <div class="w-box"><img
-                                            src="https://sung-kyung.github.io/img1/pf/portfolio/hollys_logo.png" alt="">
-                                    </div>
-                                    <div class="title-box">
-                                        <div class="title">HOLLYS COFFEE</div>
-                                        <div class="cont">원본사이트 <br><a
-                                                href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
-                                    </div>
-                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/hollys/"
-                                            target="_blank" class="">MORE VIEW</a></div>
-                                </div>
-                                <div class="item item-4" data-no="05"
                                     data-link-url="https://yoobible.com/portfolio/kakaobank/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/kakaobank.jpg"
                                     onclick="Slider1__itemClick(this);">
@@ -138,7 +123,7 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/kakaobank/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-5" data-no="06"
+                                <div class="item item-4" data-no="05"
                                     data-link-url="https://yoobible.com/portfolio/nhn/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn2.png"
                                     onclick="Slider1__itemClick(this);">
@@ -153,7 +138,7 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/nhn/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-6" data-no="07"
+                                <div class="item item-5" data-no="06"
                                     data-link-url="https://yoobible.com/portfolio/ezwel/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/ezwel.jpg"
                                     onclick="Slider1__itemClick(this);">
@@ -168,7 +153,7 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/ezwel/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-7" data-no="08"
+                                <div class="item item-6" data-no="07"
                                     data-link-url="https://yoobible.com/portfolio/cleaderm/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/cleaderm.jpg"
                                     onclick="Slider1__itemClick(this);">
@@ -183,12 +168,12 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/cleaderm/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-8" data-no="09"
+                                <div class="item item-7" data-no="08"
                                     data-link-url="https://yoobible.com/portfolio/sns/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/sns.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/sns/logo_b.png"
-                                            alt=""></div>
+                                            alt="" class="sns-img"></div>
                                     <div class="title-box">
                                         <div class="title">S & S</div>
                                         <div class="cont">원본사이트 <br><a
@@ -196,6 +181,21 @@
                                         </div>
                                     </div>
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/sns/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-8" data-no="09"
+                                    data-link-url="https://yoobible.com/portfolio/hollys/"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/hollys-1.png"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/portfolio/hollys_logo.png" alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">HOLLYS COFFEE</div>
+                                        <div class="cont">원본사이트 <br><a
+                                                href="https://www.hollys.co.kr/">https://www.hollys.co.kr/</a></div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/hollys/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
                             </div>
@@ -284,7 +284,7 @@
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/sns.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img src="https://sung-kyung.github.io/img1/pf/sns/logo_b.png"
-                                            alt=""></div>
+                                            alt="" class="sns-img"></div>
                                     <div class="title-box">
                                         <div class="title">S & S</div>
                                         <div class="cont">원본사이트 <br><a

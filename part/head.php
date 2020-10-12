@@ -82,7 +82,7 @@
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Artwork</a></li>
                     <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-jc-c flex-ai-end"><img
                                 src="/resource/img/logo_1.png" alt=""></a></li>
-                    <li class=" flex-1-0-0 flex"><a href="/portfolio"
+                    <li class=" flex-1-0-0 flex"><a href="/portfolio2"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Portfolio</a></li>
                     <li class=" flex-1-0-0 flex"><a href="/list.php?cateItemId=1"
                             class="flex flex-1-0-0 flex-jc-c flex-ai-end">Daliy</a>
@@ -96,7 +96,7 @@
                     <li class="flex-1-0-0 flex">
                         <a href="#" class="flex flex-1-0-0 flex-jc-c flex-ai-end">SNS</a>
                         <ul>
-                            <li><a href="#">Instagram</a></li>
+                            <li><a href="https://www.instagram.com/bible_yoo/">Instagram</a></li>
                             <li><a href="https://github.com/Sung-kyung" target="_blank">Github</a></li>
                             <li><a href="https://yoo960115.tistory.com/" target="_blank">Tistory</a></li>
                         </ul>

@@ -655,6 +655,9 @@ html, body {
     margin:0 auto;
     padding-top:60px;
 }
+.owl-carousel .item .w-box .sns-img {
+    padding-top:30px;
+}
 .owl-carousel .item .title-box {
     width:200px;
     height:auto;
