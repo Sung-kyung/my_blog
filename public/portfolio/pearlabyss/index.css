@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html,
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.absolute-left {
+    position: absolute;
+    left: 0;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position: relative;
+}
+
+.cell {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cell-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.img-box>img {
+    width: 100%;
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-0-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+.line-height-0>* {
+    line-height: normal;
+}
+
+.width-30px {
+    width: 30px;
+}
+
+.width-35px {
+    width: 35px;
+}
+
+.width-40px {
+    width: 35px;
+}
+
+.width-45px {
+    width: 35px;
+}
+
+.width-50px {
+    width: 50px;
+}
+
+.width-80px {
+    width: 80px;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.width-60p {
+    width: 60%;
+}
+
+.width-55p {
+    width: 55%;
+}
+
+.width-50p {
+    width: 50%;
+}
+
+.width-45p {
+    width: 45%;
+}
+
+.width-40p {
+    width: 40%;
+}
+
+.width-30p {
+    width: 30%;
+}
+
+.width-35p {
+    width: 35%;
+}
+
+.width-100p-except-30px {
+    width: calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+    width: calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+    width: calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+    width: calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+    width: calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+    width: calc(100% - 100px);
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.height-50p {
+    height: 50%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.font-size-dot-8rem {
+    font-size: 0.8rem;
+}
+
+.table-row {
+    display: table;
+}
+
+.table-row.row::after {
+    display: inline;
+    clear: none;
+}
+
+.table-row>.cell {
+    float: none;
+    display: table-cell;
+}
+
+.border-red {
+    border: 10px solid red;
+}
+
+.border-green {
+    border: 10px solid green;
+}
+
+.border-blue {
+    border: 10px solid blue;
+}
+
+.border-gold {
+    border: 10px solid gold;
+}
+
+.border-pink {
+    border: 10px solid pink;
+}
+
+/* 라이브러리 - flex */
+*>.flex {
+    display: flex;
+}
+
+*>.flex-grow-1 {
+    flex-grow: 1;
+}
+
+*>.flex-jc-c {
+    justify-content: center;
+}
+
+*>.flex-jc-s {
+    justify-content: flex-start;
+}
+
+*>.flex-jc-e {
+    justify-content: flex-end;
+}
+
+*>.flex-jc-sb {
+    justify-content: space-between;
+}
+
+*>.flex-ai-c {
+    align-items: center;
+}
+
+*>.flex-ai-s {
+    align-items: flex-start;
+}
+
+*>.flex-ai-e {
+    align-items: flex-end;
+}
+
+*>.flex-as-s {
+    align-self: stretch;
+}
+
+*>.flex-as-c {
+    align-self: center;
+}
+
+*>.flex-as-s {
+    align-self: flex-start;
+}
+
+*>.flex-as-e {
+    align-self: flex-end;
+}
+
+*>.flex-column-nowrap {
+    flex-flow: column nowrap;
+}
+
+*>.flex-column-wrap {
+    flex-flow: column wrap;
+}
+
+.flex-ch-basis-0>* {
+    flex-basis: 0;
+}
+
+*>.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+.con {
+    max-width: 1460px;
+}
+
+/* 커스텀 */
+html,
+body {
+    overflow-x: hidden;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    overflow: hidden;
+    z-index: 100;
+    transition: height .3s;
+}
+
+.top-bar:hover {
+    height: 343px;
+    color: #000;
+    background-color: #fff;
+}
+
+.top-bar:hover .top-border {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.top-bar .top-inner .logo-box {
+    width: 170px;
+    height: 68px;
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_white.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 150px auto;
+    cursor: pointer;
+}
+
+.top-bar:hover .top-inner .logo-box {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
+}
+
+.top-bar .top-inner>.menu-box-1 {
+    position: relative;
+}
+
+.top-bar .top-inner>.menu-box-1>ul {
+    height: 70px;
+}
+
+.top-bar .top-inner>.menu-box-1>ul>li {
+    padding: 0 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.top-bar .top-inner>.menu-box-1>ul>li>span {
+    display: block;
+    font-weight: bold;
+}
+
+.top-bar .top-inner>.menu-box-1>ul ul {
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    transform: translateX(-50%);
+    width: 100%;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #969696;
+}
+
+.top-bar .top-inner>.menu-box-1>ul ul li {
+    padding: 6px 0;
+}
+
+.top-bar .top-inner>.menu-box-1>ul ul li:hover {
+    color: #000;
+}
+
+.hover-bar {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    transform: translate3d(-10%, 0, 0);
+    background-color: #000;
+    transition: width 0.3s, left 0.3s;
+}
+
+.top-bar .top-inner>.lang {
+    cursor: pointer;
+}
+
+.top-bar .top-inner>.lang>span {
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.top-bar .top-inner>.lang>span:last-child {
+    color: #999;
+}
+
+/* 탑바 끝 */
+
+/* 슬라이더 시작 */
+.bn-bar>.slider-div {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+.bn-bar .bn {
+    width: 100vw;
+    height: 780px;
+}
+.bn-bar .bn1 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/XA5O7X5WZ2WHMID220200908081951677.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bn-bar .bn2 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/LK0NPUH14VGBN5R020200911045821352.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bn-bar .bn3 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/MMYPV8QO5YRX0F7820200908081836459.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 40px;
+    z-index: 10;
+}
+.slick-dots li {
+    margin:0 10px;
+}
+.slick-dots li button {
+    width:6px;
+    height:6px;
+}
+.slick-dots li button::before {
+    color: #fff !important;
+    width:6px;
+    height:6px;
+}
+.slick-prev {
+    position: absolute;
+    top:50%;
+    left:0;
+    border:1px solid red;
+}
+.slick-next {
+    position: absolute;
+    top:50%;
+    right:0;
+    border:1px solid red;
+}
+/* 슬라이더 끝 */
