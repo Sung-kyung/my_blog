@@ -338,9 +338,8 @@ label[for] {
 }
 
 .con {
-    max-width: 1460px;
+    max-width: 1440px;
 }
-
 /* 커스텀 */
 html,
 body {
@@ -399,6 +398,7 @@ body {
     cursor: pointer;
     position: relative;
     text-align: center;
+    white-space: nowrap;
 }
 
 .top-bar .top-inner>.menu-box-1>ul>li>span {
@@ -446,8 +446,18 @@ body {
 
 .top-bar .top-inner>.lang>span:last-child {
     color: #999;
+    position: relative;
 }
-
+.top-bar .top-inner>.lang>span:last-child::before {
+    content:"";
+    position: absolute;
+    top:50%;
+    left:0;
+    width:1px;
+    height:6px;
+    transform: translateY(-3px);
+    background-color: #999;
+}
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
@@ -479,6 +489,15 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.bn-bar .slider-div .bn .title {
+    border:1px solid red;
+    color:#fff;
+    font-size:34px;
+    position: absolute;
+    bottom:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
 .slick-dots {
     position: absolute;
     bottom: 40px;
@@ -487,25 +506,165 @@ body {
 .slick-dots li {
     margin:0 10px;
 }
-.slick-dots li button {
-    width:6px;
-    height:6px;
-}
 .slick-dots li button::before {
     color: #fff !important;
     width:6px;
     height:6px;
 }
-.slick-prev {
+.prev,.next  {
     position: absolute;
     top:50%;
     left:0;
-    border:1px solid red;
+    width:54px;
+    height:54px;
+    margin:0 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    border:1px solid #fff;
 }
-.slick-next {
+.prev {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_arrow_right_white.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+    transform: rotate(180deg);
     position: absolute;
     top:50%;
+    left:0;
+    width:54px;
+    height:54px;
+    margin:0 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    border:1px solid #fff;
+}
+.next {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_arrow_right_white.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+    position: absolute;
+    top:50%;
+    left:auto;
     right:0;
-    border:1px solid red;
+    width:54px;
+    height:54px;
+    margin:0 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    border:1px solid #fff;
+}
+.next::after {
+    content:"";
+    position: absolute;
+    top:120%;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transition:top .2s;
+}
+.prev::after {
+    content:"";
+    position: absolute;
+    top:-120%;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transition:top .2s;
+}
+.prev:hover::after, .next:hover::after {
+    top:0;
 }
 /* 슬라이더 끝 */
+
+/* news 시작 */
+.news-box {
+    padding-top:30px;
+}
+.news-box > ul > li {
+    width:calc(100% / 3);
+    padding:30px 0;
+}
+.news-box > ul > li > .news-text-box {
+    padding-right:30px;
+    border-right:1px solid #e5e5e5;
+    width:430px;
+}
+.news-box > ul > li > #text-last {
+    border-right:transparent;
+}
+.news-box > ul > li > .news-text-box > * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+    display: block;
+}
+.news-box > ul > li > .news-text-box > p {
+    font-size:12px;
+    color:#939393;
+    margin:14px 0 24px 0;
+}
+.news-box > ul > li > .news-text-box > .news-cont {
+    font-size:14px;
+    color:#6a6a6a;
+}
+/* news 끝  */
+
+/* 메인메뉴 시작 */
+.main-menu-wrap {
+    padding:30px 0;
+}
+.main-menu-wrap > ul > li {
+    width:calc(100% / 5);
+    position: relative;
+}
+.main-menu-wrap > ul > li > a {
+    overflow: hidden;
+    height:576px;
+    width:100%;
+}
+.main-menu-wrap > ul > li > a > .img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:576px;
+    width:100%;
+    height:auto;
+    filter:grayscale(0.8);
+    transition:filter .5s, transform .5s;
+}
+.main-menu-wrap > ul > li:hover > a > .img {
+    filter:grayscale(0);
+    transform: scale(1.2);
+}
+.main-menu-wrap > ul > li> a > .main-text-box {
+    position: absolute;
+    bottom:20%;
+    left:0;
+    width:100%;
+    z-index: 10;
+    text-align: center;
+    color:#fff;
+}
+.main-menu-wrap > ul > li> a > .main-text-box > h4 {
+    font-size:24px;
+}
+.main-menu-wrap > ul > li> a > .main-text-box > .line {
+    position: absolute;
+    left:calc(50% - 10px);
+    transform: translateY(-50%);
+    width:20px;
+    height:1px;
+    background-color: #fff;
+}
+.main-menu-wrap > ul > li> a > .main-text-box > .main-cont {
+    font-size:18px;
+}
+/* 메인메뉴 끝 */

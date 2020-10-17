@@ -10,7 +10,9 @@
       dots: true, //크롤바 아래 점으로 페이지네이션 여부
       autoplay: true, // 자동 스크롤 사용 여부
       autoplaySpeed: 3000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
-      draggable: true //드래그 가능 여부
+      draggable: true,
+      prevArrow:".prev",
+      nextArrow:".next",
     });
   }
 
