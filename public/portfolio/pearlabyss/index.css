@@ -363,7 +363,11 @@ body {
     color: #000;
     background-color: #fff;
 }
-
+.top-bar.white {
+    background-color: #fff;
+    color:#000;
+    border-bottom: 1px solid #e5e5e5;
+}
 .top-bar:hover .top-border {
     border-bottom: 1px solid #e5e5e5;
 }
@@ -381,7 +385,9 @@ body {
 .top-bar:hover .top-inner .logo-box {
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
 }
-
+.top-bar.white .top-inner .logo-box {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
+}
 .top-bar .top-inner>.menu-box-1 {
     position: relative;
 }
@@ -391,7 +397,7 @@ body {
 }
 
 .top-bar .top-inner>.menu-box-1>ul>li {
-    padding: 0 40px;
+    padding: 0 50px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -443,10 +449,12 @@ body {
     font-size: 13px;
     font-weight: bold;
 }
-
 .top-bar .top-inner>.lang>span:last-child {
     color: #999;
     position: relative;
+}
+.top-bar .top-inner>.lang>span:hover:last-child {
+    color:#000;
 }
 .top-bar .top-inner>.lang>span:last-child::before {
     content:"";
@@ -458,6 +466,11 @@ body {
     transform: translateY(-3px);
     background-color: #999;
 }
+@media (max-width:1100px) {
+    .top-bar .top-inner>.menu-box-1>ul>li {
+        padding:0 30px;
+    }
+}
 /* 탑바 끝 */
 
 /* 슬라이더 시작 */
@@ -465,11 +478,12 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    position: relative;
 }
 .bn-bar .bn {
     width: 100vw;
     height: 780px;
+    position: relative;
+    text-align: center;
 }
 .bn-bar .bn1 {
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/XA5O7X5WZ2WHMID220200908081951677.jpg);
@@ -490,12 +504,18 @@ body {
     background-position: center center;
 }
 .bn-bar .slider-div .bn .title {
-    border:1px solid red;
     color:#fff;
     font-size:34px;
     position: absolute;
-    bottom:20%;
+    bottom:15%;
     left:50%;
+    opacity: 0;
+    font-weight: 400;
+    transition:opacity 2s, transform 2s;
+    transform: translate(-50%,50%);
+}
+.slick-slide.slick-active .bn .title{
+    opacity: 1;
     transform: translate(-50%,-50%);
 }
 .slick-dots {
@@ -655,6 +675,10 @@ body {
 }
 .main-menu-wrap > ul > li> a > .main-text-box > h4 {
     font-size:24px;
+    transition:transform .5s;
+}
+.main-menu-wrap > ul > li:hover> a > .main-text-box > h4 {
+    transform:translateY(-60%);
 }
 .main-menu-wrap > ul > li> a > .main-text-box > .line {
     position: absolute;
@@ -662,9 +686,69 @@ body {
     transform: translateY(-50%);
     width:20px;
     height:1px;
+    opacity: 0;
+    transition:opacity .3s;
     background-color: #fff;
+}
+.main-menu-wrap > ul > li:hover > a > .main-text-box > .line {
+    opacity: 1;
 }
 .main-menu-wrap > ul > li> a > .main-text-box > .main-cont {
     font-size:18px;
+    padding-top:30px;
+    opacity: 0;
+    transition:opacity .3s;
+}
+.main-menu-wrap > ul > li:hover> a > .main-text-box > .main-cont {
+    opacity: 1;
 }
 /* 메인메뉴 끝 */
+
+/* lastest 시작 */
+.lastest-wrap {
+    margin-top:30px;
+    overflow: hidden;
+}
+.lastest-wrap > ul {
+    padding:60px 0 15% 0;
+    margin-right:-20px;
+}
+.lastest-wrap > ul > li {
+    width:calc((100% / 4) - 20px);
+    margin-right:20px;
+}
+.lastest-wrap > ul > li:last-child {
+    margin-right:0;
+}
+.lastest-wrap > ul > li > a > img {
+    width:100%;
+    display: block;
+}
+.lastest-wrap > ul > li > a > .lastest-text-box {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    padding-right:1rem;
+}
+.lastest-wrap > ul > li > a > .lastest-text-box > .last-text-1 {
+    color:#6a6a6a;
+    font-size:14px;
+    padding:20px 0;
+}
+.lastest-wrap > ul > li > a > .lastest-text-box > .last-text-2 {
+    color:#1e1e1e;
+    font-size:18px;
+    font-weight: bold;
+    width:100%;
+    text-overflow: ellipsis;  
+}
+/* lastest 끝 */
+
+/* footer 시작 */
+footer {
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    padding:10% 0 10% 0;
+}
+/* footer 끝 */
+

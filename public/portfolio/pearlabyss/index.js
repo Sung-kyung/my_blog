@@ -17,7 +17,7 @@
   }
 
 //menu hover  
-function hoverBar__init() {
+function HoverBar__init() {
     $(".hover-bar-nav .hover-bar-menu").mouseenter(function () {
       var $this = $(this);
   
@@ -38,10 +38,29 @@ function hoverBar__init() {
       $hoverBar.css("left", "");
     });
   }
+  function Scroll__init() {
+    var $topBar = $('.top-bar');
 
+    var windowHeight = $(window).height();
+  
+    $(window).resize(function () {
+      windowHeight = $(window).height();
+    });
+  
+    $(window).scroll(function () {
+      var scrollTop = $(window).scrollTop();
+  
+      if (scrollTop > windowHeight - 500) {
+        $topBar.addClass('white');
+      } else {
+        $topBar.removeClass('white');
+      }
+    });
+  }
   
   $(function(){
     Slider__init();
-    hoverBar__init();
+    HoverBar__init();
+    Scroll__init();
   });
   

@@ -87,7 +87,7 @@
             <div class="bn2 bn">
             </div>
             <div class="bn3 bn">
-                <p class="title">새롭고, 흥미롭고,잊지 못할 모험을 선사하는<br>자시혁신적인 게임 회사, 펄어비스</p>
+                <h3 class="title">새롭고, 흥미롭고,잊지 못할 모험을 선사하는<br>자시혁신적인 게임 회사, 펄어비스</h3>
             </div>
         </div>
         <div class="button con">
@@ -130,8 +130,8 @@
         <ul class="row">
             <li class="cell">
                 <a href="#" class="block">
-                    <div class="img"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_company.jpg);">
+                    <div class="img">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_company.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>펄어비스</h4>
@@ -142,8 +142,8 @@
             </li>
             <li class="cell">
                 <a href="#" class="block">
-                    <div class="img"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_lab.jpg);">
+                    <div class="img">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_lab.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>연구소</h4>
@@ -155,8 +155,8 @@
             </li>
             <li class="cell">
                 <a href="#" class="block">
-                    <div class="img"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_culture.jpg);">
+                    <div class="img">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_culture.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>문화</h4>
@@ -167,8 +167,8 @@
             </li>
             <li class="cell">
                 <a href="#" class="block">
-                    <div class="img"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_in.jpg);">
+                    <div class="img">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_in.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>펄어비스인</h4>
@@ -179,8 +179,8 @@
             </li>
             <li class="cell">
                 <a href="#" class="block">
-                    <div class="img"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_news.jpg);">
+                    <div class="img">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_news.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>소식</h4>
@@ -191,7 +191,53 @@
             </li>
         </ul>
     </div>
+    <!--lastest-->
+    <div class="lastest-wrap con">
+        <ul class="row">
+            <li class="cell">
+                <a href="#" class="block">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/7X84M5DOWHTJUTM120201013100135639.400x225.jpg" alt="">
+                    <div class="lastest-text-box">
+                        <p class="last-text-1">펄어비스인</p>
+                        <p class="last-text-2">링 위의 경기처럼, 매 순간 최선을 다하는 게임 개발자 이야기</p>
+                    </div>
+                </a>
+            </li>
+            <li class="cell">
+                <a href="#" class="block">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/SAS8EZ822ISHH58320200909065518833.400x225.jpg" alt="">
+                    <div class="lastest-text-box">
+                        <p class="last-text-1">펄어비스 소식</p>
+                        <p class="last-text-2">펄어비스의 사회공헌 활동</p>
+                    </div>
+                </a>
+            </li>
+            <li class="cell">
+                <a href="#" class="block">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/O7ANE2O61LKJX4RS20200908133249843.400x225.jpg" alt="">
+                    <div class="lastest-text-box">
+                        <p class="last-text-1">펄어비스 소식</p>
+                        <p class="last-text-2">펄어비스 신규입사자를 위한 웰컴키트</p>
+                    </div>
+                </a>
+            </li>
+            <li class="cell">
+                <a href="#" class="block">
+                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/SLWSRXQKFTN1WVVH20200908134418474.400x225.jpg" alt="">
+                    <div class="lastest-text-box">
+                        <p class="last-text-1">펄어비스인</p>
+                        <p class="last-text-2">생산직 근로자에서 게임 개발자로, 서른 한 살에 시작된 인생 2막</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--footer-->
+<footer>
+    <div class="foot-wrap">
 
+    </div>
+</footer>
 </body>
 
 </html>
