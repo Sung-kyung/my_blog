@@ -7,6 +7,9 @@
     <title>펄어비스</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <!-- Slick 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -80,8 +83,14 @@
         </div>
     </div>
     <!--탑바 반응형 sm-down -->
-    <div class="top-bar-2 visible-sm-down flex flex-jc-sb flex-ai-c" >
-        <div class="menu-bar-icon flex">1</div>
+    <div class="top-bar-2 visible-sm-down flex flex-jc-sb flex-ai-c">
+        <div class="menu-bar-icon flex">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
         <div class="logo-box-2 flex"></div>
         <div class="lang-2 flex"></div>
     </div>
@@ -94,7 +103,7 @@
             <div class="bn2 bn">
             </div>
             <div class="bn3 bn">
-                <h3 class="title">새롭고, 흥미롭고,잊지 못할 모험을 선사하는<br>자시혁신적인 게임 회사, 펄어비스</h3>
+                <h3 class="title">새롭고, 흥미롭고,잊지 못할 모험을 선사하는<br>자기혁신적인 게임 회사, 펄어비스</h3>
             </div>
         </div>
         <div class="button con">
@@ -109,7 +118,7 @@
             <li class="cell">
                 <div class="news-text-box">
                     <h4>“달콤살벌 공포 파티” 펄어비스 검은사막, 할로윈 이벤트</h4>
-                    <p>2020.10.14</p>
+                    <p class="date">2020.10.14</p>
                     <p class="news-cont">펄어비스(대표 정경인)가 오픈월드 MMORPG ‘검은사막’의 배경을 할로윈 분위기로 새롭게 단장하고 이벤트를 오늘(14일)부터 시작한다.
                     </p>
                 </div>
@@ -117,7 +126,7 @@
             <li class="cell">
                 <div class="news-text-box">
                     <h4>검은사막, 일본 인기 게임 순위 1위 등극</h4>
-                    <p>2020.10.12</p>
+                    <p class="date">2020.10.12</p>
                     <p class="news-cont">펄어비스(대표 정경인)의 오픈월드 MMORPG 검은사막이 일본 게임 전문 사이트 'OlineGamer(온라인 게이머)'의 온라인 게임 인기
                         순위 1위를 차지했다. </p>
                 </div>
@@ -125,7 +134,7 @@
             <li class="cell">
                 <div class="news-text-box" id="text-last">
                     <h4>가을 분위기 물씬 ‘펄어비스 검은사막’ 단풍놀이 시작</h4>
-                    <p>2020.10.07</p>
+                    <p class="date">2020.10.07</p>
                     <p class="news-cont">펄어비스(대표 정경인)가 ‘검은사막’의 게임 내 배경을 단풍으로 물들여 가을 분위기를 한껏 내고 ‘나랑 같이 단풍놀이 갈래?’ 스크린샷
                         이벤트를 오늘(7일)부터 시작한다.</p>
                 </div>
@@ -198,6 +207,51 @@
             </li>
         </ul>
     </div>
+    <!--메인메뉴2 -->
+    <div class="main-2-wrap">
+        <ul class="flex">
+            <li class="main-vision flex">
+                <a href="#" class="block">
+                    <div class="main-2-text">
+                        <h4>펄어비스</h4>
+                        <p>우리의 비전과 가치</p>
+                    </div>
+                </a>
+            </li>
+            <li class="main-lab flex">
+                <a href="#" class="block">
+                    <div class="main-2-text">
+                        <h4>연구소</h4>
+                        <p>한계를 뛰어넘는 곳</p>
+                    </div>
+                </a>
+            </li>
+            <li class="main-culture flex">
+                <a href="#" class="block">
+                    <div class="main-2-text">
+                        <h4>문화</h4>
+                        <p>파괴적인 창조자</p>
+                    </div>
+                </a>
+            </li>
+            <li class="main-human flex">
+                <a href="#" class="block">
+                    <div class="main-2-text">
+                        <h4>펄어비스인</h4>
+                        <p>꿈을 실현하는 사람들</p>
+                    </div>
+                </a>
+            </li>
+            <li class="main-news flex">
+                <a href="#" class="block">
+                    <div class="main-2-text">
+                        <h4>소식</h4>
+                        <p>생생한 펄어비스 이야기</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
     <!--lastest-->
     <div class="lastest-wrap con active-on-visible" data-active-on-visible-diff-y="-200">
         <ul class="row">
@@ -246,6 +300,55 @@
                 </a>
             </li>
         </ul>
+    </div>
+    <!--lastest 2-->
+    <div class="lastest-2">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="#" class="block">
+                    <div class="img-3"> <img
+                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/7X84M5DOWHTJUTM120201013100135639.400x225.jpg"
+                            alt=""></div>
+                    <div class="lastest-text-box-2">
+                        <p class="last-text-1">펄어비스인</p>
+                        <p class="last-text-2">링 위의 경기처럼, 매 순간 최선을 다하는 게임 개발자 이야기</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" class="block">
+                    <div class="img-3"> <img
+                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/SAS8EZ822ISHH58320200909065518833.400x225.jpg"
+                            alt=""></div>
+                    <div class="lastest-text-box-2">
+                        <p class="last-text-1">펄어비스 소식</p>
+                        <p class="last-text-2">펄어비스의 사회공헌 활동</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" class="block">
+                    <div class="img-3"> <img
+                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/O7ANE2O61LKJX4RS20200908133249843.400x225.jpg"
+                            alt=""></div>
+                    <div class="lastest-text-box-2">
+                        <p class="last-text-1">펄어비스 소식</p>
+                        <p class="last-text-2">펄어비스 신규입사자를 위한 웰컴키트</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" class="block">
+                    <div class="img-3"> <img
+                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/SLWSRXQKFTN1WVVH20200908134418474.400x225.jpg"
+                            alt=""></div>
+                    <div class="lastest-text-box-2">
+                        <p class="last-text-1">펄어비스인</p>
+                        <p class="last-text-2">생산직 근로자에서 게임 개발자로, 서른 한 살에 시작된 인생 2막</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
     <!--footer-->
     <footer>

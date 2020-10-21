@@ -174,13 +174,36 @@ function ActiveOnVisible__checkAndActive() {
   });
 }
 
-/* 발견되면 활성화시키는 라이브러리 끝 */
 
+/* 발견되면 활성화시키는 라이브러리 끝 */
+function Owl__init() {
+  $('.lastest-2 > .owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:true,
+            loop:false
+        }
+    }
+  });
+}
 
   $(function(){
     Slider__init();
     HoverBar__init();
     Scroll__init();
     ActiveOnVisible__init();
+    Owl__init();
   });
   

@@ -356,7 +356,7 @@ body {
     color: #fff;
     overflow: hidden;
     z-index: 100;
-    transition: height .3s;
+    transition: height .3s, background-color .4s;
 }
 
 .top-bar:hover {
@@ -499,9 +499,25 @@ body {
     left:0;
     width:100%;
     height:67px;
+    z-index: 100;
+    transition:background-color .4s;
 }
 .top-bar-2.white {
     background-color: #fff;
+}
+.top-bar-2 > div:not(:nth-child(2)) {
+    padding:0 20px;
+}
+.top-bar-2 > .menu-bar-icon > div > span {
+    width:32px;
+    height:4px;
+    display:block;
+    margin:4px 0;
+    cursor: pointer;
+    background-color: #fff;
+}
+.top-bar-2.white > .menu-bar-icon > div > span {
+    background-color: #000;
 }
 .top-bar-2  .logo-box-2 {
     width: 170px;
@@ -512,14 +528,20 @@ body {
     background-size: 150px auto;
     cursor: pointer;
 }
+.top-bar-2.white  .logo-box-2 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
+}
 .top-bar-2  .lang-2 {
     width: 1.8rem;
     height: 1.8rem;
     color:#fff;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang.svg);
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang_white.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+}
+.top-bar-2.white  .lang-2 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang.svg);
 }
 /* 반응형 탑바 끝 */
 
@@ -596,7 +618,6 @@ body {
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
     width: 54px;
     height: 54px;
     margin: 0 40px;
@@ -611,7 +632,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 18px auto;
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(50%);
     position: absolute;
     top: 50%;
     left: 0;
@@ -629,6 +650,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 18px auto;
+    transform:translateY(-50%);
     position: absolute;
     top: 50%;
     left: auto;
@@ -670,7 +692,18 @@ body {
 .next:hover::after {
     top: 0;
 }
-
+@media (max-width:1024px) {
+    .bn-bar .bn {
+        height:71.875vw;
+    }
+    .bn-bar .slider-div .bn .title {
+        font-size:1.6rem;
+        letter-spacing: -0.1rem;
+    }
+    .button  {
+        display: none;
+    }
+}
 /* 슬라이더 끝 */
 
 /* news 시작 */
@@ -681,12 +714,22 @@ body {
 .news-box>ul>li {
     width: calc(100% / 3);
     padding: 30px 0;
+    box-sizing: border-box;
+    position: relative;
 }
-
+.news-box>ul>li:not(:last-child)::after {
+    content:"";
+    position: absolute;
+    top:50%;
+    right:10%;
+    transform: translateY(-60%);
+    width:1px;
+    height:92px;
+    background-color: #e5e5e5;
+}
 .news-box>ul>li>.news-text-box {
     padding-right: 30px;
-    border-right: 1px solid #e5e5e5;
-    width: 430px;
+    width: 80%;
 }
 
 .news-box>ul>li>#text-last {
@@ -694,9 +737,6 @@ body {
 }
 
 .news-box>ul>li>.news-text-box>* {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     width: 100%;
     display: block;
 }
@@ -710,11 +750,34 @@ body {
 .news-box>ul>li>.news-text-box>.news-cont {
     font-size: 14px;
     color: #6a6a6a;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
 }
-
 @media (max-width:1100px) {
+    .news-box {
+        padding:30px 0 0 30px;
+    }
+    .news-box>ul>li>.news-text-box > h4 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+    .news-box>ul>li>.news-text-box > p {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        word-break: keep-all;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+}
+@media (max-width:1024px) {
     .news-box>ul>li>.news-text-box {
-        width:300px;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
@@ -729,6 +792,17 @@ body {
         font-size: 1.126rem;
         line-height: 1.92rem;
         max-height: 3.84rem;
+        overflow: hidden;
+    }
+    .news-box>ul>li>.news-text-box> .date {
+        font-size:16px;
+        margin: 14px 0 41px 0;
+    }
+    .news-box>ul>li>.news-text-box>.news-cont {
+        font-size:1.08rem;
+    }
+    .news-box>ul>li:not(:last-child)::after {
+        display: none;
     }
 }
 
@@ -832,6 +906,60 @@ body {
 
 /* 메인메뉴 끝 */
 
+/* 메인메뉴2 시작 */
+
+.main-2-wrap {
+    height: 81vw;
+}
+.main-2-wrap > ul {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/t_spr_main_category_bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap : wrap;
+}
+.main-2-wrap > ul > .main-vision , .main-2-wrap > ul > .main-lab {
+    width:50%;
+    height: 41.4vw;
+}
+.main-2-wrap > ul > .main-culture, .main-2-wrap > ul > .main-human, .main-2-wrap > ul > .main-news {
+    width:calc(100% / 3);
+    height: 41.4vw;
+}
+.main-2-wrap > ul > li > a {
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.main-2-wrap > ul > li > a > .main-2-text {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    text-align: center;
+    white-space: nowrap;
+}
+.main-2-wrap > ul > li > a > .main-2-text > h4 {
+    font-size: 1.625rem;
+}
+.main-2-wrap > ul > li > a > .main-2-text > p {
+    font-size: 1.25rem;
+    padding-top:16px;
+    
+}
+@media (max-width:1024px) {
+    .main-menu-wrap {
+        display: none;
+    }
+}
+@media (min-width:1025px) {
+    .main-2-wrap {
+        display: none;
+    }
+}
+/* 메인메뉴2 끝 */
+
 /* lastest 시작 */
 .lastest-wrap {
     margin-top: 30px;
@@ -914,8 +1042,26 @@ body {
         margin: 0 10px;
     }
 }
-
+@media (max-width:1024px) {
+    .lastest-wrap {
+        display: none;
+    }
+}
+@media (min-width:1025px) {
+    .lastest-2 {
+        display: none;
+    }
+}
 /* lastest 끝 */
+
+/* lastest-2 시작 */
+.lastest-2 {
+    margin:60px 20px;
+}
+.lastest-2  .owl-carousel  .item  {
+    display:block;
+}
+/* lastest-2 끝 */
 
 /* footer 시작 */
 footer {
@@ -1024,5 +1170,10 @@ footer>.foot-wrap>.foot-menu-2 {
 .copy-wrap>.sns-wrap>ul>li:hover>a>i {
     opacity: 0.6;
 }
-
+@media (max-width:1280px) {
+    footer>.foot-wrap {
+        margin: 0 0;
+        width:100%;
+    }
+}
 /* footer 끝 */
