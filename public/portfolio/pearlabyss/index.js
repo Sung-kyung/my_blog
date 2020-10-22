@@ -178,26 +178,61 @@ function ActiveOnVisible__checkAndActive() {
 /* 발견되면 활성화시키는 라이브러리 끝 */
 function Owl__init() {
   $('.lastest-2 > .owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:20,
+    nav:false,
     responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:5000,
     responsive:{
         0:{
             items:1,
-            nav:true
         },
-        600:{
+        767:{
             items:2,
-            nav:false
+            autoplay:false
         },
         1000:{
             items:2,
-            nav:true,
-            loop:false
+            autoplay:false
         }
     }
   });
 }
+
+function LangBox__init() {
+  $('.top-bar-2 .lang-2').click(function() {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+    }
+    else {
+      $(this).addClass('active');
+    }
+
+  });
+}
+
+function FootMenu__init() {
+  var slideSpeed = 150;
+
+  $('.footer-2 >.footer-2-wrap > ul > li').click(function() {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+      $(this).find(' > ul').slideUp(slideSpeed);
+    }
+    else {
+      // 다른 것들을 닫는다.
+      $(this).siblings('.active').find(' > ul').slideUp(slideSpeed);
+      $(this).siblings('.active').removeClass('active');
+
+
+      // 어떤 것을 열기 전에
+      $(this).addClass('active');
+      $(this).find(' > ul').slideDown(slideSpeed);
+    }
+  });
+}
+
 
   $(function(){
     Slider__init();
@@ -205,5 +240,7 @@ function Owl__init() {
     Scroll__init();
     ActiveOnVisible__init();
     Owl__init();
+    LangBox__init();
+    FootMenu__init();
   });
   

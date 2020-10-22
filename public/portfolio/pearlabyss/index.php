@@ -9,7 +9,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <!-- Slick 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
@@ -92,7 +93,15 @@
             </div>
         </div>
         <div class="logo-box-2 flex"></div>
-        <div class="lang-2 flex"></div>
+        <div class="lang-2 flex">
+            <ul class="lang-bg">
+                <li>KOR</li>
+                <li>ENG</li>
+            </ul>
+        </div>
+    </div>
+    <div class="top-menu-bg">
+        
     </div>
     <!--메인 슬라이더-->
     <div class="bn-bar">
@@ -351,7 +360,7 @@
         </div>
     </div>
     <!--footer-->
-    <footer>
+    <footer class="footer-1">
         <div class="foot-wrap">
             <ul class="foot-menu-1 row">
                 <li class="cell"><a href="#">소개</a>
@@ -422,6 +431,78 @@
                 <li class="cell"><a href="#"><i class="icon-3"></i></a></li>
             </ul>
         </div>
+    </div>
+    <!--footer 2-->
+    <footer class="footer-2">
+        <div class="footer-2-wrap">
+            <ul>
+                <li>
+                    <a >소개</a>
+                    <span></span>
+                    <ul>
+                        <li><a>펄어비스 소개</a></li>
+                        <li><a>연구소</a></li>
+                    </ul>
+                </li>
+                <li><a>게임</a>
+                    <span></span>
+                    <ul>
+                        <li><a>펄어비스 소개</a></li>
+                        <li><a>연구소</a></li>
+                    </ul>
+                </li>
+                <li><a >미디어</a>
+                    <span></span>
+                    <ul>
+                        <li><a>펄어비스 소개</a></li>
+                        <li><a>연구소</a></li>
+                    </ul>
+                </li>
+                <li><a >문화</a>
+                    <span></span>
+                    <ul>
+                        <li><a>펄어비스 소개</a></li>
+                        <li><a>연구소</a></li>
+                    </ul>
+                </li>
+                <li><a>채용</a>
+                    <span></span>
+                    <ul>
+                        <li><a>펄어비스 소개</a></li>
+                        <li><a>연구소</a></li>
+                    </ul>
+                </li>
+                <li><a>투자정보</a>
+                    <span></span>
+                    <ul>
+                        <li><a>펄어비스 소개</a></li>
+                        <li><a>연구소</a></li>
+                    </ul>
+                </li>
+                <li><a >광고/제휴 문의</a></li>
+                <li><a >기업윤리 신고센터</a></li>
+                <li><a>개인정보 처리방침</a></li>
+                <li class="store"><a>펄어비스 스토어
+                        <i></i>
+                    </a></li>
+                <li class="customer"><a>게임 고객센터
+                        <i></i>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copy-wrap-2">
+        <div class="sns-wrap-2">
+            <ul class="flex flex-jc-c flex-ai-c">
+                <li class="flex"><a><i class="icon-1"></i></a></li>
+                <li class="flex"><a><i class="icon-2"></i></a></li>
+                <li class="flex"><a><i class="icon-3"></i></a></li>
+            </ul>
+        </div>
+        <div class="foot-logo-2">
+            <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg" alt="">
+        </div>
+        <div class="copy-right-2">Copyright © Pearl Abyss Corp. All Rights Reserved</div>
     </div>
 </body>
 

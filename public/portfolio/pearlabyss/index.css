@@ -480,46 +480,55 @@ body {
         padding: 0 30px;
     }
 }
+
 @media (max-width: 1025px) {
     .top-bar {
         display: none;
     }
 }
+
 @media (min-width: 1026px) {
     .top-bar-2 {
         display: none;
     }
 }
+
 /* 탑바 끝 */
 
 /* 반응형 탑바 시작 */
 .top-bar-2 {
     position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:67px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 67px;
     z-index: 100;
-    transition:background-color .4s;
+    transition: background-color .4s;
 }
+
 .top-bar-2.white {
     background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
 }
-.top-bar-2 > div:not(:nth-child(2)) {
-    padding:0 20px;
+
+.top-bar-2>div:not(:nth-child(2)) {
+    padding: 0 20px;
 }
-.top-bar-2 > .menu-bar-icon > div > span {
-    width:32px;
-    height:4px;
-    display:block;
-    margin:4px 0;
+
+.top-bar-2>.menu-bar-icon>div>span {
+    width: 32px;
+    height: 4px;
+    display: block;
+    margin: 4px 0;
     cursor: pointer;
     background-color: #fff;
 }
-.top-bar-2.white > .menu-bar-icon > div > span {
+
+.top-bar-2.white>.menu-bar-icon>div>span {
     background-color: #000;
 }
-.top-bar-2  .logo-box-2 {
+
+.top-bar-2 .logo-box-2 {
     width: 170px;
     height: 68px;
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_white.svg);
@@ -528,21 +537,71 @@ body {
     background-size: 150px auto;
     cursor: pointer;
 }
-.top-bar-2.white  .logo-box-2 {
+
+.top-bar-2.white .logo-box-2 {
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
 }
-.top-bar-2  .lang-2 {
+
+.top-bar-2 .lang-2 {
+    position: relative;
     width: 1.8rem;
     height: 1.8rem;
-    color:#fff;
+    color: #fff;
+    cursor: pointer;
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang_white.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
-.top-bar-2.white  .lang-2 {
+
+.top-bar-2.white .lang-2 {
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang.svg);
 }
+
+.top-bar-2 .lang-2 .lang-bg {
+    position: absolute;
+    display: none;
+    top: 110%;
+    left: 0;
+    width: 4.9rem;
+    padding: 0.75rem 0;
+    background-color: #fff;
+}
+.top-bar-2 .lang-2.active .lang-bg {
+    display: block;
+}
+.top-bar-2 .lang-2 .lang-bg > li {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    height: 3.66rem;
+    font-size: 1.33rem;
+    line-height: 3.66rem;
+    opacity: 0;
+    user-select: none;
+    transition:transform .2s, opacity .2s;
+    transform: translateY(-100%);
+}
+.top-bar-2 .lang-2 .lang-bg > li:last-child {
+    color:#999;
+}
+.top-bar-2 .lang-2.active .lang-bg > li:first-child {
+    animation: show .2s forwards;
+}
+.top-bar-2 .lang-2.active .lang-bg > li:last-child {
+    animation: show .2s .1s forwards;
+}
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.top-bar-2
 /* 반응형 탑바 끝 */
 
 /* 슬라이더 시작 */
@@ -650,7 +709,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 18px auto;
-    transform:translateY(-50%);
+    transform: translateY(-50%);
     position: absolute;
     top: 50%;
     left: auto;
@@ -692,18 +751,22 @@ body {
 .next:hover::after {
     top: 0;
 }
+
 @media (max-width:1024px) {
     .bn-bar .bn {
-        height:71.875vw;
+        height: 71.875vw;
     }
+
     .bn-bar .slider-div .bn .title {
-        font-size:1.6rem;
+        font-size: 1.6rem;
         letter-spacing: -0.1rem;
     }
-    .button  {
+
+    .button {
         display: none;
     }
 }
+
 /* 슬라이더 끝 */
 
 /* news 시작 */
@@ -717,16 +780,18 @@ body {
     box-sizing: border-box;
     position: relative;
 }
+
 .news-box>ul>li:not(:last-child)::after {
-    content:"";
+    content: "";
     position: absolute;
-    top:50%;
-    right:10%;
+    top: 50%;
+    right: 10%;
     transform: translateY(-60%);
-    width:1px;
-    height:92px;
+    width: 1px;
+    height: 92px;
     background-color: #e5e5e5;
 }
+
 .news-box>ul>li>.news-text-box {
     padding-right: 30px;
     width: 80%;
@@ -756,17 +821,20 @@ body {
     white-space: normal;
     overflow: hidden;
 }
+
 @media (max-width:1100px) {
     .news-box {
-        padding:30px 0 0 30px;
+        padding: 30px 0 0 30px;
     }
-    .news-box>ul>li>.news-text-box > h4 {
+
+    .news-box>ul>li>.news-text-box>h4 {
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         white-space: normal;
     }
-    .news-box>ul>li>.news-text-box > p {
+
+    .news-box>ul>li>.news-text-box>p {
         display: -webkit-box;
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
@@ -776,6 +844,7 @@ body {
         white-space: normal;
     }
 }
+
 @media (max-width:1024px) {
     .news-box>ul>li>.news-text-box {
         display: -webkit-box;
@@ -794,13 +863,16 @@ body {
         max-height: 3.84rem;
         overflow: hidden;
     }
-    .news-box>ul>li>.news-text-box> .date {
-        font-size:16px;
+
+    .news-box>ul>li>.news-text-box>.date {
+        font-size: 16px;
         margin: 14px 0 41px 0;
     }
+
     .news-box>ul>li>.news-text-box>.news-cont {
-        font-size:1.08rem;
+        font-size: 1.08rem;
     }
+
     .news-box>ul>li:not(:last-child)::after {
         display: none;
     }
@@ -818,26 +890,32 @@ body {
     position: relative;
     opacity: 0;
     visibility: hidden;
-    transition:opacity .3s, transform .3s;
+    transition: opacity .3s, transform .3s;
     transform: translateY(200px);
 }
+
 .main-menu-wrap>ul>li:nth-child(2) {
-    transition:opacity .5s, transform .5s;
+    transition: opacity .5s, transform .5s;
 }
+
 .main-menu-wrap>ul>li:nth-child(3) {
-    transition:opacity .7s, transform .7s;
+    transition: opacity .7s, transform .7s;
 }
+
 .main-menu-wrap>ul>li:nth-child(4) {
-    transition:opacity .9s, transform .9s;
+    transition: opacity .9s, transform .9s;
 }
+
 .main-menu-wrap>ul>li:nth-child(5) {
-    transition:opacity 1.1s, transform 1.1s;
+    transition: opacity 1.1s, transform 1.1s;
 }
-.main-menu-wrap.active >ul>li {
+
+.main-menu-wrap.active>ul>li {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
+
 .main-menu-wrap>ul>li>a {
     overflow: hidden;
     height: 576px;
@@ -911,53 +989,66 @@ body {
 .main-2-wrap {
     height: 81vw;
 }
-.main-2-wrap > ul {
+
+.main-2-wrap>ul {
     background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/t_spr_main_category_bg.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-wrap : wrap;
+    flex-wrap: wrap;
 }
-.main-2-wrap > ul > .main-vision , .main-2-wrap > ul > .main-lab {
-    width:50%;
+
+.main-2-wrap>ul>.main-vision,
+.main-2-wrap>ul>.main-lab {
+    width: 50%;
     height: 41.4vw;
 }
-.main-2-wrap > ul > .main-culture, .main-2-wrap > ul > .main-human, .main-2-wrap > ul > .main-news {
-    width:calc(100% / 3);
+
+.main-2-wrap>ul>.main-culture,
+.main-2-wrap>ul>.main-human,
+.main-2-wrap>ul>.main-news {
+    width: calc(100% / 3);
     height: 41.4vw;
 }
-.main-2-wrap > ul > li > a {
-    width:100%;
-    height:100%;
+
+.main-2-wrap>ul>li>a {
+    width: 100%;
+    height: 100%;
     position: relative;
 }
-.main-2-wrap > ul > li > a > .main-2-text {
+
+.main-2-wrap>ul>li>a>.main-2-text {
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    color:#fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
     text-align: center;
     white-space: nowrap;
 }
-.main-2-wrap > ul > li > a > .main-2-text > h4 {
+
+.main-2-wrap>ul>li>a>.main-2-text>h4 {
     font-size: 1.625rem;
 }
-.main-2-wrap > ul > li > a > .main-2-text > p {
+
+.main-2-wrap>ul>li>a>.main-2-text>p {
     font-size: 1.25rem;
-    padding-top:16px;
-    
+    padding-top: 16px;
+
 }
+
 @media (max-width:1024px) {
     .main-menu-wrap {
         display: none;
     }
 }
+
 @media (min-width:1025px) {
     .main-2-wrap {
         display: none;
     }
 }
+
 /* 메인메뉴2 끝 */
 
 /* lastest 시작 */
@@ -977,22 +1068,27 @@ body {
     opacity: 0;
     visibility: hidden;
     transform: translateY(100px);
-    transition:opacity .5s, transform .5s;
+    transition: opacity .5s, transform .5s;
 }
+
 .lastest-wrap>ul>li:nth-child(2) {
-    transition:opacity .7s, transform .7s;
+    transition: opacity .7s, transform .7s;
 }
+
 .lastest-wrap>ul>li:nth-child(3) {
-    transition:opacity .9s, transform .9s;
+    transition: opacity .9s, transform .9s;
 }
+
 .lastest-wrap>ul>li:nth-child(4) {
-    transition:opacity 1.1s, transform 1.1s;
+    transition: opacity 1.1s, transform 1.1s;
 }
-.lastest-wrap.active >ul>li {
+
+.lastest-wrap.active>ul>li {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
+
 .lastest-wrap>ul>li:last-child {
     margin-right: 0;
 }
@@ -1042,63 +1138,102 @@ body {
         margin: 0 10px;
     }
 }
+
 @media (max-width:1024px) {
     .lastest-wrap {
         display: none;
     }
 }
+
 @media (min-width:1025px) {
     .lastest-2 {
         display: none;
     }
 }
+
 /* lastest 끝 */
 
 /* lastest-2 시작 */
 .lastest-2 {
-    margin:60px 20px;
+    margin: 60px 20px;
 }
-.lastest-2  .owl-carousel  .item  {
-    display:block;
+
+.lastest-2 .owl-carousel {
+    padding-bottom: 30px;
 }
+
+.lastest-2 .owl-carousel .item {
+    display: block;
+    padding: 20px 0 60px 0;
+}
+
+.lastest-2 .owl-carousel .item .lastest-text-box-2>.last-text-1 {
+    color: #6a6a6a;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.lastest-2 .owl-carousel .item .lastest-text-box-2>.last-text-2 {
+    color: #1e1e1e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lastest-2 .owl-carousel .owl-dot {
+    margin: 0 8px;
+}
+.lastest-2 .owl-carousel .owl-dot.active {
+    outline: none;
+}
+.lastest-2 .owl-carousel .owl-dot>span {
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 0.24rem;
+}
+
+.lastest-2 .owl-carousel .owl-dot.active>span {
+    background-color: #000;
+
+}
+
 /* lastest-2 끝 */
 
 /* footer 시작 */
-footer {
+.footer-1 {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     padding: 3% 0 2% 0;
 }
 
-footer>.foot-wrap {
+.footer-1>.foot-wrap {
     margin: 0 auto;
     width: 63%;
 }
 
-footer>.foot-wrap>ul>li {
+.footer-1>.foot-wrap>ul>li {
     width: calc(100% / 6);
     white-space: nowrap;
 }
 
-footer>.foot-wrap>ul>li>a {
+.footer-1>.foot-wrap>ul>li>a {
     font-weight: 500;
 }
 
-footer>.foot-wrap>ul ul {
+.footer-1>.foot-wrap>ul ul {
     margin-top: 10px;
 }
 
-footer>.foot-wrap>ul ul>li {
+.footer-1>.foot-wrap>ul ul>li {
     font-size: 14px;
     color: #969696;
     padding: 6px 0;
 }
 
-footer>.foot-wrap>ul ul>li:hover {
+.footer-1>.foot-wrap>ul ul>li:hover {
     color: #000;
 }
 
-footer>.foot-wrap>.foot-menu-2 {
+.footer-1>.foot-wrap>.foot-menu-2 {
     margin: 20px 0;
 }
 
@@ -1170,10 +1305,150 @@ footer>.foot-wrap>.foot-menu-2 {
 .copy-wrap>.sns-wrap>ul>li:hover>a>i {
     opacity: 0.6;
 }
+
 @media (max-width:1280px) {
-    footer>.foot-wrap {
+    .footer-1>.foot-wrap {
         margin: 0 0;
-        width:100%;
+        width: 100%;
+    }
+}
+@media (max-width:1024px) {
+    .footer-1,.copy-wrap {
+        display: none;
+    }
+}
+@media (min-width:1025px) {
+    .footer-2,.copy-wrap-2 {
+        display:none;
     }
 }
 /* footer 끝 */
+
+/* footer 2 시작 */
+.footer-2 {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 3% 0 2% 0;
+}
+.footer-2 > .footer-2-wrap {
+    margin:0 3%;
+}
+.footer-2 >.footer-2-wrap > ul > li {
+    position: relative;
+    padding: 1.25rem 0;
+    font-size: 1.083rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-2 >.footer-2-wrap > ul > li > a {
+    width:100%;
+    height:100%;
+    display: block;
+
+}
+.footer-2 >.footer-2-wrap > ul > li > span {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1.4rem;
+    height: 1.4rem;
+    cursor: pointer;
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_plus.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition:transform .4s;
+    border:1px solid red;
+}
+.footer-2 >.footer-2-wrap > ul > li.active > span {
+    transform: rotate(45deg);
+}
+
+.footer-2 >.footer-2-wrap > ul > .store > a > i, .footer-2 >.footer-2-wrap > ul > .customer > a > i {
+    width: 1.125rem;
+    height: 1.125rem;
+    display: inline-block;
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_header_new_win.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:0.4rem;
+}
+.footer-2 >.footer-2-wrap > ul ul {
+    color:#969696;
+    font-weight: normal;
+    display: none;
+    width:100%;
+    height:100px;
+}
+
+.footer-2 > .footer-2-wrap > ul ul > li > a {
+    display: block;
+    padding: 0.84rem 0 0.54rem 0;
+    font-size: 1rem;
+}
+.copy-wrap-2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.copy-wrap-2>div {
+    padding: 0 20px;
+}
+
+.copy-wrap-2>.sns-wrap-2 {
+    margin:0 auto;
+    text-align: center;
+    padding: 23px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.copy-wrap-2>.sns-wrap-2>ul>li {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.copy-wrap-2>.sns-wrap-2>ul>li>a>i {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.copy-wrap-2>.sns-wrap-2>ul>li>a>.icon-1 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_facebook_round.svg);
+}
+
+.copy-wrap-2>.sns-wrap-2>ul>li>a>.icon-2 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_youtube_round.svg);
+}
+
+.copy-wrap-2>.sns-wrap-2>ul>li>a>.icon-3 {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_linkedin_round.svg);
+}
+.copy-wrap-2>.foot-logo-2 {
+    margin:0.9rem 0 0.7rem 0;
+}
+.copy-wrap-2>.foot-logo-2>img {
+    width: 8.5rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.copy-wrap-2>.copy-right-2 {
+    color: #6a6a6a;
+    opacity: 0.5;
+    margin-bottom: 0.92rem;
+    font-size: 0.933rem;
+}
+
+
+
+/* footer 2 끝 */
