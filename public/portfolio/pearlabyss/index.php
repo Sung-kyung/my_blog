@@ -101,7 +101,32 @@
         </div>
     </div>
     <div class="top-menu-bg">
-        
+
+    </div>
+    <!--사이드메뉴-->
+    <div class="side-menu-wrap">
+        <div class="side-bg">
+            <ul>
+                <li>
+                    <a>소개</a>
+                </li>
+                <li>
+                    <a>게임</a>
+                </li>
+                <li>
+                    <a>미디어</a>
+                </li>
+                <li>
+                    <a>문화</a>
+                </li>
+                <li>
+                    <a>채용</a>
+                </li>
+                <li>
+                    <a>투자정보</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <!--메인 슬라이더-->
     <div class="bn-bar">
@@ -437,50 +462,76 @@
         <div class="footer-2-wrap">
             <ul>
                 <li>
-                    <a >소개</a>
-                    <span></span>
+                    <div>
+                        <a>소개</a>
+                        <span></span>
+                    </div>
                     <ul>
                         <li><a>펄어비스 소개</a></li>
                         <li><a>연구소</a></li>
                     </ul>
                 </li>
-                <li><a>게임</a>
-                    <span></span>
+                <li>
+                    <div>
+                        <a>게임</a>
+                        <span></span>
+                    </div>
                     <ul>
-                        <li><a>펄어비스 소개</a></li>
-                        <li><a>연구소</a></li>
+                        <li><a>검은사막</a></li>
+                        <li><a>검은사막 모바일</a></li>
+                        <li><a>섀도우 아레나</a></li>
+                        <li><a>붉은사막</a></li>
+                        <li><a>도깨비</a></li>
+                        <li><a>플랜 8</a></li>
                     </ul>
                 </li>
-                <li><a >미디어</a>
-                    <span></span>
+                <li>
+                    <div>
+                        <a>미디어</a>
+                        <span></span>
+                    </div>
                     <ul>
-                        <li><a>펄어비스 소개</a></li>
-                        <li><a>연구소</a></li>
+                        <li><a>보도자료</a></li>
+                        <li><a>미디어 행사</a></li>
                     </ul>
                 </li>
-                <li><a >문화</a>
-                    <span></span>
+                <li>
+                    <div>
+                        <a>문화</a>
+                        <span></span>
+                    </div>
                     <ul>
-                        <li><a>펄어비스 소개</a></li>
-                        <li><a>연구소</a></li>
+                        <li><a>기업문화</a></li>
+                        <li><a>복지</a></li>
+                        <li><a>펄어비스인</a></li>
+                        <li><a>펄어비스 소식</a></li>
                     </ul>
                 </li>
-                <li><a>채용</a>
-                    <span></span>
+                <li>
+                    <div>
+                        <a>채용</a>
+                        <span></span>
+                    </div>
                     <ul>
-                        <li><a>펄어비스 소개</a></li>
-                        <li><a>연구소</a></li>
+                        <li><a>채용 소개</a></li>
+                        <li class="resume"><a>지원하기<i></i></a></li>
                     </ul>
                 </li>
-                <li><a>투자정보</a>
-                    <span></span>
+                <li>
+                    <div>
+                        <a>투자정보</a>
+                        <span></span>
+                    </div>
                     <ul>
-                        <li><a>펄어비스 소개</a></li>
-                        <li><a>연구소</a></li>
+                        <li><a>기업지배구조</a></li>
+                        <li><a>주가정보</a></li>
+                        <li><a>재무정보</a></li>
+                        <li><a>공시·공고</a></li>
+                        <li><a>IR 자료</a></li>
                     </ul>
                 </li>
-                <li><a >광고/제휴 문의</a></li>
-                <li><a >기업윤리 신고센터</a></li>
+                <li><a>광고/제휴 문의</a></li>
+                <li><a>기업윤리 신고센터</a></li>
                 <li><a>개인정보 처리방침</a></li>
                 <li class="store"><a>펄어비스 스토어
                         <i></i>

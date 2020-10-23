@@ -48,7 +48,13 @@ function HoverBar__init() {
       windowHeight = $(window).height();
     });
   
-    $(window).scroll(function () {
+    $(window).scroll(function (e) {
+      if($('body').hasClass('prevent')){
+        e.stopPropagation();
+        e.preventDefault();
+        return false;
+      }
+
       var scrollTop = $(window).scrollTop();
   
       if (scrollTop > windowHeight - 700) {
@@ -60,6 +66,27 @@ function HoverBar__init() {
       }
     });
   }
+
+ /* 사이드 메뉴 */
+ function SideMenu__init() {
+   $('.menu-bar-icon').click(function() {
+    var $topBar2 = $('.top-bar-2');
+  
+    if($('.side-menu-wrap').hasClass('active')) {
+      $topBar2.removeClass('white');
+      $topBar2.removeClass('active');
+      $('.side-menu-wrap').removeClass('active');
+      $('body').removeClass('prevent');
+    }
+    else {
+      $topBar2.addClass('white');
+      $topBar2.addClass('active');
+      $('.side-menu-wrap').addClass('active');
+      $('body').addClass('prevent');
+    }
+
+   });
+ }
   
 /* 발견되면 활성화시키는 라이브러리 시작 */
 function ActiveOnVisible__init() {
@@ -238,6 +265,7 @@ function FootMenu__init() {
     Slider__init();
     HoverBar__init();
     Scroll__init();
+    SideMenu__init();
     ActiveOnVisible__init();
     Owl__init();
     LangBox__init();
