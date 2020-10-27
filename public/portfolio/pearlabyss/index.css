@@ -628,6 +628,39 @@ body {
 
 /* 반응형 탑바 끝 */
 
+/* 탑버튼 시작 */
+.top-btn {
+    position: fixed;
+    bottom:1.2rem;
+    right:1.2rem;
+    border:1px solid #000;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.top-btn > span {
+    position: relative;
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_arrow_up_black.svg);
+    background-position: center center;
+    background-size:contain;
+    width:100%;
+    height:100%;
+    display: block;
+}
+.top-btn > span::after {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    background-color: rgba(180, 180, 180, 0.5);
+}
+/* 탑버튼 끝 */
+
 /* 사이드 메뉴 시작 */
 
 .side-menu-wrap > .side-bg {
@@ -645,19 +678,65 @@ body {
     display:block;
 }
 .side-menu-wrap > .side-bg > ul {
-    margin-top:2rem;
+    margin:2rem;
 }
 .side-menu-wrap > .side-bg > ul > li {
-    margin:0 1.5rem;
     cursor: pointer;
-    padding:1.5rem;
+    padding:1.5rem 0;
+    width:100%;
+    height:100%;
+}
+
+.side-menu-wrap > .side-bg > ul > li > a {
+    display: block;
+    position: relative;
+    width:100%;
+    height:100%;
     font-size:1.42rem;
     font-weight: bold;
+    padding-bottom:1rem;
     border-bottom: 2px solid #efefef;
 }
-.side-menu-wrap > .side-bg > ul > li > a {
-    width:100%;
-    height: 4.08rem;
+.side-menu-wrap > .side-bg > ul > li > a::after {
+    content:"";
+    position: absolute;
+    top:50%;
+    right: 1.666rem;
+    width: 1.082rem;
+    height: 1.082rem;
+    border-right: 0.166rem solid #adadad;
+    border-bottom: 0.166rem solid #adadad;
+    transform:translateY(-50%) rotate(45deg);
+    transform-origin: center;
+    transition:transform .2s;
+}
+
+.side-menu-wrap > .side-bg > ul > li.active2 > a {
+    border-bottom: 2px solid #000;
+}
+.side-menu-wrap > .side-bg > ul > li.active2 > a::after {
+    transform:translateY(-50%) rotate(225deg);
+    border-color:#000;
+}
+.side-menu-wrap > .side-bg > ul ul {
+    display: none;
+    color:#7a7a7a;
+    font-size: 1.25rem;
+    padding-top:1.5rem;
+    line-height:3rem;
+}
+.side-menu-wrap > .side-bg > ul ul > li {
+    padding:0 1.5rem;
+}
+.side-menu-wrap > .side-bg > ul ul .side-resume > a > i {
+    width: 1.125rem;
+    height: 1.125rem;
+    display: inline-block;
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_header_new_win.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:0.4rem;
 }
 /* 사이드 메뉴 끝 */
 
@@ -666,7 +745,6 @@ body {
 .bn-bar>.slider-div {
     width: 100%;
     height: 100%;
-    z-index: -1;
 }
 
 .bn-bar .bn {
@@ -813,10 +891,12 @@ body {
 @media (max-width:1024px) {
     .bn-bar .bn {
         height: 71.875vw;
+        cursor: pointer;     
     }
 
     .bn-bar .slider-div .bn .title {
         font-size: 1.6rem;
+        width: 74%;
         letter-spacing: -0.1rem;
     }
 
@@ -824,7 +904,26 @@ body {
         display: none;
     }
 }
-
+@media (max-width:767px) {
+    .bn-bar .bn {
+        height: 122.6vw;   
+    }
+    .slick-dots li button::before {
+        font-size:2.48rem !important;
+    }
+    .top-bar-2>.menu-bar-icon>div>span {
+        width: 32px;
+        height: 2px;
+    }
+    .bn-bar .slider-div .bn .title {
+        bottom:7%;
+    }
+}
+@media (min-width:1025px) {
+    .bn-bar .bn {
+        user-select: none;
+    }
+}
 /* 슬라이더 끝 */
 
 /* news 시작 */
@@ -937,8 +1036,62 @@ body {
         display: none;
     }
 }
-
+@media (max-width:767px) {
+    .news-box {
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .news-box-2 {
+        display: none;
+    }
+}
 /* news 끝  */
+
+/* news2 시작 */
+.news-box-2 {
+    padding: 2rem 1.666rem 3.6rem 1.666rem;
+}
+.news-box-2 > .owl-carousel .item {
+    height:200px;
+}
+.news-box-2 > h3{
+    font-size: 1.416rem;
+}
+.news-box-2 > .owl-carousel .item .news-text-box-2 {
+    cursor: pointer;
+}
+.news-box-2 > .owl-carousel .item .news-text-box-2 > h4 {
+    font-size: 1.16rem;
+    margin-top:2.2rem;
+}
+.news-box-2 > .owl-carousel .item:hover .news-text-box-2 > h4 {
+    text-decoration: underline;
+}
+.news-box-2 > .owl-carousel .item .news-text-box-2 > .date {
+    font-size:1rem;
+    color:#939393;
+    margin-top:2rem;
+}
+.news-box-2 > .owl-carousel .item .news-text-box-2 > .news-cont {
+    font-size:1.08rem;
+    color:#6a6a6a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+    margin-top:2.3rem;
+}
+.news-box-2 > .owl-carousel .owl-dots > .owl-dot > span{
+    background-color: #000;
+    opacity: 0.4;
+    margin: 5px 7px;
+}
+.news-box-2 > .owl-carousel .owl-dots > .owl-dot.active > span{
+    opacity: 1;
+}
+/* news2 끝 */
+
 
 /* 메인메뉴 시작 */
 .main-menu-wrap {
@@ -1110,6 +1263,56 @@ body {
 }
 
 /* 메인메뉴2 끝 */
+
+/* 메인메뉴3 시작 */
+
+.main-3-wrap>ul>li {
+    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_spr_main_category_bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    height: 37vw;
+    border-bottom:1px solid #fff;
+}
+.main-3-wrap>ul>.main-lab {
+    background-position: 0 -37.6vw;
+}
+
+.main-3-wrap>ul>.main-culture {
+    background-position: 0 -75vw;
+}
+.main-3-wrap>ul>.main-human {
+    background-position: 0 -112.48vw;
+}
+.main-3-wrap>ul>.main-news {
+    background-position: 0 -150vw;
+}
+.main-3-wrap>ul>li > a {
+    width:100%;
+    height:100%;
+    text-align: center;
+    color:#fff;
+}
+.main-3-wrap > ul > li > a > .main-3-text > h4 {
+    font-size:1.75rem;
+}
+.main-3-wrap > ul > li > a > .main-3-text > p {
+    margin-top:1rem;
+    font-size: 1.33rem;
+}
+@media (max-width:767px) {
+    .main-2-wrap {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .main-3-wrap {
+        display: none;
+    }
+}
+
+/* 메인메뉴3 끝 */
 
 /* lastest 시작 */
 .lastest-wrap {
@@ -1433,7 +1636,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     margin-left:0.4rem;
-
 }
 
 .footer-2 >.footer-2-wrap > ul ul {
@@ -1511,7 +1713,5 @@ body {
     margin-bottom: 0.92rem;
     font-size: 0.933rem;
 }
-
-
 
 /* footer 2 끝 */

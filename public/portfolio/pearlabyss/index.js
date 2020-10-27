@@ -1,18 +1,18 @@
   //메인 슬라이더
   function Slider__init() {
     $(".slider-div").slick({
-      slide: "div", //슬라이드 되어야 할 태그 ex) div, li
-      infinite: true, //무한 반복 옵션
-      slidesToShow: 1, // 한 화면에 보여질 컨텐츠 개수
-      slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
-      speed: 800, // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
-      arrows: true, // 옆으로 이동하는 화살표 표시 여부
-      dots: true, //크롤바 아래 점으로 페이지네이션 여부
-      autoplay: true, // 자동 스크롤 사용 여부
-      autoplaySpeed: 3000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
-      draggable: true,
+      slide: "div", 
+      infinite: true, 
+      slidesToShow: 1,
+      slidesToScroll: 1, 
+      speed: 800, 
+      arrows: true,
+      dots: true, 
+      autoplay: true,
+      autoplaySpeed: 3000,
       prevArrow:".prev",
       nextArrow:".next",
+
     });
   }
 
@@ -86,8 +86,24 @@ function HoverBar__init() {
     }
 
    });
+
+   var slideSpeed = 150;
+
+   $('.side-menu-wrap > .side-bg > ul > li').click(function() {
+      if ($(this).hasClass('active2')) {
+        $(this).removeClass('active2');
+        $(this).find(' > ul').slideUp(slideSpeed);
+      }
+      else {
+        $(this).siblings('.active2').find('> ul').slideUp(slideSpeed);
+        $(this).siblings('.active2').removeClass('active2');
+        $(this).addClass('active2');
+        $(this).find(' > ul').slideDown(slideSpeed);
+      }
+   });
+
  }
-  
+ 
 /* 발견되면 활성화시키는 라이브러리 시작 */
 function ActiveOnVisible__init() {
   $('.active-on-visible').each(function(index, node) {
@@ -227,6 +243,7 @@ function Owl__init() {
   });
 }
 
+
 function LangBox__init() {
   $('.top-bar-2 .lang-2').click(function() {
     if ($(this).hasClass('active')) {
@@ -259,7 +276,25 @@ function FootMenu__init() {
     }
   });
 }
-
+function Owl2__init() {
+  $('.news-box-2 > .owl-carousel').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:false,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1,
+        },
+        767:{
+            items:1,
+            autoplay:false
+        }
+    }
+  });
+}
 
   $(function(){
     Slider__init();
@@ -270,5 +305,6 @@ function FootMenu__init() {
     Owl__init();
     LangBox__init();
     FootMenu__init();
+    Owl2__init();
   });
   
