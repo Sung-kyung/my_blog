@@ -101,13 +101,13 @@
         </div>
     </div>
     <div class="top-menu-bg">
-        
+
     </div>
 
     <!--탑버튼 -->
-    <button class="top-btn">
-        <span></span>
-    </button>
+    <div class="top-btn active-on-visible" data-active-on-visible-diff-y="-200">
+        <div></div>
+    </div>
     <!--사이드메뉴-->
     <div class="side-menu-wrap">
         <div class="side-bg">
