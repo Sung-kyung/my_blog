@@ -105,7 +105,7 @@
     </div>
 
     <!--탑버튼 -->
-    <div class="top-btn active-on-visible" data-active-on-visible-diff-y="-200">
+    <div class="top-btn active-on-visible" data-active-on-visible-diff-y="-90px">
         <div></div>
     </div>
     <!--사이드메뉴-->

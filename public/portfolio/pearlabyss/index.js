@@ -295,7 +295,12 @@ function Owl2__init() {
     }
   });
 }
-
+function TopBtn__init() {
+  $('.top-btn').click(function() {
+    $('body,html').animate({scrollTop : 0},500);
+  });
+ 
+}
   $(function(){
     Slider__init();
     HoverBar__init();
@@ -306,5 +311,6 @@ function Owl2__init() {
     LangBox__init();
     FootMenu__init();
     Owl2__init();
+    TopBtn__init();
   });
   
