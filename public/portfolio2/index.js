@@ -24,6 +24,7 @@ function Owl2__init() {
         nav: true,
         dots: false,
         items: 4,
+        margin: 50,
         navText: ['<i class="fas fa-angle-left"></i>','<i class="fas fa-angle-right"></i>']
     });
 }
@@ -241,7 +242,7 @@ $(function () {
     border_1();
     border_2();
     Tab__init();
-    $('.owl-1 > .menu-1  .item-1').click();
+    $('.owl-1 > .menu-1 .pearl').click();
     $('.owl-2  .item-2-1').mouseenter();
 
     // 스크롤 이벤트

@@ -299,8 +299,28 @@ function TopBtn__init() {
   $('.top-btn').click(function() {
     $('body,html').animate({scrollTop : 0},500);
   });
- 
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 300
+  });
 }
+
+function TopBtn__showPhase1() {
+  $('.top-btn').addClass('active');
+}
+
+function TopBtn__showPhase2() {
+  $('.top-btn').removeClass('active');
+}
+
+function TopBtn__phase1() {
+  $('.top-btn').addClass('down');
+}
+
+function TopBtn__phase2() {
+  $('.top-btn').removeClass('down');
+
+}
+
   $(function(){
     Slider__init();
     HoverBar__init();

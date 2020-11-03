@@ -105,7 +105,7 @@
     </div>
 
     <!--탑버튼 -->
-    <div class="top-btn active-on-visible" data-active-on-visible-diff-y="-90px">
+    <div class="top-btn">
         <div></div>
     </div>
     <!--사이드메뉴-->
@@ -244,7 +244,7 @@
         </div>
     </div>
     <!--메인메뉴 -->
-    <div class="main-menu-wrap con active-on-visible" data-active-on-visible-diff-y="-200">
+    <div class="main-menu-wrap con active-on-visible" data-active-on-visible-diff-y="-200" data-active-on-visible-on-func-name="TopBtn__showPhase1" data-active-on-visible-off-func-name="TopBtn__showPhase2">
         <ul class="row">
             <li class="cell">
                 <a href="#" class="block">
@@ -310,7 +310,7 @@
         </ul>
     </div>
     <!--메인메뉴2 -->
-    <div class="main-2-wrap">
+    <div class="main-2-wrap active-on-visible" data-active-on-visible-on-func-name="TopBtn__showPhase1" data-active-on-visible-off-func-name="TopBtn__showPhase2">
         <ul class="flex">
             <li class="main-vision flex">
                 <a href="#" class="block">
@@ -356,7 +356,7 @@
     </div>
 
     <!--메인메뉴3-->
-    <div class="main-3-wrap">
+    <div class="main-3-wrap active-on-visible" data-active-on-visible-on-func-name="TopBtn__showPhase1" data-active-on-visible-off-func-name="TopBtn__showPhase2">
         <ul>
             <li class="main-vision">
                 <a href="#" class="block flex flex-ai-c flex-jc-c">
@@ -499,7 +499,7 @@
         </div>
     </div>
     <!--footer-->
-    <footer class="footer-1">
+    <footer class="footer-1 active-on-visible" data-active-on-visible-on-func-name="TopBtn__phase1" data-active-on-visible-off-func-name="TopBtn__phase2">
         <div class="foot-wrap">
             <ul class="foot-menu-1 row">
                 <li class="cell"><a href="#">소개</a>
@@ -572,7 +572,7 @@
         </div>
     </div>
     <!--footer 2-->
-    <footer class="footer-2">
+    <footer class="footer-2 active-on-visible" data-active-on-visible-on-func-name="TopBtn__phase1" data-active-on-visible-off-func-name="TopBtn__phase2">
         <div class="footer-2-wrap">
             <ul>
                 <li>
@@ -669,6 +669,7 @@
         </div>
         <div class="copy-right-2">Copyright © Pearl Abyss Corp. All Rights Reserved</div>
     </div>
+
 </body>
 
 </html>

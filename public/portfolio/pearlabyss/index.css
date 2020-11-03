@@ -681,14 +681,17 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+    transition:bottom .2s;
 }
 .top-btn.active {
     opacity: 1;
 }
+.top-btn.down {
+    bottom:4.2rem;
+}
 .top-btn>div {
     position: relative;
 }
-
 .top-btn>div::after {
     content: "";
     position: absolute;
@@ -702,7 +705,6 @@ body {
     z-index: 98;
     background-color: rgba(180, 180, 180, 0.5);
 }
-
 .top-btn:hover>div::after {
     transform: translateY(0);
 }
