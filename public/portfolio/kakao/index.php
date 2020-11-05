@@ -243,7 +243,49 @@
         </div>
     </div>
     <!--카카오관점-->
-    
+    <div class="kakao-wrap">
+        <div class="kakao-box">
+            <div class="kakao-cont">
+                <h2 class="title">카카오스러운 관점으로<br>세상을 바라봅니다.</h2>
+                <a href="#" class="kakao-go">카카오스러움이란</a>
+            </div>
+            <div class="video-box-2">
+                <video autoplay loop muted src="/portfolio/kakao/video/li-1a.mp4"></video>
+            </div>
+        </div>
+        <div class="history-box">
+            <div class="history-cont">
+                <h2 class="title">아무도 가보지 않은 길을 걷는<br>카카오의 이야기를 기록합니다.</h2>
+                <a href="#" class="kakao-go">카카오히스토리</a>
+            </div>
+            <div class="history-img">
+                <img src="https://sung-kyung.github.io/img1/pf/kakao/li-3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--summary-->
+    <div class="summary-wrap">
+        <ul class="row">
+            <li class="cell">
+                <p class="sum-title">PRESS RELEASE</p>
+                <strong class="sum-sub">카카오, 2020년 3분기 연결 매출 1조1,004억원, 영업이익 1,202억원 달성</strong>
+                <p class="sum-cont">- 사상 최초로 분기 매출 1조원, 영업이익 1,000억원 넘어서[2020-11-05] 카카오(공동대표 여민수, 조수용)가 사상 최초로 분기 매출
+                    1조원, 영업이익 1,000억원을 넘어서며 역대 최고...</p>
+            </li>
+            <li class="cell">
+                <p class="sum-title">STOCK</p>
+                <div class="stock-box row">
+                    <strong class="sum-sub stock cell">363,000</strong>
+                    <span class="stock-up cell"></span><span class="stock-num cell">3,500</span>
+                </div>
+                <p class="date">2020-11-05 21:22:04</p>
+            </li>
+            <li class="cell">
+                <p class="sum-title">PRIVACY POLICY</p>
+                <strong class="sum-sub">카카오는 데이터의 연결과 보호의 균형을 위해<br>언제나 최선을 다 하겠습니다.</strong>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
