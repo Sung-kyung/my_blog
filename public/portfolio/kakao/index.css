@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+html {
+    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.absolute-left {
+    position: absolute;
+    left: 0;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position: relative;
+}
+
+.cell {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cell-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.img-box>img {
+    width: 100%;
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-0-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+.line-height-0>* {
+    line-height: normal;
+}
+
+.width-30px {
+    width: 30px;
+}
+
+.width-35px {
+    width: 35px;
+}
+
+.width-40px {
+    width: 35px;
+}
+
+.width-45px {
+    width: 35px;
+}
+
+.width-50px {
+    width: 50px;
+}
+
+.width-80px {
+    width: 80px;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.width-60p {
+    width: 60%;
+}
+
+.width-55p {
+    width: 55%;
+}
+
+.width-50p {
+    width: 50%;
+}
+
+.width-45p {
+    width: 45%;
+}
+
+.width-40p {
+    width: 40%;
+}
+
+.width-30p {
+    width: 30%;
+}
+
+.width-35p {
+    width: 35%;
+}
+
+.width-100p-except-30px {
+    width: calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+    width: calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+    width: calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+    width: calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+    width: calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+    width: calc(100% - 100px);
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.height-50p {
+    height: 50%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.font-size-dot-8rem {
+    font-size: .8rem;
+}
+
+.table-row {
+    display: table;
+}
+
+.table-row.row::after {
+    display: inline;
+    clear: non;
+}
+
+.table-row>.cell {
+    float: none;
+    display: table-cell;
+}
+
+.border-red {
+    border: 10px solid red;
+}
+
+.border-green {
+    border: 10px solid green;
+}
+
+.border-blue {
+    border: 10px solid blue;
+}
+
+.border-gold {
+    border: 10px solid gold;
+}
+
+.border-pink {
+    border: 10px solid pink;
+}
+
+/* 라이브러리 - flex */
+*>.flex {
+    display: flex;
+}
+
+*>.flex-grow-1 {
+    flex-grow: 1;
+}
+
+*>.flex-jc-c {
+    justify-content: center;
+}
+
+*>.flex-jc-s {
+    justify-content: flex-start;
+}
+
+*>.flex-jc-e {
+    justify-content: flex-end;
+}
+
+*>.flex-jc-sb {
+    justify-content: space-between;
+}
+
+*>.flex-ai-c {
+    align-items: center;
+}
+
+*>.flex-ai-s {
+    align-items: flex-start;
+}
+
+*>.flex-ai-e {
+    align-items: flex-end;
+}
+
+*>.flex-as-s {
+    align-self: stretch;
+}
+
+*>.flex-as-c {
+    align-self: center;
+}
+
+*>.flex-as-s {
+    align-self: flex-start;
+}
+
+*>.flex-as-e {
+    align-self: flex-end;
+}
+
+*>.flex-column-nowrap {
+    flex-flow: column nowrap;
+}
+
+*>.flex-column-wrap {
+    flex-flow: column wrap;
+}
+
+*>.flex-row-wrap {
+    flex-flow: row wrap;
+}
+
+.flex-ch-basis-0>* {
+    flex-basis: 0;
+}
+
+*>.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+/* 커스텀 */
+
+.con-min-width {
+    min-width: 1300px;
+}
+
+.con {
+    width: 1370px;
+}
+
+/* 탑바 시작 */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.top-bar>ul {
+    height: 60px;
+}
+
+.top-bar>ul>.menu-box>ul>li {
+    padding: 0 10px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.hover-bar {
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    background-color: #000;
+}
+
+.top-bar>ul>.menu-box>ul>li:last-child>a {
+    position: relative;
+}
+
+.top-bar>ul>.menu-box>ul>li:last-child>a>span {
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    right: 0;
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-position: -155px 0;
+}
+
+.top-bar>ul>.menu-box>ul>li>a {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    z-index: 10;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+
+.top-bar>ul>.menu-box>ul>li:first-child:hover>.sub-menu-box-1 {
+    display: block;
+}
+
+.top-bar>ul>.menu-box>ul>li:nth-child(2):hover>.sub-menu-box-2 {
+    display: block;
+}
+
+.top-bar>ul>.menu-box>ul>li:nth-child(3):hover>.sub-menu-box-3 {
+    display: block;
+}
+
+.top-bar>ul>.menu-box>ul>li:nth-child(4):hover>.sub-menu-box-4 {
+    display: block;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul {
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box-1>ul>li {
+    width: calc(100% / 6);
+    font-size: 14px;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box-2>ul>li,
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box-3>ul>li {
+    width: calc(100% / 8);
+    font-size: 14px;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box-4>ul>li {
+    width: calc(100% / 5);
+    font-size: 14px;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li>a {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li>ul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li>ul>li {
+    font-size: 13px;
+    color: #666;
+    padding: 5px 0;
+}
+
+.top-bar>ul>.lang {
+    font-size: 14px;
+}
+
+.top-bar>ul>.lang>span {
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.top-bar>ul>.lang>.eng {
+    color: #666;
+    font-weight: 300;
+}
+
+.top-bar>ul>.lang>.eng:hover {
+    color: #333;
+    font-weight: 500;
+}
+
+/* 탑바 끝 */
+
+/* 메인 시작 */
+.video-box {
+    position: relative;
+    padding-top: 60px;
+    height: calc(100vh - 60px);
+}
+
+.video-box>video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.video-box>.video-cont>h1 {
+    position: absolute;
+    top: 24%;
+    left: 8%;
+    color: #fff;
+    font-size: 2.91666667vw;
+    line-height: 3.61111111vw;
+}
+
+/* 메인 끝 */
