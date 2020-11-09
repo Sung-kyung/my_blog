@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kakao</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
@@ -17,7 +18,7 @@
     <!--메인-->
     <div class="top-box">
         <div class="top-bar">
-            <ul class="con-min-width flex con">
+            <ul class="flex con">
                 <li class="logo flex flex-1-0-0 flex-ai-c">
                     <img src="https://sung-kyung.github.io/img1/pf/kakao/logo_kakao_black.png" alt="">
                 </li>
@@ -264,7 +265,7 @@
         </div>
     </div>
     <!--summary-->
-    <div class="summary-wrap">
+    <div class="summary-wrap con">
         <ul class="row">
             <li class="cell">
                 <p class="sum-title">PRESS RELEASE</p>
@@ -287,5 +288,102 @@
         </ul>
     </div>
 </body>
+<!--service-->
+<div class="service-wrap con">
+    <ul class="row">
+        <li class="cell">
+            <div class="service-imgbox">
+                <img src="https://sung-kyung.github.io/img1/pf/kakao/4518.jpg" alt="">
+            </div>
+            <strong class="service-title">언제 어디서나 무료로 간편하게! 사람과 세상, 그 이상을 연결하는 카카오톡</strong>
+            <p class="service-cont"> 채팅은 물론 일정 관리, 송금, #검색 등 다양한 기능을 제공하는 카카오톡은 우리의 생활을 보다 편리하게 만들어 주고 있습니다. 카카오톡을 통해
+                세상의 정보와 즐길거리에 보다 가까이 ...</p>
+        </li>
+        <li class="cell">
+            <div class="service-imgbox">
+                <img src="https://sung-kyung.github.io/img1/pf/kakao/4540.jpg" alt="">
+            </div>
+            <strong class="service-title">새로워진 kakao Tech를 소개합니다.</strong>
+            <p class="service-cont">기술 행사와 오픈소스, 후원, 채용 등 카카오의 기술 관련 종합적인 정보를 제공할 수 있도록 개편했습니다....</p>
+        </li>
+        <li class="cell">
+            <div class="service-imgbox">
+                <img src="https://sung-kyung.github.io/img1/pf/kakao/3254.png" alt="">
+            </div>
+            <strong class="service-title">세계 행복의 날 기념, 같이가치 ‘안녕하세요’ 캠페인을 소개합니다!</strong>
+            <p class="service-cont">'세계 행복의 날'이라는 기념일을 들어보신 적 있나요? 2012년 국제연합(UN)이 모든 사람들이 행복하게 살 수 있도록 전 세계가 함께 노력하자는
+                취지로 매년 3월 20일을 '세계 ...</p>
+        </li>
+    </ul>
+</div>
+<!--footer-->
+<footer>
+    <div class="foot-wrap con active-on-visible" data-active-on-visible-diff-y="-300" data-active-on-visible-on-func-name="TopBtn__phase1" data-active-on-visible-off-func-name="TopBtn__phase2">
+        <ul class="row">
+            <li class="cell">이용약관
+                <span></span>
+                <ul>
+                    <li><a>카카오계정 서비스<span></span></a></li>
+                    <li><a>카카오 서비스<span></span></a></li>
+                    <li><a>Daum 서비스<span></span></a></li>
+                    <li><a>Melon 서비스<span></span></a></li>
+                </ul>
+            </li>
+            <li class="bold cell">위치기반서비스이용약관
+                <span></span>
+                <ul>
+                    <li><a>카카오 서비스<span></span></a></li>
+                    <li><a>Daum 서비스<span></span></a></li>
+                    <li><a>Melon 서비스<span></span></a></li>
+                </ul>
+            </li>
+            <li class="bold cell">개인정보처리방침
+                <span></span>
+                <ul>
+                    <li><a>기업사이트<span></span></a></li>
+                    <li><a>카카오 서비스<span></span></a></li>
+                    <li><a>Daum 서비스<span></span></a></li>
+                    <li><a>Melon 서비스<span></span></a></li>
+                </ul>
+            </li>
+            <li class="cell">운영정책</li>
+            <li class="cell">청소년보호정책
+                <span></span>
+                <ul>
+                    <li><a>카카오 서비스<span></span></a></li>
+                    <li><a>Daum 서비스<span></span></a></li>
+                    <li><a>Melon 서비스<span></span></a></li>
+                </ul>
+            </li>
+            <li class="cell">권리침해신고안내</li>
+            <li class="cell">공지사항
+                <span class="ico-new"></span><span></span>
+                <ul>
+                    <li><a>기업사이트<span></span></a></li>
+                    <li><a>카카오 서비스<span></span></a></li>
+                    <li><a>Daum 서비스<span></span></a></li>
+                    <li><a>Melon 서비스<span></span></a></li>
+                </ul>
+            </li>
+            <li class="cell">사이버윤리실</li>
+            <li class="related-sites cell-right row">관련 사이트
+                <span class="ico-cross cell-right"></span>
+                <ul>
+                    <li><a>카카오 AI</a></li>
+                    <li><a>카카오 프라이버시</a></li>
+                    <li><a>카카오 디벨로퍼스</a></li>
+                    <li><a>다음 포털 사이트</a></li>
+                    <li><a>동반성장 사이트</a></li>
+                    <li><a>제주 with kakao</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="copy-right">Copyright © Kakao Corp. All rights reserved.</p>
+    </div>
+</footer>
+<!--탑버튼-->
+<div class="top-btn-box">
+    <a href="#" class="top-btn"><span></span></a>
+</div>
 
 </html>

@@ -344,7 +344,7 @@ label[for] {
 /* 커스텀 */
 
 .con-min-width {
-    min-width: 1300px;
+    min-width: 1336px;
 }
 
 .con {
@@ -360,7 +360,9 @@ label[for] {
         padding:0 80px;
     }
 }
-
+body, html {
+    min-width:1336px;
+}
 /* 탑바 시작 */
 .top-bar {
     position: fixed;
@@ -505,7 +507,12 @@ label[for] {
     color: #333;
     font-weight: 500;
 }
-
+@media (max-width:1440px) {
+    .con {
+        max-width: 1370px;
+        padding:0 80px;
+    }
+}
 /* 탑바 끝 */
 
 /* 메인 시작 */
@@ -641,15 +648,19 @@ label[for] {
         margin-top: 1.5625rem;
         padding-left: 2.25rem;
     }
+    .kakao-wrap >.history-box > .history-img {
+        width: 55.25rem;
+        height: 22.375rem;
+        right: 3.125rem;
+        bottom: 3.125rem;
+    }
 }
 /* 카카오관점 끝 */
 
 /* summary 시작 */
 .summary-wrap > ul {
     margin:0 auto;
-    padding-right: 80px;
     padding-bottom: 85px;
-    padding-left: 80px;
     max-width: 1920px;
 }
 .summary-wrap > ul > li {
@@ -698,3 +709,178 @@ label[for] {
     padding-top:33px;
 }
 /* summary 끝 */
+
+/* service 시작 */
+.service-wrap > ul {
+    margin:0 auto;
+    padding-bottom: 180px;
+    max-width: 1920px;
+}
+.service-wrap> ul > li {
+    width:33.3333%;
+    padding:0 20px;
+}
+.service-wrap> ul > li > .service-imgbox {
+    width:100%;
+}
+.service-wrap> ul > li > .service-imgbox > img {
+    width: 100%;
+    height:100%;
+    border-radius: 1.04166667vw;
+}
+.service-wrap> ul > li > .service-title {
+    display: block;
+    font-size:20px;
+    padding-top: 21px;
+    line-height: 32px;
+    color: #1e1e1e;
+}
+.service-wrap> ul > li > .service-cont {
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    font-weight: 300;
+}
+/* service 끝 */
+
+/* footer 시작 */
+footer {
+    border-top:1px solid #d4d4d4;
+}
+footer > .foot-wrap {
+    padding-top:22px;
+    padding-bottom:40px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #1e1e1e;
+}
+footer > .foot-wrap > ul {
+    margin-bottom:-7px;
+}
+footer > .foot-wrap > ul > li {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+footer > .foot-wrap > ul > .bold {
+    font-weight: bold;
+}
+footer > .foot-wrap > ul > .bold > * {
+    font-weight: 300;
+}
+footer > .foot-wrap > ul > li > span {
+    width: 7px;
+    height: 4px;
+    margin: 5px 0 0 6px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-position: -275px -25px;
+}
+footer > .foot-wrap > ul > li > .ico-new {
+    width: 11px;
+    height: 11px;
+    margin: 3px 0 0 2px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    background-position: -100px -50px;
+    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+}
+
+footer > .foot-wrap > ul > .related-sites {
+    position: relative;
+    width:160px;
+    height: 29px;
+    border-bottom:1px solid #1e1e1e;
+}
+
+footer > .foot-wrap > ul > .related-sites > .ico-cross {
+    width: 9px;
+    height: 9px;
+    background-position: -143px -65px;
+}
+
+footer > .foot-wrap > ul > li > ul {
+    display: none;
+    position: absolute;
+    bottom:29px;
+    left:0;
+    padding:12px 0;
+    border: 1px solid #d4d4d4;
+    background-color: #fff;
+}
+footer > .foot-wrap > ul ul > li > a {
+    display:block;
+    color: #666;
+    padding: 0 14px;
+    font-size: 12px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+footer > .foot-wrap > ul ul > li > a > span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 7px 0 0 6px;
+    background-position: -155px 0;
+    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+}
+footer > .foot-wrap > ul > .related-sites > ul {
+    width: 158px;
+}
+footer > .foot-wrap > ul > .related-sites > ul > li > a {
+    display: block;
+    padding-left:14px;
+    line-height: 30px;
+    color:#666;
+    font-weight: 300;
+}
+footer > .foot-wrap > ul > li > ul > li:hover > a {
+    text-decoration: underline;
+}
+footer > .foot-wrap > ul > .related-sites.active {
+    font-weight: bold;
+}
+footer > .foot-wrap > ul > .related-sites.active > .ico-cross {
+    transform:rotate(45deg);
+}
+footer > .foot-wrap > ul > li.active > ul {
+    display: block;
+}
+footer > .foot-wrap > ul > li:hover > span,footer > .foot-wrap > ul > li.active > span {
+    transform:rotate(180deg);
+}
+footer > .foot-wrap > .copy-right {
+    display: inline-block;
+    color: #1e1e1e;
+}
+/* footer 끝 */
+
+/* 탑버튼 시작 */
+.top-btn-box {
+    display: none;
+    position: fixed;
+    bottom:60px;
+    right:40px;
+}
+.top-btn-box > .top-btn {
+    display: block;
+}
+.top-btn-box >.top-btn > span {
+    display: inline-block;
+    width: 21px;
+    height: 30px;
+    overflow: hidden;
+    background-position: -90px -10px;
+    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+}
+.top-btn-box.show{
+    display: block;
+}
+.top-btn-box.down {
+    bottom:160px;
+}
+/* 탑버튼 끝  */
