@@ -374,11 +374,11 @@ body, html {
     background-color: #fff;
 }
 
-.top-bar>ul {
+.top-bar>div {
     height: 60px;
 }
 
-.top-bar>ul>.menu-box>ul>li {
+.top-bar>div>.menu-box>ul>li {
     padding: 0 10px;
     width: 100%;
     white-space: nowrap;
@@ -391,11 +391,11 @@ body, html {
     background-color: #000;
 }
 
-.top-bar>ul>.menu-box>ul>li:last-child>a {
+.top-bar>div>.menu-box>ul>li:last-child>a {
     position: relative;
 }
 
-.top-bar>ul>.menu-box>ul>li:last-child>a>span {
+.top-bar>div>.menu-box>ul>li:last-child>a>span {
     position: absolute;
     display: inline-block;
     top: 25px;
@@ -407,103 +407,111 @@ body, html {
     background-position: -155px 0;
 }
 
-.top-bar>ul>.menu-box>ul>li>a {
+.top-bar>div>.menu-box>ul>li>a {
     width: 100%;
     height: 100%;
     padding: 0 5px;
     z-index: 10;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box {
     display: none;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
-    border-top: 1px solid #d4d4d4;
-    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     background-color: #fff;
 }
 
-.top-bar>ul>.menu-box>ul>li:first-child:hover>.sub-menu-box-1 {
+.top-bar>div>.menu-box>ul>li:first-child:hover>.sub-menu-box-1 {
     display: block;
 }
 
-.top-bar>ul>.menu-box>ul>li:nth-child(2):hover>.sub-menu-box-2 {
+.top-bar>div>.menu-box>ul>li:nth-child(2):hover>.sub-menu-box-2 {
     display: block;
 }
 
-.top-bar>ul>.menu-box>ul>li:nth-child(3):hover>.sub-menu-box-3 {
+.top-bar>div>.menu-box>ul>li:nth-child(3):hover>.sub-menu-box-3 {
     display: block;
 }
 
-.top-bar>ul>.menu-box>ul>li:nth-child(4):hover>.sub-menu-box-4 {
+.top-bar>div>.menu-box>ul>li:nth-child(4):hover>.sub-menu-box-4 {
     display: block;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul {
     width: 1160px;
     height: 100%;
     margin: 0 auto;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li {
-    border-right: 1px solid #d4d4d4;
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul>li {
+    border-right: 1px solid #e5e5e5;
     padding: 60px 0;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li:first-child {
-    border-left: 1px solid #d4d4d4;
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul>li:first-child {
+    border-left: 1px solid #e5e5e5;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box-1>ul>li {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box-1>ul>li {
     width: calc(100% / 6);
     font-size: 14px;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box-2>ul>li,
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box-3>ul>li {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box-2>ul>li,
+.top-bar>div>.menu-box>ul>li>.sub-menu-box-3>ul>li {
     width: calc(100% / 8);
     font-size: 14px;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box-4>ul>li {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box-4>ul>li {
     width: calc(100% / 5);
     font-size: 14px;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li>a {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul>li>a {
     display: block;
     text-align: center;
     width: 100%;
 }
-
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li>ul {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul ul > .business > a > span {
+    display:inline-block;
+    margin: 10px 0 0 7px;
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-position: -155px 0;
+}
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul>li>ul {
     text-align: center;
     padding-top: 20px;
 }
 
-.top-bar>ul>.menu-box>ul>li>.sub-menu-box>ul>li>ul>li {
+.top-bar>div>.menu-box>ul>li>.sub-menu-box>ul>li>ul>li {
     font-size: 13px;
     color: #666;
     padding: 5px 0;
 }
 
-.top-bar>ul>.lang {
+.top-bar>div>.lang {
     font-size: 14px;
 }
 
-.top-bar>ul>.lang>span {
+.top-bar>div>.lang>span {
     padding: 0 8px;
     cursor: pointer;
 }
 
-.top-bar>ul>.lang>.eng {
+.top-bar>div>.lang>.eng {
     color: #666;
     font-weight: 300;
 }
 
-.top-bar>ul>.lang>.eng:hover {
+.top-bar>div>.lang>.eng:hover {
     color: #333;
     font-weight: 500;
 }
@@ -511,6 +519,11 @@ body, html {
     .con {
         max-width: 1370px;
         padding:0 80px;
+    }
+}
+@media (max-width:1240px) {
+    .con {
+        padding:0 40px;
     }
 }
 /* 탑바 끝 */
@@ -536,7 +549,14 @@ body, html {
     font-size: 2.91666667vw;
     line-height: 3.61111111vw;
 }
-
+@media (max-width:1440px) {
+    .video-box>.video-cont > h1 {
+        font-size: 2.625rem;
+        line-height: 3.25rem;
+        letter-spacing: -.09375rem;
+        font-weight: 700;
+    }
+}
 /* 메인 끝 */
 
 /* 카카오관점 시작 */
@@ -666,6 +686,7 @@ body, html {
 .summary-wrap > ul > li {
     width:33.3333%;
     padding:0 20px;
+    cursor: pointer;
 }
 .summary-wrap > ul > li > .sum-title {
     font-size:14px;
@@ -708,6 +729,9 @@ body, html {
     font-weight: 300;
     padding-top:33px;
 }
+.summary-wrap > ul > li:not(:nth-child(2)):hover > .sum-sub {
+    text-decoration: underline;
+}
 /* summary 끝 */
 
 /* service 시작 */
@@ -719,6 +743,7 @@ body, html {
 .service-wrap> ul > li {
     width:33.3333%;
     padding:0 20px;
+    cursor: pointer;
 }
 .service-wrap> ul > li > .service-imgbox {
     width:100%;
@@ -741,6 +766,9 @@ body, html {
     line-height: 22px;
     color: #666;
     font-weight: 300;
+}
+.service-wrap> ul > li:hover > .service-title {
+    text-decoration: underline;
 }
 /* service 끝 */
 
@@ -865,6 +893,7 @@ footer > .foot-wrap > .copy-right {
     position: fixed;
     bottom:60px;
     right:40px;
+    transition:bottom .2s;
 }
 .top-btn-box > .top-btn {
     display: block;

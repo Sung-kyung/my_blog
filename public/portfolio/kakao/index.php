@@ -18,11 +18,11 @@
     <!--메인-->
     <div class="top-box">
         <div class="top-bar">
-            <ul class="flex con">
-                <li class="logo flex flex-1-0-0 flex-ai-c">
+            <div class="flex con">
+                <div class="logo flex flex-1-0-0 flex-ai-c">
                     <img src="https://sung-kyung.github.io/img1/pf/kakao/logo_kakao_black.png" alt="">
-                </li>
-                <li class="menu-box flex">
+                </div>
+                <div class="menu-box flex">
                     <ul class="hover-bar-nav flex">
                         <li class="hover-bar-menu">
                             <a href="#" class="flex flex-ai-c">카카오</a>
@@ -48,7 +48,7 @@
                                         <ul class="block">
                                             <li><a href="#">광고 안내</a></li>
                                             <li><a href="#">제휴 안내</a></li>
-                                            <li><a href="#">Kakao for Business</a></li>
+                                            <li class="business"><a href="#">Kakao for Business<span></span></a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">홍보채널</a>
@@ -229,11 +229,11 @@
                         </li>
                     </ul>
                     <div class="hover-bar"></div>
-                </li>
-                <li class="lang flex flex-1-0-0 flex-ai-c flex-jc-e">
+                </div>
+                <div class="lang flex flex-1-0-0 flex-ai-c flex-jc-e">
                     <span class="kor">KOR</span><span class="eng">ENG</span>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!--메인비디오-->
