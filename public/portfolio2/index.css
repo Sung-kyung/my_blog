@@ -32,7 +32,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -546,6 +547,7 @@ html, body {
     border-left: 1px solid #e3e3e3;
     position:relative;
 }
+
 .page-2>.text-box > .title {
     font-family: 'BebasNeue';
     color:#6B6B6B;
@@ -667,6 +669,11 @@ html, body {
 }
 .owl-carousel .item .title-box .title {
     font-size:20px;
+}
+.owl-carousel .item .title-box .title .responsive {
+    color:#ff0000;
+    font-size: 11px;
+    border-radius: 6px;
 }
 .owl-carousel .item .title-box .cont {
     font-size:13px;

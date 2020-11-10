@@ -118,7 +118,7 @@
     $(window).resize(_.debounce(ActiveOnVisible__initOffset, 500));
     ActiveOnVisible__initOffset();
 
-    $(window).scroll(_.debounce(ActiveOnVisible__checkAndActive, 50));
+    $(window).scroll(_.debounce(ActiveOnVisible__checkAndActive, 40));
     ActiveOnVisible__checkAndActive();
   }
 
@@ -318,19 +318,22 @@
   }
 
   $(function () {
+    setTimeout(function () {
+      ActiveOnVisible__init();
+    }, 500);
     Slider__init();
     HoverBar__init();
     Scroll__init();
     SideMenu__init();
-    ActiveOnVisible__init();
     Owl__init();
     LangBox__init();
     FootMenu__init();
     Owl2__init();
     TopBtn__init();
-
+    
     setTimeout(function() {
       TopBtn__showPhase2();
       TopBtn__phase2();
     }, 10);
+    
   });

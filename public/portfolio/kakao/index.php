@@ -318,7 +318,7 @@
 </div>
 <!--footer-->
 <footer>
-    <div class="foot-wrap con active-on-visible" data-active-on-visible-diff-y="-300" data-active-on-visible-on-func-name="TopBtn__phase1" data-active-on-visible-off-func-name="TopBtn__phase2">
+    <div class="foot-wrap con active-on-visible" data-active-on-visible-diff-y="-50" data-active-on-visible-on-func-name="TopBtn__phase1" data-active-on-visible-off-func-name="TopBtn__phase2">
         <ul class="row">
             <li class="cell">이용약관
                 <span></span>

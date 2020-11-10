@@ -893,7 +893,6 @@ footer > .foot-wrap > .copy-right {
     position: fixed;
     bottom:60px;
     right:40px;
-    transition:bottom .2s;
 }
 .top-btn-box > .top-btn {
     display: block;
@@ -908,8 +907,5 @@ footer > .foot-wrap > .copy-right {
 }
 .top-btn-box.show{
     display: block;
-}
-.top-btn-box.down {
-    bottom:160px;
 }
 /* 탑버튼 끝  */

@@ -50,7 +50,7 @@ function TopBtn__init() {
 
 /* 발견되면 활성화시키는 라이브러리 시작 */
 function ActiveOnVisible__init() {
-  $('.active-on-visible').each(function(index, node) {
+  $('.active-on-visible').each(function (index, node) {
     var $node = $(node);
 
     var onFuncName = $node.attr('data-active-on-visible-on-func-name');
@@ -63,14 +63,14 @@ function ActiveOnVisible__init() {
   $(window).resize(_.debounce(ActiveOnVisible__initOffset, 500));
   ActiveOnVisible__initOffset();
 
-  $(window).scroll(_.debounce(ActiveOnVisible__checkAndActive, 50));
+  $(window).scroll(_.debounce(ActiveOnVisible__checkAndActive, 10));
   ActiveOnVisible__checkAndActive();
 }
 
 function ActiveOnVisible__initOffset() {
   var windowHeight = $(window).height();
 
-  $('.active-on-visible:not(.actived)').each(function(index, node) {
+  $('.active-on-visible:not(.actived)').each(function (index, node) {
     var $node = $(node);
 
     var offsetTop = $node.offset().top;
@@ -79,35 +79,33 @@ function ActiveOnVisible__initOffset() {
     var translateX = matrix[12] || matrix[4];
     var translateY = matrix[13] || matrix[5];
 
-    if ( translateY ) {
+    if (translateY) {
       offsetTop -= translateY;
     }
 
     $node.attr('data-active-on-visible-offsetTop', offsetTop);
     $node.data('data-active-on-visible-offsetTop', offsetTop);
 
-    if ( !$node.attr('data-active-on-visible-diff-y') ) {
+    if (!$node.attr('data-active-on-visible-diff-y')) {
       $node.attr('data-active-on-visible-diff-y', '0');
     }
 
-    if ( !$node.attr('data-active-on-visible-delay') ) {
+    if (!$node.attr('data-active-on-visible-delay')) {
       $node.attr('data-active-on-visible-delay', '0');
     }
 
     var diffY = $node.attr('data-active-on-visible-diff-y');
     var delay = $node.attr('data-active-on-visible-delay');
 
-    if ( diffY.substr(-2, 2) == 'vh' ) {
+    if (diffY.substr(-2, 2) == 'vh') {
       diffY = parseInt(diffY);
 
       diffY = windowHeight * (diffY / 100);
-    }
-    else if ( diffY.substr(-1, 1) == '%' ) {
+    } else if (diffY.substr(-1, 1) == '%') {
       diffY = parseInt(diffY);
 
       diffY = $node.height() * (diffY / 100);
-    }
-    else {
+    } else {
       diffY = parseInt(diffY);
     }
 
@@ -119,8 +117,8 @@ function ActiveOnVisible__initOffset() {
   ActiveOnVisible__checkAndActive();
 }
 
-function ActiveOnVisible__checkAndActive() { 
-  $('.active-on-visible:not(.actived)').each(function(index, node) {
+function ActiveOnVisible__checkAndActive() {
+  $('.active-on-visible:not(.actived)').each(function (index, node) {
     var $node = $(node);
 
     var offsetTop = $node.data('data-active-on-visible-offsetTop') * 1;
@@ -134,26 +132,25 @@ function ActiveOnVisible__checkAndActive() {
     var windowHeight = $(window).height();
     var nodeHeight = $node.height();
 
-    if ( scrollTop + windowHeight + diffY > offsetTop ) {
-      setTimeout(function() {
-        if ( $node.hasClass('active') == false ) {
+    if (scrollTop + windowHeight + diffY > offsetTop) {
+      setTimeout(function () {
+        if ($node.hasClass('active') == false) {
           $node.addClass('active');
 
-          if ( $node.hasClass('can-active-once') ) {
+          if ($node.hasClass('can-active-once')) {
             $node.addClass('actived');
           }
 
-          if ( window[onFuncName] ) {
+          if (window[onFuncName]) {
             window[onFuncName]($node);
           }
         }
       }, delay);
-    }
-    else {
-      if ( $node.hasClass('active') ) {
+    } else {
+      if ($node.hasClass('active')) {
         $node.removeClass('active');
 
-        if ( window[offFuncName] ) {
+        if (window[offFuncName]) {
           window[offFuncName]($node);
         }
       }
@@ -163,18 +160,32 @@ function ActiveOnVisible__checkAndActive() {
 
 /* 발견되면 활성화시키는 라이브러리 끝 */
 
-function TopBtn__phase1() {
-  $('.top-btn-box').addClass('down');
+function TopBtn__phase1($node) {
+  var offsetTop = $node.data('data-active-on-visible-offsetTop');
+  var diffY = parseInt($node.data('data-active-on-visible-diff-y'));
+
+  $('.top-btn-box').css({
+    'position': 'absolute',
+    'top': offsetTop + diffY
+  });
 }
 
-function TopBtn__phase2() {
-  $('.top-btn-box').removeClass('down');
-
+function TopBtn__phase2($node) {
+  $('.top-btn-box').css({
+    'position': '',
+    'top': ''
+  });
 }
 
-$(function() {
-  hoverBar__init();
-  FootSubMenu__init();
-  TopBtn__init();
-  ActiveOnVisible__init();
+$(function () {
+
+  setTimeout(function () {
+    ActiveOnVisible__init();
+  }, 500);
+
+  setTimeout(function () {
+    hoverBar__init();
+    FootSubMenu__init();
+    TopBtn__init();
+  }, 600);
 });
