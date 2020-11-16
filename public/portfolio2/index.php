@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="item item-1 kakao" data-no="03"
                                     data-link-url="https://yoobible.com/portfolio/kakao/"
-                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/pearl.jpg?dummy123123"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/kakao.jpg"
                                     onclick="Slider1__itemClick(this);">
                                     <div class="w-box"><img
                                             src="https://sung-kyung.github.io/img1/pf/kakao/logo_kakao_black.png"
@@ -285,7 +285,24 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/kakaobank/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-5" data-no="03"
+                                <div class="item item-1 kakao" data-no="03"
+                                    data-link-url="https://yoobible.com/portfolio/kakao/"
+                                    data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/kakao.jpg"
+                                    onclick="Slider1__itemClick(this);">
+                                    <div class="w-box"><img
+                                            src="https://sung-kyung.github.io/img1/pf/kakao/logo_kakao_black.png"
+                                            alt="">
+                                    </div>
+                                    <div class="title-box">
+                                        <div class="title">KAKAO</div>
+                                        <div class="cont">원본사이트 <br><a href="https://www.kakaocorp.com/"
+                                                target="_blank">https://www.kakaocorp.com/</a>
+                                        </div>
+                                    </div>
+                                    <div class="view-btn cell"><a href="https://yoobible.com/portfolio/kakao/"
+                                            target="_blank" class="">MORE VIEW</a></div>
+                                </div>
+                                <div class="item item-5" data-no="04"
                                     data-link-url="https://yoobible.com/portfolio/nhn/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/nhn2.png"
                                     onclick="Slider1__itemClick(this);">
@@ -300,7 +317,7 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/nhn/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-6" data-no="04"
+                                <div class="item item-6" data-no="05"
                                     data-link-url="https://yoobible.com/portfolio/ezwel/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/ezwel.jpg"
                                     onclick="Slider1__itemClick(this);">
@@ -315,7 +332,7 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/ezwel/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-7" data-no="05"
+                                <div class="item item-7" data-no="06"
                                     data-link-url="https://yoobible.com/portfolio/cleaderm/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/cleaderm.jpg"
                                     onclick="Slider1__itemClick(this);">
@@ -330,7 +347,7 @@
                                     <div class="view-btn cell"><a href="https://yoobible.com/portfolio/cleaderm/"
                                             target="_blank" class="">MORE VIEW</a></div>
                                 </div>
-                                <div class="item item-8" data-no="06"
+                                <div class="item item-8" data-no="07"
                                     data-link-url="https://yoobible.com/portfolio/sns/"
                                     data-img-url="https://sung-kyung.github.io/img1/pf/portfolio/sns.jpg"
                                     onclick="Slider1__itemClick(this);">
