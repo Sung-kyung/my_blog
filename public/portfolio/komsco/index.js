@@ -1,4 +1,37 @@
-/* 기능 */
+function Window__init() {
+    var $topBar = $('.top-bar');
+
+    var windowHeight = $(window).height();
+
+    $(window).resize(function () {
+        windowHeight = $(window).height();
+    });
+
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop();
+
+        if (scrollTop > 0) {
+            $topBar.addClass('active');
+        } else {
+            $topBar.removeClass('active');
+        }
+    });
+}
+
+function TopBar__show() {
+    $(".top-bar>.top-bar-wrap>.menu-box>ul>li").mouseenter(function () {
+        $(".top-bar>.top-bar-wrap>.menu-box>.sub-bg").addClass("active");
+        $(".top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box").addClass("active2");
+    });
+
+    $(".top-bar>.top-bar-wrap>.menu-box>ul>li").mouseleave(function () {
+        $(".top-bar>.top-bar-wrap>.menu-box>.sub-bg").removeClass("active");
+        $(".top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box").removeClass("active2");
+    });
+}
+
+
+/* 슬라이드 */
 function SliderK__show($slider, index) {
     var $currentSlide = $slider.find(".bg-slides > div.active");
     var $postSlide = $slider.find(".bg-slides > div").eq(index);
@@ -128,5 +161,7 @@ function SliderK__initAutoplay($slider) {
 }
 
 $(function () {
+    Window__init();
+    TopBar__show();
     SliderK__init();
 });

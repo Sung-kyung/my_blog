@@ -364,9 +364,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
-.top-bar:hover {
+.top-bar:hover, .top-bar.active {
   color: #222;
   background-color: #fff;
 }
@@ -387,7 +388,7 @@ body {
   background-image: url(https://sung-kyung.github.io/img1/pf/komsco/logo.png);
 }
 
-.top-bar:hover>.top-bar-wrap>.logo {
+.top-bar:hover>.top-bar-wrap>.logo,.top-bar.active>.top-bar-wrap>.logo {
   background-image: url(https://sung-kyung.github.io/img1/pf/komsco/logo2.png);
 }
 
@@ -397,7 +398,7 @@ body {
 }
 
 .top-bar>.top-bar-wrap>.menu-box>ul>li {
-  padding: 0 20px;
+  padding: 0 30px;
   cursor: pointer;
   font-size: 19px;
   font-weight: 500;
@@ -408,29 +409,53 @@ body {
   display: inline-block;
   padding-top: 58px;
 }
-
-.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-bg {
+.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-title {
   position: absolute;
-  top: 100%;
+  top:109px;
+  left:10%;
+  width:200px;
+  height:100px;
+  border:1px solid gold;
+}
+.top-bar>.top-bar-wrap>.menu-box>.sub-bg {
+  position: absolute;
+  top:109px;
   left: 0;
   width:100%;
-  height:584px;
+  height:0;
+  display:none;
   background-color: #fff;
+  border-top: 1px solid #eeeeef;
+  transition:height .3s;
 }
-.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-bg > .bg-gray {
+.top-bar>.top-bar-wrap>.menu-box>.sub-bg.active {
+  display:block;
+  height:500px;
+}
+.top-bar>.top-bar-wrap>.menu-box>.sub-bg >.bg-gray {
   height:100%;
   width:22%;
   background-color: #ebedef;
 }
-.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-bg >.sub-menu-box {
-  width:calc(100% - 22%);
-  padding: 40px 0 40px 40px;
+.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box {
+  position: absolute;
+  display: none;
+  top:100%;
+  left:22%;
+  width:100%;
   border:1px solid blue;
 }
-.top-bar>.top-bar-wrap>.menu-box>ul .sub-menu-box>li {
+.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box.active2 {
+  display:block;
+}
+.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box>li {
+  display: none;
   width: calc(100% / 5);
-  margin-bottom:30px;
+  padding:40px 0;
   border:1px solid red;
+}
+.top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box.active2>li {
+  display: block;
 }
 .top-bar>.top-bar-wrap>.menu-box>ul ul ul {
   font-size:14px;
@@ -477,11 +502,11 @@ body {
   background-image: url(https://sung-kyung.github.io/img1/pf/komsco/search_ico.png);
 }
 
-.top-bar:hover>.top-bar-wrap>.toputil-box>.btn-box>.search {
+.top-bar:hover>.top-bar-wrap>.toputil-box>.btn-box>.search,.top-bar.active >.top-bar-wrap>.toputil-box>.btn-box>.search {
   background-image: url(https://sung-kyung.github.io/img1/pf/komsco/allmenu_ico2.png);
 }
 
-.top-bar:hover>.top-bar-wrap>.toputil-box>.btn-box>.menu {
+.top-bar:hover>.top-bar-wrap>.toputil-box>.btn-box>.menu,.top-bar.active >.top-bar-wrap>.toputil-box>.btn-box>.menu {
   background-image: url(https://sung-kyung.github.io/img1/pf/komsco/search_ico_on.png);
 }
 
@@ -545,3 +570,10 @@ body {
 }
 
 /* 메인 슬라이더 끝 */
+
+/* news 시작 */
+.news-wrap {
+  height:100vh;
+  width:100%;
+}
+/* news 끝 */
