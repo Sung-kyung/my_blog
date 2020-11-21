@@ -1,5 +1,6 @@
 function Window__init() {
     var $topBar = $('.top-bar');
+    var $popUp = $('.pop-up');
 
     var windowHeight = $(window).height();
 
@@ -12,21 +13,44 @@ function Window__init() {
 
         if (scrollTop > 0) {
             $topBar.addClass('active');
+            $popUp.addClass('hide');
         } else {
             $topBar.removeClass('active');
+            $popUp.removeClass('hide');
         }
     });
 }
 
 function TopBar__show() {
+    var $menuBg = $(".top-bar>.top-bar-wrap>.menu-box>.sub-bg");
+
     $(".top-bar>.top-bar-wrap>.menu-box>ul>li").mouseenter(function () {
-        $(".top-bar>.top-bar-wrap>.menu-box>.sub-bg").addClass("active");
-        $(".top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box").addClass("active2");
+        var $this = $(this);
+        var $subMenuBox = $this.find(' > .sub-menu-box');
+        var $subTitle = $this.find('> .sub-title');
+
+        //메뉴 높이입니당
+       var menuHeight = 0;
+       if ($subMenuBox.attr('data-menu-height') !== undefined) {
+           menuHeight = parseInt($subMenuBox.attr('data-menu-height'));
+       }
+        
+       $subMenuBox.addClass('active');
+       $subTitle.addClass('active');
+       $this.addClass("active2");
+       $menuBg.css('height', menuHeight + 'px')
+        
     });
 
     $(".top-bar>.top-bar-wrap>.menu-box>ul>li").mouseleave(function () {
-        $(".top-bar>.top-bar-wrap>.menu-box>.sub-bg").removeClass("active");
-        $(".top-bar>.top-bar-wrap>.menu-box>ul>li>.sub-menu-box").removeClass("active2");
+        var $this = $(this);
+        var $subMenuBox = $this.find(' > .sub-menu-box');
+        var $subTitle = $this.find('> .sub-title');
+
+        $this.removeClass("active2");
+        $subMenuBox.removeClass('active');
+        $subTitle.removeClass('active');
+        $menuBg.css('height', 0 + 'px');
     });
 }
 
