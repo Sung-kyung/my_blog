@@ -25,7 +25,7 @@
     <div class="pop-up">
         <div class="box">
             <div class="close-btn"><i class="fas fa-times"></i></div>
-            <img src="https://sung-kyung.github.io/img1/pf/jomalone/welcome-2.png" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/welcome-2.png" alt="">
             <div class="wel">WELCOME GIFT</div>
             <div class="line"></div>
             <div class="pop-text">
@@ -44,13 +44,13 @@
     </div>
     <!--메인-->
     <div class="page-1 main">
-        <video src="https://sung-kyung.github.io/img1/pf/jomalone/videoplayback.mp4" autoplay="autoplay" loop="loop"
+        <video src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/videoplayback.mp4" autoplay="autoplay" loop="loop"
             muted="muted"></video>
     </div>
 
     <div class="top-bar flex flex-jc-sb flex-ai-c">
-        <div class="flex logo"><img src="https://sung-kyung.github.io/img1/pf/jomalone/logo.png" alt="" class="up">
-        <img src="https://sung-kyung.github.io/img1/pf/jomalone/logo-2.png" alt="" class="down"></div>
+        <div class="flex logo"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/logo.png" alt="" class="up">
+        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/logo-2.png" alt="" class="down"></div>
         <div class="flex menu-ico">
             <div class="btn-toggle-mobile-side-bar">
                 <div></div>
@@ -116,26 +116,26 @@
 
     <div class="side-menu-top-icon">
         <ul class="row">
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/seach.png" alt=""></a>
             </li>
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/login.png" alt=""></a>
             </li>
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/wish.png" alt=""></a>
             </li>
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/cart.png" alt=""></a>
             </li>
         </ul>
     </div>
 
     <div class="side-menu-top-icon-2">
         <ul class="row">
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/seach.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/seach.png" alt=""></a>
             </li>
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/login.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/login.png" alt=""></a>
             </li>
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/wish.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/wish.png" alt=""></a>
             </li>
-            <li class="cell"><a href="#"><img src="https://sung-kyung.github.io/img1/pf/jomalone/cart.png" alt=""></a>
+            <li class="cell"><a href="#"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/cart.png" alt=""></a>
             </li>
         </ul>
     </div>
@@ -204,10 +204,10 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper slides">
                     <div class="swiper-slide"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-1.jpg);">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/slide-1.jpg);">
                     </div>
                     <div class="swiper-slide"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-3.jpg?dummy123123);">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/slide-3.jpg?dummy123123);">
                     </div>
                 </div>
             </div>
@@ -215,10 +215,10 @@
             <div class="swiper-container-1">
                 <div class="swiper-wrapper slides-2">
                     <div class="swiper-slide"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-1-res.jpg?dummy123123);">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/slide-1-res.jpg?dummy123123);">
                     </div>
                     <div class="swiper-slide"
-                        style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/slide-2-res.jpg?dummy123123123);">
+                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/slide-2-res.jpg?dummy123123123);">
                     </div>
                 </div>
             </div>
@@ -235,91 +235,91 @@
         <div class="swiper-container-2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Blackberry & Bay Cologne</p>
                         <p class="best-cont">이제 막 수확한 월계수 잎과 브램블리 우드의 신선함에 진하고 톡 쏘는 느낌의 블랙베리 과즙</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">English Pear & Freesia Cologne</p>
                         <p class="best-cont">은은하면서 신선하고 감미로운 향. <br>부드럽고 감미로운 향</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Wood Sage & Sea Salt Cologne</p>
                         <p class="best-cont">부서지는 파도 씨 솔트와 물보라로 신선해진 공기 가파르고 거친 절벽에서 느낄 수 있는 미네랄 향기</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/lime2.png?dummy123123);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/lime2.png?dummy123123);">
                     <div class="slide-text-box">
                         <p class="best-name">Lime Basil & Mandarin Cologne</p>
                         <p class="best-cont">조 말론 런던의 시그니처 향.카리브해의 산들바람에서 실려온 듯한 라임향에 톡 쏘는 바질과 백리향</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede Cologne</p>
                         <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Nectarine Blossom & <br>Honey Cologne</p>
                         <p class="best-cont">아카시아 꿀 향기 속에 과즙이 풍부한 천도 복숭아, 복숭아, 카씨스, 여린 봄 꽃</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/black.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/black.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Blackberry & Bay Cologne Duo</p>
                         <p class="best-cont">조 말론에서 가장 사랑받는 코롱과 미니어처 코롱을 리미티드 타운하우스 틴 케이스에 담아 선보입니다.</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/trio.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/trio.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Little Luxuries Trio 2</p>
                         <p class="best-cont">조 말론 런던에서 가장 사랑 받는 세 가지 향으로 구성된 세트입니다.</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/daisy.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/daisy.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede<br> Cologne - Daisy Leaf</p>
                         <p class="best-cont">조 말론 런던에서 특별한 레이스를 코롱 보틀과 캔들에 담은 아름다운 웨딩 컬렉션을 선보입니다.</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede Cologne</p>
                         <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede Cologne</p>
                         <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede Cologne</p>
                         <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
                     </div>
                 </div>
                 <div class="swiper-slide"
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/best1.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/best1.png);">
                     <div class="slide-text-box">
                         <p class="best-name">Peony & Blush Suede Cologne</p>
                         <p class="best-cont">화려하게 핀 작약에 붉은 사과의 향기로운 과즙과 자스민, 장미, 카네이션, 블러쉬 스웨이드</p>
@@ -337,7 +337,7 @@
         <div class="con row">
             <div class="pack-box cell">
                 <div class="pack-video">
-                    <video src="https://sung-kyung.github.io/img1/pf/jomalone/packaging.mp4" autoplay="autoplay"
+                    <video src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/packaging.mp4" autoplay="autoplay"
                         loop="loop" muted="muted"></video>
                 </div>
                 <div class="rec"></div>
@@ -358,7 +358,7 @@
     <!--센트페어링-->
     <div class="page-5 scent-pairing">
         <div class="scent-bg"
-            style="background-image:url(https://sung-kyung.github.io/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
+            style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/scent.jpg?dummy123123);"></div>
         <div class="scent-black-bg"></div>
         <div class="scent-text-box active-on-visible active-only-one" data-active-on-visible-diff-y="-2%">
             <p class="scent-title">Scent Pairing</p>
@@ -370,7 +370,7 @@
                 <p>서로 다른 향을 조합하여 당신을 표현하는 향으로 만들어보세요.</p>
             </div>
             <div class="scent-btn">
-                <img src="https://sung-kyung.github.io/img1/pf/jomalone/button.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/jomalone/button.png" alt="">
                 <span>Going to Combine</span>
             </div>
         </div>

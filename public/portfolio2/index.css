@@ -996,7 +996,7 @@ html, body {
     font-size: 25px;
 }
 .page-4 .receipt-box > .profile-txt-box >.profile-cont .tag-box div:last-child {
-    top:52%;
+    top:45%;
 }
 .page-4 .receipt-box > .profile-txt-box >.edu {
     border-bottom:3px dashed #b3b3b3;
@@ -1241,8 +1241,9 @@ input {
     width:100px;
     height:auto;
     bottom:-6px;
-    left:30px;
+    right:15px;
     cursor: pointer;
+    z-index: 999;
 }
 .top-btn > a {
     display: block;

@@ -375,7 +375,7 @@ html:not([data-fullpage-index="0"]) .top-bar,
 }
 
 .top-bar>.logo-box>a {
-  background-image: url(https://sung-kyung.github.io/img1/pf/ezwel/logo.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/logo.png);
   width: 100%;
   height: 100%;
   display: block;
@@ -749,7 +749,7 @@ html:not([data-fullpage-index="0"]) .top-bar>.menu-box-1>ul>li>a,
 
 /* 최신정보 시작 */
 .about-bg {
-  background-image: url(https://sung-kyung.github.io/img1/pf/ezwel/about-bg.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/about-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1116,7 +1116,7 @@ html[data-fullpage-index="2"] {
 
 .infomation::after {
   content: "";
-  background-image: url(https://sung-kyung.github.io/img1/pf/ezwel/guide-bg.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/guide-bg.png);
   background-position: left;
   background-repeat: no-repeat;
   top: 120px;

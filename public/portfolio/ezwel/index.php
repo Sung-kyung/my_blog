@@ -81,7 +81,7 @@
                     <div class="slides">
                         <div>
                             <div class="bg"
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img02.jpg);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/main-slider-img02.jpg);">
                             </div>
                             <div class="text-info">
                                 <p class="title">기업의 성공과<br>성장을 돕는</p>
@@ -90,7 +90,7 @@
                         </div>
                         <div>
                             <div class="bg"
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img03.jpg);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/main-slider-img03.jpg);">
                             </div>
                             <div class="text-info">
                                 <p class="title">대한민국<br>복지기준을 만들어가는</p>
@@ -99,7 +99,7 @@
                         </div>
                         <div>
                             <div class="bg"
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/main-slider-img01.jpg);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/main-slider-img01.jpg);">
                             </div>
                             <div class="text-info">
                                 <p class="title">일과 삶의 균형을<br>디자인하는</p>
@@ -222,7 +222,7 @@
                             <a href="#" class="consulting margin-0">
                                 <figure>
                                     <i
-                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/sprite.png);"></i>
                                     <figcaption>복지컨설팅</figcaption>
                                 </figure>
                             </a>
@@ -231,7 +231,7 @@
                             <a href="#" class="shop margin-0">
                                 <figure>
                                     <i
-                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/sprite.png);"></i>
                                     <figcaption>복지SHOP 입점</figcaption>
                                 </figure>
                             </a>
@@ -240,7 +240,7 @@
                             <a href="#" class="service margin-0">
                                 <figure>
                                     <i
-                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/sprite.png);"></i>
                                     <figcaption>서비스 제휴</figcaption>
                                 </figure>
                             </a>
@@ -249,7 +249,7 @@
                             <a href="#" class="download margin-0">
                                 <figure>
                                     <i
-                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/sprite.png);"></i>
                                     <figcaption>앱 다운로드</figcaption>
                                 </figure>
                             </a>
@@ -258,7 +258,7 @@
                             <a href="#" class="ethics margin-0">
                                 <figure>
                                     <i
-                                        style="background-image:url(https://sung-kyung.github.io/img1/pf/ezwel/sprite.png);"></i>
+                                        style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/ezwel/sprite.png);"></i>
                                     <figcaption>윤리제보</figcaption>
                                 </figure>
                             </a>

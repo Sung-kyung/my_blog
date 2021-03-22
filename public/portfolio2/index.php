@@ -566,6 +566,14 @@
                         <div class="pro-title">Wiki</div>
                         <div>&nbsp;: &nbsp;https://to2.kr/bma</div>
                     </div>
+                    <div class="Wiki-box pro-box">
+                        <div class="pro-title">Phone</div>
+                        <div>&nbsp;: &nbsp;010-2325-5132</div>
+                    </div>
+                    <div class="Wiki-box pro-box">
+                        <div class="pro-title">Address</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;대전광역시 서구 탄방동</div>
+                    </div>
                     <div class="tag-box flex flex-jc-e">
                         <div>#Web Designer</div>
                         <div>#Web Publisher</div>
@@ -585,15 +593,6 @@
                     <div class="edu-box3 edu-box flex flex-jc-sb">
                         <div class="edu-1 flex">2011.03 ~ 2014.02</div>
                         <span class="high edu-2 flex">순천매산여자고등학교 졸업</span>
-                    </div>
-                    <div class="certificate">Certificate</div>
-                    <div class="cer-box flex flex-jc-sb">
-                        <div class="date flex">2019.11</div>
-                        <div class="cer flex">컴퓨터 활용능력 1급</div>
-                    </div>
-                    <div class="cer-box flex flex-jc-sb">
-                        <div class="date flex">2020.04 ~</div>
-                        <div class="cer flex">웹 디자인 기능사 필기</div>
                     </div>
 
                 </div>

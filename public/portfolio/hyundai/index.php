@@ -19,7 +19,7 @@
     <div class="top-bar visible-md-up">
         <div class="inner flex con flex-ai-c">
             <a href="#" class="logo flex flex-ai-c flex-grow-1 con">
-                <img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/logo.png" alt="">
             </a>
 
             <nav class="menu-box-1 flex con">
@@ -40,12 +40,12 @@
         </div>
         <div class="mobile-logo cell">
             <a href="#" class="block">
-                <img src="https://sung-kyung.github.io/img1/pf/hyundai/logo.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/logo.png" alt="">
             </a>
         </div>
         <div class="search-ico cell-right">
             <a href="" class="block"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package_2x.png);">
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package_2x.png);">
             </a>
         </div>
     </div>
@@ -74,7 +74,7 @@
         <div class="slides">
             <div class="slide active">
                 <div
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/e032d779-80d0-43cb-bdb1-a6ba92e61cd8.resize_large.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/e032d779-80d0-43cb-bdb1-a6ba92e61cd8.resize_large.png);">
                 </div>
                 <section class="text">
                     <span class="text-1-1 artist block">On View</span>
@@ -85,7 +85,7 @@
 
             <div class="slide">
                 <div
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ded83795-0f52-4f30-8ce5-0b2a615ed099.resize_large.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ded83795-0f52-4f30-8ce5-0b2a615ed099.resize_large.png);">
                 </div>
                 <section class="text">
                     <span class="text-2-1 artist block">news</span>
@@ -95,7 +95,7 @@
 
             <div class="slide">
                 <div
-                    style="background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/78607676-1f78-41e6-bfb4-402d750bdfda.resize_large.png);">
+                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/78607676-1f78-41e6-bfb4-402d750bdfda.resize_large.png);">
                 </div>
                 <section class="text">
                     <span class="text-3-1 artist block">essay</span>
@@ -109,7 +109,7 @@
         <ul class="row">
             <li class="cell ">
                 <a href="#" class="img-box">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/df73b845-3e4e-4e17-a503-ce2e5b778326.crop_middle.jpg"
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/df73b845-3e4e-4e17-a503-ce2e5b778326.crop_middle.jpg"
                         alt="">
                     <span class="category block">News</span>
                     <span class="post-title block">Ik-Joong Kang 강익중 : Gwanghwamun Arirang</span>
@@ -117,7 +117,7 @@
             </li>
             <li class="cell ">
                 <a href="#" class="img-box">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/86790e37-a55e-4215-b432-0bc3a23bdb15.crop_middle.jpg"
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/86790e37-a55e-4215-b432-0bc3a23bdb15.crop_middle.jpg"
                         alt="">
                     <span class="category block">Books</span>
                     <span class="post-title block">Chung Sang-Hwa 정상화 : Excavations, 1964–78</span>
@@ -125,7 +125,7 @@
             </li>
             <li class="cell ">
                 <a href="#" class="img-box">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/03a0f914-590d-48bd-880a-43321bc119ec.crop_middle.jpg"
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/03a0f914-590d-48bd-880a-43321bc119ec.crop_middle.jpg"
                         alt="">
                     <span class="category block">News</span>
                     <span class="post-title block">Choe U-Ram 최우람 : Custos Cavum</span>
@@ -136,7 +136,7 @@
 
     <div class="sticky-post con con-2">
         <a href="#">
-            <img src="https://sung-kyung.github.io/img1/pf/hyundai/30106a41-528d-4a64-bdc2-b556f990d497.resize_large.jpg"
+            <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/30106a41-528d-4a64-bdc2-b556f990d497.resize_large.jpg"
                 alt="">
         </a>
         <a href="#" class="post-text">
@@ -151,7 +151,7 @@
         <ul class="row">
             <li class="cell">
                 <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/hyundai/8e3702a0-3d5d-413b-8148-a174499ab5b9.crop_small.jpg"
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/8e3702a0-3d5d-413b-8148-a174499ab5b9.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">News</span>
                     <span class="title block">Kang Seung Lee 이강승 : Imaginaries of the Future</span>
@@ -161,28 +161,28 @@
                 </a>
             </li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/9b90d8cf-9486-472b-ade7-8a437536df4a.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/9b90d8cf-9486-472b-ade7-8a437536df4a.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">Archive</span>
                     <span class="title block">Nam June Paik 백남준 : In Venice 1993</span>
                     <span class="excerpt">Gallery Hyundai accompanied the artist to capture historic moments at the 1993
                         Venice biennale.</span></a></li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/be408e14-4ffc-48ca-bf46-b4560f2999fd.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/be408e14-4ffc-48ca-bf46-b4560f2999fd.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">News</span>
                     <span class="title block">Kang Seung Lee 이강승 : No Space, Just A Place</span>
                     <span class="excerpt">Kang Seung Lee is participating in No Space, Just A Place: Eterotopia
                         currently on view at Daelim Museum in Seoul. </span></a></li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/fba0979b-cb1a-404e-b8b4-896cb2ddd17c.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/fba0979b-cb1a-404e-b8b4-896cb2ddd17c.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">Essays</span>
                     <span class="title block">Park Minjoon 박민준 : Story of Rapport </span>
                     <span class="excerpt">Park Minjoon’s first novel Rapport Circus invites readers to the fascinating
                         world of magic. </span></a></li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/baf45cea-a3c2-4cc4-9767-f9d61ad7d903.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/baf45cea-a3c2-4cc4-9767-f9d61ad7d903.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">News</span>
                     <span class="title block">Iván Navarro 이반 나바로 : The Ladder</span>
@@ -190,7 +190,7 @@
                         been unveiled by Shorenstein Residential for its new apartment building, 50 Jones, in San
                         Francisco</span></a></li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/96d92504-b323-4bab-8cc5-411f1b65f086.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/96d92504-b323-4bab-8cc5-411f1b65f086.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">Press</span>
                     <span class="title block">"A Full View, at Last, of Modern Art in South Korea"</span>
@@ -198,14 +198,14 @@
                         Interaction," which outlines the history of Korean contemporary art, Jason Farago, an art critic
                         for the New York Times.</span></a></li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/d42704d2-3b92-4461-9ceb-86f697e70eac.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/d42704d2-3b92-4461-9ceb-86f697e70eac.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">Essays</span>
                     <span class="title block">Yoo Geun-Taek 유근택 : Normandy</span>
                     <span class="excerpt">Here we introduce Yoo Geun-Taek essay, photographs and new paintings produced
                         in Normandy. </span></a></li>
             <li class="cell"><a href="#"><img
-                        src="https://sung-kyung.github.io/img1/pf/hyundai/28b5de58-2b46-4f3f-a4e5-d029ba080c26.crop_small.jpg"
+                        src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/28b5de58-2b46-4f3f-a4e5-d029ba080c26.crop_small.jpg"
                         alt="" srcset="">
                     <span class="category block">Press</span>
                     <span class="title block">Yang Jung Uk 양정욱 : Scenery of Dialogue</span>

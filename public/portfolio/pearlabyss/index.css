@@ -395,7 +395,7 @@ body {
 .top-bar .top-inner .logo-box {
     width: 170px;
     height: 68px;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_white.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_white.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 150px auto;
@@ -403,11 +403,11 @@ body {
 }
 
 .top-bar:hover .top-inner .logo-box {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_black.svg);
 }
 
 .top-bar.white .top-inner .logo-box {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_black.svg);
 }
 
 .top-bar .top-inner>.menu-box-1 {
@@ -582,7 +582,7 @@ body {
 .top-bar-2 .logo-box-2 {
     width: 170px;
     height: 68px;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_white.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_white.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 150px auto;
@@ -590,7 +590,7 @@ body {
 }
 
 .top-bar-2.white .logo-box-2 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_black.svg);
 }
 
 .top-bar-2 .lang-2 {
@@ -599,14 +599,14 @@ body {
     height: 1.8rem;
     color: #fff;
     cursor: pointer;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang_white.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/m_icn_lang_white.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 .top-bar-2.white .lang-2 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_icn_lang.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/m_icn_lang.svg);
 }
 
 .top-bar-2 .lang-2 .lang-bg {
@@ -677,7 +677,7 @@ body {
     overflow: hidden;
     background-color: #fff;
     z-index: 100;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_arrow_up_black.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_cm_arrow_up_black.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -810,7 +810,7 @@ body {
     width: 1.125rem;
     height: 1.125rem;
     display: inline-block;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_header_new_win.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_header_new_win.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -848,21 +848,21 @@ body {
 }
 
 .bn-bar .bn1 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/XA5O7X5WZ2WHMID220200908081951677.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/XA5O7X5WZ2WHMID220200908081951677.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .bn-bar .bn2 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/LK0NPUH14VGBN5R020200911045821352.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/LK0NPUH14VGBN5R020200911045821352.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .bn-bar .bn3 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/MMYPV8QO5YRX0F7820200908081836459.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/MMYPV8QO5YRX0F7820200908081836459.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -916,7 +916,7 @@ body {
 }
 
 .prev {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_arrow_right_white.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_cm_arrow_right_white.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 18px auto;
@@ -934,7 +934,7 @@ body {
 }
 
 .next {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_arrow_right_white.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_cm_arrow_right_white.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 18px auto;
@@ -1319,7 +1319,7 @@ body {
 }
 
 .main-2-wrap>ul {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/t_spr_main_category_bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/t_spr_main_category_bg.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1382,7 +1382,7 @@ body {
 /* 메인메뉴3 시작 */
 
 .main-3-wrap>ul>li {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/m_spr_main_category_bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/m_spr_main_category_bg.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 100vw auto;
@@ -1678,15 +1678,15 @@ body {
 }
 
 .copy-wrap>.sns-wrap>ul>li>a>.icon-1 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_facebook_round.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_footer_facebook_round.svg);
 }
 
 .copy-wrap>.sns-wrap>ul>li>a>.icon-2 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_youtube_round.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_footer_youtube_round.svg);
 }
 
 .copy-wrap>.sns-wrap>ul>li>a>.icon-3 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_linkedin_round.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_footer_linkedin_round.svg);
 }
 
 .copy-wrap>.sns-wrap>ul>li:hover>a>i {
@@ -1753,7 +1753,7 @@ body {
     width: 1.4rem;
     height: 1.4rem;
     cursor: pointer;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_cm_plus.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_cm_plus.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1770,7 +1770,7 @@ body {
     width: 1.125rem;
     height: 1.125rem;
     display: inline-block;
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_header_new_win.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_header_new_win.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1828,15 +1828,15 @@ body {
 }
 
 .copy-wrap-2>.sns-wrap-2>ul>li>a>.icon-1 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_facebook_round.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_footer_facebook_round.svg);
 }
 
 .copy-wrap-2>.sns-wrap-2>ul>li>a>.icon-2 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_youtube_round.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_footer_youtube_round.svg);
 }
 
 .copy-wrap-2>.sns-wrap-2>ul>li>a>.icon-3 {
-    background-image: url(https://sung-kyung.github.io/img1/pf/pearlabyss/icn_footer_linkedin_round.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/icn_footer_linkedin_round.svg);
 }
 
 .copy-wrap-2>.foot-logo-2 {

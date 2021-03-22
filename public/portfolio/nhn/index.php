@@ -21,7 +21,7 @@
 <body>
     <div class="top-bar flex">
         <div class="flex con flex-grow-1 flex-ai-c logo-box"><a href="#" class="logo flex"><img
-                    src="https://sung-kyung.github.io/img1/pf/nhn/logo_white.png" alt=""></a></div>
+                    src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/logo_white.png" alt=""></a></div>
         <div class="menu-box-1 flex con flex-ai-c flex-jc-e">
             <ul class="flex">
                 <li class="flex"><a href="#">NHN</a></li>
@@ -60,19 +60,19 @@
     </div>
     
     <div class="slides">
-        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_01_3840.jpg);">
+        <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/main_01_3840.jpg);">
             <div class="text-box">
                     <h3 class="title">Play Hard, Work Smart!</h3>
                     <p class="text">놀이가 작품이 되고 상상이 현실이 되는 곳</p>
                 </div>
         </div>
-        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_02_3840.jpg);">
+        <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/main_02_3840.jpg);">
             <div class="text-box">
                     <h3 class="title">Let the World Play with Us!</h3>
                     <p class="text">더 넓은 세상, 더 많은 사람들이 더 큰 재미를 우리와 함께 나눕니다.</p>
                 </div>
         </div>
-        <div style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/main_03_3840.jpg);">
+        <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/main_03_3840.jpg);">
             <div class="text-box">
                     <h3 class="title">Toward Art, Science & Tech</h3>
                     <p class="text">새로운 세상을 만들기 위해 도전합니다</p>
@@ -86,22 +86,22 @@
     <div class="service-box con">
         <ul class="service-list">
             <li class="hangame"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
             <li class="payco"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
             <li class="toast"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
             <li class="comico"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
             <li class="bugs"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
             <li class="ticketlink"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/nhn/sp_ent_2x_v2.png);"><a
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/nhn/sp_ent_2x_v2.png);"><a
                     href="#"></a></li>
         </ul>
     </div>

@@ -580,7 +580,7 @@ label[for] {
 
 .zero-box-1 {
     height: 100vh;
-    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png?dummy=12312);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/card/card_image/zero-bg.png?dummy=12312);
     background-size: 100% 100%;
     position: relative;
     display: flex;
@@ -606,7 +606,7 @@ label[for] {
     left: calc((100vw - 308px) / 2 * -1);
     width: 100vw;
     height: 100vh;
-    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/zero-bg.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/card/card_image/zero-bg.png);
     background-size: 100% 100%;
     transform: rotate(180deg);
     background-color: white;
@@ -1293,7 +1293,7 @@ label[for] {
 }
 .dive > .bg-black .download > .google > div::before {
     content:"";
-    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/google.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/card/card_image/google.png);
     width:30px;
     height:35px;
     position: absolute;
@@ -1303,7 +1303,7 @@ label[for] {
 }
 .dive > .bg-black .download > .apple > div::before {
     content:"";
-    background-image: url(https://sung-kyung.github.io/img1/pf/card/card_image/apple.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/card/card_image/apple.png);
     width:30px;
     height:35px;
     position: absolute;

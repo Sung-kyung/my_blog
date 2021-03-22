@@ -20,7 +20,7 @@
         <div class="top-bar">
             <div class="flex con">
                 <div class="logo flex flex-1-0-0 flex-ai-c">
-                    <img src="https://sung-kyung.github.io/img1/pf/kakao/logo_kakao_black.png" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/logo_kakao_black.png" alt="">
                 </div>
                 <div class="menu-box flex">
                     <ul class="hover-bar-nav flex">
@@ -260,7 +260,7 @@
                 <a href="#" class="kakao-go">카카오히스토리</a>
             </div>
             <div class="history-img">
-                <img src="https://sung-kyung.github.io/img1/pf/kakao/li-3.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/li-3.png" alt="">
             </div>
         </div>
     </div>
@@ -293,7 +293,7 @@
     <ul class="row">
         <li class="cell">
             <div class="service-imgbox">
-                <img src="https://sung-kyung.github.io/img1/pf/kakao/4518.jpg" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/4518.jpg" alt="">
             </div>
             <strong class="service-title">언제 어디서나 무료로 간편하게! 사람과 세상, 그 이상을 연결하는 카카오톡</strong>
             <p class="service-cont"> 채팅은 물론 일정 관리, 송금, #검색 등 다양한 기능을 제공하는 카카오톡은 우리의 생활을 보다 편리하게 만들어 주고 있습니다. 카카오톡을 통해
@@ -301,14 +301,14 @@
         </li>
         <li class="cell">
             <div class="service-imgbox">
-                <img src="https://sung-kyung.github.io/img1/pf/kakao/4540.jpg" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/4540.jpg" alt="">
             </div>
             <strong class="service-title">새로워진 kakao Tech를 소개합니다.</strong>
             <p class="service-cont">기술 행사와 오픈소스, 후원, 채용 등 카카오의 기술 관련 종합적인 정보를 제공할 수 있도록 개편했습니다....</p>
         </li>
         <li class="cell">
             <div class="service-imgbox">
-                <img src="https://sung-kyung.github.io/img1/pf/kakao/3254.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/3254.png" alt="">
             </div>
             <strong class="service-title">세계 행복의 날 기념, 같이가치 ‘안녕하세요’ 캠페인을 소개합니다!</strong>
             <p class="service-cont">'세계 행복의 날'이라는 기념일을 들어보신 적 있나요? 2012년 국제연합(UN)이 모든 사람들이 행복하게 살 수 있도록 전 세계가 함께 노력하자는

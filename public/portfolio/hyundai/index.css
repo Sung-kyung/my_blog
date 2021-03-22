@@ -951,7 +951,7 @@ body {
 }
 .stories > .lead-more-btn > a::after {
   content:"";
-  background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package.png);
   position: absolute;
   top:50%;
   right:24px;
@@ -992,7 +992,7 @@ body {
 }
 #footer > .social-channel > ul > li > .instagram::before {
   content:"";
-  background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package.png);
   background-repeat: no-repeat;
   display: inline-block;
   height: 16px;
@@ -1003,7 +1003,7 @@ body {
 }
 #footer > .social-channel > ul > li > .facebook::before {
   content:"";
-  background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package.png);
   background-repeat: no-repeat;
   display: inline-block;
   height: 16px;
@@ -1014,7 +1014,7 @@ body {
 }
 #footer > .social-channel > ul > li > .twitter::before {
   content:"";
-  background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package.png);
   background-repeat: no-repeat;
   display: inline-block;
   height: 16px;
@@ -1025,7 +1025,7 @@ body {
 }
 #footer > .social-channel > ul > li > .youtube::before {
   content:"";
-  background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package.png);
   background-repeat: no-repeat;
   display: inline-block;
   height: 16px;
@@ -1036,7 +1036,7 @@ body {
 }
 #footer > .social-channel > ul > li > .newsletter::before {
   content:"";
-  background-image:url(https://sung-kyung.github.io/img1/pf/hyundai/ico_package.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/hyundai/ico_package.png);
   background-repeat: no-repeat;
   display: inline-block;
   height: 16px;

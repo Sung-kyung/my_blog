@@ -23,7 +23,7 @@
     <div class="top-menu-bar flex">
 
         <div class="logo-box flex flex-ai-c flex-grow-1">
-            <a href="#" class="logo flex"><img src="https://sung-kyung.github.io/img1/pf/cleaderm/logo_b.png"
+            <a href="#" class="logo flex"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/logo_b.png"
                     alt=""></a>
         </div>
         <nav class="menu-box-1 flex flex-ai-c ">
@@ -34,7 +34,7 @@
                         <ul class="">
                             <li><a href="#">브랜드 스토리</a></li>
                         </ul>
-                        <img class="" src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_0.jpg"
+                        <img class="" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/category_item_img_0.jpg"
                             alt="">
                     </div>
                 </li>
@@ -46,7 +46,7 @@
                             <li><a href="#">클렌징</a></a></li>
                             <li><a href="#">스킨케어</a></li>
                         </ul>
-                        <img src="https://sung-kyung.github.io/img1/pf/cleaderm/category_item_img_1.jpg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/category_item_img_1.jpg" alt="">
                     </div>
                 </li>
                 <li class="flex"><a href="#" class="flex flex-ai-c">EVENT</a></li>
@@ -85,7 +85,7 @@
         </nav>
         <div class="search-ico flex flex-ai-c">
             <a href="#" class="flex flex-ai-c">
-                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/top_r_menu_icon_03_b.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/top_r_menu_icon_03_b.png" alt="">
             </a>
             <div class="search-fade">
                 <div class="search-box">
@@ -99,7 +99,7 @@
     </div>
     <!--top button-->
     <div id="top-button">
-        <img src="https://sung-kyung.github.io/img1/pf/cleaderm/top_arrow_icon.png" alt="">
+        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/top_arrow_icon.png" alt="">
         <br>TOP
     </div>
 
@@ -107,7 +107,7 @@
     <!--사이드 메뉴-->
     <div class="side-menu">
         <div class="side-menu-icon flex flex-ai-c flex-jc-c">
-            <img src="https://sung-kyung.github.io/img1/pf/cleaderm/all_menu_icon.png" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/all_menu_icon.png" alt="">
         </div>
         <div class="side-box">
             <ul class="login row flex flex-jc-c">
@@ -140,22 +140,22 @@
         data-autoplay-interval="7000">
         <div class="bg-slides">
             <div class="active"
-                style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s22.jpg);"></div>
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s23.gif);"></div>
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s21.jpg);"></div>
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s20.jpg);"></div>
-            <div style="background-image:url(https://sung-kyung.github.io/img1/pf/cleaderm/main_s15.jpg);"></div>
+                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/main_s22.jpg);"></div>
+            <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/main_s23.gif);"></div>
+            <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/main_s21.jpg);"></div>
+            <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/main_s20.jpg);"></div>
+            <div style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/main_s15.jpg);"></div>
         </div>
 
         <div class="bg-side-bars">
             <div class="left-btn">
                 <a href="#">
-                    <img src="https://sung-kyung.github.io/img1/pf/cleaderm/slider_2_prev_btn.png" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/slider_2_prev_btn.png" alt="">
                 </a>
             </div>
             <div class="right-btn">
                 <a href="#">
-                    <img class="right-img" src="https://sung-kyung.github.io/img1/pf/cleaderm/slider_2_next_btn.png"
+                    <img class="right-img" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/slider_2_next_btn.png"
                         alt="">
                 </a>
             </div>
@@ -177,7 +177,7 @@
                 <p class="text-4">건강한 피부습관 클리덤</p>
             </li>
             <li class="banner-area cell">
-                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/main_section_2_right_img1.jpg" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/main_section_2_right_img1.jpg" alt="">
             </li>
         </ul>
     </div>
@@ -189,7 +189,7 @@
                 <li class="cell">
                     <div class="wrap-best">
                         <a href="#"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/a22fdbd4fd96732bed429bcc1b45275d.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/a22fdbd4fd96732bed429bcc1b45275d.jpg"
                                 alt=""></a>
                     </div>
                     <div class="best-text-box">
@@ -200,7 +200,7 @@
                 <li class="cell">
                     <div class="wrap-best">
                         <a href="#"> <img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/fe43166b7731eb8ddcb10b9fb9cdae52.png"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/fe43166b7731eb8ddcb10b9fb9cdae52.png"
                                 alt=""></a>
                     </div>
                     <div class="best-text-box">
@@ -211,7 +211,7 @@
                 <li class="cell">
                     <div class="wrap-best">
                         <a href="#"> <img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/8f3ea667d41d70a6fa74ade6a264681e.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/8f3ea667d41d70a6fa74ade6a264681e.jpg"
                                 alt=""></a>
                     </div>
                     <div class="best-text-box">
@@ -230,7 +230,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/30bd2799d1c5f45d90885ae8d90d1644.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/30bd2799d1c5f45d90885ae8d90d1644.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">[젤순한클렌저] 닥터락토 수딩젤 클렌징 폼</p>
@@ -239,7 +239,7 @@
                                 <span>15,000원</span><span>12,000원</span>
                             </p>
                             <div class="new-icon">
-                                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/icon_global_01.gif" alt="">
+                                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/icon_global_01.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/09a02b1171734383157beacaf32a44f3.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/09a02b1171734383157beacaf32a44f3.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">[물광필링토너] 닥터락토 SOS 카밍토너</p>
@@ -256,7 +256,7 @@
                                 <span>22,000원</span><span>17,600원</span>
                             </p>
                             <div class="new-icon">
-                                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/icon_global_01.gif" alt="">
+                                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/icon_global_01.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/b582739a3168ef3e3f314f1da02b70b6.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/b582739a3168ef3e3f314f1da02b70b6.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">[캡슐젤크림] 닥터락토 SOS 카밍크림 </p>
@@ -273,7 +273,7 @@
                                 <span>24,000원</span><span>19,200원</span>
                             </p>
                             <div class="new-icon">
-                                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/icon_global_01.gif" alt="">
+                                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/icon_global_01.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/71667d160c59fc25de61e03244cc6adb.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/71667d160c59fc25de61e03244cc6adb.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">닥터락토 버블 클렌징워터</p>
@@ -295,7 +295,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/6312a6eec326cde540da4dabb70d7ad7.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/6312a6eec326cde540da4dabb70d7ad7.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">[스팟원정대] 닥터락토 SOS 카밍스팟</p>
@@ -304,7 +304,7 @@
                                 <span>16,000원</span><span>12,800원</span>
                             </p>
                             <div class="new-icon">
-                                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/icon_global_01.gif" alt="">
+                                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/icon_global_01.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -312,7 +312,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/107f7ff1dd2eacef7bf7d6d0f1850c90.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/107f7ff1dd2eacef7bf7d6d0f1850c90.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">닥터락토 배리어 크림 토너</p>
@@ -326,7 +326,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/3b46c81818df6a977ad650a37b656a29.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/3b46c81818df6a977ad650a37b656a29.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">닥터락토 배리어 크림</p>
@@ -340,7 +340,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/cd2f5c09e6480555f9eb8fe7d5a81ddc.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/cd2f5c09e6480555f9eb8fe7d5a81ddc.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">닥터락토 SOS 카밍선크림</p>
@@ -354,7 +354,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/7dba761c903a2aaf84904671c645bfdb.jpg"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/7dba761c903a2aaf84904671c645bfdb.jpg"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">닥터락토 SOS 카밍 마스크 1box(5매입)</p>
@@ -368,7 +368,7 @@
                 <li class="cell">
                     <div class="list-box">
                         <div class="thumbnail"><img
-                                src="https://sung-kyung.github.io/img1/pf/cleaderm/f473764f64ff3ae23342d0e23b08be23.png"
+                                src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/f473764f64ff3ae23342d0e23b08be23.png"
                                 alt=""></div>
                         <div class="list-text-box">
                             <p class="product-name">[진정비비] 닥터락토 SOS 카밍 비비크림</p>
@@ -377,7 +377,7 @@
                                 <span>28,000원</span><span>22,400원</span>
                             </p>
                             <div class="new-icon">
-                                <img src="https://sung-kyung.github.io/img1/pf/cleaderm/icon_global_01.gif" alt="">
+                                <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/icon_global_01.gif" alt="">
                             </div>
                         </div>
                     </div>
@@ -413,7 +413,7 @@
                     <p class="copyright">COPYRIGHT ⓒ 2019 종근당건강㈜. ALL RIGHTS RESERVED.</p>
                 </li>
             </ul>
-            <a href="#" class="sns-icon"><img src="https://sung-kyung.github.io/img1/pf/cleaderm/footer_sns_img_02.jpg"
+            <a href="#" class="sns-icon"><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/footer_sns_img_02.jpg"
                     alt=""></a>
         </div>
         <ul class="sns row con">
@@ -423,8 +423,8 @@
                 <a href="#">이용안내</a>
             </li>
             <li class="foot-logo cell row">
-                <img class="cell" src="https://sung-kyung.github.io/img1/pf/cleaderm/bn_cafe24.png" alt=""><img
-                    class="cell" src="https://sung-kyung.github.io/img1/pf/cleaderm/pg_kg.jpg" alt="">
+                <img class="cell" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/bn_cafe24.png" alt=""><img
+                    class="cell" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/cleaderm/pg_kg.jpg" alt="">
             </li>
             <li class="foot-service cell">
                 <span>고객님은 안전거래를 위해 결제시 저희 쇼핑몰에서 가입한 구매안전 서비스를 이용하실 수 있습니다.</span>

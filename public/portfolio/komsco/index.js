@@ -19,6 +19,7 @@ function Window__init() {
             $popUp.removeClass('hide');
         }
     });
+
 }
 
 function TopBar__show() {

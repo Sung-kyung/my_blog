@@ -403,7 +403,7 @@ body, html {
     width: 14px;
     height: 14px;
     overflow: hidden;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
     background-position: -155px 0;
 }
 
@@ -483,7 +483,7 @@ body, html {
     width: 14px;
     height: 14px;
     overflow: hidden;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
     background-position: -155px 0;
 }
 .top-bar>div>.menu-box>ul>li>.sub-menu-box>ul>li>ul {
@@ -593,7 +593,7 @@ body, html {
 }
 
 .kakao-go {
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/arr-r.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/arr-r.svg);
     background-repeat: no-repeat;
     background-size: contain;
     padding-left: 2.5vw;
@@ -630,7 +630,7 @@ body, html {
     margin-left: 3%;
 }
 .kakao-wrap >.history-box > .history-cont > .kakao-go {
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/arr-rt.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/arr-rt.svg);
 }
 .kakao-wrap >.history-box > .history-img {
     position: absolute;
@@ -715,7 +715,7 @@ body, html {
     height:14px;
     overflow: hidden;
     margin: 19px 0 0 18px;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
     background-position: -40px -20px;
 }
 .summary-wrap > ul > li > .stock-box > .stock-num {
@@ -804,7 +804,7 @@ footer > .foot-wrap > ul > li > span {
     display: inline-block;
     vertical-align: top;
     overflow: hidden;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
     background-position: -275px -25px;
 }
 footer > .foot-wrap > ul > li > .ico-new {
@@ -815,7 +815,7 @@ footer > .foot-wrap > ul > li > .ico-new {
     vertical-align: top;
     overflow: hidden;
     background-position: -100px -50px;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
 }
 
 footer > .foot-wrap > ul > .related-sites {
@@ -854,7 +854,7 @@ footer > .foot-wrap > ul ul > li > a > span {
     height: 13px;
     margin: 7px 0 0 6px;
     background-position: -155px 0;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
 }
 footer > .foot-wrap > ul > .related-sites > ul {
     width: 158px;
@@ -903,7 +903,7 @@ footer > .foot-wrap > .copy-right {
     height: 30px;
     overflow: hidden;
     background-position: -90px -10px;
-    background-image: url(https://sung-kyung.github.io/img1/pf/kakao/ico_corp_181031.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/kakao/ico_corp_181031.png);
 }
 .top-btn-box.show{
     display: block;

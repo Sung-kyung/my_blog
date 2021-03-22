@@ -33,7 +33,7 @@
             </ul>
         </div>
         <div class="menu-ico btn-side flex flex-1-0-0 flex-jc-e"><a href="#" class="flex flex-ai-c"><img
-                    src="https://sung-kyung.github.io/img1/pf/sns/top_panel.png" alt=""></a></div>
+                    src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/top_panel.png" alt=""></a></div>
     </div>
     <!--사이드바-->
     <div class="side-bar">
@@ -106,8 +106,8 @@
                     <div class="main-text-3">맛있는 이야기가 시작되는 곳</div>
                 </div>
                 <div class="mouse">
-                    <img src="https://sung-kyung.github.io/img1/pf/sns/main_v_arrow.png" alt="">
-                    <img class="mouse-dot" src="https://sung-kyung.github.io/img1/pf/sns/main_v_dot.png" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_v_arrow.png" alt="">
+                    <img class="mouse-dot" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_v_dot.png" alt="">
                     <span></span>
                 </div>
             </div>
@@ -122,24 +122,24 @@
                 <div class="head  flex flex-jc-c">
                     <ul class="flex">
                         <li><a class="flex flex-ai-c flex-jc-c height-100p">
-                                <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab01.png"
+                                <img class="block" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab01.png"
                                     alt=""><img class="block"
-                                    src="https://sung-kyung.github.io/img1/pf/sns/m_tab01_on.png?dummy123123"
+                                    src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab01_on.png?dummy123123"
                                     alt=""></a></a></li>
                         <li><a class="flex flex-ai-c flex-jc-c height-100p">
                                 <img class="block"
-                                    src="https://sung-kyung.github.io/img1/pf/sns/m_tab02.png?dummy123123" alt=""><img
-                                    class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab02_on.png"
+                                    src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab02.png?dummy123123" alt=""><img
+                                    class="block" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab02_on.png"
                                     alt=""></a></li>
                         <li><a class="flex flex-ai-c flex-jc-c height-100p">
-                                <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab03.png"
+                                <img class="block" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab03.png"
                                     alt=""><img class="block"
-                                    src="https://sung-kyung.github.io/img1/pf/sns/m_tab03_on.png?dummy123123"
+                                    src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab03_on.png?dummy123123"
                                     alt=""></a></li>
                         <li><a class="flex flex-ai-c flex-jc-c height-100p">
-                                <img class="block" src="https://sung-kyung.github.io/img1/pf/sns/m_tab04.png"
+                                <img class="block" src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab04.png"
                                     alt=""><img class="block"
-                                    src="https://sung-kyung.github.io/img1/pf/sns/m_tab04_on.png?dummy123123"
+                                    src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/m_tab04_on.png?dummy123123"
                                     alt=""></a></li>
                     </ul>
                 </div>
@@ -148,7 +148,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0101.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0101.png);">
                                 </div>
                                 <div class="txt">BRAND</div>
                                 <div class="txt-2 txt-b">토끼정 당신과 나의 마음이 함께 머무르는 곳</div>
@@ -157,7 +157,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0102.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0102.png);">
                                 </div>
                                 <div class="txt">MENU</div>
                                 <div class="txt-2">일식과 한식의 조화로 한국인의 입맛을 재해석하다</div>
@@ -166,7 +166,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0103.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0103.png);">
                                 </div>
                                 <div class="txt">CONCEPT</div>
                                 <div class="txt-2">아름다운 분위기에 맛을 더하다</div>
@@ -177,7 +177,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0201.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0201.png);">
                                 </div>
                                 <div class="txt">BRAND</div>
                                 <div class="txt-2 txt-b">서가앤쿡은 잃어버린 맛의 추억을 소환합니다</div>
@@ -186,7 +186,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0202.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0202.png);">
                                 </div>
                                 <div class="txt">MENU</div>
                                 <div class="txt-2">서가앤쿡은 2인 1메뉴의 새로운 맛의 공식을 제공합니다</div>
@@ -195,7 +195,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0203.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0203.png);">
                                 </div>
                                 <div class="txt">CONCEPT</div>
                                 <div class="txt-2">함께여서 좋은 곳 함께 나눠 좋은 음식 서가앤쿡</div>
@@ -206,7 +206,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0301.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0301.png);">
                                 </div>
                                 <div class="txt">BRAND</div>
                                 <div class="txt-2 txt-b">소싯적 순수하고 특별한 특별한 이야기가 있는 공간에 머물다</div>
@@ -215,7 +215,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0302.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0302.png);">
                                 </div>
                                 <div class="txt">MENU</div>
                                 <div class="txt-2">한식의 깔끔한 맛과 멋을 더한 퓨전 중식 브랜드입니다</div>
@@ -224,7 +224,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0303.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0303.png);">
                                 </div>
                                 <div class="txt">CONCEPT</div>
                                 <div class="txt-2">중식에 새로운 해석을 담다</div>
@@ -235,7 +235,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0401.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0401.png);">
                                 </div>
                                 <div class="txt">BRAND</div>
                                 <div class="txt-2 txt-b">숨쉬는 순두부는 건강 두부요리로 일상 속 따뜻한 숨을 불어주는 공간입니다</div>
@@ -244,7 +244,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0402.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0402.png);">
                                 </div>
                                 <div class="txt">MENU</div>
                                 <div class="txt-2">100% 국산콩으로 매일 직접 두부를 만듭니다</div>
@@ -253,7 +253,7 @@
                         <div>
                             <div>
                                 <div class="bg"
-                                    style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_story_v0403.png);">
+                                    style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_story_v0403.png);">
                                 </div>
                                 <div class="txt">CONCEPT</div>
                                 <div class="txt-2">본질의 힘을 믿고, 진짜 두부를 요리합니다</div>
@@ -269,11 +269,11 @@
         <div class="section page-3">
             <div class="bg anima">
                 <div class="bg-img">
-                    <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourbg_icn.png" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_ourbg_icn.png" alt="">
                 </div>
                 <div class="our-time row con">
                     <div class="our-time-1 cell">
-                        <img src="https://sung-kyung.github.io/img1/pf/sns/main_ourtime.png" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_ourtime.png" alt="">
                     </div>
                     <div class="our-time-text cell">
                         <div class="time-text-box">
@@ -296,7 +296,7 @@
         </div>
         <!--4페이지-->
         <div class="section page-4">
-            <div class="bg-2 " style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/main_pebg.png);">
+            <div class="bg-2 " style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_pebg.png);">
                 <div class="people-box row con anima">
                     <div class="people-txt cell">
                         <p class="people">PEOPLE</p>
@@ -309,7 +309,7 @@
                         </div>
                     </div>
                     <div class="people-img cell">
-                        <img src="https://sung-kyung.github.io/img1/pf/sns/main_people.png" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/main_people.png" alt="">
                     </div>
                 </div>
             </div>
@@ -320,54 +320,54 @@
                 <div class="box-container con-2 anima">
                     <ul class="box-ul-1 row">
                         <li class="joy cell">
-                            <div>WE<br>SHARE<br>JOY</div><img src="https://sung-kyung.github.io/img1/pf/sns/bg_joy.png"
+                            <div>WE<br>SHARE<br>JOY</div><img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/bg_joy.png"
                                 alt="">
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_xPtXNSE7_607cc1ab0db965b44ee9614ed6547533777967b1_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_xPtXNSE7_607cc1ab0db965b44ee9614ed6547533777967b1_295x.png);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_ljnfbDP3_344af9b7aad59018123e1eef16f66b8779354043_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_ljnfbDP3_344af9b7aad59018123e1eef16f66b8779354043_295x.png);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_rEgLfOVi_65dd26e93c005a3928a32b377cf4f80097379c55_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_rEgLfOVi_65dd26e93c005a3928a32b377cf4f80097379c55_295x.png);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_Yur1asSn_5c3d0dc9e5e64cad650697183f92dda1e184ac13_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_Yur1asSn_5c3d0dc9e5e64cad650697183f92dda1e184ac13_295x.png);">
                             </div>
                         </li>
                     </ul>
                     <ul class="box-ul-2 row">
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_0GQun73O_95f14ecef7e117cc5e5715eb6235ff5316dc3add_295x.jpg);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_0GQun73O_95f14ecef7e117cc5e5715eb6235ff5316dc3add_295x.jpg);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_q9CWv2d0_214a1fb5a2423445f1c6cc8dca26c8f93be7dc6b_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_q9CWv2d0_214a1fb5a2423445f1c6cc8dca26c8f93be7dc6b_295x.png);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_a3AHoXGV_a41f34d50d29801fe72f1f3ce73ed80408a51f5b_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_a3AHoXGV_a41f34d50d29801fe72f1f3ce73ed80408a51f5b_295x.png);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_PkpoZniW_222e384d1022bef8bbb3a6fe4db99a20fac4d9cd_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_PkpoZniW_222e384d1022bef8bbb3a6fe4db99a20fac4d9cd_295x.png);">
                             </div>
                         </li>
                         <li class="cell">
                             <div
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/thumb-31294850_aDOvJYEQ_dca489c4ed3485c4c9aa10c9ebd951e4c37845a4_295x.png);">
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/thumb-31294850_aDOvJYEQ_dca489c4ed3485c4c9aa10c9ebd951e4c37845a4_295x.png);">
                             </div>
                         </li>
                     </ul>
@@ -380,13 +380,13 @@
                 <div class="ask">
                     <ul class="row flex flex-jc-c flex-ai-c">
                         <li class="cell"><a href="#"
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/b_icn01.png);">브랜드
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/b_icn01.png);">브랜드
                                 제휴 문의</a></li>
                         <li class="cell"><a href="#"
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/b_icn02.png);">가맹
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/b_icn02.png);">가맹
                                 문의</a></li>
                         <li class="cell"><a href="#"
-                                style="background-image:url(https://sung-kyung.github.io/img1/pf/sns/b_icn03.png);">고객
+                                style="background-image:url(https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/sns/b_icn03.png);">고객
                                 문의</a></li>
                     </ul>
                 </div>

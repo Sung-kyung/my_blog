@@ -249,7 +249,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img">
-                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_company.jpg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/main_category_company.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>펄어비스</h4>
@@ -261,7 +261,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img">
-                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_lab.jpg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/main_category_lab.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>연구소</h4>
@@ -274,7 +274,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img">
-                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_culture.jpg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/main_category_culture.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>문화</h4>
@@ -286,7 +286,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img">
-                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_in.jpg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/main_category_in.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>펄어비스인</h4>
@@ -298,7 +298,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img">
-                        <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/main_category_news.jpg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/main_category_news.jpg" alt="">
                     </div>
                     <div class="main-text-box">
                         <h4>소식</h4>
@@ -406,7 +406,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img-2"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/7X84M5DOWHTJUTM120201013100135639.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/7X84M5DOWHTJUTM120201013100135639.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box">
                         <p class="last-text-1">펄어비스인</p>
@@ -417,7 +417,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img-2"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/SAS8EZ822ISHH58320200909065518833.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/SAS8EZ822ISHH58320200909065518833.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box">
                         <p class="last-text-1">펄어비스 소식</p>
@@ -428,7 +428,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img-2"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/O7ANE2O61LKJX4RS20200908133249843.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/O7ANE2O61LKJX4RS20200908133249843.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box">
                         <p class="last-text-1">펄어비스 소식</p>
@@ -439,7 +439,7 @@
             <li class="cell">
                 <a href="#" class="block">
                     <div class="img-2"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/SLWSRXQKFTN1WVVH20200908134418474.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/SLWSRXQKFTN1WVVH20200908134418474.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box">
                         <p class="last-text-1">펄어비스인</p>
@@ -455,7 +455,7 @@
             <div class="item">
                 <a href="#" class="block">
                     <div class="img-3"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/7X84M5DOWHTJUTM120201013100135639.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/7X84M5DOWHTJUTM120201013100135639.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box-2">
                         <p class="last-text-1">펄어비스인</p>
@@ -466,7 +466,7 @@
             <div class="item">
                 <a href="#" class="block">
                     <div class="img-3"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/SAS8EZ822ISHH58320200909065518833.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/SAS8EZ822ISHH58320200909065518833.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box-2">
                         <p class="last-text-1">펄어비스 소식</p>
@@ -477,7 +477,7 @@
             <div class="item">
                 <a href="#" class="block">
                     <div class="img-3"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/O7ANE2O61LKJX4RS20200908133249843.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/O7ANE2O61LKJX4RS20200908133249843.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box-2">
                         <p class="last-text-1">펄어비스 소식</p>
@@ -488,7 +488,7 @@
             <div class="item">
                 <a href="#" class="block">
                     <div class="img-3"> <img
-                            src="https://sung-kyung.github.io/img1/pf/pearlabyss/SLWSRXQKFTN1WVVH20200908134418474.400x225.jpg"
+                            src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/SLWSRXQKFTN1WVVH20200908134418474.400x225.jpg"
                             alt=""></div>
                     <div class="lastest-text-box-2">
                         <p class="last-text-1">펄어비스인</p>
@@ -560,7 +560,7 @@
     </footer>
     <div class="copy-wrap flex flex-ai-c flex-jc-c">
         <div class="foot-logo flex">
-            <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_black.svg" alt="">
         </div>
         <div class="copy-right flex">Copyright © Pearl Abyss Corp. All Rights Reserved</div>
         <div class="sns-wrap">
@@ -665,7 +665,7 @@
             </ul>
         </div>
         <div class="foot-logo-2">
-            <img src="https://sung-kyung.github.io/img1/pf/pearlabyss/cm_bi_black.svg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/Sung-kyung/img1/pf/pearlabyss/cm_bi_black.svg" alt="">
         </div>
         <div class="copy-right-2">Copyright © Pearl Abyss Corp. All Rights Reserved</div>
     </div>
